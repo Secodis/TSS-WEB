@@ -1,5 +1,0 @@
-1 Production and development MUST be separated using different environments (e.g. in cloud environments using separate accounts/subscriptions).
-2 Connections between different environments MUST not be possible.
-3 Production data SHOULD not be used on non-production systems (exceptions see 6. Security Tests). 
-4 Users and systems MUST be authorized separately for each environment.
-5 Access servers SHOULD be separated instances for all environments but MUST be at least use separate realms.

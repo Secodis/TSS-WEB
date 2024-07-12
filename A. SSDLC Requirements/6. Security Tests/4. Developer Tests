@@ -1,3 +1,0 @@
-1. Security tests of implemented security requirements and security controls (e.g. authentication or access controls) SHOULD be implemented, executed, preferably in an automatically and continuously way.
-2. Developer and system acceptance testing SHOULD include testing for functional (security controls) and non-functional[1] security requirements.
-3. Abuse cases SHOULD be created & tested for critical business security aspects in applications with assurance class >= [HIGH].

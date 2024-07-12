@@ -1,4 +1,0 @@
-1. Security MUST be taken into account strongly during design phase. Wherever possible, security requireme nts SHOULD be addressed on architecture instead of code layer.
-2. For applications with assurance class >= [HIGH], a security architecture MUST be documented that describes relevant security aspects, security controls a threat model of the application. 
-3. High-level application security objectives MUST also be mapped to functional requirements. 
-4. Decisions with severe security implications MUST be regularly questioned and discussed within the team.
