@@ -1,0 +1,8 @@
+Administrative access MUST be as restricted as possible:
+
+1. Limited to required persons only, if possible using dedicated personal accounts.
+2. Username “admin” should not be used.
+3. Limited to internal network zones or authorized IPs if possible.
+4. Using a mandatory 2nd authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
+5. All administrative access should be logged in a tamperproof way.
+6. Immediately revoked after they are not required anymore (e.g. user changes organizational role).

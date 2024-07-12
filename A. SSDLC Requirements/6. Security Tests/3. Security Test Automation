@@ -1,0 +1,6 @@
+1. Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) in order to identify implementation vulnerabilities in source and program code as early as possible.
+2. Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in 3rd party dependencies.
+3. Docker images used in the target production environment MUST be automatically scanned for security issues.
+4. Security-relevant configuration MUST be automatically scanned for security issues.
+5. For applications with assurance class >= [HIGH] Security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified at 5. Security within Software Development Process.
+6. Applications with assurance class [VERY HIGH] SHOULD be periodically tested for denial-of-service attackability.

@@ -1,0 +1,5 @@
+Securing access to the dev environment:
+
+1. Access to development systems (incl. and build and deployment systems) MUST be sufficiently protected.
+2. Access to development environment MUST be restricted.
+3. Remote access to development systems MUST only be possible via a secure VPN connection and multi-factor authentication (MFA).

@@ -1,0 +1,9 @@
+1. All changes of source code MUST be committed to a source code repository (e.g. Git).
+2. For applications with assurance class >= [HIGH], all commits on protected branches MUST be reviewed by a second developer (e.g. via pull or merge requests).
+3. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks / impact (= “security-relevance”)[1] MUST be conducted by the team before their implementation.
+- This assessment MAY be conducted informally by a team if it gained sufficient experience.
+- Teams MAY define own criteria for security-relevance.
+- Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) and discuss security-relevance in refinement meetings and take security efforts (e.g. for verification) into account for estimation of story.
+- For assurance class >= [HIGH]: If such an assessment is not conducted, a deployed application increment MUST be considered to have a potential high-security risk.
+- Threat models and assurance class MUST be reviewed and updated if affected (e.g. in case of changes of security controls or architectural change in general).
+- A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile development teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).

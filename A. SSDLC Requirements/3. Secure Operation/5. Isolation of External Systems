@@ -1,0 +1,8 @@
+Administrative access MUST be as restricted as possible:
+
+1. Applications that are directly accessible from the Internet (or other untrusted networks) MUST be deployed in an isolated network zone.
+2. All external communication MUST be encrypted using TLS/HTTPS.
+3. All external access to internal network zones MUST be approved.
+4. Outgoing communication (egress) to the Internet MUST be restricted and SHOULD be handled by proxies (e.g. HTTP proxies or SMTP proxies).
+5. Incoming communication (ingress) SHOULD be handled by reverse proxies (e.g. API gateways, Web gateways).
+6. A web application firewall (WAF) MAY be used here, e.g. as an additional layer of protection, for virtual patching or as an application IDS. 

@@ -1,0 +1,13 @@
+Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms or other runtime environments) MUST be hardened according to common best practices. This includes:
+
+1. A hardened OS (e.g. using a hardened base image, see below),
+2. Deactivation of all services, plugins and other functionality that is not needed, especially if they are exposed (executable from remote).
+3. Hardened SSL/TLS stack (see 8.10 Data Security & Cryptography )
+4. Activated security headers according to Appendix A: Requirements for HTTP Security Header.5
+5. Removal of samples and other default content.
+6. Execution of network services (e.g. web or application servers) with only minimal privileges and isolated from other processes if possible (e.g. as an isolated container or dedicated server instance, VM or host).
+7. Network services bound to localhost if access only required from same system.
+8. Network services should only be accessible from certain IPs if possible.
+9. Deactivation of file handlers that are not required (e.g. “.php” for a Java application).
+10. Deactivation of insecure HTTP methods (e.g. TRACE and TRACK).
+11. Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as “Server” or “X-Powered-By” are to be deactivated or filtered.
