@@ -5,6 +5,16 @@ This is the official site of TSS-WEB, an open framework of ~200 baseline require
 
 For instance, TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are provided in appendix B to E.
 
+# SSDLC Requirements
+
+1. [General](A.%20SSDLC%20Requirements/1.%20General.md)
+2. [Remediation of Vulnerabilities in Production](A.%20SSDLC%20Requirements/2.%20Remediation%20of%20Vulnerabilities%20in%20Production.md#2-remediation-of-vulnerabilities-in-production) 
+3. [Secure Operation](A.%20SSDLC%20Requirements/3.%20Secure%20Operation.md)
+4. [Secure Development Environment](A.%20SSDLC%20Requirements/4.%20Secure%20Development%20Environment.md)
+5. [Security within SSDLC](A.%20SSDLC%20Requirements/5.%20Security%20within%20SSDLC.md)
+6. [Security Tests](A.%20SSDLC%20Requirements/6.%20Security%20Tests.md)
+7. [Outsourced Development](A.%20SSDLC%20Requirements/7.%20Outsourced%20Development.md)
+
 # Related Standards
 - ISO/IEC 27002:2013: Appendix E: ISO/IEC 27002:2013 Mapping (Draft)
 - NIST Secure Software Development Framework (SSDF) 
