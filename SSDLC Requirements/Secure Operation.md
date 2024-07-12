@@ -2,11 +2,11 @@ The following requirements apply to systems (infrastructure, platforms or other 
 
 
 1. Environment separation: Systems in production MUST be strictly separated from development and test systems:
-1.1 Production and development MUST be separated using different environments (e.g. in cloud environments using separate accounts/subscriptions).
-1.2 Connections between different environments MUST not be possible.
-1.3 Production data SHOULD not be used on non-production systems (exceptions see 6. Security Tests). 
-1.4 Users and systems MUST be authorized separately for each environment.
-1.5 Access servers SHOULD be separated instances for all environments but MUST be at least use separate realms.
+- Production and development MUST be separated using different environments (e.g. in cloud environments using separate accounts/subscriptions).
+- Connections between different environments MUST not be possible.
+- Production data SHOULD not be used on non-production systems (exceptions see 6. Security Tests). 
+- Users and systems MUST be authorized separately for each environment.
+- Access servers SHOULD be separated instances for all environments but MUST be at least use separate realms.
 
 2. System hardening: Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms or other runtime environments) MUST be hardened according to common best practices. This includes:
 - A hardened OS (e.g. using a hardened base image, see below),
