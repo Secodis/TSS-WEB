@@ -26,13 +26,14 @@ tbd
 You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
 # Related Standards
-- ISO/IEC 27002:2013: Appendix E: ISO/IEC 27002:2013 Mapping (Draft)
-- NIST Secure Software Development Framework (SSDF) 
-- OWASP SAMM 2.0 (Maturity Model): Appendix D: OWASP SAMM 2.0 Mapping
+- NIST SSDF
+- OWASP SAMM 2.0 (Maturity Model): Appendix D: OWASP SAMM 2.0
 - BSIMM (Maturity Model)
-- IT-Grundschutz-Kompendium 2020 (German Standard): Appendix C: BSI Grundschutz Mapping (German)
+- ISO/IEC 27002:2022: Appendix E: ISO/IEC 27002:2022 Mapping
 - SAFECode Software Integrity Controls
-- OWASP Top Ten
+- OWASP Top Ten 2022
+- IT-Grundschutz-Kompendium 2020 (German Standard): Appendix C: BSI Grundschutz Mapping (German)
+
 
 # License
 The document is licensed under Creative Commons By 4.0 and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, any adapted version of this document does not have to be published under the same license.
