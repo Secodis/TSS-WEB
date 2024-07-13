@@ -15,16 +15,16 @@ The requirements in this framework are primarily baseline requirements, suitable
 # SSDLC Requirements
 
 1. [General](A_SSDLC_Requirements/1.General.md)
-2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vunerability_Remediation.md) 
-3. [Secure Operation](A_SSDLC_Requirements/3.Secure-Operation.md)
-4. [Secure Development Environment](A_SSDLC_Requirements/4.SecureDevelopmentEnvironment.md)
-5. [Security within the SDLC](A_SSDLC_Requirements/5.Security-within-SDLC.md)
-6. [Security Tests](A_SSDLC_Requirements/6.Security-Tests.md)
-7. [Outsourced Development](A_SSDLC_Requirements/7.Outsourced-Development.md)
+2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vunerability-Remediation.md) 
+3. [Secure Operation](A_SSDLC_Requirements/03_Secure-Operation.md)
+4. [Secure Development Environment](A_SSDLC_Requirements/04_Secure-Development-Environment.md)
+5. [Security within the SDLC](A_SSDLC_Requirements/05_Security-within-SDLC.md)
+6. [Security Tests](A_SSDLC_Requirements/06_Security-Tests.md)
+7. [Outsourced Development](A_SSDLC_Requirements/07_Outsourced-Development.md)
 
 # Implementation Requirements
 
-1. [Secure Design Principles](B_Implementation_Requirements/1_Secure-Design-Principles.md)
+1. [Secure Design Principles](B_Implementation_Requirements/01_Secure-Design-Principles.md)
 2. [Input Validation](B_Implementation_Requirements/02_InputVal.md)
 3. [File Uploads & Downloads](B_Implementation_Requirements/03_FileUploads.md)
 4. [Output Validation (Encoding & Escaping)](B_Implementation_Requirements/04_OutputVal.md)
