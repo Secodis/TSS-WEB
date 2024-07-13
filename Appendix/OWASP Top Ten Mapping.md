@@ -1,6 +1,6 @@
 # OWASP Top Ten 2021 Mapping
 
-[OWASP Top Ten](https://owasp.org/www-project-top-ten/) is a ranking of critical threats to common Web applications that are published and periodically updated by the Open Source Web Application Security Project (OWASP). The following table shows a mapping of the requirements specified in this standard to the 2017 version of OWASP Top 10.
+OWASP TOP Ten is a ranking of critical threats to common Web applications that are published and periodically updated by the Open Source Web Application Security Project (OWASP). The following table shows a mapping of the requirements specified in this standard to the [https://owasp.org/www-project-top-ten/](2021 version of OWASP Top 10).
 
 | OWASP Top Ten Control  | Relevant TSS-WEB Requirement |
 | ------------- | ------------- |
