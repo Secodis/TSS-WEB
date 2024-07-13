@@ -18,7 +18,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vulnerability-Remediation.md) 
 3. [Secure Operation](A_SSDLC_Requirements/03_Secure-Operation.md)
 4. [Secure Development Environment](A_SSDLC_Requirements/04_Secure-Dev-Environment.md)
-5. [Security within the SDLC](A_SSDLC_Requirements/05_Security-within-SDLC.md)
+5. [Security within the SDLC](A_SSDLC_Requirements/05_Security-wthin-SDLC.md)
 6. [Security Tests](A_SSDLC_Requirements/06_Security-Tests.md)
 7. [Outsourced Development](A_SSDLC_Requirements/07_Outsourced-Development.md)
 
