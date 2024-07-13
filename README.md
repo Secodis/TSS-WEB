@@ -1,6 +1,6 @@
 # TSS-WEB (Open Framework of Security Requirements for Web-based Applications & Services)
 
-This is the official site of TSS-WEB, an open framework of ~200 baseline requirements that you can use for your web development security standard, policy, or security concept. All of these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, NIST and BSI) plus our own experiences in this field.
+This is the official site of TSS-WEB, an open framework consisting of approximately 200 baseline requirements that you can use for your web development security standards, policies, or security concepts. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, NIST, and BSI), along with our own experiences in this field.
 
 For instance, TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are provided in appendix B to E.
 
