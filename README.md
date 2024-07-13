@@ -7,6 +7,9 @@ For instance, TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of
 # Purpose
 tbd
 
+# How to Use
+tbd
+
 # SSDLC Requirements
 
 1. [General](A.%20SSDLC%20Requirements/1.%20General.md)
@@ -20,6 +23,10 @@ tbd
 # Implementation Requirements
 
 tbd
+
+# Appendix
+
+- [Requiremetns for HTTP Security Header](Appendix/Requirements%20for%20HTTP%20Security%20Header.md)
 
 # Legacy Versions
 
