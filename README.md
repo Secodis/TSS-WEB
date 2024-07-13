@@ -15,7 +15,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 # SSDLC Requirements
 
 1. [General](A_SSDLC_Requirements/01_General.md)
-2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vunerability-Remediation.md) 
+2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vulnerability-Remediation.md) 
 3. [Secure Operation](A_SSDLC_Requirements/03_Secure-Operation.md)
 4. [Secure Development Environment](A_SSDLC_Requirements/04_Secure-Development-Environment.md)
 5. [Security within the SDLC](A_SSDLC_Requirements/05_Security-within-SDLC.md)
