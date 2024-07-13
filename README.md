@@ -16,7 +16,7 @@ tbd
 2. [Remediation of Vulnerabilities in Production](A.%20SSDLC%20Requirements/2.%20Remediation%20of%20Vulnerabilities%20in%20Production.md#2-remediation-of-vulnerabilities-in-production) 
 3. [Secure Operation](A.%20SSDLC%20Requirements/3.%20Secure%20Operation.md)
 4. [Secure Development Environment](A.%20SSDLC%20Requirements/4.%20Secure%20Development%20Environment.md)
-5. [Security within SSDLC](A.%20SSDLC%20Requirements/5.%20Security%20within%20SSDLC.md)
+5. [Security within SDLC](A.%20SSDLC%20Requirements/5.%20Security%20within%20SDLC.md)
 6. [Security Tests](A.%20SSDLC%20Requirements/6.%20Security%20Tests.md)
 7. [Outsourced Development](A.%20SSDLC%20Requirements/7.%20Outsourced%20Development.md)
 
