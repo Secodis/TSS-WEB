@@ -1,14 +1,16 @@
 # TSS-WEB (an Open Framework of Security Requirements for Web-based Applications & Services)
 
-This is the official site of TSS-WEB, an open framework consisting of approximately 200 baseline requirements that you can use for your web development security standards, policies, or security concepts. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, NIST, and BSI), along with our own experiences in this field.
+This is the official site of TSS-WEB, an open requirement framework consisting of approximately 200 baseline requirements that you can use for your web development security standards, policies, or security concepts. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, NIST, and BSI), along with our own experiences in this field.
 
 For instance, TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are provided in appendix B to E.
 
 # Purpose
-tbd
 
-# How to Use
-tbd
+The purpose of this framework is to offer a comprehensive collection of valuable technical and organizational AppSec controls. These controls are designed to be easily adopted by anyone needing to define and implement them within an organization.
+
+# Assurance Level
+
+The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term "assurance level."
 
 # SSDLC Requirements
 
