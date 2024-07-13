@@ -13,7 +13,7 @@ tbd
 # SSDLC Requirements
 
 1. [General](A_SSDLC_Requirements/1.General.md)
-2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/2.RemediationofVulnerabilitiesinProduction.md#2-remediation-of-vulnerabilities-in-production) 
+2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vunerability_Remediation.md) 
 3. [Secure Operation](A_SSDLC_Requirements/3.Secure-Operation.md)
 4. [Secure Development Environment](A_SSDLC_Requirements/4.SecureDevelopmentEnvironment.md)
 5. [Security within the SDLC](A_SSDLC_Requirements/5.Security-within-SDLC.md)
