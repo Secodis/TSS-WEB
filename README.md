@@ -22,8 +22,19 @@ tbd
 
 # Implementation Requirements
 
-1. [Secure Design Principles](B. Implementation Requirements/1. Design Principles.md)
-2. [Data Security & Cryptography](B. Implementation Requirements/10. DataSecurity.md)
+1. [Secure Design Principles](B%20Implementation%20Requirements/1.%20Design%20Principles.md)
+2. [Input Validation](B.%20Implementation%20Requirements/02.%20InputVal.md)
+3. [File Uploads & Downloads](B.%20Implementation%20Requirements/03.%20FileUploads.md)
+4. [Output Validation (Encoding & Escaping)](B.%20Implementation%20Requirements/04.%20OutputVal.md)
+5. [User Authentication and Registration](B.%20Implementation%20Requirements/05.%20UserAuth.md)
+6. [User Passwords](B.%20Implementation%20Requirements/06.%20UserPasswords.md)
+7. [Hardening of Session Management](B.%20Implementation%20Requirements/07.%20SessionMgmt.md)
+8. [Access Control](B.%20Implementation%20Requirements/08.%20AccessControl.md)
+9. [Error Handling & Logging](B.%20Implementation%20Requirements/09.%20ErrorHandling.md)
+10. [Data Security & Cryptography](B.%20Implementation%20Requirements/10.%20DataSecurity.md)
+11. [Protection of Secrets](B.%20Implementation%20Requirements/11.%20Secrets.md)
+12. [Client-Side Security](B.%20Implementation%20Requirements/12.%20Clien-Side%20Security.md)
+13. [Services & API Security](B.%20Implementation%20Requirements/13.%20API-Security.md)
 
 # Appendix
 
