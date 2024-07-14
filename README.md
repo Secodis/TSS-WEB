@@ -4,15 +4,15 @@ This is the official site of TSS-WEB, an open requirement framework consisting o
 
 For instance, TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are provided in appendix B to E.
 
-# Purpose
+## Purpose
 
 The purpose of this framework is to offer a comprehensive collection of valuable technical and organizational AppSec controls. These controls are designed to be easily adopted by anyone needing to define and implement them within an organization.
 
-# Types of Requirements
+## Types of Requirements
 
 The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term "assurance level."
 
-# SSDLC Requirements
+## SSDLC Requirements
 
 1. [General](A_SSDLC_Requirements/01_General.md)
 2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vulnerability-Remediation.md) 
@@ -22,7 +22,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 6. [Security Tests](A_SSDLC_Requirements/06_Security-Tests.md)
 7. [Outsourced Development](A_SSDLC_Requirements/07_Outsourced-Development.md)
 
-# Implementation Requirements
+## Implementation Requirements
 
 1. [Secure Design Principles](B_Implementation_Requirements/01_Secure-Design-Principles.md)
 2. [Input Validation](B_Implementation_Requirements/02_InputVal.md)
@@ -38,29 +38,31 @@ The requirements in this framework are primarily baseline requirements, suitable
 12. [Client-Side Security](B_Implementation_Requirements/12_Client-Side-Security.md)
 13. [Services & API Security](B_Implementation_Requirements/13_API-Security.md)
 
-# Appendix
+## Appendix
 
 - [Requiremetns for HTTP Security Header](Appendix/RequirementsforHTTPSecurityHeader.md)
 
-# Legacy Versions
+## Legacy Versions
 
 You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
-# Related Standards
-- NIST SSDF
-- OWASP SAMM 2.0 (Maturity Model): Appendix D: OWASP SAMM 2.0
-- BSIMM (Maturity Model)
-- ISO/IEC 27002:2022: Appendix E: ISO/IEC 27002:2022 Mapping
-- SAFECode Software Integrity Controls
-- OWASP Top Ten 2022
-- IT-Grundschutz-Kompendium 2020 (German Standard): Appendix C: BSI Grundschutz Mapping (German)
+## Related Standards
 
+| Standard  | Relevance |
+| ------------- | ------------- |
+| [OWASP TOP Ten 2022](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See Mapping. |
+| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | Full Coverage See Mapping |
+| [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
+| [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | Coverage of all AppSec relevant requirements. See TBD |
+| [SAFECode Software Integrity Controls](https://safecode.org/uncategorized/software-integrity-controls/) | |
 
-# License
+Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
+
+## License
 The document is licensed under Creative Commons By 4.0 and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, any adapted version of this document does not have to be published under the same license.
 
-# Author
+## Author
 This site is maintained by Secodis GmbH. Responsible for the content is Matthias Rohr. 
 
-# Feedback 
+## Feedback 
 Feedback about this content is very much welcome. Please post it in the TSS-WEB Google Group or send it directly to tss-web@googlegroups.com.
