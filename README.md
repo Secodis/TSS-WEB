@@ -1,12 +1,12 @@
 # TSS-WEB (an Open Framework of Security Requirements for Web-based Applications & Services)
 
-This is the official site of TSS-WEB, an open requirement framework consisting of approximately 200 baseline requirements that you can use for your web development security standards, policies, or security concepts. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, NIST, and BSI), along with our own experiences in this field.
+This is the official site of TSS-WEB, an open requirement framework consisting more than 200 general AppSec requirements. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST), along with our own experiences in this field.
 
-For instance, TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are provided in appendix B to E.
+For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are detailed below.
 
 ## Purpose
 
-The purpose of this framework is to offer a comprehensive collection technical and organizational AppSec controls that you can use to create you can use for your own security standards, policies, or security concepts. You can use all of them or just pick the ones you need.
+The purpose of this framework is to offer a comprehensive collection of technical and organizational AppSec controls that you can use to create your own security standards, policies, or security concepts. You can use all of them or just pick the ones you need.
 
 ## Types of Requirements
 
@@ -51,9 +51,9 @@ You can find older versions of TSS-WEB in both English and German in PDF and Wor
 | Standard  | Relevance |
 | ------------- | ------------- |
 | [OWASP TOP Ten 2022](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](C_Appendix/OWASP_Top_Ten_Mapping.md). |
-| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | Full Coverage See [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
+| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope but many of its practices are covered. See detailed [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
+| [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
-| [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | Coverage of all AppSec relevant requirements. See TBD |
 | [SAFECode Software Integrity Controls](https://safecode.org/uncategorized/software-integrity-controls/) | |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
