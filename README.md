@@ -50,7 +50,7 @@ You can find older versions of TSS-WEB in both English and German in PDF and Wor
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2022](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](C_Appendix/OWASP_Top_Ten_Mapping.md). |
+| [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](C_Appendix/OWASP_Top_Ten_Mapping.md). |
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope but many of its practices are covered. See detailed [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
