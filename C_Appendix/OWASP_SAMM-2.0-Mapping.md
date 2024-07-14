@@ -6,6 +6,8 @@ Whereas TSS-WEB describes a security dev standard for particular development uni
 
 TSS-WEB can be helpful for implementing a large number of requirements (= those that affect the dev organization) of OWASP SAMM.
 
+* [Implemnentation](WASP_SAMM-2.0-Mapping.md#implementation-business-function)
+
 # Governance Business Function
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
