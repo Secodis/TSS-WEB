@@ -6,9 +6,13 @@ Whereas TSS-WEB describes a security dev standard for particular development uni
 
 TSS-WEB can be helpful for implementing a large number of requirements (= those that affect the dev organization) of OWASP SAMM.
 
+* [Governance](#governance-business-function)
+* [Design](#design-business-function)
 * [Implemnentation](#implementation-business-function)
+* [Verification](#verification-business-function)
+* [Operation](#operation-business-function)
 
-# Governance Business Function
+## Governance Business Function
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
@@ -26,7 +30,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Education & Guidance |Stream A Training and Awareness | 2 | Develop a secure software center of excellence promoting thought leadership among developers and architects. | Partially. Although establishing such a community is a task for a IT security function, participation at it is described as role duties for a “security champion” at https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/335675582  |
 | Education & Guidance |Stream A Training and Awareness | 3 | Build a secure software community including all organization people involved in software security. | Partially. Although establishing such a community is a task for a IT security function, participation at it is described as role duties for a “security champion” at https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/335675582  |
 
-#  Design Business Function
+##  Design Business Function
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -49,7 +53,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Security Architecture | Stream B Technology Management | 2 | Standardize technologies and frameworks to be used throughout the different applications | No. Not scope of this standard. This is a responsibility  of 
 | Security Architecture | Stream B Technology Management | 3 | Impose the use of standard technologies on all software development. | Yes. See https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/65878. Also a responsibility of an architectural board. |
 
-#  Implementation Business Function
+##  Implementation Business Function
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
