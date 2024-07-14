@@ -54,7 +54,7 @@ You can find older versions of TSS-WEB in both English and German in PDF and Wor
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope but many of its practices are covered. See detailed [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
-| [SAFECode Software Integrity Controls](https://safecode.org/uncategorized/software-integrity-controls/) | |
+| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/uncategorized/fundamental-practices-secure-software-development/) | TBD. |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
