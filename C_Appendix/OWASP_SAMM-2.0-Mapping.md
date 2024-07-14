@@ -16,10 +16,10 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Strategy & Metrics | All | All | All | No. Not scope of this standard, task for IT security function. |
+| Strategy & Metrics | All | All | All | No. Not scope of TSS-WEB task for IT security function. |
 | Policy & Compliance | Stream A Policy & Standards | 1 | Determine a security baseline representing organization’s policies and standards. | No. But you can use TSS-WEB as a basis to describe your organization-specific baseline.  |
 | Policy & Compliance | Stream A Policy & Standards | 2 | Develop security requirements applicable to all applications. | Yes. TSS-WEB covers this for Web-based applications. |
-| Policy & Compliance | Stream A Policy & Standards | 3 | Measure and report on the status of individual application’s adherence to policies and standards. | No. Not scope of this standard, task for IT security function. | 
+| Policy & Compliance | Stream A Policy & Standards | 3 | Measure and report on the status of individual application’s adherence to policies and standards. | No. Not scope of TSS-WEB, task for IT security function. | 
 | Policy & Compliance | Stream B Compliance Management | 1 | Identify 3rd-party compliance drivers and requirements and map to existing policies and standards | This cannot be covered by TSS-WEB, since we don’t know your specific compliance drivers. But you can use TSS-WEB and integrate yours into it. |
 | Policy & Compliance | Stream B Compliance Management | 2 | Publish compliance-specific application requirements and test guidance | No. This cannot be covered by TSS-WEB, since we don’t know your specific compliance drivers. But you can use TSS-WEB and integrate yours into it. |
 | Policy & Compliance | Stream B Compliance Management | 3 | Measure and report on individual application’s compliance with 3rd party requirements | No. This cannot be covered by TSS-WEB, since we don’t know your specific compliance drivers. But you can use TSS-WEB and integrate yours into it. |
@@ -48,9 +48,9 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Security Requirements | Stream B Compliance Management | 3 | Ensure proper security coverage for external suppliers by providing clear objectives. | Yes. See https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/294930 |
 | Security Architecture | Stream Architecture  | 1 | Teams are trained on the use of basic security principles during design. | Yes. See “General Requirements” at https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/98338 |
 | Security Architecture | Stream Architecture  | 2 | Establish common design patterns and security solutions for adoption. | Yes. See https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/327729/8.1+General+Principles |
-| Security Architecture | Stream Architecture  | 3 | Reference architectures are utilized and continuously evaluated for adoption and appropriateness. | No. Not scope of this standard. This is a responsibility  of architectural board. |
-| Security Architecture | Stream B Technology Management | 1 | Elicit technologies, frameworks and integrations within the overall solution to identify risk. | No. Not scope of this standard. This is a responsibility  of 
-| Security Architecture | Stream B Technology Management | 2 | Standardize technologies and frameworks to be used throughout the different applications | No. Not scope of this standard. This is a responsibility  of 
+| Security Architecture | Stream Architecture  | 3 | Reference architectures are utilized and continuously evaluated for adoption and appropriateness. | No. Not scope of TSS-WEB. This is a responsibility  of architectural board. |
+| Security Architecture | Stream B Technology Management | 1 | Elicit technologies, frameworks and integrations within the overall solution to identify risk. | No. Not scope of TSS-WEB. This is a responsibility  of 
+| Security Architecture | Stream B Technology Management | 2 | Standardize technologies and frameworks to be used throughout the different applications | No. Not scope of TSS-WEB. This is a responsibility  of 
 | Security Architecture | Stream B Technology Management | 3 | Impose the use of standard technologies on all software development. | Yes. See https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/65878. Also a responsibility of an architectural board. |
 
 ##  Implementation Business Function
