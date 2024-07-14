@@ -50,8 +50,8 @@ You can find older versions of TSS-WEB in both English and German in PDF and Wor
 
 | Standard  | Relevance |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2022](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See Mapping. |
-| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | Full Coverage See Mapping |
+| [OWASP TOP Ten 2022](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](C_Appendix/OWASP_Top_Ten_Mapping.md). |
+| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | Full Coverage See [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | Coverage of all AppSec relevant requirements. See TBD |
 | [SAFECode Software Integrity Controls](https://safecode.org/uncategorized/software-integrity-controls/) | |
