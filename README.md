@@ -6,7 +6,7 @@ For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Developmen
 
 ## Purpose
 
-The purpose of this framework is to offer a comprehensive collection of technical and organizational AppSec controls that you can use to create your own security standards, policies, or security concepts. You can use all of them or just pick the ones you need.
+The purpose of this framework is to provide a comprehensive collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. You can use all of them or just select the ones you need. In many cases, you might need to adapt some of them or add others that are more relevant to your specific organization or technology stack.
 
 ## Types of Requirements
 
@@ -47,6 +47,9 @@ The requirements in this framework are primarily baseline requirements, suitable
 You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
 ## Related Standards
+Generally, we aim to integrate all useful requirements from existing standards and best practices into TSS-WEB that we find helpful for baseline security in that field. This does not mean that every requirement is or should be integrated, especially when they are more advanced or very specific.
+
+The following table outlines coverage of the most important standards and best pratices in this field.
 
 | Standard  | Coverage |
 | ------------- | ------------- |
