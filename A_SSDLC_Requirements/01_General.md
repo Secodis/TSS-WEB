@@ -42,11 +42,12 @@ The following roles are referred here:
      - Verifies correct implementation of security-relevant requirements.
      - Continuously verifies and improves of the effectiveness of implemented security checks and controls, it's automation and periodic assessment of security findings from tools.
      - Participates at internal security discussions (e.g. security Jour Fixe) or security communities).
+     - Received dedicated security training.
 
-- **Developer**: (Software) developers have the following responsibilities: 
-     - Has general security know-how of technologies he/she is working with and keeps it up-to-date continuously.
+- **Developer**: A (Software) developer or engineer has the following responsibilities: 
+     - Has general security understanding of technologies he/she is working with and keeps it up-to-date continuously.
      - Capable to avoid, find and fix vulnerabilities.
-- **(Development) Team**: Responsible for the security of software artifacts it develops, maintains or operates. Continuously verifies and improves the effectiveness of implemented security checks and controls, it's automation and periodic assessment of security findings from tools.
+- **(Development) Team**: Responsible for the security of software artifacts it builds, maintains and operates. Continuously verifies and improves the effectiveness of implemented security checks and controls, it's automation and periodic assessment of security findings from tools.
 
 ## 1.4 Assurance Classes
 Certain requirements specified in this standard depend upon two aspects of an application.
