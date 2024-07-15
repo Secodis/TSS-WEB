@@ -54,7 +54,7 @@ The following table outlines coverage of the most important standards and best p
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](Material/OWASP_Top_Ten_Mapping.md). |
+| [OWASP TOP Ten 2021][OWASPTOPTEN] | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](Material/OWASP_Top_Ten_Mapping.md). |
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping](Material/OWASP_SAMM-2.0-Mapping.md) |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
@@ -70,3 +70,5 @@ This site is maintained by Secodis GmbH. Responsible for the content is Matthias
 
 ## Feedback 
 Feedback about this content is very much welcome. Please post it in the TSS-WEB Google Group or send it directly to tss-web@googlegroups.com.
+
+[OWASPTOPTEN]: https://owasp.org/www-project-top-ten/
