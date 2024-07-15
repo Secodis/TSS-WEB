@@ -40,7 +40,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 
 ## Material
 
-- [Requiremetns for HTTP Security Header](Appendix/RequirementsforHTTPSecurityHeader.md)
+- [Requiremetns for HTTP Security Header](Material/RequirementsforHTTPSecurityHeader.md)
 
 ## Legacy Versions
 
@@ -54,8 +54,8 @@ The following table outlines coverage of the most important standards and best p
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](C_Appendix/OWASP_Top_Ten_Mapping.md). |
-| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
+| [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](Material/OWASP_Top_Ten_Mapping.md). |
+| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping](Material/OWASP_SAMM-2.0-Mapping.md) |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
 | [SAFECode Fundamental Practices for Secure Development](https://safecode.org/uncategorized/fundamental-practices-secure-software-development/) | TBD |
