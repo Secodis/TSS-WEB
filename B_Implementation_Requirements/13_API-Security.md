@@ -1,6 +1,6 @@
-# 12. Services & API Security
+# 12. API Security
 
-Please note: For reasons of simplification, some of the following requirements that refer to “services” apply to all implementation variants such as XML WebServices or REST APIs.
+Please note: For reasons of simplification, some of the following requirements that refer to API apply to all techncial implementation variants such as XML WebServices, GraphQL or REST APIs.
 
 ## 1. General
 
@@ -13,7 +13,7 @@ Please note: For reasons of simplification, some of the following requirements t
 2. Shared secrets used for services authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
     - Length min. 32 characters (= 256 bit)
     - Cryptographically random (consisting of alpha-numeric and special characters)
-    - Stored securely according to the requirements specified in
+    - Stored securely according to the requirements specified in (11. Protection of Secrets)[B_Implementation_Requirements/11_Secrets.md])
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
 3. For assurance class >= HIGH, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
 4. Authentication credentials MUST be unique for different systems and environments (e.g. test, production).
