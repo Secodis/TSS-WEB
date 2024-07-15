@@ -38,7 +38,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 12. [Client-Side Security](B_Implementation_Requirements/12_Client-Side-Security.md)
 13. [Services & API Security](B_Implementation_Requirements/13_API-Security.md)
 
-## Appendix
+## Material
 
 - [Requiremetns for HTTP Security Header](Appendix/RequirementsforHTTPSecurityHeader.md)
 
@@ -47,6 +47,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
 ## Related Standards
+
 Generally, we aim to integrate all useful requirements from existing standards and best practices into TSS-WEB that we find helpful for baseline security in that field. This does not mean that every requirement is or should be integrated, especially when they are more advanced or very specific.
 
 The following table outlines coverage of the most important standards and best pratices in this field.
@@ -54,10 +55,10 @@ The following table outlines coverage of the most important standards and best p
 | Standard  | Coverage |
 | ------------- | ------------- |
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](C_Appendix/OWASP_Top_Ten_Mapping.md). |
-| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope but many of its practices are covered. See detailed [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
+| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping](C_Appendix/OWASP_SAMM-2.0-Mapping.md) |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
-| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/uncategorized/fundamental-practices-secure-software-development/) | TBD. |
+| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/uncategorized/fundamental-practices-secure-software-development/) | TBD |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
