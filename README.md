@@ -14,37 +14,37 @@ The requirements in this framework are primarily baseline requirements, suitable
 
 ## SSDLC Requirements
 
-1. [General](A_SSDLC_Requirements/01_General.md) (Roles, Assurance Classes & Definitions)
-2. [Remediation of Vulnerabilities in Production](A_SSDLC_Requirements/02_Vulnerability-Remediation.md) 
-3. [Secure Operation](A_SSDLC_Requirements/03_Secure-Operation.md)
-4. [Secure Development Environment](A_SSDLC_Requirements/04_Secure-Dev-Environment.md)
-5. [Security within the SDLC](A_SSDLC_Requirements/05_Security-wthin-SDLC.md)
-6. [Security Tests](A_SSDLC_Requirements/06_Security-Tests.md)
-7. [Outsourced Development](A_SSDLC_Requirements/07_Outsourced-Development.md)
+1. [General][A_GENERAL] (Roles, Assurance Classes & Definitions)
+2. [Remediation of Vulnerabilities in Production][A_REMEDIATION]
+3. [Secure Operation][A_SECOP]
+4. [Secure Development Environment][A_SECENV]
+5. [Security within the SDLC][A_SDLC]
+6. [Security Tests][A_SECTESTS]
+7. [Outsourced Development][A_OUTDEV]
 
 ## Implementation Requirements
 
-1. [Secure Design Principles](B_Implementation_Requirements/01_Secure-Design-Principles.md)
-2. [Input Validation](B_Implementation_Requirements/02_InputVal.md)
-3. [File Uploads & Downloads](B_Implementation_Requirements/03_FileUploads.md)
-4. [Output Validation (Encoding & Escaping)](B_Implementation_Requirements/04_OutputVal.md)
-5. [User Authentication and Registration](B_Implementation_Requirements/05_UserAuth.md)
-6. [User Passwords](B_Implementation_Requirements/06_User-Passwords.md)
-7. [Hardening of Session Management](B_Implementation_Requirements/07_Session-Mgmt.md)
-8. [Access Control](B_Implementation_Requirements/08_Access-Control.md)
-9. [Error Handling & Logging](B_Implementation_Requirements/09_Error-Handling-And-Logging.md)
-10. [Data Security & Cryptography](B_Implementation_Requirements/10_Data-Security.md)
-11. [Protection of Secrets](B_Implementation_Requirements/11_Secrets.md)
-12. [Client-Side Security](B_Implementation_Requirements/12_Client-Side-Security.md)
-13. [Services & API Security](B_Implementation_Requirements/13_API-Security.md)
+1. [Secure Design Principles][B_PRINCIPLES]
+2. [Input Validation][B_INPUTVAL]
+3. [File Uploads & Downloads][B_FILEUPLOADS]
+4. [Output Validation (Encoding & Escaping)][B_OUTPUTVAL]
+5. [User Authentication and Registration][B_USERAUTH]
+6. [User Passwords][B_USERPASSWD]
+7. [Hardening of Session Management][B_SESSIONMGMT]
+8. [Access Control][B_AUTHZ]
+9. [Error Handling & Logging][B_ERRORLOG]
+10. [Data Security & Cryptography][B_CRYPTO]
+11. [Protection of Secrets][B_SECRETS]
+12. [Client-Side Security][B_CLIENTSEC]
+13. [API Security][B_APISEC]
 
 ## Material
 
-- [Requiremetns for HTTP Security Header](Material/RequirementsforHTTPSecurityHeader.md)
+- [Requiremetns for HTTP Security Header][SECHEADER]
 
 ## Legacy Versions
 
-You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
+You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here][TSSWEBOLD].
 
 ## Related Standards
 
@@ -54,13 +54,13 @@ The following table outlines coverage of the most important standards and best p
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2021][OWASPTOPTEN] | Full coverage withing implementation controls. See [OWASP Top Ten Mapping](Material/OWASP_Top_Ten_Mapping.md). |
-| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping](Material/OWASP_SAMM-2.0-Mapping.md) |
-| [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
-| [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
-| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/uncategorized/fundamental-practices-secure-software-development/) | TBD |
+| [OWASP TOP Ten 2021][OWASPTOPTEN] | Full coverage withing implementation controls. See [OWASP Top Ten Mapping][TOPTENMAPPING). |
+| [OWASP SAMM 2.0][OWASPSAMM} | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping][SAMMMAPPING] |
+| [ISO/IEC 27002:2022][27002]  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
+| [NIST SSSDF][SSDF]  | TBD  |
+| [SAFECode Fundamental Practices for Secure Development][SAFECODE] | TBD |
 
-Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
+Also, you may have a look at [OpenCRE][OPENCRE] which provides a general requirement mapping over many more standards.
 
 ## License
 The document is licensed under Creative Commons By 4.0 and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, any adapted version of this document does not have to be published under the same license.
@@ -71,4 +71,36 @@ This site is maintained by Secodis GmbH. Responsible for the content is Matthias
 ## Feedback 
 Feedback about this content is very much welcome. Please post it in the TSS-WEB Google Group or send it directly to tss-web@googlegroups.com.
 
+[A_GENERAL]: A_SSDLC_Requirements/01_General.md
+[A_REMEDIATION]: A_SSDLC_Requirements/02_Vulnerability-Remediation.md
+[A_SECOP]: A_SSDLC_Requirements/03_Secure-Operation.md
+[A_SECENV]: A_SSDLC_Requirements/04_Secure-Dev-Environment.md
+[A_SDLC]: A_SSDLC_Requirements/05_Security-wthin-SDLC.md
+[A_SECTESTS]: A_SSDLC_Requirements/06_Security-Tests.md
+[A_OUTDEV]: A_SSDLC_Requirements/07_Outsourced-Development.md
+
+[B_PRINCIPLES]: B_Implementation_Requirements/01_Secure-Design-Principles.md
+[B_INPUTVAL]: B_Implementation_Requirements/02_InputVal.md
+[B_FILEUPLOADS]: B_Implementation_Requirements/03_FileUploads.md
+[B_OUTPUTVAL]: B_Implementation_Requirements/04_OutputVal.md
+[B_USERAUTH]: B_Implementation_Requirements/05_UserAuth.md
+[B_USERPASSWD]: B_Implementation_Requirements/06_User-Passwords.md
+[B_SESSIONMGMT]: B_Implementation_Requirements/07_Session-Mgmt.md
+[B_AUTHZ]: B_Implementation_Requirements/08_Access-Control.md
+[B_ERRORLOG]: B_Implementation_Requirements/09_Error-Handling-And-Logging.md
+[B_CRYPTO]: B_Implementation_Requirements/10_Data-Security.md
+[B_SECRETS]: B_Implementation_Requirements/11_Secrets.md
+[B_CLIENTSEC]: B_Implementation_Requirements/12_Client-Side-Security.md
+[B_APISEC]: B_Implementation_Requirements/13_API-Security.md
+
+[SECHEADER]: Material/Requirements_for_HTTP_Header_Security.md
+[TOPTENMAPPING]: Material/OWASP_Top_Ten_Mapping.md
+[SAMMMAPPING]: Material/OWASP_SAMM-2.0-Mapping.md
 [OWASPTOPTEN]: https://owasp.org/www-project-top-ten/
+[TSSWEBOLD]: https://secodis.atlassian.net/wiki/spaces/TSSWEB
+
+[OWASPSAMM]: https://owaspsamm.org/model/
+[IEC27002]: https://www.iso.org/standard/2700
+[NISTSSDF]: https://csrc.nist.gov/Projects/ssdf
+[SAFECODE]: https://safecode.org/uncategorized/fundamental-practices-secure-software-development/
+[OPENCRE]: https://www.opencre.org/
