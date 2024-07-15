@@ -18,6 +18,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## 3. Encryption at Rest
 1. Confidential data MUST be encrypted before stored.
 2. User passwords MUST be persisted with suitable methods (see section https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/98391).
+3. Secrets MUST be stored securely according to the requirements specified in [11. Protection of Secrets](../B_Implementation_Requirements/11_Secrets.md)
 
 ## 4. X.509 Certificates
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
