@@ -29,7 +29,9 @@ Uploaded files from untrusted sources (e.g. over the Internet) with potentially 
 
 ## 3.5 Downloads
 1. File downloads SHOULD be carried out from a separate origin (e.g. `files.example.com`), to prevent the impact of executable script code that they may contain.
-2. File downloads SHOULD always be protected with relevant HTTP security headers, e.g. to prevent MIME Type sniffing in browsers (see https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/1015832).
+2. File downloads SHOULD always be protected with relevant HTTP security headers, e.g. to prevent MIME Type sniffing in browsers (see [Recommendations for Security Header][SECHEADER]).
 3. Filenames MUST be properly encoded before written into response header when user-controlled in order to preventing Reflected File Downloads (RFD).
 
 [^1]: This function can be tested with the EICAR test file (www.eicar.org)
+
+[SECHEADER]: ../Material/Requirements_for_HTTP_Header_Security.md
