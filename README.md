@@ -12,15 +12,18 @@ The purpose of this framework is to provide a comprehensive collection of techni
 
 The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class][A_AC].
 
+## General
+
+[Definitions (Roles & Terms)][A_DEFINITIONS]
+
 ## SSDLC Requirements
 
-1. [General][A_GENERAL] (Roles, Assurance Classes & Definitions)
-2. [Remediation of Vulnerabilities in Production][A_REMEDIATION]
-3. [Secure Operation][A_SECOP]
-4. [Secure Development Environment][A_SECENV]
-5. [Security within the SDLC][A_SDLC]
-6. [Security Tests][A_SECTESTS]
-7. [Outsourced Development][A_OUTDEV]
+1. [Remediation of Vulnerabilities in Production][A_REMEDIATION]
+2. [Secure Operation][A_SECOP]
+3. [Secure Development Environment][A_SECENV]
+4. [Security within the SDLC][A_SDLC]
+5. [Security Tests][A_SECTESTS]
+5. [Outsourced Development][A_OUTDEV]
 
 ## Implementation Requirements
 
@@ -39,8 +42,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 13. [API Security][B_APISEC]
 
 ## Material
-
-- [Requiremetns for HTTP Security Header][SECHEADER]
+- [Requirements for HTTP Security Header][SECHEADER]
 
 ## Legacy Versions
 
