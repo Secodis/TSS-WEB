@@ -71,17 +71,17 @@ This site is maintained by Secodis GmbH. Responsible for the content is Matthias
 ## Feedback 
 Feedback about this content is very much welcome. Please post it in the TSS-WEB Google Group or send it directly to tss-web@googlegroups.com.
 
-[A_GENERAL]: A_SSDLC_Requirements/01_General.md
-[A_REMEDIATION]: A_SSDLC_Requirements/02_Vulnerability-Remediation.md
-[A_SECOP]: A_SSDLC_Requirements/03_Secure-Operation.md
-[A_SECENV]: A_SSDLC_Requirements/04_Secure-Dev-Environment.md
-[A_SDLC]: A_SSDLC_Requirements/05_Security-wthin-SDLC.md
-[A_SECTESTS]: A_SSDLC_Requirements/06_Security-Tests.md
-[A_OUTDEV]: A_SSDLC_Requirements/07_Outsourced-Development.md
+[A_REMEDIATION]: A_SSDLC_Requirements/01_Vulnerability-Remediation.md
+[A_SECOP]: A_SSDLC_Requirements/02_Secure-Operation.md
+[A_SECENV]: A_SSDLC_Requirements/03_Secure-Dev-Environment.md
+[A_SDLC]: A_SSDLC_Requirements/04_Security-wthin-SDLC.md
+[A_SECTESTS]: A_SSDLC_Requirements/05_Security-Tests.md
+[A_OUTDEV]: A_SSDLC_Requirements/06_Outsourced-Development.md
 
-[A_AC]: A_SSDLC_Requirements/01_General.md#14-assurance-classes
-[A_DEFINITIONS]: A_SSDLC_Requirements/01_General.md#12-definitions
-[A_ROLES]: A_SSDLC_Requirements/01_General.md#13-roles
+[A_DEFINITIONS]: Definitions.md
+[A_AC]: Definitions.md#assurance-classes
+[A_TERMS]: Definitions.md#terms
+[A_ROLES]: Definitions.md#roles
 
 [B_PRINCIPLES]: B_Implementation_Requirements/01_Secure-Design-Principles.md
 [B_INPUTVAL]: B_Implementation_Requirements/02_InputVal.md
