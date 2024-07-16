@@ -10,7 +10,7 @@ The purpose of this framework is to provide a comprehensive collection of techni
 
 ## Types of Requirements
 
-The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term "assurance level."
+The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance level][A_AC].
 
 ## SSDLC Requirements
 
@@ -78,6 +78,10 @@ Feedback about this content is very much welcome. Please post it in the TSS-WEB 
 [A_SDLC]: A_SSDLC_Requirements/05_Security-wthin-SDLC.md
 [A_SECTESTS]: A_SSDLC_Requirements/06_Security-Tests.md
 [A_OUTDEV]: A_SSDLC_Requirements/07_Outsourced-Development.md
+
+[A_AC]: A_SSDLC_Requirements/01_General.md#14-assurance-classes
+[A_DEFINITIONS]: A_SSDLC_Requirements/01_General.md#12-definitions
+[A_ROLES]: A_SSDLC_Requirements/01_General.md#13-roles
 
 [B_PRINCIPLES]: B_Implementation_Requirements/01_Secure-Design-Principles.md
 [B_INPUTVAL]: B_Implementation_Requirements/02_InputVal.md
