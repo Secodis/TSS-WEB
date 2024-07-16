@@ -12,7 +12,7 @@ In accordance with RFC2119, two types of requirements are specified in this stan
 The following definitions are used here:
 
 - **3rd Party Dependency**: Here: 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts).
-- **Api**: Here: Web-based interface (e.g. a RESTful service)
+- **API**: Here: Web-based interface (e.g. a RESTful service)
 - **Application**: Here: Synonym for -> web-based application or service.
 - **Change**: Change to an application in production.
 - **Confidential Data**: Data, which consists of
@@ -27,7 +27,7 @@ The following definitions are used here:
 - **External Application**: A web-based application that is accessible from the outside of the organization (e.g. via the Internet).
 - **Internal Code**: Source or program code which is not confidential and not public (standard).
 - **Internal Application**: A web-based application that is only accessible from the inside of the organization (e.g. intranet application).
-- **Service**: Here: Synonym for (business) application that can consists of one or more technical services (e.g. REST services).
+- **Service**: Here: Synonym for (business) application that can consists of one or more ->APIs.
 - **Source Code Repository**: System where custom code is stored (e.g. SVN, Git).
 - **Web Application**: Here: A software program (UI, service or API or combination of them) that is accessible via HTTP(s) protocol and fulfills a particular business case.
 
