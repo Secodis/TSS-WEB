@@ -12,14 +12,13 @@ In accordance with RFC2119, two types of requirements are specified in this stan
 The following definitions are used here:
 
 - **3rd Party Dependency**: Here: 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts).
-- **Api**: Here: Web-based interface (e.g. a RESTful service)
+- **API**: Here: Web-based interface (e.g. a RESTful service)
 - **Application**: Here: Synonym for -> web-based application or service.
 - **Change**: Change to an application in production.
 - **Confidential Data**: Data, which consists of
       - confidential information (e.g. trademarks, sensible business logic, passwords or personal data),
       - is explicitly declared as those or
       - is only accessible by a restricted number of people.
-
 - **Confidential Code**: Source or program code which may consist -> confidential data.
 - **Criticality**: Here: Mostly synonym for business criticality
 - **Critical Application**: Here: Business critical application
@@ -27,7 +26,7 @@ The following definitions are used here:
 - **External Application**: A web-based application that is accessible from the outside of the organization (e.g. via the Internet).
 - **Internal Code**: Source or program code which is not confidential and not public (standard).
 - **Internal Application**: A web-based application that is only accessible from the inside of the organization (e.g. intranet application).
-- **Service**: Here: Synonym for application (technical service is refered as ->API)
+- **Service**: Here: Synonym for (business) application that can contain one or more ->APIs
 - **Source Code Repository**: System where custom code is stored (e.g. SVN, Git).
 - **Web Application**: Here: A software program (UI, service or API or combination of them) that is accessible via HTTP(s) protocol and fulfills a particular business case.
 
@@ -53,10 +52,10 @@ Certain requirements specified in this standard depend upon two aspects of an ap
 
 The first is the accessibility, e.g. is an application accessible from the Internet, the second is the business criticality:
 
-| | INTERNAL (Not Internet-facing) Application | EXTERNAL (Internet-facing) Application |
+| Criticality| Internal Application | External Application |
 | ------------- | ------------- | ------------- |
-| Low-Medium Criticality | Standard | Standard |
-| High Criticality | Standard | High |
-| Very High Criticality | High | Very High |
+| Low-Medium | Standard | Standard |
+| High | Standard | High |
+| Very High | High | Very High |
 
 [^1]: See SAFECode “Software Security Takes a Champion”, http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf
