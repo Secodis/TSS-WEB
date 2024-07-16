@@ -27,7 +27,7 @@ The following definitions are used here:
 - **External Application**: A web-based application that is accessible from the outside of the organization (e.g. via the Internet).
 - **Internal Code**: Source or program code which is not confidential and not public (standard).
 - **Internal Application**: A web-based application that is only accessible from the inside of the organization (e.g. intranet application).
-- **Service**: Here: Synonym for application (technical service is refered as ->API)
+- **Service**: Here: Synonym for (business) application that can consists of one or more technical services (e.g. REST services).
 - **Source Code Repository**: System where custom code is stored (e.g. SVN, Git).
 - **Web Application**: Here: A software program (UI, service or API or combination of them) that is accessible via HTTP(s) protocol and fulfills a particular business case.
 
@@ -54,10 +54,12 @@ Certain requirements specified in this standard depend upon two aspects of an ap
 
 The first is the accessibility, e.g. is an application accessible from the Internet, the second is the business criticality:
 
-| | INTERNAL (Not Internet-facing) Application | EXTERNAL (Internet-facing) Application |
+| | Internal Application | External Application |
 | ------------- | ------------- | ------------- |
 | Low-Medium Criticality | Standard | Standard |
 | High Criticality | Standard | High |
 | Very High Criticality | High | Very High |
+
+Note that here "internal" means not Internet-facing whereas "external" means Internet-facing application or service.
 
 [^1]: See SAFECode “Software Security Takes a Champion”, http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf
