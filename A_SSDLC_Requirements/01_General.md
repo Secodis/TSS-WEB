@@ -54,11 +54,11 @@ Certain requirements specified in this standard depend upon two aspects of an ap
 
 The first is the accessibility, e.g. is an application accessible from the Internet, the second is the business criticality:
 
-| | Internal Application | External Application |
+| Criticality | Internal Application | External Application |
 | ------------- | ------------- | ------------- |
-| Low-Medium Criticality | Standard | Standard |
-| High Criticality | Standard | High |
-| Very High Criticality | High | Very High |
+| Very High | High | Very High |
+| High | Standard | High |
+| Low-Medium | Standard | Standard |
 
 Note that here "internal" means not Internet-facing whereas "external" means Internet-facing application or service.
 
