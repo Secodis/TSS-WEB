@@ -41,9 +41,11 @@ The requirements in this framework are primarily baseline requirements, suitable
 12. [Client-Side Security][B_CLIENTSEC]
 13. [API Security][B_APISEC]
 
-## Material
+## Additional Material
 - [Requirements for HTTP Security Header][SECHEADER]
-
+- [OWASP Top Ten Mapping][TOPTENMAPPING]
+- [OWASP SAMM Mapping][SAMMMAPPING]
+  
 ## Legacy Versions
 
 You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here][TSSWEBOLD].
