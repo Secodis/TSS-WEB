@@ -6,7 +6,7 @@ For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Developmen
 
 ## Purpose
 
-The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. The idea is not to have ten different variants of requirements, but one that should work for most organizations, at least as a baseline. You can use all of them or just select the ones you need. In many cases, you might need to adapt some of them or add others that are more relevant to your specific organization or technology stack.
+The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. The idea is not to have various different variants of requirements that cover every possible scenario, but one that works for most organizations, at least as a baseline. You can use all of them or just select the ones you need. In many cases, you might need to adapt some of them or add others that are more relevant to your specific organization or technology stack.
 
 ## Types of Requirements
 
