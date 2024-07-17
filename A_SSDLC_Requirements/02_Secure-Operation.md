@@ -37,21 +37,22 @@ This includes:
 ## 2.4. Securing Access to Backend Resources
 1. Every process MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
 2. Access to backend systems MUST be authenticated and authorized in accordance to requirements of [13 API Security][B_APISEC]
-3. Access to backend systems MUST use dedicated credentials for each system.
+3. Access to backend systems MUST use dedicated service accounts for each system.
 4. Secrets MUST be securely stored and managed (see 8.11 Protection of Secrets)
 
 ## 2.5. Isolation of External Systems
-1. Applications that are directly accessible from the Internet (or other untrusted networks) MUST be deployed in an isolated network zone.
-2. All external communication MUST be encrypted using TLS/HTTPS.
-3. All external access to internal network zones MUST be approved.
-4. Outgoing communication (egress) to the Internet MUST be restricted and SHOULD be handled by proxies (e.g. HTTP proxies or SMTP proxies).
-5. Incoming communication (ingress) SHOULD be handled by reverse proxies (e.g. API gateways, Web gateways).
-6. A web application firewall (WAF) MAY be used here, e.g. as an additional layer of protection, for virtual patching or as an application IDS. 
+1. Applicatons MUST be deployed in a decicated isolated production environment that can be shared with other applications.
+2. Application with assurance class >= [HIGH] MUST be completely isolated in terms of security realm, namespace, etc.
+3. All network communication MUST be encrypted using TLS
+4. All external access to internal network zones MUST be approved.
+5. Outgoing communication (egress) to the Internet MUST be restricted and SHOULD be handled by proxies (e.g. HTTP proxies or SMTP proxies).
+6. Incoming communication (ingress) SHOULD be restricted and handled by reverse proxies (e.g. API gateways, Web gateways).
+7. A web application firewall (WAF) MAY be used here, e.g. as an additional layer of protection, for virtual patching or as an application IDS. 
 
 ## 2.6. Administrative Access
 Administrative access MUST be as restricted as possible:
 1. Limited to required persons only, if possible using dedicated personal accounts.
-2. Username “admin” should not be used.
+2. Access only via personalized accounts (e.g. usernames like “admin” should not be used).
 3. Limited to internal network zones or authorized IPs if possible.
 4. Using a mandatory 2nd authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
 5. All administrative access should be logged in a tamperproof way.
@@ -72,7 +73,7 @@ For instance:
 - Potential malware infection
 
 # 2.9. Security Monitoring
-For applications with assurance class >= [HIGH] Possible security incidents MUST be continuously monitored. 
+For applications with assurance class >= [HIGH]: Possible security incidents MUST be continuously monitored. 
 
 For instance:
 - Potential account abuse or system compromise
