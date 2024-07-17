@@ -43,8 +43,8 @@ The requirements in this framework are primarily baseline requirements, suitable
 
 ## Additional Material
 - [Requirements for HTTP Security Header][SECHEADER]
-- [OWASP Top Ten Mapping][TOPTENMAPPING]
-- [OWASP SAMM Mapping][SAMMMAPPING]
+- [OWASP Top Ten 2021 Mapping][TOPTENMAPPING]
+- [OWASP SAMM 2.0 Mapping][SAMMMAPPING]
   
 ## Legacy Versions
 
