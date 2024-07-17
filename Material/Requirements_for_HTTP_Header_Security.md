@@ -14,7 +14,7 @@ Modern web browsers support several additional client-side protection mechanisms
 
 | Response Header  | Value | When? |
 | ------------- | ------------- | ------------- |
-| Set-Cookie  | `… ;httpOnly; secure; SameSite`  | When they transfer of confidential data in cookies |
+| Set-Cookie  | `… ;httpOnly; secure; SameSite=Lax`  | When they transfer of confidential data in cookies |
 | Cache-Control  | `no-cache, no-store`  | Whenever confidential data is transmitted.  |
 | Pragma  | `no-cache`  | Whenever confidential data is transmitted.  | 
 | Expires  | `-1`  | Whenever confidential data is transmitted.  | 
@@ -22,7 +22,6 @@ Modern web browsers support several additional client-side protection mechanisms
 | Content-Security-Policy[^3] | `object-src 'none'; script-src 'nonce-{random}' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; base-uri 'none';report-uri https://your-report-collector.example.com/` | Recommendation for new Web UIs that have to use inline script blocks (e.g. if integrated by a JS framework). Do not use this setting if you do not have to since it disables CSP protection for older browsers! |
 | Content-Disposition | `attachment; filename=<filename>` | Web UIs  at which users can download files that are potentially untrusted. |
 | X-Download-Options | `noopen` | Web UIs  at which users can download files that are potentially untrusted. |
-
 
 **Caution: Settings these headers may have implications on the proper functionality of a web application. Therefore, activating a new header SHOULD always be combined with comprehensive functional tests.**
 
