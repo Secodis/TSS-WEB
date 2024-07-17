@@ -14,7 +14,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 
 ## General
 
-[Definitions (Roles & Terms)][A_DEFINITIONS]
+- [Definitions (Roles & Terms)][A_DEFINITIONS]
 
 ## SSDLC Requirements
 
