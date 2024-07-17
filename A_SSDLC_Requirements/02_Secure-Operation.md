@@ -40,7 +40,7 @@ This includes:
 3. Access to backend systems MUST use dedicated credentials for each system.
 4. Secrets MUST be securely stored and managed (see 8.11 Protection of Secrets)
 
-## 2.5. Isolation of External Systems:
+## 2.5. Isolation of External Systems
 1. Applications that are directly accessible from the Internet (or other untrusted networks) MUST be deployed in an isolated network zone.
 2. All external communication MUST be encrypted using TLS/HTTPS.
 3. All external access to internal network zones MUST be approved.
@@ -61,7 +61,7 @@ Administrative access MUST be as restricted as possible:
 1. Systems MUST be kept up-to-date, especially in terms of security patches.
 2. Unused applications MUST be decommissioned.
 
-# 2.8. Security Scanning
+## 2.8. Security Scanning
 Productive systems MUST be periodically scanned for potential security problems. 
 
 For instance:
