@@ -19,9 +19,9 @@ Modern web browsers support several additional client-side protection mechanisms
 | Pragma  | `no-cache`  | Whenever confidential data is transmitted.  | 
 | Expires  | `-1`  | Whenever confidential data is transmitted.  | 
 | Content-Security-Policy[^3] | `object-src 'none'; script-src ‘self’ [URL1] [URL2]; style-src ‘self’ unsafe-inline; object-src ‘self‘;base-uri 'none';` | General recommendation for new for all Web UIs. Not required for APIs.|
-| Content-Security-Policy[^3] | `object-src 'none'; script-src 'nonce-{random}' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; base-uri 'none';report-uri https://your-report-collector.example.com/` | Recommendation for new Web UIs that have to use inline script blocks (e.g. if integrated by a JS framework). Do not use this setting if you do not have to since it disables CSP protection for older browsers! |
-| Content-Disposition | `attachment; filename=<filename>` | Web UIs  at which users can download files that are potentially untrusted. |
-| X-Download-Options | `noopen` | Web UIs  at which users can download files that are potentially untrusted. |
+| Content-Security-Policy[^3] | `object-src 'none'; script-src 'nonce-{random}' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; base-uri 'none';report-uri https://your-report-collector.example.com/` | Recommendation for new Web UIs that must use inline script blocks (e.g., if integrated by a JS framework): Avoid using this setting unless absolutely necessary, as it disables CSP protection for older browsers. |
+| Content-Disposition | `attachment; filename=<filename>` | Web UIs at which users can potentially download untrusted files. |
+| X-Download-Options | `noopen` | Web UIs at which users can potentially download untrusted files. |
 
 **Caution: Settings these headers may have implications on the proper functionality of a web application. Therefore, activating a new header SHOULD always be combined with comprehensive functional tests.**
 
