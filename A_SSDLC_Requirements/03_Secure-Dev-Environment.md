@@ -14,6 +14,6 @@
 4. Source code repositories SHOULD be regularly scanned for disclosed secrets (e.g. X.509 private keys or API keys).
 
 ## 3.3 Use of 3rd Party Dependencies
-see [4. Security within SDLC][A_SDLC}
+see [4. Security within SDLC][A_SDLC]
 
 [A_SDLC]: ../A_SSDLC_Requirements/04_Security-wthin-SDLC.md
