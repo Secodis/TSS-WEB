@@ -10,25 +10,23 @@ In accordance with [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119), two
 ## Terms
 
 The following definitions are used here:
-
-- **3rd Party Dependency**: Here: 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts).
-- **API**: Here: Web-based interface (e.g. a RESTful service)
-- **Application**: Here: Synonym for -> web-based application or service.
-- **Change**: Change to an application in production.
-- **Confidential Data**: Data, which consists of
-      - confidential information (e.g. trademarks, sensible business logic, passwords or personal data),
-      - is explicitly declared as those or
-      - is only accessible by a restricted number of people.
-- **Confidential Code**: Source or program code which may consist -> confidential data.
-- **Criticality**: Here: Mostly synonym for business criticality
-- **Critical Application**: Here: Business critical application
-- **Dependency Repository**: System that manages 3rd party dependencies (e.g. libraries, Maven artifacts). A dependency repository is often part of a general software repository system such as Nexus or Artifactory.
-- **External Application**: A web-based application that is accessible from the outside of the organization (e.g. via the Internet).
-- **Internal Code**: Source or program code which is not confidential and not public (standard).
-- **Internal Application**: A web-based application that is only accessible from the inside of the organization (e.g. intranet application).
-- **Service**: Here: Synonym for (business) application that can contain one or more ->APIs
-- **Source Code Repository**: System where custom code is stored (e.g. SVN, Git).
-- **Web Application**: Here: A software program (UI, service or API or combination of them) that is accessible via HTTP(s) protocol and fulfills a particular business case.
+| Term| Definition |
+| ------------- | ------------- |
+| **3rd Party Dependency** | Here: 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts). |
+| **API** | Here: Web-based interface (e.g. a RESTful service) | 
+| **Application** | Here: Synonym for -> web-based application or service.|
+| **Change** | Change to an application in production. |
+| **Confidential Data** | Data, which consists of<ul><li>confidential information (e.g. trademarks, sensible business logic, passwords or personal data),</li><li>is explicitly declared as those or</li><li>is only accessible by a restricted number of people.</li></ul>|
+| **Confidential Code** | Source or program code which may consist -> confidential data. |
+| **Criticality**: | Here: Mostly synonym for business criticality |
+| **Critical Application** | Here: Business critical application |
+| **Dependency Repository** | System that manages 3rd party dependencies (e.g. libraries, Maven artifacts). A dependency repository is often part of a general software repository system such as Nexus or Artifactory. |
+| **External Application** | A web-based application that is accessible from the outside of the organization (e.g. via the Internet). |
+| **Internal Code** | Source or program code which is not confidential and not public (standard). |
+| **Internal Application** | A web-based application that is only accessible from the inside of the organization (e.g. intranet application). |
+| **Service** | Here: Synonym for (business) application that can contain one or more ->APIs |
+| **Source Code Repository** | System where custom code is stored (e.g. Git). |
+| **Web Application** | Here: A software program (UI, service or API or combination of them) that is accessible via HTTP(s) protocol and fulfills a particular business case. |
 
 ## Roles
 The following roles are referred here:
