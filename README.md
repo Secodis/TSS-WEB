@@ -70,9 +70,6 @@ The document is licensed under Creative Commons By 4.0 and can therefore be used
 ## Author
 This site is maintained by Secodis GmbH. Responsible for the content is Matthias Rohr. 
 
-## Feedback 
-Feedback about this content is very much welcome. Please post it in the TSS-WEB Google Group or send it directly to tss-web@googlegroups.com.
-
 [A_REMEDIATION]: A_SSDLC_Requirements/01_Vulnerability-Remediation.md
 [A_SECOP]: A_SSDLC_Requirements/02_Secure-Operation.md
 [A_SECENV]: A_SSDLC_Requirements/03_Secure-Dev-Environment.md
