@@ -36,7 +36,7 @@ This includes:
 
 ## 2.4. Securing Access to Backend Resources
 1. Every process MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
-2. Access to backend systems MUST be authenticated and authorized in accordance to requirements of 8.13 Service & API Security
+2. Access to backend systems MUST be authenticated and authorized in accordance to requirements of [13 API Security][B_APISEC]
 3. Access to backend systems MUST use dedicated credentials for each system.
 4. Secrets MUST be securely stored and managed (see 8.11 Protection of Secrets)
 
@@ -84,3 +84,5 @@ For instance:
 # 2.10. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
+
+[B_APISEC]: ../B_Implementation_Requirements/13_API-Security.md
