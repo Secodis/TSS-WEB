@@ -24,21 +24,19 @@
 
 ## 4.4 Secure Build & Deployment
 1. A formal definition of the build & deployment process MUST be created so that it becomes consistent, repeatable and automated.
-2. Access to build and deployment systems MUST be secured according to requirements in in 4. Secure Development Environment.
-3. Automated security checks MUST be integrated into build & deployment processes in accordance to requirements in 6. Security Tests.
-4. Secrets SHOULD be injected during deployment process in accordance to requirements in 8.11 Protection of Secrets.
+2. Access to build and deployment systems MUST be secured according to requirements in in [4. Secure Dev Environment][3._SECENV].
+3. Automated security checks MUST be integrated into build & deployment processes in accordance to requirements in [5. Security Tests][A_SECTESTS].
+4. Secrets SHOULD be injected during deployment process in accordance to requirements in [11. Protection of Secrets][B_SECRETS].
 5. Deployment pipelines SHOULD implement a pull-based model[^3].
-6. For assurance class >= [HIGH], integrity of deployed artifacts MUST be automatically verified (e.g. using digital signatures).
-7. For assurance class >= [HIGH], executed scripts in build systems SHOULD be authorized and whitelisted.
+6. A Software Bill of Materials (SBOM) must be created for all build and release artifacts
+7. For assurance class >= [HIGH], all deployed artifats (including the SBOMss) MUST be cryptographically signed.
 
 ## 4.5 Security of 3rd Party Dependencies in Target Production Environment
 1. 3rd party dependencies SHOULD only be obtained via internal and approved repositories.
 2. Before a new 3rd party dependency is allowed to be used in productive applications (or within the release build environment), it MUST be approved by the architecture board. This does not affect new releases of a dependency that has already been approved.
 3. 3rd party dependencies SHOULD be updated regularly.
 4. 3rd party dependencies MUST be updated in case of relevant critical security vulnerabilities or end of life.
-5. A Software Bill of Materials (SBOM) that keeps a record of all 3rd party dependencies MUST be created for all released artifacts
-6. The SBOM SHOULD be signed
-7. Testing requirements for custom and 3rd party code are defined at 6. Security Tests.
+5. Testing requirements for custom and 3rd party code are defined at [5. Security Tests][A_SECTESTS].
 
 ## 4.6 Security Approvals (Security Gates)
 1. Initial Project approval (mandatory): All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the assurance class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
@@ -73,3 +71,7 @@ Remediation of security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Sc
 [^2]: CVSS = Common Vulnerability Scoring System (CVSS) v3, https://www.first.org/cvss
 
 [^3]: See https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important
+
+[B_SECRETS]: ../B_Implementation_Requirements/11_Secrets.md
+[A_SECENV]: ../A_SSDLC_Requirements/03_Secure-Dev-Environment.md
+[A_SECTESTS]: ../A_SSDLC_Requirements/05_Security-Tests.md
