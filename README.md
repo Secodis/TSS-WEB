@@ -56,10 +56,10 @@ The following table outlines coverage of the most important standards and best p
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2021][OWASPTOPTEN] | Full coverage withing implementation controls. See [OWASP Top Ten Mapping][TOPTENMAPPING). |
-| [OWASP SAMM 2.0][OWASPSAMM} | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping][SAMMMAPPING] |
-| [ISO/IEC 27002:2022][27002]  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
-| [NIST SSSDF][SSDF]  | TBD  |
+| [OWASP TOP Ten 2021][OWASPTOPTEN] | Full coverage withing implementation controls. See [OWASP Top Ten Mapping][TOPTENMAPPING]. |
+| [OWASP SAMM 2.0][OWASPSAMM] | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping][SAMMMAPPING]. |
+| [ISO/IEC 27002:2022][IEC27002]  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
+| [NIST SSSDF][NISTSSDF]  | TBD  |
 | [SAFECode Fundamental Practices for Secure Development][SAFECODE] | TBD |
 
 Also, you may have a look at [OpenCRE][OPENCRE] which provides a general requirement mapping over many more standards.
@@ -102,9 +102,9 @@ Feedback about this content is very much welcome. Please post it in the TSS-WEB 
 [SECHEADER]: Material/Requirements_for_HTTP_Header_Security.md
 [TOPTENMAPPING]: Material/OWASP_Top_Ten_Mapping.md
 [SAMMMAPPING]: Material/OWASP_SAMM-2.0-Mapping.md
-[OWASPTOPTEN]: https://owasp.org/www-project-top-ten/
 [TSSWEBOLD]: https://secodis.atlassian.net/wiki/spaces/TSSWEB
 
+[OWASPTOPTEN]: https://owasp.org/www-project-top-ten/
 [OWASPSAMM]: https://owaspsamm.org/model/
 [IEC27002]: https://www.iso.org/standard/2700
 [NISTSSDF]: https://csrc.nist.gov/Projects/ssdf
