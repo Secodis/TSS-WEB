@@ -25,10 +25,8 @@ jobs:
       run: |
         while read -r line; do
           key=$(echo $line | cut -d'=' -f1 | sed 's/\./_/g')
-          value=$(echo $line | cut -d'=' -f2- | sed 's/[\/&]/\\&/g')
-          escaped_key=$(printf '%s\n' "$key" | sed -e 's/[\/&]/\\&/g')
-          escaped_value=$(printf '%s\n' "$value" | sed -e 's/[\/&]/\\&/g' -e 's/\\/\\\\/g')
-          find . -type f -name "*.md" -exec perl -i -pe "s/\{\{$escaped_key\}\}/$escaped_value/g" {} +
+          value=$(echo $line | cut -d'=' -f2- | sed 's/[\&/]/\\&/g; s/\\/\\\\/g')
+          find . -type f -name "*.md" -exec perl -i -pe "s/\{\{$key\}\}/$value/g" {} +
         done < variables.txt
 
     - name: Commit changes
