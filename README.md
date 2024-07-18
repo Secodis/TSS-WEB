@@ -14,8 +14,8 @@ The requirements in this framework are primarily baseline requirements, suitable
  
  1. [Types of Requirements]({{site.URL_GENERAL_REQUIREMENTS}})
  2. [Terms]({{site.URL_GENERAL_TERMS}})
- 3. [Roles]({{site.URL_ROLES}})
- 3. [Assurance Classes]({{site.URL_ASSURANCECLASSES}})
+ 3. [Roles]({{site.URL_GENERAL_ROLES}})
+ 3. [Assurance Classes]({{site.URL_GENERAL_ASSURANCECLASSES}})
 
 ## B. SSDLC Requirements
 
