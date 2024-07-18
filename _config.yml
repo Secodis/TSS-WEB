@@ -1,33 +1,34 @@
 # _config.yml
-URL_SSDLC_REMEDIATION: https://secodis.github.io/TSS-WEB/A_SSDLC_Requirements/01_Vulnerability-Remediation.md
-URL_SSDLC_SECOP: https://secodis.github.io/TSS-WEB/A_SSDLC_Requirements/02_Secure-Operation.md
-URL_SSDLC_SECENV: https://secodis.github.io/TSS-WEB/A_SSDLC_Requirements/03_Secure-Dev-Environment.md
-URL_SSDLC_SDLC: https://secodis.github.io/TSS-WEB/A_SSDLC_Requirements/04_Security-wthin-SDLC.md
-URL_SSDLC_SECTESTS: https://secodis.github.io/TSS-WEB/A_SSDLC_Requirements/05_Security-Tests.md
-URL_SSDLC_OUTDEV: https://secodis.github.io/TSS-WEB/A_SSDLC_Requirements/06_Outsourced-Development.md
+URL_SSDLC_REMEDIATION: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/01_Vulnerability-Remediation.md
+URL_SSDLC_SECOP: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/02_Secure-Operation.md
+URL_SSDLC_SECENV: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/03_Secure-Dev-Environment.md
+URL_SSDLC_SDLC: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/04_Security-wthin-SDLC.md
+URL_SSDLC_SECTESTS: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/05_Security-Tests.md
+URL_SSDLC_OUTDEV: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/06_Outsourced-Development.md
 
-URL_GENERAL_DEFINITIONS: https://secodis.github.io/TSS-WEB/Definitions.md
-URL_GENERAL_AC: https://secodis.github.io/TSS-WEB/Definitions.md#assurance-classes
-URL_GENERAL_TERMS: https://secodis.github.io/TSS-WEB/Definitions.md#terms
-URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/Definitions.md#roles
+URL_GENERAL_DEFINITIONS: https://secodis.github.io/TSS-WEB/A_General/Definitions.md
+URL_GENERAL_AC: https://secodis.github.io/TSS-WEB/A_General/Definitions.md#assurance-classes
+URL_GENERAL_TERMS: https://secodis.github.io/TSS-WEB/A_General/Definitions.md#terms
+URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/A_General/Definitions.md#roles
 
-URL_IMPL_PRINCIPLES: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/01_Secure-Design-Principles.md
-URL_IMPL_INPUTVAL: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/02_InputVal.md
-URL_IMPL_FILEUPLOADS: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/03_FileUploads.md
-URL_IMPL_OUTPUTVAL: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/04_OutputVal.md
-URL_IMPL_USERAUTH: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/05_UserAuth.md
-URL_IMPL_USERPASSWD: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/06_User-Passwords.md
-URL_IMPL_SESSIONMGMT: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/07_Session-Mgmt.md
-URL_IMPL_AUTHZ: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/08_Access-Control.md
-URL_IMPL_ERRORLOG: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/09_Error-Handling-And-Logging.md
-URL_IMPL_CRYPTO: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/10_Data-Security.md
-URL_IMPL_SECRETS: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/11_Secrets.md
-URL_IMPL_CLIENTSEC: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/12_Client-Side-Security.md
-URL_IMPL_APISEC: https://secodis.github.io/TSS-WEB/URL_IMPL_Implementation_Requirements/13_API-Security.md
+URL_IMPL_PRINCIPLES: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/01_Secure-Design-Principles.md
+URL_IMPL_INPUTVAL: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/02_InputVal.md
+URL_IMPL_FILEUPLOADS: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/03_FileUploads.md
+URL_IMPL_OUTPUTVAL: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/04_OutputVal.md
+URL_IMPL_USERAUTH: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/05_UserAuth.md
+URL_IMPL_USERPASSWD: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/06_User-Passwords.md
+URL_IMPL_SESSIONMGMT: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/07_Session-Mgmt.md
+URL_IMPL_AUTHZ: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/08_Access-Control.md
+URL_IMPL_ERRORLOG: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/09_Error-Handling-And-Logging.md
+URL_IMPL_CRYPTO: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/10_Data-Security.md
+URL_IMPL_SECRETS: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/11_Secrets.md
+URL_IMPL_CLIENTSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/12_Client-Side-Security.md
+URL_IMPL_APISEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/13_API-Security.md
 
-URL_MATERIAL_SECHEADER: https://secodis.github.io/TSS-WEB/Material/Requirements_for_HTTP_Header_Security.md
-URL_MATERIAL_TOPTENMAPPING: https://secodis.github.io/TSS-WEB/Material/OWASP_Top_Ten_Mapping.md
-URL_MATERIAL_SAMMMAPPING: https://secodis.github.io/TSS-WEB/Material/OWASP_SAMM-2.0-Mapping.md
+URL_MATERIAL_SECHEADER: https://secodis.github.io/TSS-WEB/D_Material/Requirements_for_HTTP_Header_Security.md
+URL_MATERIAL_TOPTENMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_Top_Ten_Mapping.md
+URL_MATERIAL_SAMMMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_SAMM-2.0-Mapping.md
+
 URL_MATERIAL_TSSWEBOLD: https://secodis.atlassian.net/wiki/spaces/TSSWEB
 
 URL_OWASPTOPTEN: https://owasp.org/www-project-top-ten/
