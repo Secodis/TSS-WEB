@@ -10,13 +10,15 @@ In accordance with [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119), two
 ## Terms
 
 The following definitions are used here:
-| Term| Definition |
+
+| Term | Definition |
 | ------------- | ------------- |
 | **3rd Party Dependency** | Here: 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts). |
 | **API** | Here: Web-based interface (e.g. a RESTful service) | 
 | **Application** | Here: Synonym for -> web-based application or service.|
 | **Change** | Change to an application in production. |
 | **Criticality** | Here: Mostly synonym for business criticality |
+| **Confidential Data** | Data, which consists of<ul><li>confidential information (e.g. trademarks, sensible business logic, passwords or personal data),</li><li>is explicitly declared as those or</li><li>is only accessible by a restricted number of people.</li></ul>|
 | **Critical Application** | Here: Business critical application |
 | **Dependency Repository** | System that manages 3rd party dependencies (e.g. libraries, Maven artifacts). A dependency repository is often part of a general software repository system such as Nexus or Artifactory. |
 | **External Application** | A web-based application that is accessible from the outside of the organization (e.g. via the Internet). |
