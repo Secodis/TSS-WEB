@@ -1,6 +1,4 @@
-# An Open Framework of Security Requirements for Web-based Applications & Services
-
-This is the official site of TSS-WEB, an open requirement framework consisting more than 200 general AppSec requirements. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST), along with our own experiences in this field.
+This is the official site of TSS-WEB, an *open requirement framework for Web-based applications & services*. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST), along with our own experiences in this field.
 
 For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are detailed below.
 
@@ -10,45 +8,45 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 ## Types of Requirements
 
-The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class][A_AC].
+The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class]({{site.URL_GENERAL_AC}}).
 
 ## A. General
-
-- [Definitions (Roles & Terms)][A_DEFINITIONS]
+ 
+- [Definitions (Roles & Terms)]({{site.URL_GENERAL_DEFINITIONS}})
 
 ## B. SSDLC Requirements
 
 1. [Remediation of Vulnerabilities in Production]({{site.URL_SSDLC_REMEDIATION}})
-2. [Secure Operation][A_SECOP]
-3. [Secure Development Environment][A_SECENV]
-4. [Security within the SDLC][A_SDLC]
-5. [Security Tests][A_SECTESTS]
-5. [Outsourced Development][A_OUTDEV]
+2. [Secure Operation]({{site.URL_SSDLC_SECOP}})
+3. [Secure Development Environment]({{site.URL_SSDLC_SECENV}})
+4. [Security within the SDLC]({{site.URL_SSDLC_SDLC}})
+5. [Security Tests]({{site.URL_SSDLC_SECTESTS}})
+5. [Outsourced Development]({{site.URL_SSDLC_OUTDEV}})
 
 ## C. Implementation Requirements
 
-1. [Secure Design Principles][B_PRINCIPLES]
-2. [Input Validation][B_INPUTVAL]
-3. [File Uploads & Downloads][B_FILEUPLOADS]
-4. [Output Validation (Encoding & Escaping)][B_OUTPUTVAL]
-5. [User Authentication and Registration][B_USERAUTH]
-6. [User Passwords][B_USERPASSWD]
-7. [Hardening of Session Management][B_SESSIONMGMT]
-8. [Access Control][B_AUTHZ]
-9. [Error Handling & Logging][B_ERRORLOG]
-10. [Data Security & Cryptography][B_CRYPTO]
-11. [Protection of Secrets][B_SECRETS]
-12. [Client-Side Security][B_CLIENTSEC]
-13. [API Security][B_APISEC]
+1. [Secure Design Principles]({{site.URL_IMPL_PRINCIPLES}})
+2. [Input Validation]({{site.URL_IMPL_INPUTVAL}})
+3. [File Uploads & Downloads]({{site.URL_SSDLC_REMEDIATION}})
+4. [Output Validation (Encoding & Escaping)]({{site.URL_IMPL_OUTPUTVAL}})
+5. [User Authentication and Registration]({{site.URL_IMPL_USERAUTH}})
+6. [User Passwords]({{site.URL_IMPL_USERPASSWD}})
+7. [Hardening of Session Management]({{site.URL_IMPL_SESSIONMGMT}})
+8. [Access Control]({{site.URL_IMPL_AUTHZ}})
+9. [Error Handling & Logging]({{site.URL_IMPL_ERRORLOG}})
+10. [Data Security & Cryptography]({{site.URL_IMPL_CRYPTO}})
+11. [Protection of Secrets]({{site.URL_IMPL_SECRETS}})
+12. [Client-Side Security]({{site.URL_IMPL_CLIENTSEC}})
+13. [API Security]({{site.URL_IMPL_APISEC}})
 
 ## D. Additional Material
-- [Requirements for HTTP Security Header][SECHEADER]
-- [OWASP Top Ten 2021 Mapping][TOPTENMAPPING]
-- [OWASP SAMM 2.0 Mapping][SAMMMAPPING]
+- [Requirements for HTTP Security Header]({{site.URL_MATERIAL_SECHEADER}})
+- [OWASP Top Ten 2021 Mapping]({{site.URL_MATERIAL_TOPTENMAPPING}})
+- [OWASP SAMM 2.0 Mapping]({{site.URL_MATERIAL_SAMMMAPPING}})
   
 ## Legacy Versions
 
-You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here][TSSWEBOLD].
+You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here]({{site.URL_MATERIAL_TSSWEBOLD}}).
 
 ## Related Standards
 
@@ -58,11 +56,11 @@ The following table outlines coverage of the most important standards and best p
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2021][OWASPTOPTEN] | Full coverage withing implementation controls. See [OWASP Top Ten Mapping][TOPTENMAPPING]. |
-| [OWASP SAMM 2.0][OWASPSAMM] | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping][SAMMMAPPING]. |
-| [ISO/IEC 27002:2022][IEC27002]  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
-| [NIST SSSDF][NISTSSDF]  | TBD  |
-| [SAFECode Fundamental Practices for Secure Development][SAFECODE] | TBD |
+| [OWASP TOP Ten 2021]({{site.URL_OWASPTOPTEN}}) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
+| [OWASP SAMM 2.0]({{site.URL_OWASPSAMM}}) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping]({{site.URL_MATERIAL_SAMMMAPPING}}). |
+| [ISO/IEC 27002:2022]({{site.URL_IEC27002}})  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
+| [NIST SSSDF]({{site.URL_NISTSSDF}})  | TBD  |
+| [SAFECode Fundamental Practices for Secure Development]({{site.URL_SAFECODESSDLC}}) | TBD |
 
 Also, you may have a look at [OpenCRE][OPENCRE] which provides a general requirement mapping over many more standards.
 
@@ -71,41 +69,3 @@ The document is licensed under Creative Commons By 4.0 and can therefore be used
 
 ## Author
 This site is maintained by Secodis GmbH. Responsible for the content is Matthias Rohr. 
-
-[A_REMEDIATION]: A_SSDLC_Requirements/01_Vulnerability-Remediation.md
-[A_SECOP]: A_SSDLC_Requirements/02_Secure-Operation.md
-[A_SECENV]: A_SSDLC_Requirements/03_Secure-Dev-Environment.md
-[A_SDLC]: A_SSDLC_Requirements/04_Security-wthin-SDLC.md
-[A_SECTESTS]: A_SSDLC_Requirements/05_Security-Tests.md
-[A_OUTDEV]: A_SSDLC_Requirements/06_Outsourced-Development.md
-
-[A_DEFINITIONS]: Definitions.md
-[A_AC]: Definitions.md#assurance-classes
-[A_TERMS]: Definitions.md#terms
-[A_ROLES]: Definitions.md#roles
-
-[B_PRINCIPLES]: B_Implementation_Requirements/01_Secure-Design-Principles.md
-[B_INPUTVAL]: B_Implementation_Requirements/02_InputVal.md
-[B_FILEUPLOADS]: B_Implementation_Requirements/03_FileUploads.md
-[B_OUTPUTVAL]: B_Implementation_Requirements/04_OutputVal.md
-[B_USERAUTH]: B_Implementation_Requirements/05_UserAuth.md
-[B_USERPASSWD]: B_Implementation_Requirements/06_User-Passwords.md
-[B_SESSIONMGMT]: B_Implementation_Requirements/07_Session-Mgmt.md
-[B_AUTHZ]: B_Implementation_Requirements/08_Access-Control.md
-[B_ERRORLOG]: B_Implementation_Requirements/09_Error-Handling-And-Logging.md
-[B_CRYPTO]: B_Implementation_Requirements/10_Data-Security.md
-[B_SECRETS]: B_Implementation_Requirements/11_Secrets.md
-[B_CLIENTSEC]: B_Implementation_Requirements/12_Client-Side-Security.md
-[B_APISEC]: B_Implementation_Requirements/13_API-Security.md
-
-[SECHEADER]: Material/Requirements_for_HTTP_Header_Security.md
-[TOPTENMAPPING]: Material/OWASP_Top_Ten_Mapping.md
-[SAMMMAPPING]: Material/OWASP_SAMM-2.0-Mapping.md
-[TSSWEBOLD]: https://secodis.atlassian.net/wiki/spaces/TSSWEB
-
-[OWASPTOPTEN]: https://owasp.org/www-project-top-ten/
-[OWASPSAMM]: https://owaspsamm.org/model/
-[IEC27002]: https://www.iso.org/standard/2700
-[NISTSSDF]: https://csrc.nist.gov/Projects/ssdf
-[SAFECODE]: https://safecode.org/uncategorized/fundamental-practices-secure-software-development/
-[OPENCRE]: https://www.opencre.org/
