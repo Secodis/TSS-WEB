@@ -17,7 +17,7 @@ URL_IMPL_FILEUPLOADS: https://secodis.github.io/TSS-WEB/C_Implementation_Require
 URL_IMPL_OUTPUTVAL: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/04_OutputVal
 URL_IMPL_USERAUTH: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/05_UserAuth
 URL_IMPL_USERPASSWD: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/06_User-Passwords
-URL_IMPL_SESSIONMGMT: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/07_Session-Mgmt
+URL_IMPL_SESSIONMGMT: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/07_SessionMgmt
 URL_IMPL_AUTHZ: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/08_Access-Control
 URL_IMPL_ERRORLOG: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/09_Error-Handling-And-Logging
 URL_IMPL_CRYPTO: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/10_Data-Security
