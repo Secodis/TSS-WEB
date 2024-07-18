@@ -6,10 +6,10 @@ URL_SSDLC_SDLC: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/04_Securi
 URL_SSDLC_SECTESTS: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/05_Security-Tests
 URL_SSDLC_OUTDEV: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/06_Outsourced-Development
 
-URL_GENERAL_DEFINITIONS: https://secodis.github.io/TSS-WEB/A_General/Definitions
-URL_GENERAL_AC: https://secodis.github.io/TSS-WEB/A_General/Definitions#assurance-classes
-URL_GENERAL_TERMS: https://secodis.github.io/TSS-WEB/A_General/Definitions#terms
-URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/A_General/Definitions#roles
+URL_GENERAL_REQUIREMENTS: https://secodis.github.io/TSS-WEB/A_General/01_Requirements
+URL_GENERAL_TERMS: https://secodis.github.io/TSS-WEB/A_General/02_Terms
+URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/A_General/03_Roles
+URL_GENERAL_ASSURANCECLASSES: https://secodis.github.io/TSS-WEB/A_General/04_AssuranceClasses
 
 URL_IMPL_PRINCIPLES: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/01_Secure-Design-Principles
 URL_IMPL_INPUTVAL: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/02_InputVal
