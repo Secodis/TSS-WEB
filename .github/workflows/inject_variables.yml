@@ -19,31 +19,33 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-
+        
     - name: Fetch Repository Variables
       id: vars
       run: |
-        git config --list > variables.txt
-        cat variables.txt
-        while read -r line; do
-          key=$(echo $line | cut -d'=' -f1)
-          value=$(echo $line | cut -d'=' -f2-)
-          echo "$key=\"$value\"" >> $GITHUB_ENV
-        done < variables.txt
+          git config --list > variables.txt
+          cat variables.txt
+          while read -r line; do
+            key=$(echo $line | cut -d'=' -f1)
+            value=$(echo $line | cut -d'=' -f2-)
+            echo "$key=\"$value\"" >> $GITHUB_ENV
+          done < variables.txt
 
-    - name: Inject Variables into GitHub Pages
+    - name: Find and Inject Variables into Markdown Files
       run: |
-        while read -r line; do
-          key=$(echo $line | cut -d'=' -f1)
-          value=$(echo $line | cut -d'=' -f2-)
-          escaped_key=$(echo $key | sed 's/\./_/g')
-          sed -i "s/{{$escaped_key}}/$value/g" path/to/your/page.html
-        done < variables.txt
+        for file in $(find . -name "*.md"); do
+          while read -r line; do
+            key=$(echo $line | cut -d'=' -f1)
+            value=$(echo $line | cut -d'=' -f2-)
+            escaped_key=$(echo $key | sed 's/\./_/g')
+            sed -i "s/{{$escaped_key}}/$value/g" "$file"
+          done < variables.txt
+        done
 
     - name: Commit changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add path/to/your/page.html
-        git commit -m "Update variables in GitHub Pages"
+        git add .
+        git commit -m "Update variables in Markdown files"
         git push
