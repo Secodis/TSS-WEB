@@ -12,20 +12,20 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class][A_AC].
 
-## General
+## A. General
 
 - [Definitions (Roles & Terms)][A_DEFINITIONS]
 
-## SSDLC Requirements
+## B. SSDLC Requirements
 
-1. [Remediation of Vulnerabilities in Production][A_REMEDIATION]
+1. [Remediation of Vulnerabilities in Production]({{site.URL_SSDLC_REMEDIATION}})
 2. [Secure Operation][A_SECOP]
 3. [Secure Development Environment][A_SECENV]
 4. [Security within the SDLC][A_SDLC]
 5. [Security Tests][A_SECTESTS]
 5. [Outsourced Development][A_OUTDEV]
 
-## Implementation Requirements
+## C. Implementation Requirements
 
 1. [Secure Design Principles][B_PRINCIPLES]
 2. [Input Validation][B_INPUTVAL]
@@ -41,7 +41,7 @@ The requirements in this framework are primarily baseline requirements, suitable
 12. [Client-Side Security][B_CLIENTSEC]
 13. [API Security][B_APISEC]
 
-## Additional Material
+## D. Additional Material
 - [Requirements for HTTP Security Header][SECHEADER]
 - [OWASP Top Ten 2021 Mapping][TOPTENMAPPING]
 - [OWASP SAMM 2.0 Mapping][SAMMMAPPING]
