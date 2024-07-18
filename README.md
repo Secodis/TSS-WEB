@@ -1,6 +1,3 @@
-Test7: ${{ site.TEST44 }}
-Test6: {{ TEST44 }}
-
 An Open Framework of Security Requirements for Web-based Applications & Services
 
 This is the official site of TSS-WEB, an open requirement framework consisting more than 200 general AppSec requirements. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST), along with our own experiences in this field.
