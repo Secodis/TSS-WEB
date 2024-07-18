@@ -13,34 +13,21 @@ jobs:
    
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
+      uses: actions/checkout@v2
 
     - name: Fetch Repository Variables
-      id: vars     
-      env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+      id: vars
       run: |
         git config --list > variables.txt
+        cat variables.txt
+
+    - name: Inject Variables into Markdown Files
+      run: |
         while read -r line; do
           key=$(echo $line | cut -d'=' -f1 | sed 's/\./_/g')
           value=$(echo $line | cut -d'=' -f2- | sed 's/[\/&]/\\&/g')
-          echo "::set-env name=$key::$value"
+          find . -type f -name "*.md" -exec sed -i "s/{{${key}}}/${value}/g" {} +
         done < variables.txt
-
-    - name: Find and Inject Variables into Markdown Files
-      run: |
-        for file in $(find . -name "*.md"); do
-          while read -r line; do
-            key=$(echo $line | cut -d'=' -f1 | sed 's/\./_/g')
-            value=$(eval echo \$$key)
-            perl -i -pe "s/\{\{$key\}\}/$value/g" "$file"
-          done < variables.txt
-        done
 
     - name: Commit changes
       run: |
@@ -48,5 +35,4 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
         git commit -m "Update variables in Markdown files"
-        git push
         git push
