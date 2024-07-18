@@ -4,12 +4,14 @@ The following requirements apply to systems (infrastructure, platforms or other 
 
 ## 2.1. Environment Separation
 Systems in production MUST be strictly separated from development and test systems:
-1. Production and development MUST be separated using different environments (e.g. in cloud environments using separate accounts/subscriptions).
-2.  Connections between different environments MUST not be possible
-3.  Production data SHOULD not be used on non-production systems (exceptions see 6. Security Tests).
-4.  Users and systems MUST be authorized separately for each environment.
-5.  Access servers SHOULD be separated instances for all environments but MUST be at least use separate realms.
-
+1. Production, test and development system MUST be separated using different environments (e.g. in cloud environments using separate accounts/subscriptions/accounts).
+2. Connections between different environments MUST not be possible
+3. Ressources MUST not be shared between production and other environments (especially not secret storages)
+4. Production data SHOULD not be used on non-production systems (exceptions see [A.5. Security Tests][A_SECTESTS].
+5. Users and systems MUST be authorized separately for each environment.
+6. Access servers SHOULD be separated instances for all environments but MUST be at least use separate realms.
+7. Access to the production environment MUST be granted strictly on a need-to-know & least privilege basis (see 2.6 Administrative Access below) and SHOULD be automated where possible.
+   
 ## 2.2. System Hardening
 Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms or other runtime environments) MUST be hardened according to common best practices. 
 
@@ -87,3 +89,4 @@ For instance:
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
 
 [B_APISEC]: ../B_Implementation_Requirements/13_API-Security.md
+[A_SECTESTS]: ../A_SSDLC_Requirements/05_Security-Tests.md
