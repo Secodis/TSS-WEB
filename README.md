@@ -12,10 +12,10 @@ The requirements in this framework are primarily baseline requirements, suitable
 
 ## A. General
  
- 1. [Types of Requirements)]({{site.URL_GENERAL_REQUIREMENTS}})
- 2. [Terms)]({{site.URL_GENERAL_TERMS}})
- 3. [Roles)]({{site.URL_ROLES}})
- 3. [Assurance Classes)]({{site.URL_ASSURANCECLASSES}})
+ 1. [Types of Requirements]({{site.URL_GENERAL_REQUIREMENTS}})
+ 2. [Terms]({{site.URL_GENERAL_TERMS}})
+ 3. [Roles]({{site.URL_ROLES}})
+ 3. [Assurance Classes]({{site.URL_ASSURANCECLASSES}})
 
 ## B. SSDLC Requirements
 
