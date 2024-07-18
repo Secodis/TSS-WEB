@@ -1,8 +1,8 @@
 # 4. Security within the SDLC
 
 ## 4.1 Roles & Training
-1. Every development team MUST be responsible for security of the code it develops
-2. Every development team CAN have to appoint a security champion (see 1.4 Roles) and a deputy. One person can fill this role for multiple teams.
+1. Every development team MUST be responsible for security of their own code.
+2. Every development team CAN have to appoint a security champion (see [Definitions / Roles][A_ROLES]) and a deputy. One person can fill this role for multiple teams.
 3. Every team member MUST receive general awareness and role-specific security training (e.g. secure coding training and training of secure design principles for developers).
 
 ## 4.2 Secure By Design
@@ -13,7 +13,7 @@
 
 ## 4.3 Security within Change Management & Agile Development
 1. All changes of source code MUST be committed to a source code repository (e.g. Git).
-2. For applications with assurance class >= [HIGH], all commits on protected branches MUST be reviewed by a second developer (e.g. via pull or merge requests).
+2. For applications with assurance class >= [HIGH], all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull / merge requests).
 3. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks / impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define own criteria for security-relevance.
@@ -76,3 +76,4 @@ Remediation of security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Sc
 [B_SECRETS]: ../B_Implementation_Requirements/11_Secrets.md
 [A_SECENV]: ../A_SSDLC_Requirements/03_Secure-Dev-Environment.md
 [A_SECTESTS]: ../A_SSDLC_Requirements/05_Security-Tests.md
+[A_ROLES]: ../Definitions.md#roles
