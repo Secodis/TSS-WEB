@@ -10,7 +10,7 @@ on:
 jobs:
   inject-variables:
     runs-on: ubuntu-latest
-   
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -26,7 +26,7 @@ jobs:
         while read -r line; do
           key=$(echo $line | cut -d'=' -f1 | sed 's/\./_/g')
           value=$(echo $line | cut -d'=' -f2- | sed 's/[\/&]/\\&/g')
-          find . -type f -name "*.md" -exec sed -i "s/{{${key}}}/${value}/g" {} +
+          find . -type f -name "*.md" -exec perl -i -pe "s/\{\{$key\}\}/$value/g" {} +
         done < variables.txt
 
     - name: Commit changes
