@@ -22,8 +22,9 @@ jobs:
 
     - name: Fetch Repository Variables
       id: vars     
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
       run: |
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         git config --list > variables.txt
         while read -r line; do
           key=$(echo $line | cut -d'=' -f1 | sed 's/\./_/g')
