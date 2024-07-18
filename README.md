@@ -8,11 +8,14 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 ## Types of Requirements
 
-The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class]({{site.URL_GENERAL_AC}}).
+The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class]({{site.URL_GENERAL_ASSURANCECLASSES}}).
 
 ## A. General
  
-- [Definitions (Roles & Terms)]({{site.URL_GENERAL_DEFINITIONS}})
+ 1. [Types of Requirements)]({{site.URL_GENERAL_REQUIREMENTS}})
+ 2. [Terms)]({{site.URL_GENERAL_TERMS}})
+ 3. [Roles)]({{site.URL_ROLES}})
+ 3. [Assurance Classes)]({{site.URL_ASSURANCECLASSES}})
 
 ## B. SSDLC Requirements
 
