@@ -1,4 +1,4 @@
-Test4: ${{ vars.TEST44 }}
+Test5: ${{ TEST44 }}
 
 An Open Framework of Security Requirements for Web-based Applications & Services
 
