@@ -59,12 +59,12 @@ Remediation of security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Sc
 1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every application with assurance class >= [HIGH] before its implementation starts (relevant aspects) and it’s allowed to initially go-live (complete documentation).
 2. In case the relevant IT security function has not requested it differently, this document SHOULD cover the following aspects:
    - Data and application classification (assurance class),
-   - application security architecture (relevant application components, interfaces and relevant data flows and architectural security controls in the form of a diagram),
-   - network/cloud security architecture,
+   - known threats (or full threat model) and respective countermeasures to mitigate them,
    - list of relevant security requirements (e.g. security standards or business  security requirements),
-   - known threats and respective countermeasures to mitigate them,
+   - security withihn development & deployment process,
+   - network/cloud security architecture,
+   - application security architecture (relevant application components, services, interfaces and relevant data flows and architectural security controls in the form of a diagram),- 
    - role and authorization concept (required for go-live),
-   - data handling that describes what data handles where and how (required for go-live),
    - operational security controls (required for go-live).
 
 [^1]: SAFECode defines a good security indicator here, by describing security-relevant changes as “Any additions or changes in security controls and functionality”: (1) Authentication (Adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) Logging, monitoring and alerting (Adding or changing application monitoring, business analytics and insight, auditing and compliance requirements or forensics) or (3) Cryptography (Adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc). See SAFECode paper “Tactical Threat Modeling”: https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf
