@@ -72,7 +72,7 @@ For instance:
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 
-# 2.9. Security Monitoring
+## 2.9. Security Monitoring
 For applications with assurance class >= [HIGH]: Possible security incidents MUST be continuously monitored. 
 
 For instance:
@@ -82,7 +82,7 @@ For instance:
 - DoS (or other) attacks
 - Critical security findings from security scans (see above).
 
-# 2.10. Incident Management
+## 2.10. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
 
