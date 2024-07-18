@@ -1,0 +1,49 @@
+name: Inject Variables into GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  inject-variables:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Fetch Repository Variables
+      id: vars
+      run: |
+        git config --list > variables.txt
+        cat variables.txt
+        while read -r line; do
+          key=$(echo $line | cut -d'=' -f1)
+          value=$(echo $line | cut -d'=' -f2-)
+          echo "$key=\"$value\"" >> $GITHUB_ENV
+        done < variables.txt
+
+    - name: Inject Variables into GitHub Pages
+      run: |
+        while read -r line; do
+          key=$(echo $line | cut -d'=' -f1)
+          value=$(echo $line | cut -d'=' -f2-)
+          escaped_key=$(echo $key | sed 's/\./_/g')
+          sed -i "s/{{$escaped_key}}/$value/g" path/to/your/page.html
+        done < variables.txt
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add path/to/your/page.html
+        git commit -m "Update variables in GitHub Pages"
+        git push
