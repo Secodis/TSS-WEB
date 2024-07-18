@@ -19,17 +19,17 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        
+
     - name: Fetch Repository Variables
       id: vars
       run: |
-          git config --list > variables.txt
-          cat variables.txt
-          while read -r line; do
-            key=$(echo $line | cut -d'=' -f1)
-            value=$(echo $line | cut -d'=' -f2-)
-            echo "$key=\"$value\"" >> $GITHUB_ENV
-          done < variables.txt
+        git config --list > variables.txt
+        cat variables.txt
+        while read -r line; do
+          key=$(echo $line | cut -d'=' -f1)
+          value=$(echo $line | cut -d'=' -f2-)
+          echo "$key=\"$value\"" >> $GITHUB_ENV
+        done < variables.txt
 
     - name: Find and Inject Variables into Markdown Files
       run: |
@@ -38,7 +38,7 @@ jobs:
             key=$(echo $line | cut -d'=' -f1)
             value=$(echo $line | cut -d'=' -f2-)
             escaped_key=$(echo $key | sed 's/\./_/g')
-            sed -i "s/{{$escaped_key}}/$value/g" "$file"
+            perl -i -pe "s/\{\{$escaped_key\}\}/$value/g" "$file"
           done < variables.txt
         done
 
