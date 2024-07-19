@@ -6,8 +6,6 @@ For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Developmen
 
 The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. The idea is not to have various different variants of requirements that cover every possible scenario, but one that works for most organizations, at least as a baseline. You can use all of them or just select the ones you need. In many cases, you might need to adapt some of them or add others that are more relevant to your specific organization or technology stack.
 
-## Requirements
-
 The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class]({{site.URL_GENERAL_ASSURANCECLASSES}}).
 
 ## A. General
