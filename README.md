@@ -9,10 +9,10 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 ## A. General
  
- 1. [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
- 2. [Terms]({{site.URL_GENERAL_TERMS}})
- 3. [Roles]({{site.URL_GENERAL_ROLES}})
- 3. [Assurance Classes]({{site.URL_GENERAL_ASSURANCECLASSES}})
+ [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
+ [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_TERMS}})
+ [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
+ [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
 
 ## B. SSDLC Requirements
 
