@@ -10,7 +10,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 ## A. General
  
  * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
- * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_TERMS}})
+ * [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
  * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
  * [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
 
