@@ -42,7 +42,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 ## D. Additional Material
 * [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})
 * [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
-* [{{site.TITLE_MATERIAL_SAMMMAPPING}]({{site.URL_MATERIAL_SAMMMAPPING}})
+* [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}})
   
 ## Legacy Versions
 
@@ -57,7 +57,7 @@ The following table outlines coverage of the most important standards and best p
 | Standard  | Coverage |
 | ------------- | ------------- |
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
-| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
+| [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
 | [NIST SSSDF]( https://csrc.nist.gov/Projects/ssdf)  | TBD  |
 | [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | TBD |
