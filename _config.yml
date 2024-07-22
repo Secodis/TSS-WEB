@@ -11,7 +11,7 @@ URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/A_General/03_Roles
 TITLE_GENERAL_ASSURANCECLASSES: "A.4 - Assurance Classes"
 URL_GENERAL_ASSURANCECLASSES: https://secodis.github.io/TSS-WEB/A_General/04_AssuranceClasses
 
-TITLE_SSDLC_REMEDIATION: "B.1 Vulnerability Remediation"
+TITLE_SSDLC_REMEDIATION: "B.1 Vulnerability Remediation in Production"
 URL_SSDLC_REMEDIATION: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/01_Vulnerability-Remediation
 
 TITLE_SSDLC_SECOP: "B.2 Secure Operation"
@@ -76,11 +76,3 @@ URL_MATERIAL_TOPTENMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_T
 
 TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping"
 URL_MATERIAL_SAMMMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_SAMM-2.0-Mapping
-
-URL_MATERIAL_TSSWEBOLD: https://secodis.atlassian.net/wiki/spaces/TSSWEB
-
-URL_OWASPTOPTEN: https://owasp.org/www-project-top-ten/
-URL_OWASPSAMM: https://owaspsamm.org/model/
-URL_IEC27002: https://www.iso.org/standard/2700
-URL_NISTSSDF: https://csrc.nist.gov/Projects/ssdf
-URL_SAFECODESSDLC: https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/
