@@ -16,4 +16,4 @@
 5. Code repositories SHOULD be periodically scanned for exposed secrets (e.g. X.509 private keys or API keys).
 
 ## 3.3 Use of 3rd Party Dependencies
-see [Security within the SDLC]({{site.URL_SSDLC_SDLC}})
+see [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
