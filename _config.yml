@@ -69,7 +69,7 @@ TITLE_IMPL_CLIENTSEC: "C.13 - Client-Side Security"
 URL_IMPL_CLIENTSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/12_Client-Side-Security
 
 TITLE_IMPL_HTTPHEADERSEC: "C.14 - HTTP Header Security"
-URL_IMPL_HTTPHEADERSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/14_HTTP-Header-Security.md
+URL_IMPL_HTTPHEADERSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/14_HTTP-Header-Security
 
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
 URL_MATERIAL_TOPTENMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_Top_Ten_Mapping
