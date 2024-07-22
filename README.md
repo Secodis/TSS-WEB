@@ -68,4 +68,4 @@ Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides 
 The document is licensed under Creative Commons By 4.0 and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, any adapted version of this document does not have to be published under the same license.
 
 ## Author
-This site is maintained by Secodis GmbH. Responsible for the content is Matthias Rohr. 
+This site is maintained by [Secodis GmbH](https://www.secodis.com). Responsible for the content is [Matthias Rohr](https://www.linkedin.com/in/matthias-rohr/). 
