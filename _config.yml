@@ -62,11 +62,11 @@ URL_IMPL_CRYPTO: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements
 TITLE_IMPL_SECRETS: "C.11 - Protection of Secrets"
 URL_IMPL_SECRETS: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/11_Secrets
 
-TITLE_IMPL_CLIENTSEC: "C.12 - Client-Side Security"
-URL_IMPL_CLIENTSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/12_Client-Side-Security
-
-TITLE_IMPL_APISEC: "C.13 - API Security"
+TITLE_IMPL_APISEC: "C.12 - API Security"
 URL_IMPL_APISEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/13_API-Security
+
+TITLE_IMPL_CLIENTSEC: "C.13 - Client-Side Security"
+URL_IMPL_CLIENTSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/12_Client-Side-Security
 
 TITLE_MATERIAL_SECHEADER: "Requirements of HTTP Security Header"
 URL_MATERIAL_SECHEADER: https://secodis.github.io/TSS-WEB/D_Material/Requirements_for_HTTP_Header_Security
