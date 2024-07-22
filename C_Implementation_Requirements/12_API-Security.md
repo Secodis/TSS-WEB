@@ -4,13 +4,15 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## 1. General
 
-1. External services SHOULD only be made available externally using a hardened Service/API Gateway.
-2. Services SHOULD implement restrictive limits (max. requests per client or time interval).
+1 APIs MUST be restricted validated using Open API Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}}))
+2. External APIs SHOULD only be made available externally using a hardened Service/API Gateway.
+3. APIs SHOULD implement restrictive limits (max. requests per client or time interval).
+   
 
 ## 2. Authentication
 
 1. The strength of the authentication mechanism used MUST be adequate to the protection needs.
-2. Shared secrets used for services authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
+2. Shared secrets used for API authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
     - Length min. 32 characters (= 256 bit)
     - Cryptographically random (consisting of alpha-numeric and special characters)
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
@@ -26,7 +28,7 @@ Please note: For reasons of simplification, some of the following requirements t
     - Restrictive scope
     - Transmitted only via HTTPS
     - Issued by a trusted and hardened  server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
-    - created and validated using mature APIs
+    - created and validated using mature frameworks.
 
 ## 4. OAuth 2.0/OICD Requirements
 1. Only 3-Legged: Authorization Code Grant with PKCE (or alternative authorization code binding technique, e.g. “state” binding or OICD Nounces) for both public clients (e.g. single-page applications (SPAs)[^1] SHOULD be used for both public and confidential clients (e.g. server-side web apps).[^2]
