@@ -17,5 +17,3 @@
 
 ## 3.3 Use of 3rd Party Dependencies
 see [Security within the SDLC]({{site.URL_SSDLC_SDLC}})
-
-
