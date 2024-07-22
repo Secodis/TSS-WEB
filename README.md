@@ -16,12 +16,12 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 ## B. SSDLC Requirements
 
-1. [Remediation of Vulnerabilities in Production]({{site.URL_SSDLC_REMEDIATION}})
-2. [Secure Operation]({{site.URL_SSDLC_SECOP}})
-3. [Secure Development Environment]({{site.URL_SSDLC_SECENV}})
-4. [Security within the SDLC]({{site.URL_SSDLC_SDLC}})
-5. [Security Tests]({{site.URL_SSDLC_SECTESTS}})
-5. [Outsourced Development]({{site.URL_SSDLC_OUTDEV}})
+* [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
+* [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
+* [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
+* [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
+* [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
+* [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
 
 ## C. Implementation Requirements
 
@@ -46,7 +46,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
   
 ## Legacy Versions
 
-You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here]({{site.URL_MATERIAL_TSSWEBOLD}}).
+You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
 ## Related Standards
 
@@ -56,11 +56,11 @@ The following table outlines coverage of the most important standards and best p
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [OWASP TOP Ten 2021]({{site.URL_OWASPTOPTEN}}) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
-| [OWASP SAMM 2.0]({{site.URL_OWASPSAMM}}) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping]({{site.URL_MATERIAL_SAMMMAPPING}}). |
-| [ISO/IEC 27002:2022]({{site.URL_IEC27002}})  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
-| [NIST SSSDF]({{site.URL_NISTSSDF}})  | TBD  |
-| [SAFECode Fundamental Practices for Secure Development]({{site.URL_SAFECODESSDLC}}) | TBD |
+| [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [OWASP Top Ten Mapping]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
+| [OWASP SAMM 2.0][https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See detailed [OWASP SAMM Mapping]({{site.URL_MATERIAL_SAMMMAPPING}}). |
+| [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
+| [NIST SSSDF]( https://csrc.nist.gov/Projects/ssdf)  | TBD  |
+| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | TBD |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
