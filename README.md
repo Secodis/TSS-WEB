@@ -25,28 +25,28 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 ## C. Implementation Requirements
 
-1. [Secure Design Principles]({{site.URL_IMPL_PRINCIPLES}})
-2. [Input Validation]({{site.URL_IMPL_INPUTVAL}})
-3. [File Uploads & Downloads]({{site.URL_SSDLC_REMEDIATION}})
-4. [Output Validation (Encoding & Escaping)]({{site.URL_IMPL_OUTPUTVAL}})
-5. [User Authentication and Registration]({{site.URL_IMPL_USERAUTH}})
-6. [User Passwords]({{site.URL_IMPL_USERPASSWD}})
-7. [Hardening of Session Management]({{site.URL_IMPL_SESSIONMGMT}})
-8. [Access Control]({{site.URL_IMPL_AUTHZ}})
-9. [Error Handling & Logging]({{site.URL_IMPL_ERRORLOG}})
-10. [Data Security & Cryptography]({{site.URL_IMPL_CRYPTO}})
-11. [Protection of Secrets]({{site.URL_IMPL_SECRETS}})
-12. [Client-Side Security]({{site.URL_IMPL_CLIENTSEC}})
-13. [API Security]({{site.URL_IMPL_APISEC}})
+* [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
+* [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
+* [{{site.TITLE_IMPL_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
+* [{{site.TITLE_IMPL_OUTPUTVAL}}]({{site.URL_IMPL_OUTPUTVAL}})
+* [{{site.TITLE_IMPL_USERAUTH}}]({{site.URL_IMPL_USERAUTH}})
+* [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})
+* [{{site.TITLE_IMPL_SESSIONMGMT}}]({{site.URL_IMPL_SESSIONMGMT}})
+* [{{site.TITLE_IMPL_AUTHZ}}]({{site.URL_IMPL_AUTHZ}})
+* [{{site.TITLE_IMPL_ERRORLOG}}]({{site.URL_IMPL_ERRORLOG}})
+* [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}})
+* [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
+* [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
+* [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})
 
 ## D. Additional Material
-- [Requirements for HTTP Security Header]({{site.URL_MATERIAL_SECHEADER}})
-- [OWASP Top Ten 2021 Mapping]({{site.URL_MATERIAL_TOPTENMAPPING}})
-- [OWASP SAMM 2.0 Mapping]({{site.URL_MATERIAL_SAMMMAPPING}})
+* [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})
+* [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
+* [{{site.TITLE_MATERIAL_SAMMMAPPING}]({{site.URL_MATERIAL_SAMMMAPPING}})
   
 ## Legacy Versions
 
-You can find older versions of TSS-WEB in both English and German in PDF and Word format at the [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
+You can find older versions of TSS-WEB in both English and German in PDF and Word format [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
 ## Related Standards
 
