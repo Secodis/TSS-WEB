@@ -19,7 +19,7 @@
 2. Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in 3rd party dependencies.
 3. Docker images used in the target production environment MUST be automatically scanned for security issues.
 4. Security-relevant configuration MUST be automatically scanned for security issues.
-5. For applications with assurance class >= [HIGH] Security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified at [5. Security within the SDLC]({{site.URL_SSDLC_SDLC}}).
+5. For applications with assurance class >= [HIGH] Security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
 6. Applications with assurance class [VERY HIGH] SHOULD be periodically tested for denial-of-service attackability.
 
 ## 5.4 Developer Tests
@@ -38,6 +38,6 @@
 | Criticality < [HIGH] | Before initial go live but at least every second year  | - |
 
 
-[^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges) and fuzz testing.
+[^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
 
 [^2]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
