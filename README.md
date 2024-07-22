@@ -36,11 +36,11 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_IMPL_ERRORLOG}}]({{site.URL_IMPL_ERRORLOG}})
 * [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}})
 * [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
-* [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
 * [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})
+* [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
+* [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})
 
 ## D. Additional Material
-* [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})
 * [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
 * [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}})
   
