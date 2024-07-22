@@ -38,7 +38,7 @@ This includes:
 
 ## 2.4. Securing Access to Backend Resources
 1. Every process MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
-2. Access to backend systems MUST be authenticated and authorized by the requirements of [13 API Security]({{site.URL_IMPL_APISEC}})
+2. Access to backend systems MUST be authenticated and authorized by the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 3. Access to backend systems MUST use dedicated service accounts for each system.
 4. Secrets MUST be securely stored and managed (see 8.11 Protection of Secrets)
 
