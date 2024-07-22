@@ -1,4 +1,4 @@
-# 14. Requirements for HTTP Security Header
+# 14. HTTP Security Header
 
 Modern web browsers support several additional client-side protection mechanisms that can be activated using HTTP response headers. The table below describes related requirements and recommendations for external Web UIs and services in production:
 
