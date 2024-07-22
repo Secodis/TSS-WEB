@@ -12,15 +12,15 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 4. Confidential data MUST only be sent within the HTTP Request Body (e.g. via HTTP POST) but not within URLs (exception: object IDs).
 5. Transmission on untrusted channels (e.g. the Internet) MUST
     - only be possible with HTTPS using valid certificates.
-    - using HTTP Strict Transport Security (HSTS) headers  https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/950292 and
-    - only be sent with anti-caching response headers (see https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/1015832).
+    - using HTTP Strict Transport Security (HSTS) headers and
+    - only be sent with anti-caching response headers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
 
 ## 3. Encryption at Rest
 1. Confidential data MUST be encrypted before stored.
-2. User passwords MUST be persisted with suitable methods (see section https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/98391).
-3. Secrets MUST be stored securely according to the requirements specified in [11. Protection of Secrets](../B_Implementation_Requirements/11_Secrets.md)
+2. User passwords MUST be persisted with suitable methods (see  [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
+3. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 
 ## 4. X.509 Certificates
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
-2. X.509 certificates MUST use RSA with >= 2048 bit or ECC with >= 256 bit.
+2. X.509 certificates MUST use RSA with >= 3072 bit or ECC with >= 256 bit.
 3. External customer applications (UIs) SHOULD use EV certificates.
