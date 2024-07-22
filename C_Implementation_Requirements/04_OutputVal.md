@@ -10,4 +10,4 @@
 5. Output encoding SHOULD only be implemented with mature APIs and frameworks.
 6. Implicit validation (e.g. via ORM frameworks or template technologies) SHOULD be preferred to explicit validation (API calls).
 
-[^1]: Each parameter needs to be defined explicitly as a parameter (e.g. with a setParam() statement) or indirectly by a framework.
+[^1]: Each parameter needs to be defined explicitly as a parameter (e.g. with a `setParam()` statement) or indirectly by a framework.
