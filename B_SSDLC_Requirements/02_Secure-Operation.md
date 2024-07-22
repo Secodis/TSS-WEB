@@ -10,7 +10,7 @@ Systems in production MUST be strictly separated from development and test syste
 4. Users and systems MUST be authorized separately for each environment.
 5. Access servers SHOULD be separated instances for all environments but MUST at least use separate realms.
 6. Access to the production environment MUST be granted strictly on a need-to-know & least-privilege basis (see 2.6 Administrative Access below) and SHOULD be automated where possible.
-7. Production data SHOULD not be used on non-production systems (exceptions see [Security Tests]({{site.URL_SSDLC_SECTESTS}})).
+7. Production data SHOULD not be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
 ## 2.2. System Hardening
 Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices. 
@@ -38,7 +38,7 @@ This includes:
 
 ## 2.4. Securing Access to Backend Resources
 1. Every process MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
-2. Access to backend systems MUST be authenticated and authorized by the requirements of [13 API Security][B_APISEC]
+2. Access to backend systems MUST be authenticated and authorized by the requirements of [13 API Security]({{site.URL_IMPL_APISEC}})
 3. Access to backend systems MUST use dedicated service accounts for each system.
 4. Secrets MUST be securely stored and managed (see 8.11 Protection of Secrets)
 
@@ -87,6 +87,3 @@ For instance:
 ## 2.10. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
-
-[B_APISEC]: ../B_Implementation_Requirements/13_API-Security.md
-[A_SECTESTS]: ../A_SSDLC_Requirements/05_Security-Tests.md
