@@ -1,12 +1,11 @@
-This is the official site of TSS-WEB, an **open requirement framework for Web-based applications & services**. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST), along with our own experiences in this field.
+This is the official site of TSS-WEB, an **open requirement framework for Web-based applications & services**. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST) and our own experiences in this field.
 
-For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are detailed below.
+For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are shared below.
 
 ## Purpose
 
-The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. The idea is not to have various different variants of requirements that cover every possible scenario, but one that works for most organizations, at least as a baseline. You can use all of them or just select the ones you need. In many cases, you might need to adapt some of them or add others that are more relevant to your specific organization or technology stack.
+The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. The idea is not to have various variants of requirements that cover every possible scenario, but one that works for most organizations, at least as a baseline. You can use all of them or just select the ones you need. In many cases, you might need to adapt some or add others more relevant to your specific organization or technology stack.
 
-The requirements in this framework are primarily baseline requirements, suitable for all applications and services. Additionally, there are a few requirements specifically for more critical applications. These requirements often demand more effort to implement and address risks that may not be significant for all applications. To differentiate these, we use the term [assurance class]({{site.URL_GENERAL_ASSURANCECLASSES}}).
 
 ## A. General
  
