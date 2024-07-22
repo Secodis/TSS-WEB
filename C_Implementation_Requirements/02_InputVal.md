@@ -16,6 +16,6 @@
 11. An XML parser that process XML content from untrusted sources (e.g. from an external entity) MUST be hardened to prevent common XML-based attacks:
     - Set restrictive limits (e.g. in respect of maximal nesting depth or document size),
     - deactivate processing of external XML entities.
-12 In order to prevent insecure object deserialization, it MUST be ensured that objects received and bound from untrusted sources are not hostile or tempered (e.g. by only binding non-sensitive attributes, perform whitelisting or integrity checks.
+12. In order to prevent insecure object deserialization, it MUST be ensured that objects received and bound from untrusted sources are not hostile or tempered (e.g. by only binding non-sensitive attributes, perform whitelisting or integrity checks.
 
-[^1]: Often APIs like getCanonicalPath() exists for this matter.
+[^1]: Often APIs like `getCanonicalPath()` exists for this matter.
