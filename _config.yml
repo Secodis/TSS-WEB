@@ -1,78 +1,53 @@
 # _config.yml
 TITLE_GENERAL_REQUIREMENTS: "A.1 - Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://secodis.github.io/TSS-WEB/A_General/01_Requirements
-
 TITLE_GENERAL_TERMS: "A.2 - Terms"
 URL_GENERAL_TERMS: https://secodis.github.io/TSS-WEB/A_General/02_Terms
-
 TITLE_GENERAL_ROLES: "A.3 - Roles"
 URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/A_General/03_Roles
-
 TITLE_GENERAL_ASSURANCECLASSES: "A.4 - Assurance Classes"
 URL_GENERAL_ASSURANCECLASSES: https://secodis.github.io/TSS-WEB/A_General/04_AssuranceClasses
-
 TITLE_SSDLC_REMEDIATION: "B.1 - Vulnerability Remediation in Production"
 URL_SSDLC_REMEDIATION: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/01_Vulnerability-Remediation
-
 TITLE_SSDLC_SECOP: "B.2 - Secure Operation"
 URL_SSDLC_SECOP: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/02_Secure-Operation
-
 TITLE_SSDLC_SECENV: "B.3 - Secure Dev Environment"
 URL_SSDLC_SECENV: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/03_Secure-Dev-Environment
-
 TITLE_SSDLC_SDLC: "B.4 - Security within SDLC"
 URL_SSDLC_SDLC: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/04_Security-wthin-SDLC
-
 TITLE_SSDLC_SECTESTS: "B.5 - Security Tests"
 URL_SSDLC_SECTESTS: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/05_Security-Tests
-
 TITLE_SSDLC_OUTDEV: "B.6 - Outsourced Development"
 URL_SSDLC_OUTDEV: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/06_Outsourced-Development
-
 TITLE_IMPL_PRINCIPLES: "C.1 - Secure Design Principles"
 URL_IMPL_PRINCIPLES: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/01_Secure-Design-Principles
-
 TITLE_IMPL_INPUTVAL: "C.2 - Input Validation"
 URL_IMPL_INPUTVAL: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/02_InputVal
-
 TITLE_IMPL_FILEUPLOADS: "C.3 - Secure Fileuploads and Downloads"
 URL_IMPL_FILEUPLOADS: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/03_FileUploads
-
 TITLE_IMPL_OUTPUTVAL: "C.4 - Output Validation"
 URL_IMPL_OUTPUTVAL: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/04_OutputVal
-
 TITLE_IMPL_USERAUTH: "C.5 - Secure User Authentication"
 URL_IMPL_USERAUTH: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/05_UserAuth
-
 TITLE_IMPL_USERPASSWD: "C.6 - User Passwords"
 URL_IMPL_USERPASSWD: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/06_User-Passwords
-
 TITLE_IMPL_SESSIONMGMT: "C.7 - Secure Session Management"
 URL_IMPL_SESSIONMGMT: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/07_SessionMgmt
-
 TITLE_IMPL_AUTHZ: "C.8 - Authorization"
 URL_IMPL_AUTHZ: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/08_Access-Control
-
 TITLE_IMPL_ERRORLOG: "C.9 - Errorhandling and Logging"
 URL_IMPL_ERRORLOG: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/09_Error-Handling-And-Logging
-
 TITLE_IMPL_CRYPTO: "C.10 - Data Security"
 URL_IMPL_CRYPTO: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/10_Data-Security
-
 TITLE_IMPL_SECRETS: "C.11 - Protection of Secrets"
 URL_IMPL_SECRETS: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/11_Secrets
-
 TITLE_IMPL_CLIENTSEC: "C.12 - Client-Side Security"
 URL_IMPL_CLIENTSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/12_Client-Side-Security
-
 TITLE_IMPL_APISEC: "C.13 - API Security"
 URL_IMPL_APISEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requirements/13_API-Security
-
 TITLE_MATERIAL_SECHEADER: "Requirements of HTTP Security Header"
 URL_MATERIAL_SECHEADER: https://secodis.github.io/TSS-WEB/D_Material/Requirements_for_HTTP_Header_Security
-
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
 URL_MATERIAL_TOPTENMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_Top_Ten_Mapping
-
 TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping"
 URL_MATERIAL_SAMMMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_SAMM-2.0-Mapping
