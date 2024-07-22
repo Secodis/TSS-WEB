@@ -1,14 +1,14 @@
 # _config.yml
-TITLE_GENERAL_REQUIREMENTS: "A.1 Types of Requirements"
+TITLE_GENERAL_REQUIREMENTS: "A.1 - Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://secodis.github.io/TSS-WEB/A_General/01_Requirements
 
-TITLE_GENERAL_TERMS: "A.2 Terms"
+TITLE_GENERAL_TERMS: "A.2 - Terms"
 URL_GENERAL_TERMS: https://secodis.github.io/TSS-WEB/A_General/02_Terms
 
-TITLE_GENERAL_ROLES: "A.3 Roles"
+TITLE_GENERAL_ROLES: "A.3 - Roles"
 URL_GENERAL_ROLES: https://secodis.github.io/TSS-WEB/A_General/03_Roles
 
-TITLE_GENERAL_ASSURANCECLASSES: "A.4 Assurance Classes"
+TITLE_GENERAL_ASSURANCECLASSES: "A.4 - Assurance Classes"
 URL_GENERAL_ASSURANCECLASSES: https://secodis.github.io/TSS-WEB/A_General/04_AssuranceClasses
 
 TITLE_SSDLC_REMEDIATION: "B.1 Vulnerability Remediation"
