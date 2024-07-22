@@ -38,7 +38,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 * [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})
 * [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
-* [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})
+* [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})
 
 ## D. Additional Material
 * [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
