@@ -52,7 +52,7 @@ You can find older versions of TSS-WEB in both English and German in PDF and Wor
 
 Generally, we aim to integrate all useful requirements from existing standards and best practices into TSS-WEB that we find helpful for baseline security in that field. This does not mean that every requirement is or should be integrated, especially when they are more advanced or very specific.
 
-The following table outlines coverage of the most important standards and best pratices in this field.
+The following table outlines coverage of the most important standards and best practices in this field.
 
 | Standard  | Coverage |
 | ------------- | ------------- |
@@ -62,7 +62,7 @@ The following table outlines coverage of the most important standards and best p
 | [NIST SSSDF]({{site.URL_NISTSSDF}})  | TBD  |
 | [SAFECode Fundamental Practices for Secure Development]({{site.URL_SAFECODESSDLC}}) | TBD |
 
-Also, you may have a look at [OpenCRE][OPENCRE] which provides a general requirement mapping over many more standards.
+Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
 ## License
 The document is licensed under Creative Commons By 4.0 and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, any adapted version of this document does not have to be published under the same license.
