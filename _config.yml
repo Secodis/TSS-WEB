@@ -26,7 +26,7 @@ URL_SSDLC_SDLC: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/04_Securi
 TITLE_SSDLC_SECTESTS: "B.5 - Security Tests"
 URL_SSDLC_SECTESTS: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/05_Security-Tests
 
-TITLE_SSDLC_OUTDEV: "B.6 Outsourced Development"
+TITLE_SSDLC_OUTDEV: "B.6 - Outsourced Development"
 URL_SSDLC_OUTDEV: https://secodis.github.io/TSS-WEB/B_SSDLC_Requirements/06_Outsourced-Development
 
 TITLE_IMPL_PRINCIPLES: "C.1 - Secure Design Principles"
