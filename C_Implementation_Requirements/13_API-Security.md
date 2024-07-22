@@ -13,7 +13,7 @@ Please note: For reasons of simplification, some of the following requirements t
 2. Shared secrets used for services authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
     - Length min. 32 characters (= 256 bit)
     - Cryptographically random (consisting of alpha-numeric and special characters)
-    - Stored securely according to the requirements specified in [11. Protection of Secrets](../B_Implementation_Requirements/11_Secrets.md)
+    - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
 3. For assurance class >= HIGH, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
 4. Authentication credentials MUST be unique for different systems and environments (e.g. test, production).
@@ -41,7 +41,7 @@ See requirements for Access Tokens above.
 
 1. MUST implement the same security requirements for access to external resources as the corresponding web UI (authentication, validation, etc.).
 2. MUST not contain script code (e.g. JavaScript) that is directly executable.
-3. MUST contain CSRF protection if working in user context (see section https://secodis.atlassian.net/wiki/spaces/TSSWEB/pages/1179649/8.10+Hardening+of+Session+Management).
+3. MUST contain CSRF protection if working in user context (see [{{site.TITLE_IMPL_SESSIONMGMT}}]({{site.URL_IMPL_SESSIONMGMT}})).
 
 ## 6. Cross-Domain Access
 
@@ -51,5 +51,5 @@ See requirements for Access Tokens above.
 ## 7. WebSockets
 WebSockets MUST transfer all confidential data with wss:// schema and an additional server-side authorization of the source origin header.
 
-[^1]: See https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00
-[^2]: See https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14
+[^1]: See [https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00](https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00)
+[^2]: See [https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14)
