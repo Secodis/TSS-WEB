@@ -1,5 +1,3 @@
-![Logo](/assets/img/logo2.png)
-
 This is the official site of TSS-WEB, an **open requirement framework for web-based applications & services**. All these requirements are based on common best practices (including those from OWASP, SAFECode, ISO/IEC 27002, and NIST) and our own experiences in this field.
 
 For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Development Policy") of ISO/IEC 27002. Detailed compliance mappings are shared below.
