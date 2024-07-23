@@ -74,5 +74,5 @@ URL_IMPL_HTTPHEADERSEC: https://secodis.github.io/TSS-WEB/C_Implementation_Requi
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
 URL_MATERIAL_TOPTENMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_Top_Ten_Mapping
 
-TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping"
+TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping (Draft)"
 URL_MATERIAL_SAMMMAPPING: https://secodis.github.io/TSS-WEB/D_Material/OWASP_SAMM-2.0-Mapping
