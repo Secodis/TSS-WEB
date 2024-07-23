@@ -57,4 +57,4 @@ The first is the accessibility, e.g. is an application accessible from the Inter
 | High | Standard | High |
 | Very High | High | Very High |
 
-[^1]: See SAFECode “Software Security Takes a Champion”, http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf
+[^1]: See SAFECode's [Software Security Takes a Champion](http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf)
