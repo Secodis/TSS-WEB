@@ -5,6 +5,6 @@ The first is the accessibility, e.g. is an application accessible from the Inter
 
 | Criticality | Internal Application | External Application |
 | ------------- | ------------- | ------------- |
-| Low-Medium | Standard | Standard |
-| High | Standard | High |
-| Very High | High | Very High |
+| **Low-Medium** | Standard | Standard |
+| **High** | Standard | High |
+| **Very High** | High | Very High |
