@@ -16,4 +16,4 @@
 8. Autocomplete for all fields on login dialogs SHOULD be deactivated by using the following statement `autocomplete="off"`.
 
 
-[^1]: See NIST SP 800-63b, NIST Special Publication 800-63B Digital Identity Guideline, Authenticator Assurance Levels: (https://pages.nist.gov/800-63-3/sp800-63b.html#sec4)
+[^1]: See NIST SP 800-63b, NIST Special Publication 800-63B Digital Identity Guideline, [Authenticator Assurance Levels](https://pages.nist.gov/800-63-3/sp800-63b.html#sec4)
