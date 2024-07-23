@@ -1,4 +1,6 @@
 # _config.yml
+logo: /assets/img/logo1.png
+
 TITLE_GENERAL_REQUIREMENTS: "A.1 - Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://secodis.github.io/TSS-WEB/A_General/01_Requirements
 
