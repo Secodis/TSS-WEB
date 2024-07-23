@@ -15,4 +15,4 @@ The following roles are referred here:
      - Capable to avoid, find and fix vulnerabilities.
 - **(Development) Team**: Responsible for the security of software artifacts it develops, maintains or operates. Continuously verifies and improves the effectiveness of implemented security checks and controls, it's automation and periodic assessment of security findings from tools.
 
-[^1]: See SAFECode “Software Security Takes a Champion”, http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf
+[^1]: See SAFECode [Software Security Takes a Champion](http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf)
