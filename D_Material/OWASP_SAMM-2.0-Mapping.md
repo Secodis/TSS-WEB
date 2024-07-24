@@ -12,7 +12,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 * [Verification](#verification-business-function)
 * [Operation](#operation-business-function)
 
-## Governance Business Function
+## Governance
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
@@ -30,7 +30,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Education & Guidance |Stream A Training and Awareness | 2 | Develop a secure software center of excellence promoting thought leadership among developers and architects. | Partially. Although establishing such a community is a task for a IT security function, participation at it is described as role duties for a “security champion” at [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})|
 | Education & Guidance |Stream A Training and Awareness | 3 | Build a secure software community including all organization people involved in software security. | Partially. Although establishing such a community is a task for a IT security function, participation at it is described as role duties for a “security champion” at [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}) |
 
-##  Design Business Function
+##  Design
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -53,7 +53,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Security Architecture | Stream B Technology Management | 2 | Standardize technologies and frameworks to be used throughout the different applications | No. Not scope of TSS-WEB.  |
 | Security Architecture | Stream B Technology Management | 3 | Impose the use of standard technologies on all software development. | Yes. See  [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}) Also a responsibility of an architectural board. |
 
-##  Implementation Business Function
+##  Implementation
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -76,7 +76,8 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Defect Management | Stream B Metrics and Feedback | 2 | Collect standardized defect management metrics and use these also for prioritization of centrally driven initiatives. | Not scope of TSS-WEB, task for IT security function. |
 | Defect Management | Stream B Metrics and Feedback | 3 | Continuously improve your security defect management metrics and correlate it with other sources |  Not scope of TSS-WEB, task for IT security function. |
 
-##  Verification Business Function
+##  Verification
+
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Architecture Assessment | Stream A Architecture Validation | 1 | Identify application and infrastructure architecture components and review for basic security provisioning | Yes. See, “Security within change management & agile development” and “Architectural approval” and “Security documentation” in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}) | 
@@ -98,7 +99,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 | Security Testing | Stream B Deep Understanding | 2 | Conduct manual penetration testing  | Yes. See “Custom security tests & developer tests” at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}) |
 | Security Testing | Stream B Deep Understanding | 3 | Integrate security testing into development process  | Yes. See “Custom security tests & developer tests” at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}) |
 
-##  Operation Business Function
+##  Operation
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
