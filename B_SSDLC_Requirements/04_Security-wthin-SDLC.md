@@ -7,13 +7,13 @@
 
 ## 2. Secure By Design
 1. Security MUST be taken into account strongly during the design phase. Wherever possible, security requirements SHOULD be addressed on architecture instead of the code layer.
-2. For applications with assurance class >= [HIGH], a security architecture MUST be documented that describes relevant security aspects, security controls a threat model of the application. 
+2. For applications with `assurance class >= [HIGH]`, a security architecture MUST be documented that describes relevant security aspects, security controls a threat model of the application. 
 3. High-level application security objectives MUST also be mapped to functional requirements. 
 4. Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
 ## 3. Security within Change Management & Agile Development
 1. All changes of source code MUST be committed to a source code repository (e.g. Git).
-2. For applications with assurance class >= [HIGH], all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge requests).
+2. For applications with `assurance class >= [HIGH]`, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge requests).
 3. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks/impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
@@ -46,10 +46,10 @@
 5. All security approvals and risk management decisions must be documented.
 
 ## 7. Remediation of Security Findings
-Remediation of security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
+Remediation of security findings with a `criticality >= [HIGH]` (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
-1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For applications with assurance class >= [HIGH], this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
-2. In addition, security findings with criticality >= [MEDIUM] (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
+1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For `applications with assurance class >= [HIGH]`, this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
+2. In addition, security findings with `criticality >= [MEDIUM]` (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
 3. Teams MAY reassess tool findings. For instance, they may refine a CVSS Base Score by evaluating its CVSS Environmental Score and thereby taking aspects like its classification or accessibility into account. When a rating/score is refined the respected reason (e.g. CVSS vector) MUST be documented.
 4. Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 5. For `assurance class >= [HIGH]`: Exceptions (such as temporary workarounds) MUST be approved by the IT security function.
