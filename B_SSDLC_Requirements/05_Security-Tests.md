@@ -32,10 +32,10 @@
 1. Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
 2. After a severe vulnerability has been fixed, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix. 
 
-| | External Applications  | Internal Applications |
+| Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
-| Criticality >= [HIGH] | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
-| Criticality < [HIGH] | Before initial go live but at least every second year  | - |
+| >= [HIGH] | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
+|  < [HIGH] | Before initial go live but at least every second year  | - |
 
 
 [^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
