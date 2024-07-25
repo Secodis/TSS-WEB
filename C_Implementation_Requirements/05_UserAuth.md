@@ -1,4 +1,4 @@
-# 5. User Authentication and Registration
+# {{site.TITLE_IMPL_USERAUTH}}
 
 1. User registration MUST be implemented with an identification method that is suitable for the assurance class of the application it is used for:
     - <= [STANDARD]: E-mail addresses MAY be used.
