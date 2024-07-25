@@ -1,4 +1,4 @@
-# 10. Data Security & Cryptography
+# {{site.TITLE_IMPL_CRYPTO}}
 
 ## 1. General
 
