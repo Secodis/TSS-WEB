@@ -1,8 +1,8 @@
 # {{site.TITLE_IMPL_USERAUTH}}
 
 1. User registration MUST be implemented with an identification method that is suitable for the assurance class of the application it is used for:
-    - [STANDARD]: E-mail addresses MAY be used.
-    - [HIGH]: An additional factor (e.g. mobile phone) SHOULD be used.
+    - \[STANDARD\]: E-mail addresses MAY be used.
+    - HIGH: An additional factor (e.g. mobile phone) SHOULD be used.
     - [VERY HIGH]: Personal identification is required.
 2. Users MUST NOT be allowed to log into the application before their identification process has been completed.
 3. Registration and authentication of external users MUST be implemented on external applications in a way that they prevent automated attacks (e.g. brute forcing). Examples are delays or CAPTCHAs.
