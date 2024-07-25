@@ -1,4 +1,4 @@
-# 3. Roles
+# {{site.TITLE_GENERAL_ROLES}}
 The following roles are referred here:
 
 - **(IT) Security Function**: Organizational entity or person that is responsible for establishing and maintaining IT security requirements and checking compliance with them - e.g. by conducting security sign-offs with projects and teams. The relevant IT security function may be a security officer dedicated for a particular project or team.
