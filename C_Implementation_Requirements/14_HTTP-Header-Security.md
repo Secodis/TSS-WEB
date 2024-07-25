@@ -1,4 +1,4 @@
-# 14. HTTP Security Header
+# {{site.TITLE_IMPL_HTTPHEADERSEC}}
 
 Modern web browsers support several additional client-side protection mechanisms that can be activated using HTTP response headers. The table below describes related requirements and recommendations for external Web UIs and services in production:
 
