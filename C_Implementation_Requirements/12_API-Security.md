@@ -25,7 +25,7 @@ Please note: For reasons of simplification, some of the following requirements t
 1. Services with assurance class >= HIGH SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
     - Short-lived
-    - Restrictive scope
+    - Restrictive scope & audiance
     - Transmitted only via HTTPS
     - Issued by a trusted and hardened  server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
     - created and validated using mature frameworks.
