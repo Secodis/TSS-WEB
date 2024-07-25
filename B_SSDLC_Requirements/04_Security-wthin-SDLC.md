@@ -48,7 +48,7 @@
 ## 7. Remediation of Security Findings
 Remediation of security findings with a `criticality >= [HIGH]` (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
-1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For `applications with assurance class >= [HIGH]`, this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
+1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For applications with `assurance class >= [HIGH]`, this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
 2. In addition, security findings with `criticality >= [MEDIUM]` (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
 3. Teams MAY reassess tool findings. For instance, they may refine a CVSS Base Score by evaluating its CVSS Environmental Score and thereby taking aspects like its classification or accessibility into account. When a rating/score is refined the respected reason (e.g. CVSS vector) MUST be documented.
 4. Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
