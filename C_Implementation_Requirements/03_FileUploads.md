@@ -32,6 +32,4 @@ Uploaded files from untrusted sources (e.g. over the Internet) with potentially 
 2. File downloads SHOULD always be protected with relevant HTTP security headers, e.g. to prevent MIME Type sniffing in browsers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
 3. Filenames MUST be properly encoded before written into response header when user-controlled in order to preventing Reflected File Downloads (RFD).
 
-[^1]: This function can be tested with the EICAR test file (www.eicar.org)
-
-[SECHEADER]: ../Material/Requirements_for_HTTP_Header_Security.md
+[^1]: This function can be tested with the EICAR test file ([www.eicar.org](www.eicar.org))
