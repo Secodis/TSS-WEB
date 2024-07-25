@@ -26,7 +26,7 @@
 1. A formal definition of the build & deployment process MUST be created so that it becomes consistent, repeatable, and automated.
 2. Access to build and deployment systems MUST be secured according to requirements in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 3. Automated security checks MUST be integrated into build & deployment processes in accordance with requirements in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
-4. Secrets SHOULD be injected during the deployment process in accordance with requirements in [11. Protection of Secrets]({{site.URL_IMPL_SECRETS}}).
+4. Secrets SHOULD be injected during the deployment process in accordance with requirements at {{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}.
 5. Deployment pipelines SHOULD implement a pull-based model[^3].
 6. A Software Bill of Materials (SBOM) must be created for all build and release artifacts
 7. For assurance class >= [HIGH], all deployed artifacts (including the SBOMss) MUST be cryptographically signed.
@@ -40,8 +40,8 @@
 
 ## 6. Security Approvals (Security Gates)
 1. Initial Project approval (mandatory): All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the assurance class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
-2. Architecture approval (conditional): For all new applications with assurance class >= [HIGH], or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
-3. Go-Live approval (conditional): Initial application releases for applications with assurance class >= [HIGH] MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
+2. Architecture approval (conditional): For all new applications with `assurance class >= [HIGH]`, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
+3. Go-Live approval (conditional): Initial application releases for applications with `assurance class >= [HIGH]` MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
 4. Continuous Release Gates: Releases SHOULD be automatically tested against a security policy before deployment to production, preventing the deployment of artifacts with security violations.
 5. All security approvals and risk management decisions must be documented.
 
@@ -56,7 +56,7 @@ Remediation of security findings with a `criticality >= [HIGH]` (or CVSS[^2] v3 
 
 ## 8. Security Documentation
 
-1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every application with assurance class >= [HIGH] before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
+1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every application with `assurance class >= [HIGH]` before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 2. In case the relevant IT security function has not requested it differently, this document SHOULD cover the following aspects:
    - Data and application classification (assurance class),
    - known threats (or full threat model) and respective countermeasures to mitigate them,
