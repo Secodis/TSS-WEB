@@ -1,4 +1,4 @@
-# 11. Protection of Secrets
+# {{site.TITLE_IMPL_SECRETS}}
 
 The following requirements are relevant for technical secrets (e.g. passwords of technical users, API keys, credentials or private keys) used either in production or that are generally used to protect access to sensitive systems or data:
 
