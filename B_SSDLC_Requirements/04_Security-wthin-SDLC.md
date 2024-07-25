@@ -18,7 +18,7 @@
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
-   - For assurance class >= [HIGH]: If such an assessment is not conducted, a deployed application increment MUST be considered to have a potential high-security risk.
+   - For `assurance class >= [HIGH]`: If such an assessment is not conducted, a deployed application increment MUST be considered to have a potential high-security risk.
    - Threat models and assurance class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile development teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
@@ -52,7 +52,7 @@ Remediation of security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Sc
 2. In addition, security findings with criticality >= [MEDIUM] (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
 3. Teams MAY reassess tool findings. For instance, they may refine a CVSS Base Score by evaluating its CVSS Environmental Score and thereby taking aspects like its classification or accessibility into account. When a rating/score is refined the respected reason (e.g. CVSS vector) MUST be documented.
 4. Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
-5. For assurance class >= [HIGH]: Exceptions (such as temporary workarounds) MUST be approved by the IT security function.
+5. For `assurance class >= [HIGH]`: Exceptions (such as temporary workarounds) MUST be approved by the IT security function.
 
 ## 8. Security Documentation
 
