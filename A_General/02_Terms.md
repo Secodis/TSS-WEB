@@ -1,4 +1,4 @@
-# 2. Terms
+# {{site.TITLE_GENERAL_TERMS}}
 
 The following definitions are used here:
 
