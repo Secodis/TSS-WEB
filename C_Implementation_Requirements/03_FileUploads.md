@@ -29,7 +29,7 @@ Uploaded files from untrusted sources (e.g. over the Internet) with potentially 
 
 ## 6. Downloads
 1. File downloads SHOULD be carried out from a separate origin (e.g. `files.example.com`), to prevent the impact of executable script code that they may contain.
-2. File downloads SHOULD always be protected with relevant HTTP security headers, e.g. to prevent MIME Type sniffing in browsers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
+2. File downloads SHOULD always be protected with relevant HTTP security headers, e.g. to prevent MIME Type sniffing in browsers (see [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})).
 3. Filenames MUST be properly encoded before written into response header when user-controlled in order to preventing Reflected File Downloads (RFD).
 
 [^1]: This function can be tested with the EICAR test file ([www.eicar.org](www.eicar.org))
