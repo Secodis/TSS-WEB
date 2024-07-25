@@ -1,4 +1,4 @@
-# 6. User Passwords
+# {{site.TITLE_IMPL_USERPASSWD}}
 
 ## 1. General
 
