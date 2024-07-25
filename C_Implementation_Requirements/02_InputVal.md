@@ -1,4 +1,4 @@
-# 2. Input Validation
+# {{site.TITLE_IMPL_INPUTVAL}}
 
 1. All untrusted input parameters (e.g. of external interfaces) MUST be validated restrictively.
 2. Security-relevant input validation MUST be performed on the server-side. Client-side validation MAY be implemented but only for usability reasons in addition to server-side validation or to prevent client-side attacks.
@@ -13,7 +13,7 @@
 7. Validation of user input SHOULD be performed implicitly with data binding (typecasting) where possible.
 8. Validation of non-editable application parameters (no user input) SHOULD be performed implicitly via integrity checks or indirection mappings where possible.
 9. HTML input MUST be validated restrictively with a mature HTML sanitizer API.
-10. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using OpenAPI, bean validation or schema validation (e.g. XML/JSON schma). Schemas SHOULD be restricte where possible (e.g. avoid using unrestricted String datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
+10. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using OpenAPI, bean validation or schema validation (e.g. XML or JSON schema). Schemas SHOULD be restricte where possible (e.g. avoid using unrestricted String datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
 11. An XML parser that process XML content from untrusted sources (e.g. from an external entity) MUST be hardened to prevent common XML-based attacks:
     - Set restrictive limits (e.g. in respect of maximal nesting depth or document size),
     - deactivate processing of external XML entities.
