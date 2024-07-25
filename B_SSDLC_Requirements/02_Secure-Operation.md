@@ -2,7 +2,7 @@
 
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
-## 2.1. Environment Separation
+## 1. Environment Separation
 Systems in production MUST be strictly separated from development and test systems:
 1. Production, test, and development systems MUST be separated using different environments (e.g. in separate clusters, cloud environments using separate accounts/subscriptions).
 2. Connections between different environments MUST not be possible.
@@ -12,7 +12,7 @@ Systems in production MUST be strictly separated from development and test syste
 6. Access to the production environment MUST be granted strictly on a need-to-know & least-privilege basis (see 2.6 Administrative Access below) and SHOULD be automated where possible.
 7. Production data SHOULD not be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
-## 2.2. System Hardening
+## 2. System Hardening
 Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices. 
 
 This includes:
@@ -28,7 +28,7 @@ This includes:
 - Deactivation of insecure HTTP methods (e.g. TRACE and TRACK)
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as “Server” or “X-Powered-By” are to be deactivated or filtered.
 
-## 2.3. Docker Security
+## 3. Docker Security
 1. Docker images MUST only be built using trusted repositories.
 2. Docker images MUST only use selected base images.
 3. Docker images MUST be updating OS packages at build.
@@ -36,13 +36,13 @@ This includes:
 5. Docker images MUST not consist of a remote shell like SSH or telnet.
 6. Docker containers MUST have a maximal lifetime after which they have to be rebuilt with updated OS dependencies. 
 
-## 2.4. Securing Access to Backend Resources
+## 4. Securing Access to Backend Resources
 1. Every process MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
 2. Access to backend systems MUST be authenticated and authorized by the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 3. Access to backend systems MUST use dedicated service accounts for each system.
 4. Secrets MUST be securely stored and managed (see 8.11 Protection of Secrets)
 
-## 2.5. Isolation of External Systems
+## 5. Isolation of External Systems
 1. Applications MUST be deployed in a dedicated isolated production environment that can be shared with other applications.
 2. Application with assurance class >= [HIGH] MUST be completely isolated in terms of security realm, namespace, etc.
 3. All network communication MUST be encrypted using TLS
@@ -51,7 +51,7 @@ This includes:
 6. Incoming communication (ingress) SHOULD be restricted and handled by reverse proxies (e.g. API gateways, Web gateways).
 7. A web application firewall (WAF) MAY be used here, e.g. as an additional layer of protection, for virtual patching, or as an application IDS. 
 
-## 2.6. Administrative Access
+## 6. Administrative Access
 Administrative access MUST be as restricted as possible:
 1. Limited to required persons only, if possible using dedicated personal accounts.
 2. Access only via personalized accounts (e.g. usernames like “admin” should not be used).
@@ -60,11 +60,11 @@ Administrative access MUST be as restricted as possible:
 5. All administrative access should be logged in a tamperproof way.
 6. Immediately revoked after they are not required anymore (e.g. user changes organizational role).
 
-## 2.7. System Maintenance
+## 7. System Maintenance
 1. Systems MUST be kept up-to-date, especially in terms of security patches.
 2. Unused applications MUST be decommissioned.
 
-## 2.8. Security Scanning
+## 8. Security Scanning
 Productive systems MUST be periodically scanned for potential security problems. 
 
 For instance:
@@ -74,7 +74,7 @@ For instance:
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 
-## 2.9. Security Monitoring
+## 9. Security Monitoring
 For applications with assurance class >= [HIGH]: Possible security incidents MUST be continuously monitored. 
 
 For instance:
@@ -84,6 +84,6 @@ For instance:
 - DoS (or other) attacks
 - Critical security findings from security scans (see above).
 
-## 2.10. Incident Management
+## 10. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
