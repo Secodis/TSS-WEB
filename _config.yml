@@ -55,8 +55,8 @@ URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/C_Implementation_Requirements/
 TITLE_IMPL_AUTHZ: "C.8 - Authorization"
 URL_IMPL_AUTHZ: https://tss-web.secodis.com/C_Implementation_Requirements/08_Access-Control
 
-TITLE_IMPL_ERRORLOG: "C.9 - Errorhandling and Logging"
-URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/09_Error-Handling-And-Logging
+TITLE_IMPL_ERRORLOG: "C.9 - Error Handling and Logging"
+URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/09_Error-Handling-and-Logging
 
 TITLE_IMPL_CRYPTO: "C.10 - Data Security"
 URL_IMPL_CRYPTO: https://tss-web.secodis.com/C_Implementation_Requirements/10_Data-Security
@@ -65,10 +65,10 @@ TITLE_IMPL_SECRETS: "C.11 - Protection of Secrets"
 URL_IMPL_SECRETS: https://tss-web.secodis.com/C_Implementation_Requirements/11_Secrets
 
 TITLE_IMPL_APISEC: "C.12 - API Security"
-URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/13_API-Security
+URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/12_API-Security
 
 TITLE_IMPL_CLIENTSEC: "C.13 - Client-Side Security"
-URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/12_Client-Side-Security
+URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/13_Client-Side-Security
 
 TITLE_IMPL_HTTPHEADERSEC: "C.14 - HTTP Header Security"
 URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/C_Implementation_Requirements/14_HTTP-Header-Security
