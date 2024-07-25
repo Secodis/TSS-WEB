@@ -1,4 +1,4 @@
-# 4. Output Validation (Encoding & Escaping)
+# {{site.TITLE_IMPL_OUTPUTVAL}}
 
 1. Every access to backend systems such as databases MUST be parameterized[^1], e.g. via prepared statements, OR mappers (e.g. Hibernate) when an API for this matter does exist.
 2. All parameters, either internally or user-controlled, MUST be declared as parameters within a prepared statement (or similar API) call.
