@@ -1,4 +1,4 @@
-# 1. Secure Design Principles
+# {{site.TITLE_IMPL_PRINCIPLES}}
 
 | # | Principle | Explanation |
 | ------------- | ------------- | ------------- |
