@@ -11,7 +11,7 @@
     - not be logged or cached,
     - encrypted when transferred over insecure channels,
     - not transmitted in URLs and
-    - stored as a salted secure hash, ideally with key stretching. This SHOULD b implemented with bcrypt, scrypt, PBKDF2 or Argon2 algorithm.
+    - stored as a salted secure hash, ideally with key stretching. This SHOULD b implemented with [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [scrypt](https://en.wikipedia.org/wiki/Scrypt), [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) or [Argon2](https://en.wikipedia.org/wiki/Argon2) algorithm.
 3. Initial user passwords MUST be changed by the user at first login.
 4. Standard passwords (= set by the vendor) MUST NOT be used and replaced by strong
 individual passwords.
