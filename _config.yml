@@ -1,6 +1,7 @@
 # _config.yml
 logo: /assets/img/logo1.png
-title: TSS-WEB - Security Requirement Framework for Web-based Applications and Services
+title: TSS-WEB 
+description: Open Security Requirement Framework for Web-based Applications and Services
 
 TITLE_GENERAL_REQUIREMENTS: "A.1 - Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/A_General/01_Requirements
