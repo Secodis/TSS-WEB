@@ -6,7 +6,7 @@ All file uploads SHOULD be authenticated by the user on the server-side (= funct
 ## 2. Storage
 1. Uploaded files SHOULD be stored to a database.
 2. In case uploaded files are required to be stored on a file system, the implementation MUST be according to the following requirements:
-3. Uploaded files MUST be stored in an access protected directory that is not accessible from external (e.g. stored outside of the web & document root). For applications with assurance class >= [HIGH], uploaded files SHOULD be stores in a user-specific directory.
+3. Uploaded files MUST be stored in an access protected directory that is not accessible from external (e.g. stored outside of the web & document root). For applications with ***assurance class >= [HIGH]***, uploaded files SHOULD be stores in a user-specific directory.
 4. File uploads MUST be saved with restrictive permissions (e.g. in case of Unix-based systems `chmod 0600`).
 5. Uploaded files MUST NOT be executable.
 6. Uploaded files MUST be stored as a new file with unique filename that is not user-specified.
@@ -19,7 +19,7 @@ All file uploads SHOULD be authenticated by the user on the server-side (= funct
 1. File types that may consist of executable code (e.g. `.html`, `.js` or `.exe`) MUST be prevented from being uploaded.
 2. File type validation MUST be executed  based on a whitelisting approach where only safe file types are allowed.
 3. File type validation MUST be executed on file extension and MIME type.
-4. For applications with assurance class >= [HIGH], the file type SHOULD be verified with suitable tools or APIs based on its actual content (e.g. you could perform image operations like `getImageSize()` on an expected image file).
+4. For applications with ***assurance class >= [HIGH]***, the file type SHOULD be verified with suitable tools or APIs based on its actual content (e.g. you could perform image operations like `getImageSize()` on an expected image file).
 
 ## 5. Sanitization
 Uploaded files from untrusted sources (e.g. over the Internet) with potentially executable content SHOULD be
