@@ -17,7 +17,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 ## 3. Encryption at Rest
 1. Confidential data MUST be encrypted before stored.
-2. User passwords MUST be persisted with suitable methods (see  [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
+2. User passwords MUST be persisted with suitable methods (see [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
 3. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 
 ## 4. X.509 Certificates
