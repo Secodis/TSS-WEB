@@ -19,14 +19,14 @@
 2. Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in 3rd party dependencies.
 3. Docker images used in the target production environment MUST be automatically scanned for security issues.
 4. Security-relevant configuration MUST be automatically scanned for security issues.
-5. For applications with `assurance class >= [HIGH]` security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
+5. For applications with ***assurance class >= [HIGH]*** security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
 6. Applications with `assurance class [VERY HIGH]` SHOULD be periodically tested for denial-of-service attackability.
 
 ## 4. Developer Tests
 
 1. Security tests of implemented security requirements and security controls (e.g. authentication or access controls) SHOULD be implemented, and executed, preferably in an automatic and continuous way.
 2. Developer and system acceptance testing SHOULD include testing for functional (security controls) and non-functional [^1] security requirements.
-3. Abuse cases SHOULD be created & tested for critical business security aspects in applications with `assurance class >= [HIGH]`.
+3. Abuse cases SHOULD be created & tested for critical business security aspects in applications with ***assurance class >= [HIGH]***.
 
 ## 5. Pentests
 1. Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
@@ -34,8 +34,8 @@
 
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
-| `>= [HIGH]` | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
-|  `< [HIGH]` | Before initial go live but at least every second year  | - |
+| ***>= [HIGH]*** | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
+| ***< [HIGH]*** | Before initial go live but at least every second year  | - |
 
 
 [^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
