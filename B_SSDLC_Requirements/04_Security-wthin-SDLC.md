@@ -26,10 +26,10 @@
 1. A formal definition of the build & deployment process MUST be created so that it becomes consistent, repeatable, and automated.
 2. Access to build and deployment systems MUST be secured according to requirements in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 3. Automated security checks MUST be integrated into build & deployment processes in accordance with requirements in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
-4. Secrets SHOULD be injected during the deployment process in accordance with requirements at {{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}.
+4. Secrets SHOULD be injected during the deployment process in accordance with requirements at  [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 5. Deployment pipelines SHOULD implement a pull-based model[^3].
 6. A Software Bill of Materials (SBOM) must be created for all build and release artifacts
-7. For assurance class >= [HIGH], all deployed artifacts (including the SBOMss) MUST be cryptographically signed.
+7. For ***assurance class >= [HIGH]***, all deployed artifacts (including the SBOMs) MUST be cryptographically signed.
 
 ## 5. Security of 3rd Party Dependencies in Target Production Environment
 1. 3rd party dependencies SHOULD only be obtained via internal and approved repositories.
