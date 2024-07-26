@@ -22,7 +22,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## 3. Access Tokens
 
-1. Services with assurance class >= HIGH SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
+1. Services with ***assurance class >= HIGH*** SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
     - Short-lived
     - Restrictive scope & audiance
@@ -39,11 +39,11 @@ Please note: For reasons of simplification, some of the following requirements t
 
 See requirements for Access Tokens above.
 
-## 5. Web UI APIs
+## 5. Frontend APIs 
 
-1. MUST implement the same security requirements for access to external resources as the corresponding web UI (authentication, validation, etc.).
-2. MUST not contain script code (e.g. JavaScript) that is directly executable.
-3. MUST contain CSRF protection if working in user context (see [{{site.TITLE_IMPL_SESSIONMGMT}}]({{site.URL_IMPL_SESSIONMGMT}})).
+1. MUST implement the same security requirements for access to external resources as the corresponding UI (authentication, validation, etc.)
+2. MUST not contain script code (e.g. JavaScript) that is directly executable
+3. MUST contain CSRF protection if working in user context (see [{{site.TITLE_IMPL_SESSIONMGMT}}]({{site.URL_IMPL_SESSIONMGMT}}))
 
 ## 6. Cross-Domain Access
 
