@@ -6,4 +6,4 @@ Are standard components used for authenticating users (policy decision point) or
 2. Access controls SHOULD be applied on different layers if possible (e.g. URL, file, method and object layer) or via an indirection layer to reduce the risk of insecure object references.
 3. Access controls MUST not only verify if the requesting entity has all required roles for specific access but also if this particular entity has the required permission to access a specific data object.
 4. Every process and role SHOULD be implemented as restrictive as possible according to its particular business requirement.
-5. For technical APIs access see requirements at [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
+5. For APIs access see requirements at [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
