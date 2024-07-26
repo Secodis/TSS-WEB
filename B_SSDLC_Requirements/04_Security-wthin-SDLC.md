@@ -1,3 +1,4 @@
+<title>{{site.TITLE_SSDLC_SDLC}}</title>
 # {{site.TITLE_SSDLC_SDLC}}
 
 ## 1. Roles & Training
