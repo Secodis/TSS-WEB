@@ -15,4 +15,5 @@ The following requirements relate to contractors that implement applications on 
 9. Security vulnerabilities are to be remediated as soon as possible without extra costs when requested by EXAMPLE INC. (see relevant requirements in [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})).
 10. Security SHOULD be built into supplier agreements in order to ensure compliance with organizational requirements.
 
+
 [^1]: e.g. via ISO 27001 certification and/or [BSIMM for Vendors](https://www.bsimm.com/about/bsimm-for-vendors)
