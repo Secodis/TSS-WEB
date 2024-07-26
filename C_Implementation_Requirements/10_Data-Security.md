@@ -9,7 +9,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 1. Transmission of sensitive data SHOULD generally only be possible via TLS/HTTPS.
 2. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
 3. HTTPS servers MUST only support current secure ciphers and protocols. Insecure ones (e.g. SSLv2, TLSv1.0, TLSv1.1 and RC4 cipher) MUST be deactivated.
-4. Confidential data MUST only be sent within the HTTP Request Body (e.g. via HTTP POST) but not within URLs (exception: object IDs).
+4. Confidential data MUST only be sent within the HTTP request body (e.g. via HTTP POST) or header but not within URLs.
 5. Transmission on untrusted channels (e.g. the Internet) MUST
     - only be possible with HTTPS using valid certificates.
     - using HTTP Strict Transport Security (HSTS) headers and
@@ -17,8 +17,9 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 ## 3. Encryption at Rest
 1. Confidential data MUST be encrypted before stored.
-2. User passwords MUST be persisted with suitable methods (see [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
-3. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
+2. Access to encryption keys MUST be as restricted as possible.
+3. User passwords MUST be persisted with suitable methods (see [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
+4. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 
 ## 4. X.509 Certificates
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
