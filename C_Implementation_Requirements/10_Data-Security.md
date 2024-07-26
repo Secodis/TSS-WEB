@@ -28,4 +28,5 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## 5. Tokens
 1. Tokens that are used for security purposes (e.g. as access tokens) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator).[^1]
 
+
 [^1]: To archive this you may use an [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) or generate one directly using the OpenSSL CLI. Here is an example for creating a 256bit token encoded as Base64 `$ openssl rand -base64 32` 
