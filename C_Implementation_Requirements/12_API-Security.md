@@ -17,7 +17,7 @@ Please note: For reasons of simplification, some of the following requirements t
     - Cryptographically random (consisting of alpha-numeric and special characters)
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
-3. For assurance class >= HIGH, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
+3. For ***assurance class >= [HIGH]***, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
 4. Authentication credentials MUST be unique for different systems and environments (e.g. test, production).
 
 ## 3. Access Tokens
@@ -51,7 +51,7 @@ See requirements for Access Tokens above.
 2. The origin header of cross-domain requests MUST be authorized on the server-side.
 
 ## 7. WebSockets
-WebSockets MUST transfer all confidential data with wss:// schema and an additional server-side authorization of the source origin header.
+WebSockets MUST transfer all confidential data with `wss://` schema and an additional server-side authorization of the source origin header.
 
 [^1]: See [https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00](https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00)
 [^2]: See [https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14)
