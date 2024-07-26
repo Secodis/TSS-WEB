@@ -34,8 +34,8 @@
 
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
-| ***>= [HIGH]*** | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
-| ***< [HIGH]*** | Before initial go live but at least every second year  | - |
+| **>= [HIGH]** | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
+| **< [HIGH]** | Before initial go live but at least every second year  | - |
 
 
 [^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
