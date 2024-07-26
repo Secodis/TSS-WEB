@@ -8,7 +8,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 1. Transmission of sensitive data SHOULD generally only be possible via TLS/HTTPS.
 2. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
-3. HTTPS servers MUST only support current secure ciphers and protocols. Insecure ones (e.g. SSLv2 and RC4 cipher) MUST be deactivated.
+3. HTTPS servers MUST only support current secure ciphers and protocols. Insecure ones (e.g. SSLv2, TLSv1.0, TLSv1.1 and RC4 cipher) MUST be deactivated.
 4. Confidential data MUST only be sent within the HTTP Request Body (e.g. via HTTP POST) but not within URLs (exception: object IDs).
 5. Transmission on untrusted channels (e.g. the Internet) MUST
     - only be possible with HTTPS using valid certificates.
