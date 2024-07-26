@@ -9,7 +9,7 @@ Systems in production MUST be strictly separated from development and test syste
 3. Ressources MUST not be shared between production and other environments (especially no secret storages).
 4. Users and systems MUST be authorized separately for each environment.
 5. Access servers SHOULD be separated instances for all environments but MUST at least use separate realms.
-6. Access to the production environment MUST be granted strictly on a need-to-know & least-privilege basis (see 2.6 Administrative Access below) and SHOULD be automated where possible.
+6. Access to the production environment MUST be granted strictly on a need-to-know & least-privilege basis (see "Administrative Access" below) and SHOULD be automated where possible.
 7. Production data SHOULD not be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
 ## 2. System Hardening
