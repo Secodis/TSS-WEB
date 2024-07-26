@@ -25,6 +25,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
 2. X.509 certificates MUST use RSA with >= 3072 bit or ECC with >= 256 bit.
 3. External customer applications (UIs) SHOULD use EV certificates.
+4. Wildcard certificated MUST not be used.
 
 ## 5. Tokens
 1. Tokens that are used for security purposes (e.g. as access tokens) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator).[^1]
