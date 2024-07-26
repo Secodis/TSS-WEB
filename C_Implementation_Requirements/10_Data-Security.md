@@ -24,3 +24,8 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
 2. X.509 certificates MUST use RSA with >= 3072 bit or ECC with >= 256 bit.
 3. External customer applications (UIs) SHOULD use EV certificates.
+
+## 5. Secure Random Numbers
+1. Random numbers that are used for security purposed (e.g. as access tokens) MUST be cryptographically random.[^1]
+
+[^1]: To archive this you may use an [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) or generate one directly using the OpenSSL CLI. Here is an example for creating a 256bit token encoded as Base64 `$ openssl rand -base64 32` 
