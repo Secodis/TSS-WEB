@@ -44,7 +44,7 @@ This includes:
 
 ## 5. Isolation of External Systems
 1. Applications MUST be deployed in a dedicated isolated production environment that can be shared with other applications.
-2. Application with *assurance class >= [HIGH]* MUST be completely isolated in terms of security realm, namespace, etc.
+2. Application with ***assurance class >= [HIGH]*** MUST be completely isolated in terms of security realm, namespace, etc.
 3. All network communication MUST be encrypted using TLS
 4. All external access to internal network zones MUST be approved.
 5. Outgoing communication (egress) to the Internet MUST be restricted and SHOULD be handled by proxies (e.g. HTTP proxies or SMTP proxies).
