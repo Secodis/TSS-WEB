@@ -3,7 +3,7 @@
 The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. and in addition all other requirements of this document if applicable (e.g. protection of source code). Supplies MUST comply with the following requirements:
 
 1. Due diligence: Implementation of all measures and common best practices within the development, operation, and quality assurance required to prevent the occurrence of new security defects.
-2. For applications with assurance class >= [HIGH]:
+2. For applications with ***assurance class >= [HIGH]***:
    - Evidence[^1] that security has been taken into account throughout the development process.
    - A security concept that complies with the security documentation requirements specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
 5. Implementation of all necessary and requested security measures in order to reach a suitable level of protection, including those listed in chapter [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}) and implementation requirements of this document.
