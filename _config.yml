@@ -4,76 +4,76 @@ title: TSS-WEB
 description: Open Security Requirement Framework for Web-based Applications and Services
 
 TITLE_GENERAL_REQUIREMENTS: "A.1 - Types of Requirements"
-URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/A_General/01_Requirements
+URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/A_General/Requirements
 
 TITLE_GENERAL_TERMS: "A.2 - Terms"
-URL_GENERAL_TERMS: https://tss-web.secodis.com/A_General/02_Terms
+URL_GENERAL_TERMS: https://tss-web.secodis.com/A_General/Terms
 
 TITLE_GENERAL_ROLES: "A.3 - Roles"
-URL_GENERAL_ROLES: https://tss-web.secodis.com/A_General/03_Roles
+URL_GENERAL_ROLES: https://tss-web.secodis.com/A_General/Roles
 
 TITLE_GENERAL_ASSURANCECLASSES: "A.4 - Assurance Classes"
-URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/A_General/04_AssuranceClasses
+URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/A_General/AssuranceClasses
 
-TITLE_SSDLC_REMEDIATION: "B.1 - Vulnerability Remediation in Production"
-URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/B_SSDLC_Requirements/01_Vulnerability-Remediation
+TITLE_SSDLC_SECENV: "B.1 - Secure Dev Environment"
+URL_SSDLC_SECENV: https://tss-web.secodis.com/B_SSDLC_Requirements/Secure-Dev-Environment
 
-TITLE_SSDLC_SECOP: "B.2 - Secure Operation"
-URL_SSDLC_SECOP: https://tss-web.secodis.com/B_SSDLC_Requirements/02_Secure-Operation
+TITLE_SSDLC_SDLC: "B.2 - Security within SDLC"
+URL_SSDLC_SDLC: https://tss-web.secodis.com/B_SSDLC_Requirements/Security-wthin-SDLC
 
-TITLE_SSDLC_SECENV: "B.3 - Secure Dev Environment"
-URL_SSDLC_SECENV: https://tss-web.secodis.com/B_SSDLC_Requirements/03_Secure-Dev-Environment
+TITLE_SSDLC_SECTESTS: "B.3 - Security Tests"
+URL_SSDLC_SECTESTS: https://tss-web.secodis.com/B_SSDLC_Requirements/Security-Tests
 
-TITLE_SSDLC_SDLC: "B.4 - Security within SDLC"
-URL_SSDLC_SDLC: https://tss-web.secodis.com/B_SSDLC_Requirements/04_Security-wthin-SDLC
+TITLE_SSDLC_SECOP: "B.4 - Secure Operation"
+URL_SSDLC_SECOP: https://tss-web.secodis.com/B_SSDLC_Requirements/Secure-Operation
 
-TITLE_SSDLC_SECTESTS: "B.5 - Security Tests"
-URL_SSDLC_SECTESTS: https://tss-web.secodis.com/B_SSDLC_Requirements/05_Security-Tests
+TITLE_SSDLC_OUTDEV: "B.5 - Outsourced Development"
+URL_SSDLC_OUTDEV: https://tss-web.secodis.com/B_SSDLC_Requirements/Outsourced-Development
 
-TITLE_SSDLC_OUTDEV: "B.6 - Outsourced Development"
-URL_SSDLC_OUTDEV: https://tss-web.secodis.com/B_SSDLC_Requirements/06_Outsourced-Development
+TITLE_SSDLC_REMEDIATION: "B.6 - Vulnerability Remediation in Production"
+URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/B_SSDLC_Requirements/Vulnerability-Remediation
 
 TITLE_IMPL_PRINCIPLES: "C.1 - Secure Design Principles"
-URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/C_Implementation_Requirements/01_Secure-Design-Principles
+URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/C_Implementation_Requirements/Secure-Design-Principles
 
 TITLE_IMPL_INPUTVAL: "C.2 - Input Validation"
-URL_IMPL_INPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/02_InputVal
+URL_IMPL_INPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/InputVal
 
 TITLE_IMPL_FILEUPLOADS: "C.3 - Secure Fileuploads and Downloads"
-URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/C_Implementation_Requirements/03_FileUploads
+URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/C_Implementation_Requirements/FileUploads
 
 TITLE_IMPL_OUTPUTVAL: "C.4 - Output Validation"
-URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/04_OutputVal
+URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/OutputVal
 
 TITLE_IMPL_USERAUTH: "C.5 - Secure User Authentication"
-URL_IMPL_USERAUTH: https://tss-web.secodis.com/C_Implementation_Requirements/05_UserAuth
+URL_IMPL_USERAUTH: https://tss-web.secodis.com/C_Implementation_Requirements/UserAuth
 
 TITLE_IMPL_USERPASSWD: "C.6 - User Passwords"
-URL_IMPL_USERPASSWD: https://tss-web.secodis.com/C_Implementation_Requirements/06_User-Passwords
+URL_IMPL_USERPASSWD: https://tss-web.secodis.com/C_Implementation_Requirements/User-Passwords
 
 TITLE_IMPL_SESSIONMGMT: "C.7 - Secure Session Management"
-URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/C_Implementation_Requirements/07_SessionMgmt
+URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/C_Implementation_Requirements/SessionMgmt
 
 TITLE_IMPL_AUTHZ: "C.8 - Authorization"
-URL_IMPL_AUTHZ: https://tss-web.secodis.com/C_Implementation_Requirements/08_Access-Control
+URL_IMPL_AUTHZ: https://tss-web.secodis.com/C_Implementation_Requirements/Access-Control
 
 TITLE_IMPL_ERRORLOG: "C.9 - Error Handling and Logging"
-URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/09_Error-Handling-and-Logging
+URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/Error-Handling-and-Logging
 
 TITLE_IMPL_CRYPTO: "C.10 - Data Security"
-URL_IMPL_CRYPTO: https://tss-web.secodis.com/C_Implementation_Requirements/10_Data-Security
+URL_IMPL_CRYPTO: https://tss-web.secodis.com/C_Implementation_Requirements/Data-Security
 
 TITLE_IMPL_SECRETS: "C.11 - Protection of Secrets"
-URL_IMPL_SECRETS: https://tss-web.secodis.com/C_Implementation_Requirements/11_Secrets
+URL_IMPL_SECRETS: https://tss-web.secodis.com/C_Implementation_Requirements/Secrets
 
 TITLE_IMPL_APISEC: "C.12 - API Security"
-URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/12_API-Security
+URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/API-Security
 
 TITLE_IMPL_CLIENTSEC: "C.13 - Client-Side Security"
-URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/13_Client-Side-Security
+URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/Client-Side-Security
 
 TITLE_IMPL_HTTPHEADERSEC: "C.14 - HTTP Header Security"
-URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/C_Implementation_Requirements/14_HTTP-Header-Security
+URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/C_Implementation_Requirements/HTTP-Header-Security
 
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
 URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/D_Material/OWASP_Top_Ten_Mapping
