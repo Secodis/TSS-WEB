@@ -7,14 +7,14 @@ For instance, implementing TSS-WEB also meets 14.2.1 control ("Secure Developmen
 The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating your own security standards, policies, or security concepts. The idea is not to have various variants of requirements that cover every possible scenario, but one that works for most organizations, at least as a baseline. You can use all of them or just select the ones you need. In many cases, you might need to adapt some or add others more relevant to your specific organization or technology stack.
 
 
-## A. General
+## General
  
  * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
  * [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
  * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
  * [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
 
-## B. SSDLC Requirements
+## SSDLC Requirements
 
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
 * [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
@@ -23,7 +23,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
 * [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
 
-## C. Implementation Requirements
+## Implementation Requirements
 
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
 * [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
@@ -40,7 +40,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
 * [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})
 
-## D. Additional Material
+## Additional Material
 * [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
 * [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}})
   
