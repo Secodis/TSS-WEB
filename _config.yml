@@ -3,77 +3,77 @@ logo: /assets/img/logo1.png
 title: TSS-WEB 
 description: Open Security Requirement Framework for Web-based Applications and Services
 
-TITLE_GENERAL_REQUIREMENTS: "A.1 - Types of Requirements"
+TITLE_GENERAL_REQUIREMENTS: "1. - Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/A_General/Requirements
 
-TITLE_GENERAL_TERMS: "A.2 - Terms"
+TITLE_GENERAL_TERMS: "2. - Terms"
 URL_GENERAL_TERMS: https://tss-web.secodis.com/A_General/Terms
 
-TITLE_GENERAL_ROLES: "A.3 - Roles"
+TITLE_GENERAL_ROLES: "3. - Roles"
 URL_GENERAL_ROLES: https://tss-web.secodis.com/A_General/Roles
 
-TITLE_GENERAL_ASSURANCECLASSES: "A.4 - Assurance Classes"
+TITLE_GENERAL_ASSURANCECLASSES: "4. - Assurance Classes"
 URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/A_General/AssuranceClasses
 
 TITLE_SSDLC_SECENV: "B.1 - Secure Dev Environment"
-URL_SSDLC_SECENV: https://tss-web.secodis.com/B_SSDLC_Requirements/Secure-Dev-Environment
+URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/Secure-Dev-Environment
 
 TITLE_SSDLC_SDLC: "B.2 - Security within SDLC"
-URL_SSDLC_SDLC: https://tss-web.secodis.com/B_SSDLC_Requirements/Security-wthin-SDLC
+URL_SSDLC_SDLC: https://tss-web.secodis.com/Controls/Security-wthin-SDLC
 
 TITLE_SSDLC_SECTESTS: "B.3 - Security Tests"
-URL_SSDLC_SECTESTS: https://tss-web.secodis.com/B_SSDLC_Requirements/Security-Tests
+URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/Security-Tests
 
 TITLE_SSDLC_SECOP: "B.4 - Secure Operation"
-URL_SSDLC_SECOP: https://tss-web.secodis.com/B_SSDLC_Requirements/Secure-Operation
+URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/Secure-Operation
 
 TITLE_SSDLC_OUTDEV: "B.5 - Outsourced Development"
-URL_SSDLC_OUTDEV: https://tss-web.secodis.com/B_SSDLC_Requirements/Outsourced-Development
+URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
 
 TITLE_SSDLC_REMEDIATION: "B.6 - Vulnerability Remediation in Production"
-URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/B_SSDLC_Requirements/Vulnerability-Remediation
+URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/Controls/Vulnerability-Remediation
 
 TITLE_IMPL_PRINCIPLES: "C.1 - Secure Design Principles"
-URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Secure-Design-Principles
+URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/Controls/SecImpl_Secure-Design-Principles
 
 TITLE_IMPL_INPUTVAL: "C.2 - Input Validation"
-URL_IMPL_INPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_InputVal
+URL_IMPL_INPUTVAL: https://tss-web.secodis.com/Controls/SecImpl_InputVal
 
 TITLE_IMPL_FILEUPLOADS: "C.3 - Secure Fileuploads and Downloads"
-URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_FileUploads
+URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/Controls/SecImpl_FileUploads
 
 TITLE_IMPL_OUTPUTVAL: "C.4 - Output Validation"
-URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_OutputVal
+URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/Controls/SecImpl_OutputVal
 
 TITLE_IMPL_USERAUTH: "C.5 - Secure User Authentication"
-URL_IMPL_USERAUTH: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_UserAuth
+URL_IMPL_USERAUTH: https://tss-web.secodis.com/Controls/SecImpl_UserAuth
 
 TITLE_IMPL_USERPASSWD: "C.6 - User Passwords"
-URL_IMPL_USERPASSWD: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_User-Passwords
+URL_IMPL_USERPASSWD: https://tss-web.secodis.com/Controls/SecImpl_User-Passwords
 
 TITLE_IMPL_SESSIONMGMT: "C.7 - Secure Session Management"
-URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_SessionMgmt
+URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/Controls/SecImpl_SessionMgmt
 
 TITLE_IMPL_AUTHZ: "C.8 - Authorization"
-URL_IMPL_AUTHZ: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Access-Control
+URL_IMPL_AUTHZ: https://tss-web.secodis.com/Controls/SecImpl_Access-Control
 
 TITLE_IMPL_ERRORLOG: "C.9 - Error Handling and Logging"
-URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Error-Handling-and-Logging
+URL_IMPL_ERRORLOG: https://tss-web.secodis.com/Controls/SecImpl_Error-Handling-and-Logging
 
 TITLE_IMPL_CRYPTO: "C.10 - Data Security"
-URL_IMPL_CRYPTO: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Data-Security
+URL_IMPL_CRYPTO: https://tss-web.secodis.com/Controls/SecImpl_Data-Security
 
 TITLE_IMPL_SECRETS: "C.11 - Protection of Secrets"
-URL_IMPL_SECRETS: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Secrets
+URL_IMPL_SECRETS: https://tss-web.secodis.com/Controls/SecImpl_Secrets
 
 TITLE_IMPL_APISEC: "C.12 - API Security"
-URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_API-Security
+URL_IMPL_APISEC: https://tss-web.secodis.com/Controls/SecImpl_API-Security
 
 TITLE_IMPL_CLIENTSEC: "C.13 - Client-Side Security"
-URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Client-Side-Security
+URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/Controls/SecImpl_Client-Side-Security
 
 TITLE_IMPL_HTTPHEADERSEC: "C.14 - HTTP Header Security"
-URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_HTTP-Header-Security
+URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/Controls/SecImpl_HTTP-Header-Security
 
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
 URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/D_Material/OWASP_Top_Ten_Mapping
