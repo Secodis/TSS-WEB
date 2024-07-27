@@ -21,7 +21,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 * [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
 
-## Part 2: Implementation Controls
+## Part 2: Secure Implementation Controls
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
 * [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
 * [{{site.TITLE_IMPL_FILEUPLOADS}}]({{site.URL_IMPL_FILEUPLOADS}})
