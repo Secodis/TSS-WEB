@@ -13,10 +13,9 @@
 3. High-level application security objectives MUST also be mapped to functional requirements. 
 4. Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## 3. Security within Change Management & Agile Development
+## 3. Security within Changes Management & Agile Development
 1. All changes of source code MUST be committed to a source code repository (e.g. Git).
-2. For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge requests).
-3. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks/impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
+2. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks/impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
@@ -33,7 +32,7 @@
 6. A Software Bill of Materials (SBOM) must be created for all build and release artifacts
 7. For ***assurance class >= [HIGH]***, all deployed artifacts (including the SBOMs) MUST be cryptographically signed.
 
-## 5. Security of 3rd Party Dependencies in Target Production Environment
+## 5. Security of 3rd Party Dependencies
 1. 3rd party dependencies SHOULD only be obtained via internal and approved repositories.
 2. Before a new 3rd party dependency is allowed to be used in productive applications (or within the release build environment), it MUST be approved by the architecture board. This does not affect new releases of a dependency that has already been approved.
 3. 3rd party dependencies SHOULD be updated regularly.
@@ -45,7 +44,8 @@
 2. Architecture approval (conditional): For all new applications with ***assurance class >= [HIGH]***, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
 3. Go-Live approval (conditional): Initial application releases for applications with ***assurance class >= [HIGH]*** MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
 4. Continuous Release Gates: Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
-5. All security approvals and risk management decisions must be documented.
+5. Foure Eye Principle: For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
+6. All security approvals and risk management decisions must be documented.
 
 ## 7. Remediation of Security Findings
 Remediation of security findings with a ***criticality >= [HIGH]*** (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
