@@ -13,7 +13,7 @@
 
 1. Security defects MUST be tracked in a defect tracking system and provide relevant meta information (e.g. criticality rating, CVSS score, etc.).
 2. Open security defects SHOULD be regularly checked for relevance and possible quick wins.
-3. For applications with assurance class >= [HIGH], security risks MUST also tracked in a defect tracking system.
+3. For applications with ***assurance class >= [HIGH]***, security risks MUST also tracked in a defect tracking system.
 
 ## 3. Automated Security Testing
 
@@ -22,7 +22,7 @@
 3. Docker images used in the target production environment MUST be automatically scanned for security issues.
 4. Security-relevant configuration MUST be automatically scanned for security issues.
 5. For applications with ***assurance class >= [HIGH]*** security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
-6. Applications with `assurance class [VERY HIGH]` SHOULD be periodically tested for denial-of-service attackability.
+6. Applications with ***assurance class [VERY HIGH]*** SHOULD be periodically tested for denial-of-service attackability.
 
 ## 4. Developer Tests
 
@@ -36,8 +36,8 @@
 
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
-| **>= [HIGH]** | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
-| **< [HIGH]** | Before initial go live but at least every second year  | - |
+| >= [HIGH] | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
+| < [HIGH] | Before initial go live but at least every second year  | - |
 
 
 [^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
