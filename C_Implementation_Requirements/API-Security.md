@@ -5,7 +5,7 @@ Please note: For reasons of simplification, some of the following requirements t
 ## 1. General
 
 1. APIs MUST be restricted validated using Open API Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}}))
-2. External APIs SHOULD only be made available externally using a hardened Service/API Gateway.
+2. External APIs SHOULD only be made available externally using a hardened service/API gateway.
 3. APIs SHOULD implement restrictive limits (max. requests per client or time interval).
    
 
