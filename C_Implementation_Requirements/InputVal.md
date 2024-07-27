@@ -23,4 +23,5 @@
 5. In order to remove path truncations like `../../`, directory paths MUST be normalized before input validation is applied to it[^1]. This MAY be done implicitly by using a secure API that removes such truncations automatically.
 6. 10. HTML input MUST be validated restrictively with a mature HTML sanitizer API.
 
+
 [^1]: Often APIs like `getCanonicalPath()` exists for this matter.
