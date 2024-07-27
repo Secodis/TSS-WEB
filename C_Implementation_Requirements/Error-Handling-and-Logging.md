@@ -4,7 +4,7 @@
 2. Security exceptions SHOULD be thrown in case of security failures.
 3. Security-relevant events (e.g. user log-ins, unauthorized access to sensitive data, sensitive actions on a user profile, potential misuse or attacks) MUST be logged.
 4. The following information SHOULD be logged as part of a security event:
-    - Security tag (“SEC”)
+    - Security tag (`[SEC]`)
     - Timestamp
     - Subject (e.g. user ID, source IP)
     - Event description (e.g. sensitive access / change to object)
