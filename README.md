@@ -8,17 +8,20 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 
 ## General
- 
  * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
  * [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
  * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
  * [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
 
-## [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
-## [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
-## [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
-## [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
-## Implementation Requirements
+## Part 1: SSDLC Controls
+* [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
+* [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
+* [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
+* [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
+* [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
+* [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
+
+## Part 2: Implementation Controls
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
 * [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
 * [{{site.TITLE_IMPL_FILEUPLOADS}}]({{site.URL_IMPL_FILEUPLOADS}})
@@ -33,9 +36,6 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})
 * [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
 * [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})
-
-## [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
-## [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
 
 ## Additional Material
 * [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
