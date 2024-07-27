@@ -34,46 +34,46 @@ TITLE_SSDLC_REMEDIATION: "B.6 - Vulnerability Remediation in Production"
 URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/B_SSDLC_Requirements/Vulnerability-Remediation
 
 TITLE_IMPL_PRINCIPLES: "C.1 - Secure Design Principles"
-URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/C_Implementation_Requirements/Secure-Design-Principles
+URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Secure-Design-Principles
 
 TITLE_IMPL_INPUTVAL: "C.2 - Input Validation"
-URL_IMPL_INPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/InputVal
+URL_IMPL_INPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_InputVal
 
 TITLE_IMPL_FILEUPLOADS: "C.3 - Secure Fileuploads and Downloads"
-URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/C_Implementation_Requirements/FileUploads
+URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_FileUploads
 
 TITLE_IMPL_OUTPUTVAL: "C.4 - Output Validation"
-URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/OutputVal
+URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_OutputVal
 
 TITLE_IMPL_USERAUTH: "C.5 - Secure User Authentication"
-URL_IMPL_USERAUTH: https://tss-web.secodis.com/C_Implementation_Requirements/UserAuth
+URL_IMPL_USERAUTH: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_UserAuth
 
 TITLE_IMPL_USERPASSWD: "C.6 - User Passwords"
-URL_IMPL_USERPASSWD: https://tss-web.secodis.com/C_Implementation_Requirements/User-Passwords
+URL_IMPL_USERPASSWD: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_User-Passwords
 
 TITLE_IMPL_SESSIONMGMT: "C.7 - Secure Session Management"
-URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/C_Implementation_Requirements/SessionMgmt
+URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_SessionMgmt
 
 TITLE_IMPL_AUTHZ: "C.8 - Authorization"
-URL_IMPL_AUTHZ: https://tss-web.secodis.com/C_Implementation_Requirements/Access-Control
+URL_IMPL_AUTHZ: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Access-Control
 
 TITLE_IMPL_ERRORLOG: "C.9 - Error Handling and Logging"
-URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/Error-Handling-and-Logging
+URL_IMPL_ERRORLOG: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Error-Handling-and-Logging
 
 TITLE_IMPL_CRYPTO: "C.10 - Data Security"
-URL_IMPL_CRYPTO: https://tss-web.secodis.com/C_Implementation_Requirements/Data-Security
+URL_IMPL_CRYPTO: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Data-Security
 
 TITLE_IMPL_SECRETS: "C.11 - Protection of Secrets"
-URL_IMPL_SECRETS: https://tss-web.secodis.com/C_Implementation_Requirements/Secrets
+URL_IMPL_SECRETS: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Secrets
 
 TITLE_IMPL_APISEC: "C.12 - API Security"
-URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/API-Security
+URL_IMPL_APISEC: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_API-Security
 
 TITLE_IMPL_CLIENTSEC: "C.13 - Client-Side Security"
-URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/Client-Side-Security
+URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_Client-Side-Security
 
 TITLE_IMPL_HTTPHEADERSEC: "C.14 - HTTP Header Security"
-URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/C_Implementation_Requirements/HTTP-Header-Security
+URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/C_Implementation_Requirements/SecImpl_HTTP-Header-Security
 
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
 URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/D_Material/OWASP_Top_Ten_Mapping
