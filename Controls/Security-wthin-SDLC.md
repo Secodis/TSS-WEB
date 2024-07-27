@@ -48,7 +48,7 @@
 6. All security approvals and risk management decisions must be documented.
 
 ## 7. Remediation of Security Findings
-Remediation of security findings with a ***criticality >= [HIGH]*** (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
+Security findings with a ***criticality >= [HIGH]*** (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
 1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For applications with ***assurance class >= [HIGH]***, this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
 2. In addition, security findings with ***criticality >= [MEDIUM]*** (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
