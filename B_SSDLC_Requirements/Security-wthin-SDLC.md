@@ -65,7 +65,7 @@ Remediation of security findings with a ***criticality >= [HIGH]*** (or CVSS[^2]
    - list of relevant security requirements (e.g. security standards or business  security requirements),
    - security within the development & deployment process,
    - network/cloud security architecture,
-   - application security architecture (relevant application components, services, interfaces, and relevant data flows and architectural security controls in the form of a diagram),- 
+   - application security architecture (relevant application components, services, interfaces, and relevant data flows and architectural security controls in the form of a diagram),
    - role and authorization concept (required for go-live),
    - operational security controls (required for go-live).
 
