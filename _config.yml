@@ -3,16 +3,16 @@ logo: /assets/img/logo1.png
 title: TSS-WEB 
 description: Open Security Requirement Framework for Web-based Applications and Services
 
-TITLE_GENERAL_REQUIREMENTS: "1. - Types of Requirements"
+TITLE_GENERAL_REQUIREMENTS: "1. Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/A_General/Requirements
 
-TITLE_GENERAL_TERMS: "2. - Terms"
+TITLE_GENERAL_TERMS: "2. Terms"
 URL_GENERAL_TERMS: https://tss-web.secodis.com/A_General/Terms
 
-TITLE_GENERAL_ROLES: "3. - Roles"
+TITLE_GENERAL_ROLES: "3. Roles"
 URL_GENERAL_ROLES: https://tss-web.secodis.com/A_General/Roles
 
-TITLE_GENERAL_ASSURANCECLASSES: "4. - Assurance Classes"
+TITLE_GENERAL_ASSURANCECLASSES: "4. Assurance Classes"
 URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/A_General/AssuranceClasses
 
 TITLE_SSDLC_SECENV: "B.1 - Secure Dev Environment"
