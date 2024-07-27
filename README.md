@@ -16,11 +16,11 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 
 ## B. SSDLC Requirements
 
-* [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
-* [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
 * [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
 * [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
+* [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
+* [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
 * [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
 
 ## C. Implementation Requirements
