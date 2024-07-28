@@ -32,7 +32,7 @@
 
 ## 5. Pentests
 1. Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
-2. After a severe vulnerability has been fixed, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix. 
+2. After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix. 
 
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
