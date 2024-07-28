@@ -24,7 +24,7 @@ TITLE_GENERAL_ROLES: "Roles"
 URL_GENERAL_ROLES: https://tss-web.secodis.com/General/Roles
 
 TITLE_GENERAL_ASSURANCECLASSES: "Assurance Classes"
-URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/A_General/AssuranceClasses
+URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/AssuranceClasses
 
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
 URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/Secure-Dev-Environment
