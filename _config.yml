@@ -1,6 +1,7 @@
 # _config.yml
 logo: /assets/img/logo1.png
 title: TSS-WEB 
+markdown: kramdown
 description: Open Security Requirement Framework for Web-based Applications and Services
 
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
