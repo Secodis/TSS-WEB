@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_OUTPUTVAL}</title>
+
 # {{site.TITLE_IMPL_OUTPUTVAL}}
 
 1. Every access to backend systems such as databases MUST be parameterized[^1], e.g. via prepared statements, OR mappers (e.g. Hibernate) when an API for this matter does exist.
