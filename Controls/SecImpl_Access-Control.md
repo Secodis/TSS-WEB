@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_AUTHZ}</title>
+
 # {{site.TITLE_IMPL_AUTHZ}}
 
 Are standard components used for authenticating users (policy decision point) or retrieving user roles and permissions (policy information point)? Then they should be described here.
