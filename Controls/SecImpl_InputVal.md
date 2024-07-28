@@ -23,7 +23,7 @@
 3. Validation of user input SHOULD be performed implicitly with data binding (typecasting) where possible.
 4. Validation of non-editable application parameters (no user input) SHOULD be performed implicitly via integrity checks or indirection mappings where possible.
 5. In order to remove path truncations like `../../`, directory paths MUST be normalized before input validation is applied to it[^1]. This MAY be done implicitly by using a secure API that removes such truncations automatically.
-6. 10. HTML input MUST be validated restrictively with a mature HTML sanitizer API.
+6. HTML input MUST be validated restrictively with a mature HTML sanitizer API.
 
 
 [^1]: Often APIs like `getCanonicalPath()` exists for this matter.
