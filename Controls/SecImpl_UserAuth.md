@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_USERAUTH}</title>
+<title>{{site:TITLE_IMPL_USERAUTH}</title>
 
 # {{site.TITLE_IMPL_USERAUTH}}
 
