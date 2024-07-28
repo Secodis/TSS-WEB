@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_CRYPTO}</title>
+
 # {{site.TITLE_IMPL_CRYPTO}}
 
 ## 1. General
