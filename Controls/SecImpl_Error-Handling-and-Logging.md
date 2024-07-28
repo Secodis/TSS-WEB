@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_ERRORLOG}</title>
+
 # {{site.TITLE_IMPL_ERRORLOG}}
 
 1. It MUST be ensured that in the event of any error (expected or unexpected) the application stays in a secure state in which that no internal information (such as stack traces) is disclosed to users.
