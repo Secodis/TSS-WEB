@@ -14,10 +14,6 @@ exclude:
   - LICENSE
   - README.md
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
 
