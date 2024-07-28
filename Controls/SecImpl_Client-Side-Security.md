@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_CLIENTSEC}</title>
+
 # {{site.TITLE_IMPL_CLIENTSEC}}
 
 1. Client-side code SHOULD be completely build using mature JavaScript APIs (not ActiveX or Java):
