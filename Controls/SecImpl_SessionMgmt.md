@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_SESSIONMGMT}</title>
+
 # {{site.TITLE_IMPL_SESSIONMGMT}}
 
 ## 1. General
