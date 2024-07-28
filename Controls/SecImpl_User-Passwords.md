@@ -1,3 +1,5 @@
+<title>{{site.TITLE_IMPL_USERPASSWD}</title>
+
 # {{site.TITLE_IMPL_USERPASSWD}}
 
 ## 1. General
