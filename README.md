@@ -13,7 +13,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
  * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
  * [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
 
-## Part 1: SSDLC Controls
+## Part A: SSDLC Controls
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
 * [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}})
 * [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
@@ -21,7 +21,7 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 * [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
 
-## Part 2: Secure Implementation Controls
+## Part B: Secure Implementation Controls
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
 * [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
 * [{{site.TITLE_IMPL_FILEUPLOADS}}]({{site.URL_IMPL_FILEUPLOADS}})
