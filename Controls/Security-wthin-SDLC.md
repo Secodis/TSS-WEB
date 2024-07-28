@@ -15,7 +15,8 @@
 
 ## 3. Security within Changes Management & Agile Development
 1. All changes of source code MUST be committed to a source code repository (e.g. Git).
-2. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks/impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
+2. For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
+3. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks/impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
@@ -27,15 +28,16 @@
 1. A formal definition of the build & deployment process MUST be created so that it becomes consistent, repeatable, and automated.
 2. Access to build and deployment systems MUST be secured according to requirements in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 3. Automated security checks MUST be integrated into build & deployment processes in accordance with requirements in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
-4. Secrets SHOULD be injected during the deployment process in accordance with requirements at  [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
+4. Secrets SHOULD be injected during the deployment process in accordance with requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 5. Deployment pipelines SHOULD implement a pull-based model[^3].
 6. A Software Bill of Materials (SBOM) must be created for all build and release artifacts
 7. For ***assurance class >= [HIGH]***, all deployed artifacts (including the SBOMs) MUST be cryptographically signed.
 
 ## 5. Security of 3rd Party Dependencies
+Relevant for target production environment:
 1. 3rd party dependencies SHOULD only be obtained via internal and approved repositories.
 2. Before a new 3rd party dependency is allowed to be used in productive applications (or within the release build environment), it MUST be approved by the architecture board. This does not affect new releases of a dependency that has already been approved.
-3. 3rd party dependencies SHOULD be updated regularly.
+3. 3rd party dependencies SHOULD be updated regularly, ideally automatically.
 4. 3rd party dependencies MUST be updated in case of relevant critical security vulnerabilities or end-of-life.
 5. Testing requirements for custom and 3rd party code are defined at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
@@ -43,9 +45,8 @@
 1. **Initial Project approval**: All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the assurance class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 2. **Architecture approval (conditional)**: For all new applications with ***assurance class >= [HIGH]***, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
 3. **Go-Live approval (conditional)**: Initial application releases for applications with ***assurance class >= [HIGH]*** MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
-4. **Foure Eye Principle: (conditional)** For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
-5. Continuous Release Gates: Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
-6. All security approvals and risk management decisions must be documented.
+4. Continuous Release Gates: Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
+5. All security approvals and risk management decisions must be documented.
 
 ## 7. Remediation of Security Findings
 Security findings with a ***criticality >= [HIGH]*** (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
