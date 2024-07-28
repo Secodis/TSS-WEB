@@ -1,3 +1,4 @@
+<title>{{site.TITLE_IMPL_FILEUPLOADS}</title>
 # {{site.TITLE_IMPL_FILEUPLOADS}}
 
 ## 1. Authentication
