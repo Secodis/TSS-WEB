@@ -16,5 +16,6 @@
 6. Usernames SHOULD be personalized.
 7. In case a user login fails, the application MUST NOT disclose information on the cause of the error (e.g. “Your password is wrong.”). Positive example: “Username or password was incorrect.”.
 8. Autocomplete for all fields on login dialogs SHOULD be deactivated by using the following statement `autocomplete="off"`.
+9. In case user login fails, an increasing delay MUST be implemented OR after three login failures for one user account, the account MUST be blocked for a grace period of at least 15 minutes.
 
 [^1]: See NIST SP 800-63b, NIST Special Publication 800-63B Digital Identity Guideline, [Authenticator Assurance Levels](https://pages.nist.gov/800-63-3/sp800-63b.html#sec4)
