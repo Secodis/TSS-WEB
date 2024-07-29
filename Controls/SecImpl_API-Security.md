@@ -31,6 +31,7 @@ Please note: For reasons of simplification, some of the following requirements t
     - Transmitted only via HTTPS/TLS
     - Issued by a trusted and hardened  server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
     - created and validated using mature frameworks.
+3. If the token is encoded as a JWT, the encryption method MUST be verified.
 
 ## 4. OAuth 2.0/OICD Requirements
 1. For user authentication (3-legged):
