@@ -34,7 +34,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## 4. OAuth 2.0/OICD Requirements
 1. Only 3-Legged: Authorization Code Grant with PKCE (or alternative authorization code binding technique, e.g. “state” binding or OICD Nounces) for both public clients (e.g. single-page applications (SPAs)[^1] SHOULD be used for both public and confidential clients (e.g. server-side web apps).[^2]
-2. Only 3-Legged: For CSRF protection, Authorization Code Grant Flows MUST either use the “state” parameter, PKCE, or “OICD Nounces
+2. Only 3-Legged: For CSRF protection, Authorization Code Grant Flows MUST either use the “state” parameter, PKCE, or “OICD Nounces"
 3. Only 3-Legged: Clients MUST register (and be validated using) full redirect URI as described in [RFC 6819 Section 5.2.3.5](https://datatracker.ietf.org/doc/html/rfc6819#section-5.2.3.5) (no pattern matching).
 4. Service-to-service access SHOULD be protected using Client Credential Grant.
 5. HTTPS MUST be used for all communication.
