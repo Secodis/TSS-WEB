@@ -11,12 +11,13 @@
     - only allow lists or enums for a string datatype,
     - restricted allowed characters via RegExp for a string (e.g. only `a-z` and `A-Z`).
 4. Input validation SHOULD be using a positive validation model (whitelisting).
-5. Transmitted data with high integrity protection requirement SHOULD be validated using hash, HMAC or public key encryption.
-6. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using OpenAPI, bean validation or schema validation (e.g. XML or JSON schema). Schemas SHOULD be restricte where possible (e.g. avoid using unrestricted string datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
-7. An XML parser that process XML content from untrusted sources (e.g. from an external entity) MUST be hardened to prevent common XML-based attacks:
+5. Untrusted data SHOULD not be deserialized.
+6. Transmitted data with high integrity protection requirement SHOULD be validated using hash, HMAC or public key encryption.
+7. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using OpenAPI, bean validation or schema validation (e.g. XML or JSON schema). Schemas SHOULD be restricte where possible (e.g. avoid using unrestricted string datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
+8. An XML parser that process XML content from untrusted sources (e.g. from an external entity) MUST be hardened to prevent common XML-based attacks:
     - Set restrictive limits (e.g. in respect of maximal nesting depth or document size),
     - deactivate processing of external XML entities.
-8. In order to prevent insecure object deserialization, it MUST be ensured that objects received and bound from untrusted sources are not hostile or tempered (e.g. by only binding non-sensitive attributes, perform whitelisting or integrity checks.
+9. In order to prevent insecure object deserialization, it MUST be ensured that objects received and bound from untrusted sources are not hostile or tempered (e.g. by only binding non-sensitive attributes, perform whitelisting or integrity checks.
 
 ## 2. Additional Requirements for Web-based UIs
 1. Security-relevant input validation MUST be performed on the server-side. Client-side validation MAY be implemented but only for usability reasons in addition to server-side validation or to prevent client-side attacks.
