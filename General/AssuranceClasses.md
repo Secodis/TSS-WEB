@@ -1,3 +1,5 @@
+<title>{{site.TITLE_GENERAL_ASSURANCECLASSES}}</title>
+
 # {{site.TITLE_GENERAL_ASSURANCECLASSES}}
 Certain requirements specified in this standard depend upon two aspects of an application.
 
