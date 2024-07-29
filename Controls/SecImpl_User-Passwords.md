@@ -6,17 +6,17 @@
 
 1. User password MUST be compliant to the password policy at both registration as well as password change and password reset functions.
 2. As long as not specified differently by the password policy, the following minimum requirements for user passwords MUST apply:
-    - Length >= 8 characters,
-    - consists of characters, digits and special characters,
+    - Length >= 10 characters,
     - not be identical with the username,
     - be masked on all HTML password fields,
     - not be logged or cached,
     - encrypted when transferred over insecure channels,
     - not transmitted in URLs and
-    - stored as a salted secure hash, ideally with key stretching. This SHOULD b implemented with [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [scrypt](https://en.wikipedia.org/wiki/Scrypt), [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) or [Argon2](https://en.wikipedia.org/wiki/Argon2) algorithm.
+    - stored as a salted secure hash, ideally with key stretching. This SHOULD be implemented with [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [scrypt](https://en.wikipedia.org/wiki/Scrypt), [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) or [Argon2](https://en.wikipedia.org/wiki/Argon2) algorithm.
 3. Initial user passwords MUST be changed by the user at first login.
 4. Standard passwords (= set by the vendor) MUST NOT be used and replaced by strong
 individual passwords.
+5. Password visibility toggle to unmask HTML password fields CAN be implemented
 
 ## 2. Password Change Functions
 
