@@ -17,7 +17,7 @@ The following definitions are used here:
 | **External Application** | A web-based application that is accessible from the outside of the organization (e.g. via the Internet). |
 | **Internal Code** | Source or program code which is not confidential and not public (standard). |
 | **Internal Application** | A web-based application that is only accessible from the inside of the organization (e.g. intranet application). |
-| **Sensitive Code** | Source or program code that is or is intentend to be deployed in production, containing confidential information such or sensitive business logic) |
+| **Sensitive Code** | Source or program code that containts confidential information such or sensitive business logic |
 | **Service** | Here: Synonym for (business) application that can contain one or more ->APIs |
 | **Source Code Repository** | System where custom code is stored (e.g. Git). |
 | **Web Application** | Here: A software program (UI, service or API or combination of them) that is accessible via HTTP(s) protocol and fulfills a particular business case. |
