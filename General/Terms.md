@@ -1,3 +1,5 @@
+<title>{{site.TITLE_GENERAL_TERMS}}</title>
+
 # {{site.TITLE_GENERAL_TERMS}}
 
 The following definitions are used here:
