@@ -35,6 +35,7 @@
 
 ## 5. Security of 3rd Party Dependencies
 Relevant for target production environment:
+
 1. 3rd party dependencies SHOULD only be obtained via internal and approved repositories.
 2. Before a new 3rd party dependency is allowed to be used in productive applications (or within the release build environment), it MUST be approved by the architecture board. This does not affect new releases of a dependency that has already been approved.
 3. 3rd party dependencies SHOULD be updated regularly, ideally automatically.
