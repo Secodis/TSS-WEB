@@ -3,15 +3,15 @@
 # {{site.TITLE_IMPL_INPUTVAL}}
 
 ## 1. General Requirements
-1. All untrusted input parameters (e.g. of external interfaces) MUST be validated restrictively.
+1. All untrusted input parameters (e.g. of external interfaces) MUST be validated restrictively where possible.
 2. Input validation SHOULD be performed as strictly as possible in respect of allowed data type, length, and range. Examples:
-    - Numeric instead of a String datatype,
-    - limitations for numeric data types,
-    - only allow lists or enums for a String datatype,
+    - Numeric instead of a string datatype,
+    - limitations for numeric data types (e.g. range, length),
+    - only allow lists or enums for a string datatype,
     - restricted allowed characters via RegExp for a string (e.g. only `a-z` and `A-Z`).
 3. Input validation SHOULD be using a positive validation model (whitelisting).
 4. Transmitted data with high integrity protection requirement SHOULD be validated using hash, HMAC or public key encryption.
-5. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using OpenAPI, bean validation or schema validation (e.g. XML or JSON schema). Schemas SHOULD be restricte where possible (e.g. avoid using unrestricted String datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
+5. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using OpenAPI, bean validation or schema validation (e.g. XML or JSON schema). Schemas SHOULD be restricte where possible (e.g. avoid using unrestricted string datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
 6. An XML parser that process XML content from untrusted sources (e.g. from an external entity) MUST be hardened to prevent common XML-based attacks:
     - Set restrictive limits (e.g. in respect of maximal nesting depth or document size),
     - deactivate processing of external XML entities.
