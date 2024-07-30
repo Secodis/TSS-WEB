@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_APISEC}</title>
+<title>{{site.TITLE_IMPL_APISEC}}</title>
 
 # {{site.TITLE_IMPL_APISEC}}
 
