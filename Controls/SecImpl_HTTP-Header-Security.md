@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_HTTPHEADERSEC}</title>
+<title>{{site.TITLE_IMPL_HTTPHEADERSEC}}</title>
 
 # {{site.TITLE_IMPL_HTTPHEADERSEC}}
 
