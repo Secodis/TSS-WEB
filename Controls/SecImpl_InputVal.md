@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_INPUTVAL}</title>
+<title>{{site.TITLE_IMPL_INPUTVAL}}</title>
 
 # {{site.TITLE_IMPL_INPUTVAL}}
 
