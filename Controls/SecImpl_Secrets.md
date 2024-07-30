@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_SECRETS}</title>
+<title>{{site.TITLE_IMPL_SECRETS}}</title>
 
 # {{site.TITLE_IMPL_SECRETS}}
 
