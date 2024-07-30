@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_CLIENTSEC}</title>
+<title>{{site.TITLE_IMPL_CLIENTSEC}}</title>
 
 # {{site.TITLE_IMPL_CLIENTSEC}}
 
