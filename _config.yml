@@ -1,12 +1,12 @@
 # _config.yml
-#logo: "/assets/img/logo1.png"
+logo: "/assets/img/logo1.png"
 #avatar: "/assets/img/logo1.png"
 title: TSS-WEB 
 description: An open security requirement framework for web-based applications and services.
 author: Matthias Rohr
-#show_downloads: false
-#google_analytics:
-#theme: jekyll-theme-slate
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-slate
 
 # Exclude these files from production site
 exclude:
@@ -15,7 +15,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
+  
 
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
