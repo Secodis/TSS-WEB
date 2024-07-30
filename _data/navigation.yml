@@ -4,6 +4,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/about/
+    
 docs:
   - title: SSDLC Requirements
     children:
