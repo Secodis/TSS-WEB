@@ -4,7 +4,7 @@ avatar: "/assets/img/logo1.png"
 title: TSS-WEB 
 description: An open security requirement framework for web-based applications and services.
 author: Matthias Rohr
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 #show_downloads: false
 #google_analytics:
 #theme: jekyll-theme-minimal
