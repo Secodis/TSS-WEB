@@ -6,7 +6,7 @@ description: An open security requirement framework for web-based applications a
 author: Matthias Rohr
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
 # Exclude these files from production site
 exclude:
