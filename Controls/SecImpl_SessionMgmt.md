@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_SESSIONMGMT}</title>
+<title>{{site.TITLE_IMPL_SESSIONMGMT}}</title>
 
 # {{site.TITLE_IMPL_SESSIONMGMT}}
 
