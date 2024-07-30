@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_CRYPTO}</title>
+<title>{{site.TITLE_IMPL_CRYPTO}}</title>
 
 # {{site.TITLE_IMPL_CRYPTO}}
 
