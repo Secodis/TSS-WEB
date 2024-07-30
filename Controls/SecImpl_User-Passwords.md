@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_USERPASSWD}</title>
+<title>{{site.TITLE_IMPL_USERPASSWD}}</title>
 
 # {{site.TITLE_IMPL_USERPASSWD}}
 
