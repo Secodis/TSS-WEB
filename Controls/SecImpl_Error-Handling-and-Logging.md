@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_ERRORLOG}</title>
+<title>{{site.TITLE_IMPL_ERRORLOG}}</title>
 
 # {{site.TITLE_IMPL_ERRORLOG}}
 
