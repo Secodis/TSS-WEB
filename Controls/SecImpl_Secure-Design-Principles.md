@@ -1,4 +1,4 @@
-<title>{{site.TITLE_IMPL_PRINCIPLES}</title>
+<title>{{site.TITLE_IMPL_PRINCIPLES}}</title>
 
 # {{site.TITLE_IMPL_PRINCIPLES}}
 
