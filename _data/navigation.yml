@@ -44,7 +44,7 @@ docs:
         url: /Controls/SecImpl_FileUploads
       - title: "B.4 - Output Validation"
         url: /Controls/SecImpl_OutputVal
-      - title: "B.5 - Secure User Registration & AuthN"
+      - title: "B.5 - Secure User Registration & Authentication"
         url: /Controls/SecImpl_UserAuth
       - title: "B.6 - User Passwords"
         url: Controls/SecImpl_User-Passwords
