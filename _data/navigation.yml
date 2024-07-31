@@ -17,7 +17,7 @@ docs:
 
   - title: Implementation Requirements
     children:
-      - title: {{site.TITLE_SSDLC_OUTDEV}}
+      - title: {{item.TITLE_SSDLC_OUTDEV}}
         url: /docs/configuration/
       - title: "Navigation"
         url: /docs/navigation/
