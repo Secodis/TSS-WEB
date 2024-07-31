@@ -1,4 +1,7 @@
 # _config.yml
+TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
+URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
+
 logo: "/assets/img/logo1.png"
 avatar: "/assets/img/logo1.png"
 title: TSS-WEB 
@@ -53,9 +56,6 @@ URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/Security-Tests
 
 TITLE_SSDLC_SECOP: "A.4 - Secure Operation"
 URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/Secure-Operation
-
-TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
-URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
 
 TITLE_SSDLC_REMEDIATION: "A.6 - Vulnerability Remediation in Production"
 URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/Controls/Vulnerability-Remediation
