@@ -19,6 +19,8 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
 * [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 * [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
+* [FAQ](/General/FAQ)
+* [License](/General/License-CC-BY)
 
 ## Part B: Secure Implementation Controls
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
