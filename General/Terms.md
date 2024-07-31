@@ -1,6 +1,4 @@
-<title>{{site.TITLE_GENERAL_TERMS}}</title>
-
-# {{site.TITLE_GENERAL_TERMS}}
+# Terms
 
 The following definitions are used here:
 
