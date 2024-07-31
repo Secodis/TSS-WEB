@@ -1,5 +1,5 @@
 ---
-Title: A6. Outsource Development (X)
+title: A6. Outsource Development (X)
 ---
 <title>{{site.TITLE_SSDLC_OUTDEV}}</title>
 # {{site.TITLE_SSDLC_OUTDEV}}
