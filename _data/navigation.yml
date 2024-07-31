@@ -17,7 +17,7 @@ docs:
       - title: "* FAQ"
         url: /General/FAQ
       - title: "* License"
-        url: /LICENSE
+        url: /LICENSE2
         
   - title: SSDLC Requirements
     children:
