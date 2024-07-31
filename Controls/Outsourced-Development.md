@@ -1,6 +1,6 @@
 <title>{{site.TITLE_SSDLC_OUTDEV}}</title>
 
-bla: {{structure.test.title}}
+bla: {{site.data.structure.test.title}}
 
 # {{site.TITLE_SSDLC_OUTDEV}}
 
