@@ -1,4 +1,2 @@
 test:
-  - url: /api
-    title: API Documentation
-    identifier: api
+  - title: 1234
