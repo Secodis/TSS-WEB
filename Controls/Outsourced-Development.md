@@ -1,5 +1,5 @@
 ---
-layout: home
+#layout: home
 #toc: true
 #toc_label: "Unique Title" # default: Content
 #toc_icon: "heart"  # corresponding Font Awesome icon name without the "fa" prefix
