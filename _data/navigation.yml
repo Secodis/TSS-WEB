@@ -19,11 +19,11 @@ docs:
     children:
       - title: {{item.TITLE_SSDLC_OUTDEV}}
         url: /docs/configuration/
-      - title: "Navigation"
+      - title: {{site.TITLE_SSDLC_OUTDEV}}
         url: /docs/navigation/
-      - title: "UI Text"
+      - title: "{{site.TITLE_SSDLC_OUTDEV}}"
         url: /docs/ui-text/
-      - title: "Authors"
+      - title: "{{site.data.structure.test.title}}"
         url: /docs/authors/
       - title: "Out"
         url: /docs/layouts/
