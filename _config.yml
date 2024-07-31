@@ -16,6 +16,14 @@ defaults:
       sidebar:
         nav: "docs"
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
 #show_downloads: false
 #google_analytics:
 #theme: jekyll-theme-minimal
