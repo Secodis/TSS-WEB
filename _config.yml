@@ -20,10 +20,10 @@ exclude:
   - LICENSE
 
 plugins:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  #- jekyll-feed
   - jemoji
   - jekyll-include-cache
 
