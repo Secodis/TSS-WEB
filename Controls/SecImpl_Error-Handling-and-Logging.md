@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_ERRORLOG}}</title>
-
-# {{site.TITLE_IMPL_ERRORLOG}}
+# B.9 - Error Handling and Logging
 
 1. It MUST be ensured that in the event of any error (expected or unexpected) the application stays in a secure state in which that no internal information (such as stack traces) is disclosed to users.
 2. Security exceptions SHOULD be thrown in case of security failures.
