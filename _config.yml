@@ -112,7 +112,7 @@ URL_IMPL_INPUTVAL: https://tss-web.secodis.com/Controls/SecImpl_InputVal
 TITLE_IMPL_FILEUPLOADS: "B.3 - Secure Fileuploads and Downloads"
 URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/Controls/SecImpl_FileUploads
 
-TITLE_IMPL_OUTPUTVAL: "B.4 - Output Validation"
+TITLE_IMPL_OUTPUTVAL: "B.4 - Output Validation & Encoding"
 URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/Controls/SecImpl_OutputVal
 
 TITLE_IMPL_USERAUTH: "B.5 - Secure User Registration & Authentication"
