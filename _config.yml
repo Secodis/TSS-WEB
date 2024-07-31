@@ -27,6 +27,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+atom_feed:
+  hide: true
+
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
 
