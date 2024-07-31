@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_APISEC}}</title>
-
-# {{site.TITLE_IMPL_APISEC}}
+# B.12 - API Security
 
 Please note: For reasons of simplification, some of the following requirements that refer to API apply to all techncial implementation variants such as XML WebServices, GraphQL or REST APIs.
 
