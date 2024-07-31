@@ -32,32 +32,32 @@ docs:
 
   - title: Implementation Requirements
     children:
-      - title: B.1 - Secure Design Principles
+      - title: "B.1 - Secure Design Principles"
         url: /Controls/SecImpl_Secure-Design-Principles
-      - title: B.2 - Input Validation
+      - title: "B.2 - Input Validation"
         url: /Controls/SecImpl_InputVal
-      - title: B.3 - Secure Fileuploads and Downloads"
+      - title: "B.3 - Secure Fileuploads and Downloads"
         url: /Controls/SecImpl_FileUploads
-      - title: B.4 - Output Validation
+      - title: "B.4 - Output Validation"
         url: /Controls/SecImpl_OutputVal
-      - title: B.5 - Secure User Registration & Authentication
+      - title: "B.5 - Secure User Registration & Authentication"
         url: /Controls/SecImpl_UserAuth
-      - title: B.6 - User Passwords
+      - title: "B.6 - User Passwords"
         url: Controls/SecImpl_User-Passwords
-      - title: B.7 - Secure Session Management"
+      - title: "B.7 - Secure Session Management"
         url: /Controls/SecImpl_SessionMgmt
-      - title: B.8 - Authorization
+      - title: "B.8 - Authorization"
         url: /Controls/SecImpl_Access-Control
-      - title: B.9 - Error Handling and Logging
+      - title: "B.9 - Error Handling and Logging"
         url: /Controls/SecImpl_Error-Handling-and-Logging
-      - title: B.10 - Data Security
+      - title: "B.10 - Data Security"
         url: /Controls/SecImpl_Data-Security
-      - title: B.11 - Protection of Secrets
+      - title: "B.11 - Protection of Secrets"
         url: /Controls/SecImpl_InputVal
-      - title: B.12 - API Security"
+      - title: "B.12 - API Security"
         url: /Controls/SecImpl_API-Security
-      - title: B.13 - Client-Side Security
+      - title: "B.13 - Client-Side Security"
         url: /Controls/SecImpl_Client-Side-Security
-      - title: B.14 - HTTP Header Security
+      - title: "B.14 - HTTP Header Security"
         url: /Controls/SecImpl_HTTP-Header-Security
         
