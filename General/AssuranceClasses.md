@@ -1,6 +1,5 @@
-<title>{{site.TITLE_GENERAL_ASSURANCECLASSES}}</title>
+# Assurance Classes
 
-# {{site.TITLE_GENERAL_ASSURANCECLASSES}}
 Certain requirements specified in this standard depend upon two aspects of an application.
 
 The first is the accessibility, e.g. is an application accessible from the Internet, the second is the business criticality:
