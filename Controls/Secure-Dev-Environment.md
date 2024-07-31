@@ -1,6 +1,4 @@
-<title>{{site.TITLE_SSDLC_SECENV}}</title>
-
-# {{site.TITLE_SSDLC_SECENV}}
+# A.1 - Secure Dev Environment
 
 ## 1. Securing Access to Dev Environment
 
