@@ -11,6 +11,8 @@ The purpose of this framework is to provide a comprehensive and consistent colle
  * [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
  * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
  * [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
+* [FAQ](/General/FAQ)
+* [License](/General/License-CC-BY)
 
 ## Part A: SSDLC Controls
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
@@ -19,8 +21,6 @@ The purpose of this framework is to provide a comprehensive and consistent colle
 * [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
 * [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 * [{{site.TITLE_SSDLC_REMEDIATION}}]({{site.URL_SSDLC_REMEDIATION}})
-* [FAQ](/General/FAQ)
-* [License](/General/License-CC-BY)
 
 ## Part B: Secure Implementation Controls
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
