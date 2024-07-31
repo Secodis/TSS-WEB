@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_CRYPTO}}</title>
-
-# {{site.TITLE_IMPL_CRYPTO}}
+# B.10 - Data Security
 
 ## 1. General
 
