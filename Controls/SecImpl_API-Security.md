@@ -25,7 +25,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 1. Services with ***assurance class >= HIGH*** SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
-    - Short-lived
+    - Short-lived (minutes or hours)
     - Cryptographically random (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
     - Restrictive scope & audiance
     - Transmitted only via HTTPS/TLS
