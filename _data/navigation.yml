@@ -21,7 +21,7 @@ docs:
         url: /docs/configuration/
       - title: {{site.TITLE_SSDLC_OUTDEV}}
         url: /docs/navigation/
-      - title: "{{site.TITLE_SSDLC_OUTDEV}}"
+      - title: site.TITLE_SSDLC_OUTDEV
         url: /docs/ui-text/
       - title: "{{site.data.structure.test.title}}"
         url: /docs/authors/
