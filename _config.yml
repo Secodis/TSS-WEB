@@ -9,12 +9,17 @@ description: An open security requirement framework for web-based applications a
 author: Matthias Rohr
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+search: true
 #show_downloads: false
 #google_analytics:
 #theme: jekyll-theme-minimal
 
+
+
 # Exclude these files from production site
+include:
+  - Controls
+  
 exclude:
   - CHANGELOG.md
   - CNAME
@@ -33,6 +38,13 @@ plugins:
 atom_feed:
   hide: true
 
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Secodis/TSS-WEB/"
+    
+      
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
 
