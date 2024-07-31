@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_INPUTVAL}}</title>
-
-# {{site.TITLE_IMPL_INPUTVAL}}
+# B.2 - Input Validation
 
 ## 1. General Requirements
 1. All untrusted input parameters (e.g. of external interfaces) MUST be validated restrictively where possible.
