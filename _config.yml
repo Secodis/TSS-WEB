@@ -10,6 +10,8 @@ author: Matthias Rohr
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+lunr:
+  search_within_pages: true
 #show_downloads: false
 #google_analytics:
 #theme: jekyll-theme-minimal
