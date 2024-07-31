@@ -58,7 +58,7 @@ TITLE_SSDLC_SECOP: "A.4 - Secure Operation"
 URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/Secure-Operation
 
 TITLE_SSDLC_REMEDIATION: "A.6 - Vulnerability Remediation in Production"
-URL_SSDLC_REMEDIATION: https://tss-web.secodis.com/Controls/Vulnerability-Remediation
+URL_SSDLC_REMEDIATION: /Controls/Vulnerability-Remediation
 
 TITLE_IMPL_PRINCIPLES: "B.1 - Secure Design Principles"
 URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/Controls/SecImpl_Secure-Design-Principles
@@ -76,7 +76,7 @@ TITLE_IMPL_USERAUTH: "B.5 - Secure User Registration & Authentication"
 URL_IMPL_USERAUTH: https://tss-web.secodis.com/Controls/SecImpl_UserAuth
 
 TITLE_IMPL_USERPASSWD: "B.6 - User Passwords"
-URL_IMPL_USERPASSWD: https://tss-web.secodis.com/Controls/SecImpl_User-Passwords
+URL_IMPL_USERPASSWD: /Controls/SecImpl_User-Passwords
 
 TITLE_IMPL_SESSIONMGMT: "B.7 - Secure Session Management"
 URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/Controls/SecImpl_SessionMgmt
