@@ -13,6 +13,12 @@ titles_from_headings:
   strip_title: true
   collections: true 
 search: true
+search_provider: algolia
+algolia:
+  application_id: 'UNHJ75I2C2Ä
+  index_name: 'TSSWEB'
+  search_only_api_key: '04a07e922c03e4e6ab87a416be11c623'
+  powered_by: true
 lunr:
   search_within_pages: true
   search_full_content: true
