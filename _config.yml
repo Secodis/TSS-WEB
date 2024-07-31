@@ -22,7 +22,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: home
 
 #show_downloads: false
 #google_analytics:
