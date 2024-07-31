@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_SESSIONMGMT}}</title>
-
-# {{site.TITLE_IMPL_SESSIONMGMT}}
+# B.7 - Secure Session Management
 
 ## 1. General
 1. The session management MUST be based on the standard implementation of the application server or web container.
