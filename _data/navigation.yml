@@ -4,6 +4,17 @@ main:
     url: https://www.secodis.com
     
 docs:
+  - title: General
+    children:  
+      - title: "Types of Requirements"
+        url: /General/Requirements
+      - title: "Terms"
+        url: /General/Terms
+      - title: "Roles"
+        url: /General/Roles
+      - title: "Assurance Classes"
+        url: /General/Assurance Classes
+
   - title: SSDLC Requirements
     children:
       - title: "Quick-Start Guide"
