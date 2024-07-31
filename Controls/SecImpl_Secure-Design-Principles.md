@@ -1,4 +1,4 @@
-B.1 - Secure Design Principles
+# B.1 - Secure Design Principles
 
 | # | Principle | Explanation |
 | ------------- | ------------- | ------------- |
