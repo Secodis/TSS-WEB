@@ -29,7 +29,7 @@ docs:
         url: /Controls/Secure-Operation
       - title: "A.5 - Outsourced Development"
         url: /Controls/Outsourced-Development
-      - title: "A.6 - Vulnerability Remediation in Production"
+      - title: "A.6 - Vulnerability Remediation"
         url: /Controls/Vulnerability-Remediation
 
   - title: Implementation Requirements
@@ -42,7 +42,7 @@ docs:
         url: /Controls/SecImpl_FileUploads
       - title: "B.4 - Output Validation"
         url: /Controls/SecImpl_OutputVal
-      - title: "B.5 - Secure User Registration & Authentication"
+      - title: "B.5 - Secure User Registration & AuthN"
         url: /Controls/SecImpl_UserAuth
       - title: "B.6 - User Passwords"
         url: Controls/SecImpl_User-Passwords
