@@ -11,8 +11,6 @@ search: true
 lunr:
   search_within_pages: true
   search_full_content: true
-include:
-  - Controls
 
 social:
   type                   : # Person or Organization (defaults to Person)
