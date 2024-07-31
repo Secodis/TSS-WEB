@@ -1,8 +1,3 @@
----
-sidebar:
-  nav: "docs"
----
-
 <title>{{site.TITLE_SSDLC_OUTDEV}}</title>
 
 # {{site.TITLE_SSDLC_OUTDEV}}
