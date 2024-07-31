@@ -2,7 +2,7 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "{{site.TITLE_GENERAL_REQUIREMENTS}}"
+  - title: {{site.TITLE_GENERAL_REQUIREMENTS}}
     url: https://mmistakes.github.io/minimal-mistakes/about/
     
 docs:
