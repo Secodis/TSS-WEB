@@ -1,7 +1,4 @@
 # _config.yml
-TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
-URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
-
 logo: "/assets/img/logo1.png"
 avatar: "/assets/img/logo1.png"
 title: TSS-WEB 
@@ -12,16 +9,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 search: true
 lunr:
   search_within_pages: true
-#show_downloads: false
-#google_analytics:
-#theme: jekyll-theme-minimal
 
-
-
-# Exclude these files from production site
 include:
   - Controls
-  
+
+# Exclude these files from production site
 exclude:
   - CHANGELOG.md
   - CNAME
@@ -45,8 +37,25 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Secodis/TSS-WEB/"
-    
-      
+  
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar: toc
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
+
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
 
@@ -70,6 +79,9 @@ URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/Security-Tests
 
 TITLE_SSDLC_SECOP: "A.4 - Secure Operation"
 URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/Secure-Operation
+
+TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
+URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
 
 TITLE_SSDLC_REMEDIATION: "A.6 - Vulnerability Remediation in Production"
 URL_SSDLC_REMEDIATION: /Controls/Vulnerability-Remediation
@@ -122,20 +134,4 @@ URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/D_Material/OWASP_Top_Ten
 TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping (Draft)"
 URL_MATERIAL_SAMMMAPPING: https://tss-web.secodis.com/D_Material/OWASP_SAMM-2.0-Mapping
 
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      sidebar: toc
-      sidebar:
-        nav: "docs"
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
+        
