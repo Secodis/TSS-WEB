@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_FILEUPLOADS}}</title>
-
-# {{site.TITLE_IMPL_FILEUPLOADS}}
+# B.3 - Secure Fileuploads and Downloads
 
 ## 1. Authentication
 All file uploads SHOULD be authenticated by the user on the server-side (= function only available within the authenticated user area) and MUST implement suitable controls to preventing denial of service attacks if available to not authenticated users.
