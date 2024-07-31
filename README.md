@@ -2,7 +2,9 @@ This is the official site of TSS-WEB, an **open requirement framework for web-ba
 
 ## Purpose
 
-The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating own security standards, policies, or concepts. The goal is not to create a collection of all exiting or possible requirements that cover every possible scenario, but rather to provide a foundation that works for most organizations. You can use all the controls or select only those you need. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
+The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating own security standards, policies, or concepts. 
+The goal is not to create a collection of all exiting or possible requirements that cover every possible scenario, but rather to provide a foundation that works for most organizations. 
+You can use all the controls or select only those you need. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
 
 ## General
