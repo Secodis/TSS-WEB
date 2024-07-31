@@ -1,4 +1,5 @@
 # _config.yml
+url: https://tss-web.secodis.com
 logo: "/assets/img/logo1.png"
 avatar: "/assets/img/logo1.png"
 title: TSS-WEB 
@@ -13,6 +14,11 @@ lunr:
 include:
   - Controls
 
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: 
+  
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
@@ -20,6 +26,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 plugins:
   #- jekyll-paginate
@@ -55,6 +64,11 @@ defaults:
     values:
       sidebar:
         nav: "docs"
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
 
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
 URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
