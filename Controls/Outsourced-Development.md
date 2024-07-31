@@ -1,4 +1,4 @@
-
+<title>{{site.TITLE_SSDLC_OUTDEV}}</title>
 # {{site.TITLE_SSDLC_OUTDEV}}
 
 The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. and in addition all other requirements of this document if applicable (e.g. protection of source code). Supplies **MUST** comply with the following requirements:
