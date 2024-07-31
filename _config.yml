@@ -15,7 +15,7 @@ titles_from_headings:
 search: true
 search_provider: algolia
 algolia:
-  application_id: 'UNHJ75I2C2Ä
+  application_id: 'UNHJ75I2C2'
   index_name: 'TSSWEB'
   search_only_api_key: '04a07e922c03e4e6ab87a416be11c623'
   powered_by: true
