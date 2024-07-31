@@ -111,7 +111,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: home
+      layout: single
   - scope:
       path: ""
       type: docs
