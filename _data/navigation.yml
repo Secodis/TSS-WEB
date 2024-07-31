@@ -13,7 +13,7 @@ docs:
       - title: "Installation"
         url: /docs/installation/
       - title: "Outsourced Development"
-        url: /Controls/Outsourced-Development.md
+        url: /Controls/Outsourced-Development
 
   - title: Implementation Requirements
     children:
