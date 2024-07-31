@@ -6,17 +6,19 @@ main:
 docs:
   - title: General
     children:  
-      - title: "1. Types of Requirements"
+      - title: "* Types of Requirements"
         url: /General/Requirements
-      - title: "2. Terms"
+      - title: "* Terms"
         url: /General/Terms
-      - title: "3. Roles"
+      - title: "* Roles"
         url: /General/Roles
-      - title: "4. Assurance Classes"
+      - title: "* Assurance Classes"
         url: /General/AssuranceClasses
-      - title: "5. FAQ"
+      - title: "* FAQ"
         url: /General/FAQ
-
+      - title: "* License"
+        url: /LICENSE
+        
   - title: SSDLC Requirements
     children:
       - title: "A.1 - Secure Dev Environment"
