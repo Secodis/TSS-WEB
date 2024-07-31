@@ -28,8 +28,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-
+  
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
