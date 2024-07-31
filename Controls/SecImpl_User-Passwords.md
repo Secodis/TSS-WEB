@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_USERPASSWD}}</title>
-
-# {{site.TITLE_IMPL_USERPASSWD}}
+# B.6 - User Passwords
 
 ## 1. General
 
