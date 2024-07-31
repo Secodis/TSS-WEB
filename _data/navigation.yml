@@ -13,18 +13,22 @@ docs:
       - title: "Roles"
         url: /General/Roles
       - title: "Assurance Classes"
-        url: /General/Assurance Classes
+        url: /General/AssuranceClasses
 
   - title: SSDLC Requirements
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Outsourced Development"
+      - title: "A.1 - Secure Dev Environment"
+        url: /Controls/Secure-Dev-Environment
+      - title: "A.2 - Security within SDLC"
+        url: /Controls/Security-wthin-SDLC
+      - title: "A.3 - Security Tests"
+        url: /Controls/Security-Tests
+      - title: "A.4 - Secure Operation"
+        url: /Controls/Secure-Operation
+      - title: "A.5 - Outsourced Development"
         url: /Controls/Outsourced-Development
+      - title: "A.6 - Vulnerability Remediation in Production"
+        url: /Controls/Vulnerability-Remediation
 
   - title: Implementation Requirements
     children:
