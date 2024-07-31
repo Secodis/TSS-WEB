@@ -1,6 +1,4 @@
-<title>{{site.TITLE_SSDLC_SDLC}}</title>
-
-# {{site.TITLE_SSDLC_SDLC}}
+# A.2 - Security within SDLC
 
 ## 1. Roles & Training
 1. Every development team MUST be responsible for the security of their own code.
