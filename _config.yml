@@ -116,6 +116,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar: toc
       sidebar:
         nav: "docs"
   - scope:
