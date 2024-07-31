@@ -1,12 +1,3 @@
----
-layout: default
-#toc: true
-#toc_label: "Unique Title" # default: Content
-#toc_icon: "heart"  # corresponding Font Awesome icon name without the "fa" prefix
-#toc_sticky: true   # enables sticky toc
-sidebar:
-  nav: "docs"
----
 <title>{{site.TITLE_SSDLC_OUTDEV}}</title>
 # {{site.TITLE_SSDLC_OUTDEV}}
 
