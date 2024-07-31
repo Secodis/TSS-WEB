@@ -1,6 +1,4 @@
-<title>{{site.TITLE_SSDLC_SECOP}}</title>
-
-# {{site.TITLE_SSDLC_SECOP}}
+# A.4 - Secure Operation
 
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
