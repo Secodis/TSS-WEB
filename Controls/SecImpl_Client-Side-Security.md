@@ -1,6 +1,4 @@
-<title>{{site.TITLE_IMPL_CLIENTSEC}}</title>
-
-# {{site.TITLE_IMPL_CLIENTSEC}}
+# B.13 - Client-Side Securit
 
 1. Client-side code SHOULD be completely build using mature JavaScript APIs (not ActiveX or Java):
     - JSON code MUST only be parsed with a secure JavaScript API such as `JSON.parse()` (not `eval()`).
