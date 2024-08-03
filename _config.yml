@@ -100,7 +100,7 @@ URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/Secure-Operation
 TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
 URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
 
-TITLE_SSDLC_REMEDIATION: "A.6 - Vulnerability Remediation in Production"
+TITLE_SSDLC_REMEDIATION: "A.6 - Vulnerability Remediation"
 URL_SSDLC_REMEDIATION: /Controls/Vulnerability-Remediation
 
 TITLE_IMPL_PRINCIPLES: "B.1 - Secure Design Principles"
