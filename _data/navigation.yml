@@ -17,7 +17,7 @@ docs:
       - title: "* FAQ"
         url: /General/FAQ
       - title: "* License"
-        url: /General/License-CC-BY
+        url: https://creativecommons.org/licenses/by/4.0/deed.en
         
   - title: SSDLC Requirements
     children:
