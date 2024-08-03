@@ -9,12 +9,12 @@ The purpose of this framework is to provide a comprehensive collection of techni
 In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
 ## General
- * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
- * [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
- * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
- * [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
-* [FAQ](/General/FAQ)
-* [License](/General/License-CC-BY)
+1. [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
+2. [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
+3. [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
+4. [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
+5.  [FAQ](/General/FAQ)
+6. [License](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 ## Part A: SSDLC Controls
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
