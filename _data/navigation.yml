@@ -6,17 +6,17 @@ main:
 docs:
   - title: General
     children:  
-      - title: "* Types of Requirements"
+      - title: "1. Types of Requirements"
         url: /General/Requirements
-      - title: "* Terms"
+      - title: "2. Terms"
         url: /General/Terms
-      - title: "* Roles"
+      - title: "3. Roles"
         url: /General/Roles
-      - title: "* Assurance Classes"
+      - title: "4. Assurance Classes"
         url: /General/AssuranceClasses
-      - title: "* FAQ"
+      - title: "5. FAQ"
         url: /General/FAQ
-      - title: "* License"
+      - title: "6. License"
         url: https://creativecommons.org/licenses/by/4.0/deed.en
         
   - title: SSDLC Requirements
