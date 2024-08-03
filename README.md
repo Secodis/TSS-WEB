@@ -1,10 +1,12 @@
 # Welcome
 
-This is the official site of TSS-WEB, an open requirement framework for web-based applications & services. All these requirements are based on common standards & best practices, including those from OWASP, SAFECode, ISO/IEC 27002, and NIST.
+This is the official site of TSS-WEB, an open requirement framework for web-based applications & services. All these requirements are based on common standards & best practices, including those from [OWASP](https://www.owasp.org), [NIST](https://www.nist.gov/), [SAFECode](https://safecode.org/), and [ISO/IEC 27002](https://www.iso.org/obp/ui/#iso:std:iso-iec:27002:ed-3:v2:en).
 
 ## Purpose
 
-The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for creating own security standards, policies, or concepts. The goal is to provide a foundation that works for most organizations. You can use all the controls or select only those you need. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
+The purpose of this framework is to provide a comprehensive collection of technical and organizational AppSec controls for creating own security standards, policies, or concepts. The goal is to provide a foundation that works for most organizations. You can use all the controls or select only those you need. 
+
+In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
 ## General
  * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
@@ -57,8 +59,8 @@ The following table outlines coverage of the most important standards and best p
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage withing implementation controls. See [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but many of its practices are covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31 |
-| [NIST SSSDF](https://csrc.nist.gov/Projects/ssdf)  | TBD  |
-| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | TBD |
+| [NIST SSDF](https://csrc.nist.gov/Projects/ssdf)  | comming soon.  |
+| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | comming soon. |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
