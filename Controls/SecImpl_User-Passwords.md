@@ -3,8 +3,8 @@
 ## 1. General
 
 1. User password MUST be compliant to the password policy at both registration as well as password change and password reset functions.
-2. As long as not specified differently by the password policy, the following minimum requirements for user passwords MUST apply:
-    - Length >= 8 characters[^1],
+2. As long as not specified differently by the password policy, the following minimum requirements[^1] for user passwords MUST apply:
+    - Length >= 8 characters,
     - not repetitive or sequential characters (e.g. `bbbbbbbb`, `12345678`),
     - not be identical with the username,
     - be masked on all HTML password fields,
