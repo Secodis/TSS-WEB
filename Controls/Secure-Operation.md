@@ -1,4 +1,4 @@
-# A.4 - Secure Operation
+7# A.4 - Secure Operation
 
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
@@ -43,12 +43,12 @@ This includes:
 4. Secrets MUST be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
 
 ## 5. Isolation of External Systems
-1. Applications MUST be deployed in a dedicated isolated production environment that can be shared with other applications.
-2. Application with ***assurance class >= [HIGH]*** MUST be completely isolated in terms of security realm, namespace, etc.
+1. Applications MUST be deployed in a dedicated isolated production environment.
+2. Application with ***assurance class >= [HIGH]*** MUST be completely isolated in terms of their security realm, namespace, etc.
 3. All network communication MUST be encrypted using TLS
 4. All external access to internal network zones MUST be approved.
-5. Outgoing communication (egress) to the Internet MUST be restricted and SHOULD be handled by proxies (e.g. HTTP proxies or SMTP proxies).
-6. Incoming communication (ingress) SHOULD be restricted and handled by reverse proxies (e.g. API gateways, Web gateways).
+5. Outgoing communication (egress) to the Internet MUST be restricted and SHOULD handled by proxies (e.g. HTTP proxies or SMTP proxies).
+6. Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g. API gateways, Web gateways).
 7. A web application firewall (WAF) MAY be used here, e.g. as an additional layer of protection, for virtual patching, or as an application IDS. 
 
 ## 6. Administrative Access
