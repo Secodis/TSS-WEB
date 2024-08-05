@@ -4,7 +4,7 @@
 
 1. User password MUST be compliant to the password policy at both registration as well as password change and password reset functions.
 2. As long as not specified differently by the password policy, the following minimum requirements for user passwords MUST apply:
-    - Length >= 8 characters,
+    - Length >= 8 characters[^1],
     - not repetitive or sequential characters (e.g. `bbbbbbbb`, `12345678`),
     - not be identical with the username,
     - be masked on all HTML password fields,
@@ -29,3 +29,5 @@ individual passwords.
 1. MUST implement the same level of security protections as the user authentication function (e.g. anti-automation).
 2. MUST be authorized by the user with the same method that is used as second factor or (in case no second factor is used) for user identification (e.g. e-mail address). Ideally, by using a One Time Token (OTT) with limited validity sent as a second factor (e.g. to the registered user e-mail address or mobile phone).
 3. MUST not affect the state of the user profile before password reset is completed.
+
+[^1]: See [NIST SP 800-63 - Digital Identity Guidelines, 5.1.1.1 Memorized Secret Verifiers](https://pages.nist.gov/800-63-4/sp800-63b.html#memorized-secret-authenticators)
