@@ -146,9 +146,9 @@ TITLE_IMPL_HTTPHEADERSEC: "B.14 - HTTP Header Security"
 URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/Controls/SecImpl_HTTP-Header-Security
 
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
-URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/D_Material/OWASP_Top_Ten_Mapping
+URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/Material/OWASP_Top_Ten_Mapping
 
 TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping (Draft)"
-URL_MATERIAL_SAMMMAPPING: https://tss-web.secodis.com/D_Material/OWASP_SAMM-2.0-Mapping
+URL_MATERIAL_SAMMMAPPING: https://tss-web.secodis.com/Material/OWASP_SAMM-2.0-Mapping
 
         
