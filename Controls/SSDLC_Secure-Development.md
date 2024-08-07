@@ -82,7 +82,7 @@ This section is relevant for the target production environment:
 
 4. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
-5. ***Documentation:** All security approvals and risk management decisions MUST be documented.
+5. **Documentation:** All security approvals and risk management decisions MUST be documented.
 
 ## 8. Remediation of Security Findings
 
