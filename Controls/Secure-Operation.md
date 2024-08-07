@@ -29,13 +29,12 @@ This includes:
 - Deactivation of insecure HTTP methods (e.g. `TRACE` and `TRACK`)
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
-## 3. Docker Security
-1. Docker images MUST only be built using trusted repositories.
-2. Docker images MUST only use selected base images.
-3. Docker images MUST be updating OS packages at build.
-4. Docker images MUST be scanned for insecure 3rd party components and insecure configuration.
-5. Docker images MUST not consist of a remote shell like SSH or telnet.
-6. Docker containers MUST have a maximal lifetime after which they have to be rebuilt with updated OS dependencies. 
+## 3. Container Security
+1. Only containers MUST be used that where built using trusted repositories, using hardened base images, and updated OS packages.
+2. Containers MUST be periodically scanned for insecure 3rd party components and insecure configuration.
+3. Containers MUST not consist of a remote shell like SSH or telnet.
+4. Containers MUST have a maximal lifetime after which they have to be rebuilt with updated OS dependencies. 
+5. Containers MUST have a label indicating the application/service and responsible team they belong to.
 
 ## 4. Securing Access to Backend Resources
 1. Processes MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
