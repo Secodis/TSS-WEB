@@ -30,7 +30,7 @@ toc_sticky: true
 
 2. **Peer Review:** For applications with *assurance class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
 
-3. **Assessment of Functional Requirements and Changes:** The team MUST conduct an assessment of all functional requirements and changes (e.g., User Stories)regarding potential security risks/impact (termed "security relevance") before implementation..
+3. **Assessment of Functional Requirements and Changes:** The team MUST conduct an assessment of all functional requirements and changes (e.g., User Stories) regarding potential security risks/impact (termed "security relevance") before implementation..
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
