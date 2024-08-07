@@ -1,4 +1,4 @@
-u# A.4 - Secure Operation
+# A.4 - Secure Operation
 
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
@@ -21,8 +21,11 @@ Systems in production MUST be strictly separated from development and test syste
    Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
 ## 2. System Hardening
-1. Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before used in a production stage.
-2. Systems in production MUST be periodically and automatically tested for insufficient hardening.
+1. **Pre-Deployment Hardening:**  
+   Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) **MUST** be hardened according to common best practices before being used in a production stage.
+
+2. **Ongoing Hardening Verification:**  
+   Systems in production **MUST** be periodically and automatically tested for insufficient hardening.
 
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
@@ -52,10 +55,18 @@ This includes:
    Containers MUST have labels that indicate the application or service they belong to and the responsible team.
 
 ## 4. Securing Access to Backend Resources
-1. Processes MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
-2. Access to backend systems MUST be authenticated and authorized by the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
-3. Access to backend systems MUST use dedicated service accounts for each system.
-4. Secrets MUST be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
+
+1. **Least Privilege Principle:**  
+   Processes must only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
+
+2. **Authenticated and Authorized Access:**  
+   Access to backend systems must be authenticated and authorized according to the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
+
+3. **Dedicated Service Accounts:**  
+   Access to backend systems must use dedicated service accounts for each system.
+
+4. **Secure Secrets Management:**  
+   Secrets must be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})).
 
 ## 5. Isolation of External Systems
 
