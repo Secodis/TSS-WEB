@@ -1,3 +1,9 @@
+---
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+---
 # A.5 Outsourced Development 
 
 The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. In addition, all other applicable requirements of this document MUST be followed (e.g., protection of source code). 
