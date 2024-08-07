@@ -94,11 +94,11 @@ URL_SSDLC_SDLC: https://tss-web.secodis.com/Controls/SSDLC_Secure-Development
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/SSDLC_Security-Tests
 
-TITLE_SSDLC_SECOP: "A.4 - Secure Operation"
-URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/SSDLC_Secure-Operation
-
-TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
+TITLE_SSDLC_OUTDEV: "A.4 - Outsourced Development"
 URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/SSDLC_Outsourced-Development
+
+TITLE_SSDLC_SECOP: "A.5 - Secure Operation"
+URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/SSDLC_Secure-Operation
 
 TITLE_IMPL_PRINCIPLES: "B.1 - Secure Design Principles"
 URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/Controls/SecImpl_Secure-Design-Principles
