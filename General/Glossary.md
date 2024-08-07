@@ -1,4 +1,4 @@
-# Terms
+# Glossary
 
 The following definitions are used here:
 
