@@ -1,9 +1,10 @@
 ---
-toc: true
-toc_label: "Unique Title"
-toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
-
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+---
 # A.2 - Secure Development
 
 ## 1. Roles & Training
