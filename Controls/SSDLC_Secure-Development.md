@@ -22,7 +22,7 @@ toc_sticky: true
 
 3. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## 3. Security Evaluation of New Requirements
+## 3. Security Evaluation of New Requirements 
 
 The team MUST conduct an assessment of all features, user stories and changes regarding potential security risks/impact (aka "security relevance") before implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
