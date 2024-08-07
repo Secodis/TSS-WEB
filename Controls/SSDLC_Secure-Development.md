@@ -10,11 +10,9 @@
 
 ## 2. Secure By Design
 
-# Application Security Design Guidelines
-
 1. **Security Considerations in Design:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer.
 
-2. **Documented Security Architecture:** For applications with an ***Assurance Class >= [HIGH]***, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
+2. **Documented Security Architecture:** For applications with an *Assurance Class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
 
 3. **Functional Requirements:** High-level application security objectives MUST be mapped to functional requirements.
 
@@ -52,7 +50,7 @@ The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL
 
 6. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-7. **Cryptographic Signing:** For ***Assurance Class >= [HIGH]***, all deployed artifacts (including SBOMs) MUST be cryptographically signed.
+7. **Cryptographic Signing:** For *Assurance Class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed.
 
 ## 6. Security of Third-Party Dependencies
 
@@ -72,9 +70,9 @@ This section is relevant for the target production environment:
 
 1. **Initial Project approval**: All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the assurance class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
-2. **Architecture approval (conditional)**: For all new applications with ***assurance class >= [HIGH]***, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
+2. **Architecture approval (conditional)**: For all new applications with *Assurance Class >= [HIGH]*, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
-3. **Go-Live approval (conditional)**: Initial application releases for applications with ***assurance class >= [HIGH]*** MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
+3. **Go-Live approval (conditional)**: Initial application releases for applications with *Assurance Class >= [HIGH]* MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
 
 4. **Continuous Release Gates**: Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
@@ -85,7 +83,7 @@ This section is relevant for the target production environment:
 Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
 1. **Risk Acceptance:**  
-   If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an assurance class of [HIGH] or greater, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
+   If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *Assurance Class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
 
 2. **Finding Verification:**  
    Security findings with criticality ratings of [MEDIUM] or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
@@ -101,7 +99,7 @@ Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUS
 
 ## 9. Security Documentation
 
-1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every application with ***assurance class >= [HIGH]*** before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
+1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every application with *Assurance Class >= [HIGH]* before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 
 2. In case the relevant IT security function has not requested it differently, this document SHOULD cover the following aspects:
    - Data and application classification (assurance class),
