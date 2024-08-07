@@ -2,11 +2,14 @@
 
 ## 1. Roles & Training
 
-1. Every development team MUST be responsible for the security of their own code.
+1. **Team Responsibility:**  
+   Every development team must be responsible for the security of their own code.
 
-2. Every development team CAN have to appoint a security champion (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})) and a deputy. One person can fill this role for multiple teams.
+2. **Security Champions:**  
+   Each development team can appoint a security champion and a deputy as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}). One person may fulfill this role for multiple teams.
 
-3. Every team member MUST receive general awareness and role-specific security training (e.g. secure coding training and training of secure design principles for developers).
+3. **Security Training:**  
+   Every team member must receive general awareness and role-specific security training. This includes secure coding training and training in secure design principles for developers.
 
 ## 2. Secure By Design
 
@@ -88,11 +91,11 @@ This section is relevant for the target production environment:
 
 ## 7. Remediation of Security Findings
 
-Security findings with a ***criticality >= [HIGH]*** (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
+Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
 1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For applications with ***assurance class >= [HIGH]***, this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
 
-2. In addition, security findings with ***criticality >= [MEDIUM]*** (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
+2. In addition, security findings with criticality >= [MEDIUM] (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
 
 3. Teams MAY reassess tool findings. For instance, they may refine a CVSS Base Score by evaluating its CVSS Environmental Score and thereby taking aspects like its classification or accessibility into account. When a rating/score is refined the respected reason (e.g. CVSS vector) MUST be documented.
 
