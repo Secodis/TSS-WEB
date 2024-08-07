@@ -34,19 +34,26 @@
 
 ## 4. Secure Build & Deployment
 
-1. A formal definition of the build & deployment process MUST be created so that it becomes consistent, repeatable, and automated.
+1. **Formal Process Definition:**  
+   A formal definition of the build and deployment process must be created to ensure consistency, repeatability, and automation.
 
-2. Access to build and deployment systems MUST be secured according to requirements in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
+2. **Secured Access:**  
+   Access to build and deployment systems must be secured according to the requirements outlined in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
-3. Automated security checks MUST be integrated into build & deployment processes in accordance with requirements in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+3. **Integrated Security Checks:**  
+   Automated security checks must be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-4. Secrets SHOULD be injected during the deployment process in accordance with requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
+4. **Secret Management:**  
+   Secrets should be injected during the deployment process in accordance with the guidelines provided at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
-5. Deployment pipelines SHOULD implement a pull-based model[^3].
+5. **Pull-Based Deployment Model:**  
+   Deployment pipelines should implement a pull-based model[^3].
 
-6. A Software Bill of Materials (SBOM) must be created for all build and release artifacts
+6. **SBOMs:**  
+   A Software Bill of Materials (SBOM) must be created for all build and release artifacts.
 
-7. For ***assurance class >= [HIGH]***, all deployed artifacts (including the SBOMs) MUST be cryptographically signed.
+7. **Cryptographic Signing:**  
+   For assurance class >= [HIGH], all deployed artifacts (including the SBOMs) must be cryptographically signed.
 
 ## 5. Security of Third-Party Dependencies
 
@@ -75,7 +82,7 @@ This section is relevant for the target production environment:
 
 3. **Go-Live approval (conditional)**: Initial application releases for applications with ***assurance class >= [HIGH]*** MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower assurance class.
 
-4. Continuous Release Gates: Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
+4. **Continuous Release Gates**: Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
 5. All security approvals and risk management decisions must be documented.
 
@@ -111,4 +118,4 @@ Security findings with a ***criticality >= [HIGH]*** (or CVSS[^2] v3 Score >= 7.
 
 [^2]: CVSS = [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
 
-[^3]: See [https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important](https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important)
+[^3]: A pull-based model refers to a deployment strategy where deployment systems pull updates from a central repository rather than having updates pushed to them. See  [https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important](https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important)
