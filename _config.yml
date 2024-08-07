@@ -82,8 +82,8 @@ URL_GENERAL_GLOSSARY: https://tss-web.secodis.com/General/Glossary
 TITLE_GENERAL_ROLES: "Roles"
 URL_GENERAL_ROLES: https://tss-web.secodis.com/General/Roles
 
-TITLE_GENERAL_ASSURANCECLASSES: "Assurance Classes"
-URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/AssuranceClasses
+TITLE_GENERAL_ASSURANCECLASSES: "Risk Classes"
+URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/RiskClasses
 
 TITLE_GENERAL_FAQ: "FAQ"
 URL_GENERAL_FAQ: https://tss-web.secodis.com/General/FAQ
