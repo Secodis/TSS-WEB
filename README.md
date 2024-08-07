@@ -49,9 +49,9 @@ You can find older versions of TSS-WEB in both English and German in PDF and MS 
 
 ## Related Standards
 
-Generally, we aim to integrate requirements from existing standards and best practices in this field that we find helpful for baseline security. This does not mean that every requirement is or should be integrated, especially when they are covering edge cases or are too specific.
+Generally, we aim to incorporate requirements from existing standards and best practices in this field that are suitable to establish baseline security. However, not every requirement is integrated here, particularly those that address edge cases or are overly specific.
 
-The following table outlines coverage of the most important standards and best practices in this field.
+The following table outlines the coverage of the perhaps most important standards in this field.
 
 | Standard  | Coverage |
 | ------------- | ------------- |
