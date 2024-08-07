@@ -1,4 +1,4 @@
-# A.2 - Security within Development
+# A.2 - Secure Development
 
 ## 1. Roles & Training
 
