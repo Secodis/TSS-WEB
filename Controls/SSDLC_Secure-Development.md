@@ -12,7 +12,7 @@ toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 
 2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
-3. **Security Qualification:** It MUST be ensured that all team members are sufficiently qualified to Every team member MUST receive general awareness and role-specific security training. This includes secure coding training and training in secure design principles for developers.
+3. **Security Qualification:** It MUST be ensured that all team members possess sufficient security knowledge. This CAN be achieved by providing general awareness and role-specific security training to team members, including secure coding training and training in secure design principles for developers.
 
 ## 2. Secure By Design
 
