@@ -108,7 +108,7 @@ For instance:
 - Potential malware infection
 
 ## 8. Security Monitoring
-For applications with *assurance class >= [HIGH]**: Possible security incidents MUST be continuously monitored. 
+For applications with *risk class >= [HIGH]**: Possible security incidents MUST be continuously monitored. 
 
 For instance:
 - Potential account abuse or system compromise
