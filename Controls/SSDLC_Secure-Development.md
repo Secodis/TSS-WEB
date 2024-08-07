@@ -82,20 +82,15 @@ This section is relevant for the target production environment:
 
 Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
-1. **Risk Acceptance:**  
-   If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *Assurance Class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
+1. **Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *Assurance Class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
 
-2. **Finding Verification:**  
-   Security findings with criticality ratings of [MEDIUM] or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
+2. **Finding Verification:** Security findings with criticality ratings of [MEDIUM] or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
 
-3. **Reassessment of Tool Findings:**  
-   Teams may reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g., CVSS vector) MUST be documented.
+3. **Reassessment of Tool Findings:** Teams may reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g., CVSS vector) MUST be documented.
 
-4. **Retesting After Remediation:**  
-   Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
+4. **Retesting After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
-5. **Approval of Exceptions:**  
-   For Assurance Class >= [HIGH]: exceptions (such as temporary workarounds) MUST be approved by the IT security function.
+5. **Approval of Exceptions:** For *Assurance Class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the IT security function.
 
 ## 9. Security Documentation
 
