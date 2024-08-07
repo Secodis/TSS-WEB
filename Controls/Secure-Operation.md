@@ -149,6 +149,28 @@ For instance:
 - DoS (or other) attacks
 - Critical security findings from security scans (see above).
 
-## 10. Incident Management
+## 10. Vulnerability Remediation
+
+1. Identified vulnerabilities in productive applications MUST generally be remediated quickly and effectively.
+
+2. In cases where root cause remediation requires a significant amount of time and the risk posed by the vulnerability is also significant, temporary measures (e.g., workarounds) SHOULD be implemented to reduce exploitability as soon as possible until the actual root cause is fixed.
+
+3. Vulnerabilities in productive applications and services must be remediated or have their exploitability prevented within the following timeframe.
+
+Internet-facing applications or services:
+
+| | **Critical Vulnerability** | **High Vulnerability**  | **Moderate Vulnerability**  |
+| ------------- | ------------- | ------------- | ------------- |
+| **Critical Application** | At the end of the **next working day** |  Within **7 days** | Within the next release, but after **6 months** at the latest. |
+| **Non-Critical Application** | Within **7 days**  | Within **21 days** | - |
+
+Internal applications or services:
+
+| | **Critical Vulnerability**  | **High Vulnerability** | **Moderate Vulnerability** |
+| -------------| ------------- | ------------- | ------------- |
+| **Critical Application** | Within **7 days**  | Within **30 days**  | Within the next release, but after **12 months** at the latest. |
+| **Non-Critical Application**| Within **21 days**  | Within **60 days**  | - |
+
+## 11. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
