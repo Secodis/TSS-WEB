@@ -58,25 +58,43 @@ This includes:
 4. Secrets MUST be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
 
 ## 5. Isolation of External Systems
-1. Applications MUST be deployed in dedicated isolated production environments.
-2. All network communication MUST be encrypted using TLS.
-3. All external access to internal network zones MUST be approved.
-4. Outgoing communication (egress) to the Internet MUST be restricted (whitelisted) and SHOULD be handled by proxies (e.g. HTTP proxies or SMTP proxies).
-5. Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g. API gateways, Web gateways).
-6. A web application firewall (WAF) MAY be used as an additional layer of protection for web UIs.
+
+1. **Dedicated Environments:**  
+   Applications MUST be deployed in dedicated isolated production environments.
+2. **Encrypted Communication:**  
+   All network communication MUST be encrypted using TLS.
+3. **External Access Approval:**  
+   All external access to internal network zones MUST be approved.
+4. **Restricted Outgoing Communication:**  
+   Outgoing communication (egress) to the Internet MUST be restricted (whitelisted) and SHOULD be handled by proxies (e.g., HTTP proxies or SMTP proxies).
+5. **Restricted Incoming Communication:**  
+   Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, Web gateways).
+6. **Web Application Firewall (WAF):**  
+   A web application firewall (WAF) MAY be used as an additional layer of protection for web UIs.
 
 ## 6. Administrative Access
+
 Administrative access MUST be as restricted as possible:
-1. Limited to required persons only.
-2. Access only via personalized accounts (e.g. usernames like “admin” should not be used).
-3. Limited to internal network zones or authorized IPs if possible.
-4. Using a mandatory 2nd authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
-5. All administrative access should be logged in a tamper proof way.
-6. Immediately revoked after they are not required anymore (e.g. user changes organizational role).
+
+1. **Limited Access:**  
+   Access MUST be limited to required persons only.
+2. **Personalized Accounts:**  
+   Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used)
+3. **Network Restrictions:**  
+   Access MUST be limited to internal network zones or authorized IPs if possible.
+4. **Two-Factor Authentication:**  
+   Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
+5. **Logging:**  
+   All administrative access SHOULD be logged in a tamper-proof way.
+6. **Revocation:**  
+   Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
 
 ## 7. System Maintenance
-1. Systems MUST be kept up-to-date, especially in terms of security patches.
-2. Unused applications MUST be decommissioned.
+
+1. **System Updates:**  
+   Systems MUST be kept up-to-date, especially in terms of security patches.
+2. **Decommissioning:**  
+   Unused applications or services MUST be decommissioned.
 
 ## 8. Security Scanning
 Productive systems MUST be periodically scanned for potential security problems. 
