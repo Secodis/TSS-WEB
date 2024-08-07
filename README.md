@@ -1,6 +1,6 @@
 # TSS-WEB
 
-This is the official site of TSS-WEB, an open requirement framework for web-based applications & services. All these requirements are based on common standards & best practices, including those from [OWASP](https://www.owasp.org), [NIST](https://www.nist.gov/), [SAFECode](https://safecode.org/), and [ISO/IEC 27002](https://www.iso.org/obp/ui/#iso:std:iso-iec:27002:ed-3:v2:en).
+This is the official site of TSS-WEB, an open requirement framework for web-based applications and services. All these requirements are based on common standards & best practices, including those from [OWASP](https://www.owasp.org), [NIST](https://www.nist.gov/), [SAFECode](https://safecode.org/), and [ISO/IEC 27002](https://www.iso.org/obp/ui/#iso:std:iso-iec:27002:ed-3:v2:en).
 
 ## Purpose
 
