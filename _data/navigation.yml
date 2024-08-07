@@ -31,8 +31,6 @@ docs:
         url: /Controls/Secure-Operation
       - title: "A.5 - Outsourced Development"
         url: /Controls/Outsourced-Development
-      - title: "A.6 - Vulnerability Remediation"
-        url: /Controls/Vulnerability-Remediation
 
   - title: Implementation Requirements
     children:
