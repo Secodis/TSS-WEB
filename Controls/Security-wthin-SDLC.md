@@ -3,10 +3,10 @@
 ## 1. Roles & Training
 
 1. **Team Responsibility:**  
-   Every development team must be responsible for the security of their own code.
+   Every development team IS responsible for the security of their own code.
 
 2. **Security Champions:**  
-   Each development team can appoint a security champion and a deputy as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}). One person may fulfill this role for multiple teams.
+   Each development team can appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
 3. **Security Training:**  
    Every team member must receive general awareness and role-specific security training. This includes secure coding training and training in secure design principles for developers.
