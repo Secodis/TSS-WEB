@@ -8,8 +8,8 @@ docs:
     children:  
       - title: "1. Types of Requirements"
         url: /General/Requirements
-      - title: "2. Terms"
-        url: /General/Terms
+      - title: "2. Glossary"
+        url: /General/Glossary
       - title: "3. Roles"
         url: /General/Roles
       - title: "4. Assurance Classes"
@@ -22,15 +22,15 @@ docs:
   - title: SSDLC Requirements
     children:
       - title: "A.1 - Secure Dev Environment"
-        url: /Controls/Secure-Dev-Environment
-      - title: "A.2 - Security within SDLC"
-        url: /Controls/Security-wthin-SDLC
+        url: /Controls/SSDLC_Secure-Dev-Environment
+      - title: "A.2 - Secure Develpment"
+        url: /Controls/SSDLC_Secure-Development
       - title: "A.3 - Security Tests"
-        url: /Controls/Security-Tests
-      - title: "A.4 - Secure Operation"
-        url: /Controls/Secure-Operation
-      - title: "A.5 - Outsourced Development"
-        url: /Controls/Outsourced-Development
+        url: /Controls/SSDLC_Security-Tests
+      - title: "A.4 - Outsourced Development"
+        url: /Controls/SSDLC_Outsourced-Development
+      - title: "A.5 - Secure Operation"
+        url: /Controls/SSDLC_Secure-Operation
 
   - title: Implementation Requirements
     children:
