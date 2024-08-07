@@ -2,11 +2,11 @@
 
 ## 1. Roles & Training
 
-1. **Team Responsibility:**: Every development team IS responsible for the security of their own code.
+1. **Team Responsibility:** Every development team IS responsible for the security of their own code.
 
-2. **Security Champions:**: Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
+2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
-3. **Security Training:**: Every team member MUST receive general awareness and role-specific security training. This includes secure coding training and training in secure design principles for developers.
+3. **Security Training:** Every team member MUST receive general awareness and role-specific security training. This includes secure coding training and training in secure design principles for developers.
 
 ## 2. Secure By Design
 
@@ -14,7 +14,7 @@
 
 1. **Security Considerations in Design:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer.
 
-2. **Documented Security Architecture:** For applications with an ***assurance class >= [HIGH]***, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
+2. **Documented Security Architecture:** For applications with an ***Assurance Class >= [HIGH]***, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
 
 3. **Functional Requirements:** High-level application security objectives MUST be mapped to functional requirements.
 
@@ -24,7 +24,7 @@
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (e.g. Git).
 
-2. **Peer Review:** For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
+2. **Peer Review:** For applications with ***Assurance Class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
 
 3. **Assessment of Functional Requirements and Changes:** The team MUST conduct an assessment of all functional requirements and changes (e.g., User Stories)regarding potential security risks/impact (termed "security relevance") before implementation..
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
@@ -36,7 +36,7 @@
 
 ## 4. Secure Implementation
 
-The implementation MUST adhere to the secure Implementation Requirements.
+The implementation MUST adhere to  [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
 ## 5. Secure Build & Deployment
 
