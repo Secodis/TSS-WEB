@@ -33,7 +33,7 @@ This includes:
 1. Only containers MUST be executed that where built using trusted repositories, hardened base images, and updated OS packages.
 2. Containers MUST be periodically scanned for insecure 3rd party components and configuration.
 3. Containers MUST have least privilege access to ressources.
-4. Containers MUST not consist of a remote shell like SSH or telnet
+4. Containers MUST not consist of remote shells like SSHd or telnet.
 5. Containers MUST have a maximal lifetime in which they have to be rebuilt with updated OS dependencies. 
 6. Containers MUST have a label indicating the application or service and responsible team they belong to.
 
