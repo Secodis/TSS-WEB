@@ -1,4 +1,4 @@
-# Assurance Classes
+# 4. Assurance Classes
 
 Certain requirements specified in this standard depend upon two aspects of an application.
 
