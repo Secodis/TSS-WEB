@@ -22,7 +22,7 @@
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (e.g. Git).
 
-2. **Peer Review:** For applications with ***Assurance Class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
+2. **Peer Review:** For applications with *Assurance Class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
 
 3. **Assessment of Functional Requirements and Changes:** The team MUST conduct an assessment of all functional requirements and changes (e.g., User Stories)regarding potential security risks/impact (termed "security relevance") before implementation..
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
