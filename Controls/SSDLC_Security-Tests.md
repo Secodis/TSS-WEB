@@ -47,9 +47,11 @@ toc_sticky: true
 3. **Tests of Abuse Cases:** Abuse cases SHOULD be created and tested for critical business security aspects
 
 ## 5. Pentests
+
 1. **Use of Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
 2. **Retests of Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix. 
 3. **Pentest Policy:** Pentests MUST be repeated according to follwing policy:
+   
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
 | >= [HIGH] | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
