@@ -10,6 +10,17 @@
 
 ## 2. Secure By Design
 
+# Application Security Design Guidelines
+
+1. **Security Considerations in Design:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer.
+
+2. **Documented Security Architecture:** For applications with an ***assurance class >= [HIGH]***, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
+
+3. **Functional Requirements:** High-level application security objectives MUST be mapped to functional requirements.
+
+4. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
+
+
 1. Security MUST be taken into account strongly during the design phase. Wherever possible, security requirements SHOULD be addressed on architecture instead of the code layer.
 
 2. For applications with ***assurance class >= [HIGH]***, a security architecture MUST be documented that describes relevant security aspects, security controls a threat model of the application. 
