@@ -1,4 +1,4 @@
-# A.2 - Security within SDLC
+# A.2 - Security within Development
 
 ## 1. Roles & Training
 
@@ -35,7 +35,11 @@
    - Threat models and assurance class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile development teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
-## 4. Secure Build & Deployment
+## 4. Secure Coding
+
+Implementation MUST be followed according to Secure Implementatin requirements.
+
+## 5. Secure Build & Deployment
 
 1. **Formal Process Definition:**  
    A formal definition of the build and deployment process must be created to ensure consistency, repeatability, and automation.
@@ -58,7 +62,7 @@
 7. **Cryptographic Signing:**  
    For ***assurance class >= [HIGH]**, all deployed artifacts (including SBOMs) must be cryptographically signed.
 
-## 5. Security of Third-Party Dependencies
+## 6. Security of Third-Party Dependencies
 
 This section is relevant for the target production environment:
 
@@ -77,7 +81,7 @@ This section is relevant for the target production environment:
 5. **Testing Requirements:**  
    Testing requirements for both custom and third-party code are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-## 6. Security Approvals (Security Gates)
+## 7. Security Approvals (Security Gates)
 
 1. **Initial Project approval**: All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the assurance class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
@@ -89,7 +93,7 @@ This section is relevant for the target production environment:
 
 5. All security approvals and risk management decisions must be documented.
 
-## 7. Remediation of Security Findings
+## 8. Remediation of Security Findings
 
 Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
@@ -108,7 +112,7 @@ Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUS
 5. **Approval of Exceptions:**  
    For applications with an assurance class of [HIGH] or greater, exceptions (such as temporary workarounds) must be approved by the IT security function.
 
-## 8. Security Documentation
+## 9. Security Documentation
 
 1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every application with ***assurance class >= [HIGH]*** before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 
