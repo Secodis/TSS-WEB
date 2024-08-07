@@ -7,16 +7,22 @@ Systems in production MUST be strictly separated from development and test syste
 
 1. **Environment Segregation:**  
    Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
+
 2. **Isolated Connections:**  
    Connections between different environments MUST NOT be possible.
+
 3. **Resource Isolation:**  
    Resources MUST NOT be shared between production and other environments, especially no secret storage.
+
 4. **Separate Authorization:**  
    Users and systems MUST be authorized separately for each environment.
+
 5. **Access Server Separation:**  
    Access servers SHOULD be separate instances for all environments but MUST at least use separate realms.
+
 6. **Restricted Production Access:**  
    Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see "Administrative Access" below) and SHOULD be automated where possible.
+
 7. **Data Usage Restrictions:**  
    Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
@@ -43,14 +49,19 @@ This includes:
 ## 3. Container Security
 1. **Trusted Sources:**  
    Containers MUST be executed only if they are built using trusted repositories, hardened base images, and updated OS packages.
+
 2. **Security Scans:**  
    Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
+
 3. **Minimal Privileges:**  
    Containers MUST be executed with the least privileges necessary to function.
+
 4. **Prohibited Remote Shells:**  
    Containers MUST NOT include remote shells such as `sshd` or `telnet`.
+
 5. **Lifecycle Management:**  
    Containers MUST have a defined maximum lifetime, after which they need to be rebuilt with updated OS dependencies.
+
 6. **Labeling:**  
    Containers MUST have labels that indicate the application or service they belong to and the responsible team.
 
@@ -72,14 +83,19 @@ This includes:
 
 1. **Dedicated Environments:**  
    Applications MUST be deployed in dedicated isolated production environments.
+
 2. **Encrypted Communication:**  
    All network communication MUST be encrypted using TLS.
+
 3. **External Access Approval:**  
    All external access to internal network zones MUST be approved.
+
 4. **Restricted Outgoing Communication:**  
    Outgoing communication (egress) to the Internet MUST be restricted (whitelisted) and SHOULD be handled by proxies (e.g., HTTP proxies or SMTP proxies).
+
 5. **Restricted Incoming Communication:**  
    Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, Web gateways).
+
 6. **Web Application Firewall (WAF):**  
    A web application firewall (WAF) MAY be used as an additional layer of protection for web UIs.
 
