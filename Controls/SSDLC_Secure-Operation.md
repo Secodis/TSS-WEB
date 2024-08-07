@@ -77,7 +77,7 @@ This includes:
 
 ## 6. Administrative Access
 
-Administrative access MUST be as restricted as possible:
+Administrative access MUST be as strongly restricted:
 
 1. **Limited Access:** Access MUST be limited to required persons only.
 
@@ -102,7 +102,7 @@ For instance:
 - Potential malware infection
 
 ## 8. Security Monitoring
-For applications with ***assurance class >= [HIGH]***: Possible security incidents MUST be continuously monitored. 
+For applications with *assurance class >= [HIGH]**: Possible security incidents MUST be continuously monitored. 
 
 For instance:
 - Potential account abuse or system compromise
