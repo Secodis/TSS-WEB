@@ -12,7 +12,7 @@ toc_sticky: true
 
 2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
-3. **Security Qualification:** It MUST be ensured that all team members possess sufficient security knowledge. This CAN be achieved by providing general awareness and role-specific security training to team members, including secure coding training and training in secure design principles for developers.
+3. **Security Qualification:** It MUST be ensured that all team members possess sufficient security knowledge. This SHOULD be achieved by providing general awareness and role-specific security training or coaching to team members, including secure coding training and training in secure design principles for developers.
 
 ## 2. Secure By Design
 
@@ -30,8 +30,7 @@ toc_sticky: true
 
 2. **Peer Review:** For applications with *assurance class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals).
 
-3. **Assessment of Functional Requirements:** The team MUST conduct an assessment of all functional requirements (e
-g. User Stories) and changes regarding potential security risks/impact (termed "security relevance") before implementation..
+3. **Assessment of Functional Requirements:** The team MUST conduct an assessment of all functional requirements (e.g. User Stories) and changes regarding potential security risks/impact (aka "security relevance") before implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
