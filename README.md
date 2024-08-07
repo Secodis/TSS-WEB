@@ -13,8 +13,8 @@ The goal is to provide a foundation that works for most organizations. In many c
 2. [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
 3. [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
 4. [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
-5. [FAQ](/General/FAQ)
-6. [License](https://creativecommons.org/licenses/by/4.0/deed.en)
+5. [{{site.TITLE_GENERAL_FAQ}}]({{site.URL_GENERAL_FAQ}})
+6. [{{site.TITLE_GENERAL_LICENSE}}]({{site.URL_GENERAL_LICENSE}})
 
 ## Part A: SSDLC Controls
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
