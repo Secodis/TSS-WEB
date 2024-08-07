@@ -85,8 +85,8 @@ URL_GENERAL_ROLES: https://tss-web.secodis.com/General/Roles
 TITLE_GENERAL_ASSURANCECLASSES: "Assurance Classes"
 URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/AssuranceClasses
 
-TITLE_GENERAL_ASSURANCECLASSES: "FAQ"
-URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/FAQ
+TITLE_GENERAL_FAQ: "FAQ"
+URL_GENERAL_FAQ: https://tss-web.secodis.com/General/FAQ
 
 TITLE_GENERAL_LICENSE: "License"
 URL_GENERAL_LICENSE: https://creativecommons.org/licenses/by/4.0/deed.en
