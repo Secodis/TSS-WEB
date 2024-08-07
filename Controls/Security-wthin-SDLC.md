@@ -93,15 +93,20 @@ This section is relevant for the target production environment:
 
 Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
-1. In case this is not possible, the relevant risk MUST be accepted by the respective management function (e.g. project lead). For applications with ***assurance class >= [HIGH]***, this risk acceptance MUST be formally documented (e.g. as a Jira ticket).
+1. **Risk Acceptance:**  
+   If mitigation is not possible, the relevant risk must be accepted by the respective management function (e.g., project lead). For applications with an assurance class of [HIGH] or greater, this risk acceptance must be formally documented (e.g., as a Jira ticket).
 
-2. In addition, security findings with criticality >= [MEDIUM] (or CVSS v3 Score >= 5.0) SHOULD NOT go live without proper verification.
+2. **Finding Verification:**  
+   Security findings with criticality ratings of [MEDIUM] or greater (or a CVSS v3 Score of 5.0 or higher) should not go live without proper verification.
 
-3. Teams MAY reassess tool findings. For instance, they may refine a CVSS Base Score by evaluating its CVSS Environmental Score and thereby taking aspects like its classification or accessibility into account. When a rating/score is refined the respected reason (e.g. CVSS vector) MUST be documented.
+3. **Reassessment of Tool Findings:**  
+   Teams may reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g., CVSS vector) must be documented.
 
-4. Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
+4. **Retesting After Remediation:**  
+   Identified vulnerabilities must be retested after remediation to verify that countermeasures have been implemented correctly.
 
-5. For ***assurance class >= [HIGH]***: Exceptions (such as temporary workarounds) MUST be approved by the IT security function.
+5. **Approval of Exceptions:**  
+   For applications with an assurance class of [HIGH] or greater, exceptions (such as temporary workarounds) must be approved by the IT security function.
 
 ## 8. Security Documentation
 
@@ -119,6 +124,6 @@ Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUS
 
 [^1]: SAFECode defines a good security indicator here, by describing security-relevant changes as “Any additions or changes in security controls and functionality”: (1) Authentication (Adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) Logging, monitoring and alerting (Adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics) or (3) Cryptography (Adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc). See SAFECode paper [Tactical Threat Modeling](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf)
 
-[^2]: CVSS = [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
+[^2]: The Common Vulnerability Scoring System (CVSS) is a framework for rating the severity of security vulnerabilities. See [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
 
 [^3]: A pull-based model refers to a deployment strategy where deployment systems pull updates from a central repository rather than having updates pushed to them. See  [https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important](https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important)
