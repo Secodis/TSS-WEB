@@ -16,7 +16,7 @@ toc_sticky: true
 
 ## 2. Secure By Design
 
-1. **Security Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer.
+1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer.
 
 2. **Documented Security Architecture:** For applications with an *assurance class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
 
