@@ -30,11 +30,12 @@ This includes:
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
 ## 3. Container Security
-1. Only containers MUST be used that where built using trusted repositories, using hardened base images, and updated OS packages.
-2. Containers MUST be periodically scanned for insecure 3rd party components and insecure configuration.
+1. Only containers MUST be used that where built using trusted repositories, hardened base images, and updated OS packages.
+2. Containers MUST be periodically scanned for insecure 3rd party components and configuration.
 3. Containers MUST not consist of a remote shell like SSH or telnet.
-4. Containers MUST have a maximal lifetime after which they have to be rebuilt with updated OS dependencies. 
-5. Containers MUST have a label indicating the application/service and responsible team they belong to.
+4. Containers MUST have least privilege access to ressources (including use of privileged mode).
+5. Containers MUST have a maximal lifetime after which they have to be rebuilt with updated OS dependencies. 
+6. Containers MUST have a label indicating the application or service and responsible team they belong to.
 
 ## 4. Securing Access to Backend Resources
 1. Processes MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
