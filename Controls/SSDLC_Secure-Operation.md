@@ -5,7 +5,7 @@ The following requirements apply to systems (infrastructure, platforms, or other
 ## 1. Environment Separation
 Systems in production MUST be strictly separated from development and test systems:
 
-1. **Environment Segregation:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
+1. **Segregation of Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
 
 2. **Isolated Connections:** Connections between different environments MUST NOT be possible.
 
@@ -20,7 +20,7 @@ Systems in production MUST be strictly separated from development and test syste
 7. **Data Usage Restrictions:** Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
 ## 2. System Hardening
-1. **Pre-Deployment Hardening:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) **MUST** be hardened according to common best practices before being used in a production stage.
+1. **Pre-Deployment Hardening:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
 
 2. **Hardening Verification:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
 
@@ -53,11 +53,11 @@ This includes:
 
 ## 4. Securing Access to Backend Resources
 
-1. **Least Privilege Principle:** Processes must only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
+1. **Least Privilege Principle:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
 
-2. **Authenticated and Authorized Access:** Access to backend systems must be authenticated and authorized according to the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
+2. **Authenticated and Authorized Access:** Access to backend systems MUST be authenticated and authorized according to the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 
-3. **Dedicated Service Accounts:** Access to backend systems must use dedicated service accounts for each system.
+3. **Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
 
 4. **Secure Secrets Management:** Secrets must be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})).
 
@@ -73,7 +73,7 @@ This includes:
 
 5. **Restricted Incoming Communication:** Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, Web gateways).
 
-6. **Web Application Firewall (WAF):** A web application firewall (WAF) MAY be used as an additional layer of protection for web UIs.
+6. **Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
 
 ## 6. Administrative Access
 
@@ -123,7 +123,7 @@ For instance:
 
 2. In cases where root cause remediation requires a significant amount of time and the risk posed by the vulnerability is also significant, temporary measures (e.g., workarounds) SHOULD be implemented to reduce exploitability as soon as possible until the actual root cause is fixed.
 
-3. Vulnerabilities in productive applications and services must be remediated or have their exploitability prevented within the following timeframe.
+3. Vulnerabilities in productive applications and services MUST be remediated or have their exploitability prevented within the following timeframe.
 
 Internet-facing applications or services:
 
