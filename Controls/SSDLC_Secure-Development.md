@@ -22,9 +22,9 @@ toc_sticky: true
 
 3. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## 3. Security Requirements
+## 3. Security Evaluation of New Requirements
 
-The team MUST conduct an assessment of all functional requirements (e.g. User Stories) and changes regarding potential security risks/impact (aka "security relevance") before implementation.
+The team MUST conduct an assessment of all features, user stories and changes regarding potential security risks/impact (aka "security relevance") before implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
