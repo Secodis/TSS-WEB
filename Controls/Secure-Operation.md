@@ -3,22 +3,22 @@ u# A.4 - Secure Operation
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
 ## 1. Environment Separation
-Systems in production **MUST** be strictly separated from development and test systems:
+Systems in production MUST be strictly separated from development and test systems:
 
 1. **Environment Segregation:**  
-   Production, test, and development stages **MUST** be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
+   Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
 2. **Isolated Connections:**  
-   Connections between different environments **MUST NOT** be possible.
+   Connections between different environments MUST NOT be possible.
 3. **Resource Isolation:**  
-   Resources **MUST NOT** be shared between production and other environments, especially no secret storage.
+   Resources MUST NOT be shared between production and other environments, especially no secret storage.
 4. **Separate Authorization:**  
-   Users and systems **MUST** be authorized separately for each environment.
+   Users and systems MUST be authorized separately for each environment.
 5. **Access Server Separation:**  
-   Access servers **SHOULD** be separate instances for all environments but **MUST** at least use separate realms.
+   Access servers SHOULD be separate instances for all environments but MUST at least use separate realms.
 6. **Restricted Production Access:**  
-   Access to the production environment **MUST** be granted strictly on a need-to-know and least-privilege basis (see "Administrative Access" below) and **SHOULD** be automated where possible.
+   Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see "Administrative Access" below) and SHOULD be automated where possible.
 7. **Data Usage Restrictions:**  
-   Production data **SHOULD NOT** be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
+   Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
 ## 2. System Hardening
 1. Systems (e.g. web servers, application servers, container platforms or content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before used in a production stage.
