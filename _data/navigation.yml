@@ -12,8 +12,8 @@ docs:
         url: /General/Glossary
       - title: "3. Roles"
         url: /General/Roles
-      - title: "4. Assurance Classes"
-        url: /General/AssuranceClasses
+      - title: "4. Risk Classes"
+        url: /General/RiskClasses
       - title: "5. FAQ"
         url: /General/FAQ
       - title: "6. License"
