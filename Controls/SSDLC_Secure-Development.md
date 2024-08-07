@@ -24,7 +24,7 @@ toc_sticky: true
 
 4. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## 3. Security within Change Management & Agile Development
+## 3. Security in Change Management & Agile Development
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
