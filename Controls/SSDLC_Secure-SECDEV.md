@@ -35,9 +35,9 @@
    - Threat models and assurance class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile development teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
-## 4. Secure Coding
+## 4. Secure Implementation
 
-Implementation MUST be followed according to Secure Implementatin requirements.
+The implementation must adhere to the secure Implementation Requirements.
 
 ## 5. Secure Build & Deployment
 
