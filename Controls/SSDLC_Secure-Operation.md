@@ -22,13 +22,13 @@ Systems in production MUST be strictly separated from development and test syste
 ## 2. System Hardening
 1. **Pre-Deployment Hardening:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) **MUST** be hardened according to common best practices before being used in a production stage.
 
-2. **Hardening Verification:** Systems in production **MUST** be periodically and automatically tested for insufficient hardening.
+2. **Hardening Verification:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
 
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
 - Deactivation of all services, plugins, and other functionality that is not needed, especially if they are exposed (executable from remote)
 - Hardened SSL/TLS stack (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
-- Activated security headers according to Appendix A: Requirements for HTTP Security Header
+- Activated security headers according to [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}}).
 - Removal of samples and other default content
 - Execution of network services (e.g. web or application servers) with only minimal privileges and isolated from other processes if possible (e.g. as an isolated container or dedicated server instance, VM or host)
 - Network services bound to localhost if access is only required from the same system.
@@ -91,13 +91,7 @@ Administrative access MUST be as restricted as possible:
 
 6. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
 
-## 7. System Maintenance
-
-1. **System Updates:** Systems MUST be kept up-to-date, especially in terms of security patches.
-
-2. **Decommissioning:** Unused applications or services MUST be decommissioned.
-
-## 8. Security Scanning
+## 7. Security Scanning
 Productive systems MUST be periodically scanned for potential security problems. 
 
 For instance:
@@ -107,7 +101,7 @@ For instance:
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 
-## 9. Security Monitoring
+## 8. Security Monitoring
 For applications with ***assurance class >= [HIGH]***: Possible security incidents MUST be continuously monitored. 
 
 For instance:
@@ -116,6 +110,12 @@ For instance:
 - Use or assignment of critical security permissions
 - DoS (or other) attacks
 - Critical security findings from security scans (see above).
+
+## 9. System Maintenance
+
+1. **System Updates:** Systems MUST be kept up-to-date, especially in terms of security patches.
+
+2. **Decommissioning:** Unused applications or services MUST be decommissioned.
 
 ## 10. Vulnerability Remediation
 
@@ -142,3 +142,4 @@ Internal applications or services:
 ## 11. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
+
