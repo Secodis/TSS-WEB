@@ -1,6 +1,8 @@
 # A.5 Outsourced Development 
 
-The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. In addition, all other applicable requirements of this document must be followed (e.g., protection of source code). Suppliers must comply with the following requirements:
+The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. In addition, all other applicable requirements of this document MUST be followed (e.g., protection of source code). 
+
+Suppliers MUST comply with the following requirements:
 
 1. **Due Diligence:**  
    Implement all measures and common best practices within development, operation, and quality assurance required to prevent the occurrence of new security defects.
