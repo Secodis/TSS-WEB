@@ -105,14 +105,19 @@ Administrative access MUST be as restricted as possible:
 
 1. **Limited Access:**  
    Access MUST be limited to required persons only.
+
 2. **Personalized Accounts:**  
-   Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used)
+   Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used).
+
 3. **Network Restrictions:**  
    Access MUST be limited to internal network zones or authorized IPs if possible.
+
 4. **Two-Factor Authentication:**  
    Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
+
 5. **Logging:**  
    All administrative access SHOULD be logged in a tamper-proof way.
+
 6. **Revocation:**  
    Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
 
@@ -120,6 +125,7 @@ Administrative access MUST be as restricted as possible:
 
 1. **System Updates:**  
    Systems MUST be kept up-to-date, especially in terms of security patches.
+
 2. **Decommissioning:**  
    Unused applications or services MUST be decommissioned.
 
