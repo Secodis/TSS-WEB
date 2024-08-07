@@ -10,7 +10,7 @@ The goal is to provide a foundation that works for most organizations. In many c
 
 ## General
 1. [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
-2. [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
+2. [{{site.TITLE_GENERAL_GLOSSARY}}]({{site.URL_GENERAL_GLOSSARY}})
 3. [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
 4. [{{site.TITLE_GENERAL_ASSURANCECLASSES}}]({{site.URL_GENERAL_ASSURANCECLASSES}})
 5. [{{site.TITLE_GENERAL_FAQ}}]({{site.URL_GENERAL_FAQ}})
