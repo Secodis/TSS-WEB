@@ -2,7 +2,7 @@
 
 ## 1. General Requirements
 
-1. **Verification of Security Requirements: ** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
+1. **Verification of Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
 
 2. **Automated and Continuous Testing:** Where possible, security tests SHOULD be executed automatically and continuously (e.g., within CI and CD pipelines) and as early as possible within the development process (following the fail-fast principle).
 
