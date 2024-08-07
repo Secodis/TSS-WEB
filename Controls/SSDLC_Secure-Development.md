@@ -24,13 +24,14 @@ toc_sticky: true
 
 4. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## 3. Security within Changes Management & Agile Development
+## 3. Security within Change Management & Agile Development
 
-1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (e.g. Git).
+1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
-2. **Peer Review:** For applications with *assurance class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
+2. **Peer Review:** For applications with *assurance class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals).
 
-3. **Assessment of Functional Requirements and Changes:** The team MUST conduct an assessment of all functional requirements and changes (e.g., User Stories) regarding potential security risks/impact (termed "security relevance") before implementation..
+3. **Assessment of Functional Requirements:** The team MUST conduct an assessment of all functional requirements (e
+g. User Stories) and changes regarding potential security risks/impact (termed "security relevance") before implementation..
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
