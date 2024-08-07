@@ -20,22 +20,13 @@
 
 4. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-
-1. Security MUST be taken into account strongly during the design phase. Wherever possible, security requirements SHOULD be addressed on architecture instead of the code layer.
-
-2. For applications with ***assurance class >= [HIGH]***, a security architecture MUST be documented that describes relevant security aspects, security controls a threat model of the application. 
-
-3. High-level application security objectives MUST also be mapped to functional requirements. 
-
-4. Decisions with severe security implications MUST be regularly questioned and discussed within the team.
-
 ## 3. Security within Changes Management & Agile Development
 
-1. All changes of source code MUST be committed to a source code repository (e.g. Git).
+1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (e.g. Git).
 
-2. For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
+2. **Peer Review:** For applications with ***assurance class >= [HIGH]***, all commits to protected branches MUST be reviewed by a second developer of that team (e.g. via pull/merge request approvals).
 
-3. Assessment of all functional requirements and changes (e.g. User Stories) in respect of potential security risks/impact (= “security-relevance”)[^1] MUST be conducted by the team before their implementation.
+3. **Assessment of Functional Requirements and Changes:** The team MUST conduct an assessment of all functional requirements and changes (e.g., User Stories)regarding potential security risks/impact (termed "security relevance") before implementation..
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile development teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
