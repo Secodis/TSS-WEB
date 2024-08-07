@@ -1,3 +1,9 @@
+---
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+---
 # A.3 - Security Tests
 
 ## 1. General Requirements
