@@ -91,6 +91,9 @@ URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/FAQ
 TITLE_GENERAL_LICENSE: "License"
 URL_GENERAL_LICENSE: https://creativecommons.org/licenses/by/4.0/deed.en
 
+TITLE_SSDLC_CONTROLS: "Part A: SSDLC ControlsPermalink"
+URL_SSDLC_CONTROLS: https://tss-web.secodis.com/#part-a-ssdlc-controls
+
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
 URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Dev-Environment
 
@@ -105,6 +108,9 @@ URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/SSDLC_Outsourced-Developm
 
 TITLE_SSDLC_SECOP: "A.5 - Secure Operation"
 URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/SSDLC_Secure-Operation
+
+TITLE_IMPL_CONTROLS: "Part B: Secure Implementation Controls"
+URL_IMPL_CONTROLS: https://tss-web.secodis.com/#part-b-secure-implementation-controls
 
 TITLE_IMPL_PRINCIPLES: "B.1 - Secure Design Principles"
 URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/Controls/SecImpl_Secure-Design-Principles
