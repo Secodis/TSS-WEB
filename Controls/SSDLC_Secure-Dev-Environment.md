@@ -1,3 +1,9 @@
+---
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+---
 # A.1 - Secure Development Environment
 
 ## 1. Securing Access to the Development Environment
