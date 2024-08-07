@@ -1,4 +1,4 @@
-# Glossary
+# 2. Glossary
 
 The following definitions are used here:
 
