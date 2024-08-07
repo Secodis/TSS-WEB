@@ -53,7 +53,7 @@
    A Software Bill of Materials (SBOM) must be created for all build and release artifacts.
 
 7. **Cryptographic Signing:**  
-   For assurance class >= [HIGH], all deployed artifacts (including the SBOMs) must be cryptographically signed.
+   For ***assurance class >= [HIGH]**, all deployed artifacts (including SBOMs) must be cryptographically signed.
 
 ## 5. Security of Third-Party Dependencies
 
@@ -66,7 +66,7 @@ This section is relevant for the target production environment:
    Before a new third-party dependency can be used in production applications or within the release build environment, it must be approved by the architecture board. This requirement does not affect new releases of a dependency that has already been approved.
 
 3. **Regular Updates:**  
-   Third-party dependencies should be updated regularly, ideally through automated processes.
+   Third-party dependencies should be updated regularly, ideally through an automated process.
 
 4. **Critical Updates:**  
    Third-party dependencies must be updated in response to critical security vulnerabilities or when they reach end-of-life status.
