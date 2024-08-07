@@ -22,7 +22,7 @@ toc_sticky: true
 
 2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
-3. **High Assurance Class Security Risks:** For applications with an *Assurance Class >= [HIGH]*, security risks MUST also be tracked in a defect tracking system.
+3. **High risk class Security Risks:** For applications with an *risk class >= [HIGH]*, security risks MUST also be tracked in a defect tracking system.
 
 ## 3. Automated Security Testing
 
@@ -34,9 +34,9 @@ toc_sticky: true
 
 4. **Configuration Security Scanning:** Security-relevant configurations MUST be automatically scanned for security issues.
 
-5. **Enforcement of Security Requirements:** For applications with an *Assurance Class >= [HIGH]*, security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
+5. **Enforcement of Security Requirements:** For applications with an *risk class >= [HIGH]*, security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
 
-6. **Denial-of-Service Testing:** Applications with an *Assurance Class [VERY HIGH]* SHOULD be periodically tested for denial-of-service attackability.
+6. **Denial-of-Service Testing:** Applications with an *risk class [VERY HIGH]* SHOULD be periodically tested for denial-of-service attackability.
 
 ## 4. Developer Tests
 
