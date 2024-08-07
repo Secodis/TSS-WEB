@@ -88,8 +88,8 @@ URL_GENERAL_ASSURANCECLASSES: https://tss-web.secodis.com/General/AssuranceClass
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
 URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/Secure-Dev-Environment
 
-TITLE_SSDLC_SDLC: "A.2 - Security within SDLC"
-URL_SSDLC_SDLC: https://tss-web.secodis.com/Controls/Security-wthin-SDLC
+TITLE_SSDLC_SDLC: "A.2 - Security within Development"
+URL_SSDLC_SDLC: https://tss-web.secodis.com/Controls/Security-wthin-Development
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/Security-Tests
@@ -99,9 +99,6 @@ URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/Secure-Operation
 
 TITLE_SSDLC_OUTDEV: "A.5 - Outsourced Development"
 URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/Outsourced-Development
-
-TITLE_SSDLC_REMEDIATION: "A.6 - Vulnerability Remediation"
-URL_SSDLC_REMEDIATION: /Controls/Vulnerability-Remediation
 
 TITLE_IMPL_PRINCIPLES: "B.1 - Secure Design Principles"
 URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/Controls/SecImpl_Secure-Design-Principles
