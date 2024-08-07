@@ -36,7 +36,7 @@
 
 ## 4. Secure Implementation
 
-The implementation MUST adhere to  [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
+The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
 ## 5. Secure Build & Deployment
 
@@ -52,7 +52,7 @@ The implementation MUST adhere to  [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMP
 
 6. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-7. **Cryptographic Signing:**  For ***Assurance Class >= [HIGH]**, all deployed artifacts (including SBOMs) MUST be cryptographically signed.
+7. **Cryptographic Signing:** For ***Assurance Class >= [HIGH]***, all deployed artifacts (including SBOMs) MUST be cryptographically signed.
 
 ## 6. Security of Third-Party Dependencies
 
