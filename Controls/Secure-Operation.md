@@ -31,17 +31,17 @@ This includes:
 
 ## 3. Container Security
 1. **Trusted Sources:**  
-   Containers **MUST** be executed only if they are built using trusted repositories, hardened base images, and updated OS packages.
+   Containers MUST be executed only if they are built using trusted repositories, hardened base images, and updated OS packages.
 2. **Security Scans:**  
-   Containers **MUST** be periodically scanned for insecure third-party components and misconfigurations.
+   Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
 3. **Minimal Privileges:**  
-   Containers **MUST** be executed with the least privileges necessary to function.
+   Containers MUST be executed with the least privileges necessary to function.
 4. **Prohibited Remote Shells:**  
-   Containers **MUST NOT** include remote shells such as `sshd` or `telnet`.
+   Containers MUST NOT include remote shells such as `sshd` or `telnet`.
 5. **Lifecycle Management:**  
-   Containers **MUST** have a defined maximum lifetime, after which they need to be rebuilt with updated OS dependencies.
+   Containers MUST have a defined maximum lifetime, after which they need to be rebuilt with updated OS dependencies.
 6. **Labeling:**  
-   Containers **MUST** have labels that indicate the application or service they belong to and the responsible team.
+   Containers MUST have labels that indicate the application or service they belong to and the responsible team.
 
 ## 4. Securing Access to Backend Resources
 1. Processes MUST only have the required permissions to resources such as on the file system or database (least privilege principle). Example: “no root permission on databases”.
