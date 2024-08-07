@@ -1,4 +1,4 @@
-# A.4 - Secure Operation
+u# A.4 - Secure Operation
 
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
@@ -30,11 +30,11 @@ This includes:
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
 ## 3. Container Security
-1. Only containers MUST be used that where built using trusted repositories, hardened base images, and updated OS packages.
+1. Only containers MUST be executed that where built using trusted repositories, hardened base images, and updated OS packages.
 2. Containers MUST be periodically scanned for insecure 3rd party components and configuration.
-3. Containers MUST not consist of a remote shell like SSH or telnet.
-4. Containers MUST have least privilege access to ressources (including use of privileged mode).
-5. Containers MUST have a maximal lifetime after which they have to be rebuilt with updated OS dependencies. 
+3. Containers MUST have least privilege access to ressources.
+4. Containers MUST not consist of a remote shell like SSH or telnet
+5. Containers MUST have a maximal lifetime in which they have to be rebuilt with updated OS dependencies. 
 6. Containers MUST have a label indicating the application or service and responsible team they belong to.
 
 ## 4. Securing Access to Backend Resources
