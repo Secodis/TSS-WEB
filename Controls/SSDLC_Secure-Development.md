@@ -113,4 +113,4 @@ Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUS
 
 [^2]: The Common Vulnerability Scoring System (CVSS) is a framework for rating the severity of security vulnerabilities. See [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
 
-[^3]: A pull-based model refers to a deployment strategy where deployment systems pull updates from a central repository rather than having updates pushed to them. See  [https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important](https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important)
+[^3]: A pull-based model refers to a deployment strategy where deployment systems pull updates from a central repository rather than having updates pushed to them. See [https://itnext.io/gitops-pull-based-vs-push-based-959c50feca78](https://itnext.io/gitops-pull-based-vs-push-based-959c50feca78)
