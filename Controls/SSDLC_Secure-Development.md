@@ -12,7 +12,7 @@ toc_sticky: true
 
 2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
-3. **Security Qualification:** It MUST be ensured that all team members possess sufficient security knowledge. This SHOULD be achieved by providing general awareness and role-specific security training or coaching to team members, including secure coding training and training in secure design principles for developers.
+3. **Security Training:** It MUST be ensured that all team members possess sufficient security knowledge. This SHOULD be achieved by providing general awareness and role-specific security training or coaching to team members, including secure coding training and training in secure design principles for developers.
 
 ## 2. Secure By Design
 
