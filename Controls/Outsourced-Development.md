@@ -1,17 +1,30 @@
-# A.5 - Outsourced Development
+# A.5 Outsourced Development 
 
-The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. and in addition all other requirements of this document if applicable (e.g. protection of source code). Supplies MUST comply with the following requirements:
+The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. In addition, all other applicable requirements of this document must be followed (e.g., protection of source code). Suppliers must comply with the following requirements:
 
-1. Due diligence: Implementation of all measures and common best practices within the development, operation, and quality assurance required to prevent the occurrence of new security defects.
-2. For applications with ***assurance class >= [HIGH]***:
-   - Evidence[^1] that security has been taken into account throughout the development process.
-   - A security concept that complies with the security documentation requirements specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
-5. Implementation of all necessary and requested security measures in order to reach a suitable level of protection, including those listed in chapter [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}) and implementation requirements of this document.
-6. Appointment of an internal contact person for security-relevant questions.
-7. Only persons have access to the source code created on behalf of Example Inc. that are authorized and required (need to know principle).
-8. Right to audit: On its own discretion, Example Inc. is allowed to conduct security assessments of source code and applications that have been created on its behalf. The supplier will provide the required support if needed.
-9. Security vulnerabilities are to be remediated as soon as possible without extra costs when requested by EXAMPLE INC. (see relevant requirements in [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})).
-10. Security SHOULD be built into supplier agreements in order to ensure compliance with organizational requirements.
+1. **Due Diligence:**  
+   Implement all measures and common best practices within development, operation, and quality assurance required to prevent the occurrence of new security defects.
 
+2. **For Applications with Assurance Class >= [HIGH]:**  
+   - Provide evidence[^1] that security has been considered throughout the development process.
+   - Develop a security concept that complies with the security documentation requirements specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
 
-[^1]: e.g. via ISO 27001 certification and/or [BSIMM for Vendors](https://www.bsimm.com/about/bsimm-for-vendors)
+3. **Implementation of Security Measures:**  
+   Implement all necessary and requested security measures to achieve a suitable level of protection, including those listed in chapter [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}) and other implementation requirements in this document.
+
+4. **Internal Security Contact:**  
+   Appoint an internal contact person for security-relevant questions.
+
+5. **Access Control to Source Code:**  
+   Ensure that only authorized persons who are required to have access (need-to-know principle) can access the source code created on behalf of EXAMPLE INC.
+
+6. **Right to Audit:**  
+   Example Inc. is allowed to conduct security assessments of source code and applications created on its behalf at its own discretion. The supplier will provide the required support if needed.
+
+7. **Remediation of Security Vulnerabilities:**  
+   Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see relevant requirements in [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})).
+
+8. **Inclusion of Security in Supplier Agreements:**  
+   Security should be built into supplier agreements to ensure compliance with organizational requirements.
+
+[^1]: e.g., via ISO 27001 certification and/or [BSIMM for Vendors](https://www.bsimm.com/about/bsimm-for-vendors)
