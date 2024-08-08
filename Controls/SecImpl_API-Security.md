@@ -21,7 +21,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## 3. Access Tokens
 
-1. Services with ***risk class >= HIGH*** SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
+1. Services with *risk class >= HIGH* SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
     - Short-lived (minutes or hours)
     - Cryptographically random (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
