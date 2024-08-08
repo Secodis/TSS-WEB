@@ -60,6 +60,7 @@ The following table outlines the coverage of the perhaps most important standard
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31. |
 | [NIST SSDF](https://csrc.nist.gov/Projects/ssdf)  | comming soon. |
 | [Microsoft SDL](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls see See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}]({{site.URL_MATERIAL_MSSDLMAPPING}}).  |
+| [Microsoft S2CF](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) | comming soon. |
 | [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | comming soon. |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
