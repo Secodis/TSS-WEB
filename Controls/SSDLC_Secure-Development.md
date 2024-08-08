@@ -3,6 +3,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
+search: true
 ---
 # A.2 - Secure Development
 
