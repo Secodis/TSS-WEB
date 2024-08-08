@@ -18,7 +18,7 @@ toc_sticky: true
 
 1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer (see [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})).
 
-2. **Documented Security Architecture:** For applications with an *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application.
+2. **Documented Security Architecture:** For applications with an *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application or service.
 
 3. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
@@ -71,11 +71,11 @@ This section is relevant for the target production environment:
 
 ## 7. Security Approvals (Security Gates)
 
-1. **Initial Project approval:** All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
+1. **Initial Project Approval:** All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
-2. **Architecture approval (conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
+2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
-3. **Go-Live approval (conditional):** Initial application releases for applications with *risk class >= [HIGH]* MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
+3. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]* MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
 
 4. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
@@ -109,14 +109,8 @@ Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUS
    - role and authorization concept (required for go-live),
    - operational security controls (required for go-live).
 
-[^1]: SAFECode defines a good security indicator here, by describing security-relevant changes as “Any additions or changes in security controls and functionality”:
-
-1. Authentication (Adding or changing an authentication method, or mechanism),
-2. Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism),
-3. Logging, monitoring and alerting (Adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics) or
-4. Cryptography (Adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc). 
-
-See SAFECode paper [Tactical Threat Modeling](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf)
+[^1]: SAFECode defines a good security indicator here, by describing security-relevant changes as “Any additions or changes in security controls and functionality”: (1) Authentication (Adding or changing an authentication method, or mechanism),
+(2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism),(3) Logging, monitoring and alerting (Adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics) or (4) Cryptography (Adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc). See SAFECode paper [Tactical Threat Modeling](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf)
 
 [^2]: The Common Vulnerability Scoring System (CVSS) is a framework for rating the severity of security vulnerabilities. See [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
 
