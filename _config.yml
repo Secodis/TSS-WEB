@@ -163,4 +163,7 @@ URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/Material/OWASP_Top_Ten_M
 TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping (Draft)"
 URL_MATERIAL_SAMMMAPPING: https://tss-web.secodis.com/Material/OWASP_SAMM-2.0-Mapping
 
+TITLE_MATERIAL_MSSDLMAPPING: "MS SDL Mapping"
+URL_MATERIAL_MSSDLMAPPING: /Material/Microsoft_SDL_Mapping
+
         
