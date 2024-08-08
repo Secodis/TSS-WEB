@@ -8,6 +8,10 @@ Today, TSS-WEB is more of a requirement framework.
 
 So, it's actually there for historical reasons. Perhaps it will be changed in the future.
 
+## Don't We Already Have Enough AppSec Standards?
+
+There are, in fact, several well-established AppSec standards and best practice projects today. However, rather than competing with these, TSS-WEB aims to provide companies with the means needed to effectively implement them.
+
 ## How Can I Use TSS-WEB?
 
 Use it as you like. You can use all the requirements or select specific requirements or categories that you need. Use it as inspiration or to review your internal requirements.
