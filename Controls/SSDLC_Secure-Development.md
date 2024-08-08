@@ -67,7 +67,7 @@ This section is relevant for the target production environment:
 
 4. **Critical Updates:** Third-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life status.
 
-5. **Testing Requirements:** Testing requirements for both custom and third-party code are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+5. **Security Testing Requirements:** Testing requirements for both custom and third-party code are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 ## 7. Security Approvals (Security Gates)
 
