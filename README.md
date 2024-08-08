@@ -1,12 +1,14 @@
+# About
+
 This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP](https://www.owasp.org), [NIST](https://www.nist.gov/), [SAFECode](https://safecode.org/), and [ISO/IEC 27002](https://www.iso.org/obp/ui/#iso:std:iso-iec:27002:ed-3:v2:en).
 
-## Purpose
+# Purpose
 
 The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for organizations to use them for their own security standards, policies, or concepts.
 
 The goal is to provide a foundation that works for most organizations. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
-## General
+# General
 1. [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
 2. [{{site.TITLE_GENERAL_GLOSSARY}}]({{site.URL_GENERAL_GLOSSARY}})
 3. [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
@@ -14,14 +16,14 @@ The goal is to provide a foundation that works for most organizations. In many c
 5. [{{site.TITLE_GENERAL_FAQ}}]({{site.URL_GENERAL_FAQ}})
 6. [{{site.TITLE_GENERAL_LICENSE}}]({{site.URL_GENERAL_LICENSE}})
 
-## Part A: SSDLC Controls
+# Part A: SSDLC Controls
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
 * [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}})
 * [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
 * [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})
 * [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 
-## Part B: Secure Implementation Controls
+# Part B: Secure Implementation Controls
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
 * [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
 * [{{site.TITLE_IMPL_FILEUPLOADS}}]({{site.URL_IMPL_FILEUPLOADS}})
@@ -37,15 +39,15 @@ The goal is to provide a foundation that works for most organizations. In many c
 * [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
 * [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})
 
-## Additional Material
+# Additional Material
 * [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
 * [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}})
   
-## Legacy Versions
+# Legacy Versions
 
 You can find older versions of TSS-WEB in both English and German in PDF and MS Word format [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
 
-## Related Standards
+# Related Standards
 
 Generally, we aim to incorporate requirements from existing standards and best practices in this field that are suitable to establish baseline security. However, not every requirement is integrated here, particularly those that address edge cases or are overly specific.
 
@@ -61,8 +63,8 @@ The following table outlines the coverage of the perhaps most important standard
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
-## License
+# License
 The document is licensed under [Creative Commons By 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, any adapted version of this document does not have to be published under the same license.
 
-## Author
+# Author
 This site is maintained by [Secodis GmbH](https://www.secodis.com). Responsible for the content is [Matthias Rohr](https://www.linkedin.com/in/matthias-rohr/). 
