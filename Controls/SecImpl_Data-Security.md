@@ -30,7 +30,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 4. Wildcard certificated MUST not be used.
 
 ## 5. Tokens
-1. Tokens that are used for security purposes (e.g. as access tokens) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^3].
+1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API Keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^3].
    
 [^1]: Have a look at [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
 [^2]:If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings.
