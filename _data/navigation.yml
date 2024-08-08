@@ -23,7 +23,7 @@ docs:
     children:
       - title: "A.1 - Secure Dev Environment"
         url: /Controls/SSDLC_Secure-Dev-Environment
-      - title: "A.2 - Secure Development"
+      - title: "A.2 - Secure Development Process"
         url: /Controls/SSDLC_Secure-Development
       - title: "A.3 - Security Tests"
         url: /Controls/SSDLC_Security-Tests
