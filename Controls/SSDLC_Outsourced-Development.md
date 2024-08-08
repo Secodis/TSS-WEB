@@ -15,7 +15,7 @@ Suppliers MUST comply with the following requirements:
 2. **Provision of Evidence:** For applications with *risk class >= [HIGH]:*  
    - Provide evidence[^1] that security has been considered throughout the development process.
    - Develop a security concept that complies with the security documentation requirements specified in [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}}).
-   - Provide an signed SBOM and signed SLSA provenance for all release artifacts.
+   - Provide updated and signed SBOM and SLSA provenance for all release artifacts.
 
 3. **Implementation of Security Measures:** Implement all necessary and requested security measures to achieve a suitable level of protection, including implentation requirements listed in [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
