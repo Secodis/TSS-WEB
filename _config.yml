@@ -100,7 +100,7 @@ URL_SSDLC_CONTROLS: https://tss-web.secodis.com/#part-a-ssdlc-controls
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
 URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Dev-Environment
 
-TITLE_SSDLC_SECDEV: "A.2 - Secure Development"
+TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
 URL_SSDLC_SECDEV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Development
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
