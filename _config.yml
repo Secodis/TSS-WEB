@@ -14,9 +14,9 @@ titles_from_headings:
   strip_title: true
   collections: true 
 search: true
-lunr:
-  search_within_pages: true
-  search_full_content: true
+#lunr:
+#  search_within_pages: true
+#  search_full_content: true
 google:
   search_engine_id: 75489f1b156bd4879
 social:
