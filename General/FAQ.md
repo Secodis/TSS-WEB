@@ -10,7 +10,7 @@ So, it's actually there for historical reasons. Perhaps it will be changed in th
 
 ## Don't We Already Have Enough AppSec Standards?
 
-There are, in fact, several well-established AppSec standards and best practice projects today. However, rather than competing with these, TSS-WEB aims to provide companies with the means needed to effectively implement them.
+There are, in fact, several well-established AppSec standards and best practice projects today. However, rather than competing with these, TSS-WEB aims to provide companies with guidance needed to effectively implement them in their organization.
 
 ## How Can I Use TSS-WEB?
 
