@@ -16,7 +16,7 @@ Please note: For reasons of simplification, some of the following requirements t
     - Cryptographically random (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
-3. For ***risk class >= [HIGH]***, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
+3. For *risk class >= [HIGH]*, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
 4. Authentication credentials MUST be unique for different systems and environments (e.g. test, production).
 
 ## 3. Access Tokens
