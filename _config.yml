@@ -17,7 +17,8 @@ search: true
 lunr:
   search_within_pages: true
   search_full_content: true
-
+google:
+  search_engine_id: 75489f1b156bd4879
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
