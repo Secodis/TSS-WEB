@@ -6,7 +6,7 @@ All file uploads SHOULD be authenticated by the user on the server-side (= funct
 ## 2. Storage
 1. Uploaded files SHOULD be stored to a database.
 2. In case uploaded files are required to be stored on a file system, the implementation MUST be according to the following requirements:
-3. Uploaded files MUST be stored in an access protected directory that is not accessible from external (e.g. stored outside of the web & document root). For applications with ***assurance class >= [HIGH]***, uploaded files SHOULD be stores in a user-specific directory.
+3. Uploaded files MUST be stored in an access protected directory that is not accessible from external (e.g. stored outside of the web & document root). For applications with *risk class >= [HIGH]*, uploaded files SHOULD be stores in a user-specific directory.
 4. File uploads MUST be saved with restrictive permissions (e.g. in case of Unix-based systems `chmod 0600`).
 5. Uploaded files MUST NOT be executable.
 6. Uploaded files MUST be stored as a new file with unique filename that is not user-specified.
