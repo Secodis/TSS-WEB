@@ -69,6 +69,8 @@ This section is relevant for the target production environment:
 
 5. **Security Testing Requirements:** Testing requirements for both custom and third-party code are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
+6. **End of Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.
+
 ## 7. Security Approvals (Security Gates)
 
 1. **Initial Project Approval:** All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
