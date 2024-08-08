@@ -63,7 +63,7 @@ This section is relevant for the target production environment:
 
 2. **Dependency Approval:** Before a new third-party dependency can be used in production applications or within the release build environment, it MUST be approved by the architecture board. This requirement does not affect new releases of a dependency that has already been approved.
 
-3. **Regular Updates:** Third-party dependencies SHOULD be updated regularly, ideally through an automated process.
+3. **Regular Updates:** Third-party dependencies SHOULD be updated regularly, ideally through an automated process (e.g. using Renovate or Dependabot).
 
 4. **Critical Updates:** Third-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life status.
 
@@ -83,11 +83,11 @@ This section is relevant for the target production environment:
 
 ## 8. Remediation of Security Findings
 
-Security findings with a criticality >= [HIGH] (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
+Security findings with a criticality >= ***[HIGH]*** (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
 1. **Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
 
-2. **Finding Verification:** Security findings with criticality ratings of [MEDIUM] or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
+2. **Finding Verification:** Security findings with criticality ratings of ***[MEDIUM]*** or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
 
 3. **Reassessment of Tool Findings:** Teams may reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g., CVSS vector) MUST be documented.
 
