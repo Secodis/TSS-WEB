@@ -4,6 +4,6 @@ Some valuable requirements are more sophisticated or require more effort to impl
 
 | Criticality | Internal Application | Internet-Eposed Application |
 | ------------- | ------------- | ------------- |
-| **Very High** | High | Very High |
-| **High** | Standard | High |
-| **Low-Medium** | Standard | Standard |
+| **High** | High | Very High |
+| **Medium** | Standard | High |
+| **Low** | Standard | Standard |
