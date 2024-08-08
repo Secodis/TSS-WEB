@@ -129,7 +129,7 @@ For instance:
 
 2. In cases where root cause remediation requires a significant amount of time and the risk posed by the vulnerability is also significant, temporary measures (e.g., workarounds) SHOULD be implemented to reduce exploitability as soon as possible until the actual root cause is fixed.
 
-3. Vulnerabilities in productive applications and services MUST be remediated or have their exploitability prevented within the following timeframe.
+3. Vulnerabilities in productive applications and services MUST be remediated or have their exploitability prevented within the following SLA (Service Level Agreement):
 
 Internet-facing applications or services:
 
@@ -145,6 +145,8 @@ Internal applications or services:
 | **Critical Application** | Within **7 days**  | Within **30 days**  | Within the next release, but after **12 months** at the latest. |
 | **Non-Critical Application**| Within **21 days**  | Within **60 days**  | - |
 
+4. The ***responsible IT security function*** MAY extend this SLA if justified from an individual risk evaluation. SLA extensions MUST be documented along with their justification.
+   
 ## 11. Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
