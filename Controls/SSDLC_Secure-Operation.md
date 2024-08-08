@@ -55,7 +55,7 @@ This includes:
 
 1. **Least Privilege Principle:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
 
-2. **Authenticated and Authorized Access:** Access to backend systems MUST be authenticated and authorized according to the requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
+2. **Authenticated and Authorized Access:** Access to backend systems MUST be authenticated and authorized according to requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 
 3. **Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
 
