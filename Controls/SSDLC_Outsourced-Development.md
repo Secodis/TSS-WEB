@@ -12,10 +12,10 @@ Suppliers MUST comply with the following requirements:
 
 1. **Due Diligence:** Implement all measures and common best practices within development, operation, and quality assurance required to prevent the occurrence of new security defects.
 
-2. **Provision of Evidence:** For applications with *risk class >= [HIGH]:*  
+2. **Evidence:** For applications with *risk class >= [HIGH]:*  
    - Provide evidence[^1] that security has been considered throughout the development process.
    - Develop a security concept that complies with the security documentation requirements specified in [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}}).
-   - Provide updated and signed SBOM and SLSA provenance for all release artifacts.
+   - Provide updated and signed SBOM and SLSA provenance for all shipped release artifacts.
 
 3. **Implementation of Security Measures:** Implement all necessary and requested security measures to achieve a suitable level of protection, including implentation requirements listed in [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
