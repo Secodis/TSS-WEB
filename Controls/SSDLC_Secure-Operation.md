@@ -13,7 +13,7 @@ Systems in production MUST be strictly separated from development and test syste
 
 1. **Segregation of Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
 
-2. **Isolated Connections:** Connections between different environments MUST NOT be possible.
+2. *Restricted Connections:** Connections to different environments MUST be restricted.
 
 3. **Resource Isolation:** Resources MUST NOT be shared between production and other environments, especially no secret storage.
 
