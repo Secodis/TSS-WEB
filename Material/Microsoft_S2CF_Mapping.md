@@ -1,4 +1,6 @@
-# [Microsoft Secure Supply Chain Consumption Framework (S2C2F)](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) Mapping
+# Microsoft S2C2F Mapping
+
+Microsoft Secure Supply Chain Consumption Framework[(S2C2F)](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) Mapping
 
 | S2C2F Practice  | TSS-WEB Coverage |
 | ------------- | ------------- |
