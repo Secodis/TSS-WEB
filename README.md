@@ -1,3 +1,9 @@
+---
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+---
 # About
 
 This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, SAFECode and ISO/IEC](#related-standards).
@@ -60,7 +66,7 @@ The following table outlines the coverage of the perhaps most important standard
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31. |
 | [NIST SSDF](https://csrc.nist.gov/Projects/ssdf)  | comming soon. |
 | [Microsoft SDL](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls see See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}]({{site.URL_MATERIAL_MSSDLMAPPING}}).  |
-| [Microsoft S2CF](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) | comming soon. |
+| [Microsoft S2CF](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) | Microsofts S2CF is a great new framework focussed on supply chain security. Although a critical topic, most of its requirements are to us more than what would be expected as baseline security. This topic is covered by TSS-WEB in [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}}) and [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}}). |
 | [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | comming soon. |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
