@@ -22,7 +22,7 @@ toc_sticky: true
 
 3. **Role-Based Access Control (RBAC)**: Access SHOULD be granted based on role-based access control (RBAC).
 
-4. **Sensitive of Internal Code**: Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the relevant IT security function.
+4. **Code Disclosure**: Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the relevant IT security function.
 
 5. **Periodic Scanning for Exposed Secrets**: Code repositories SHOULD be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys).
 
