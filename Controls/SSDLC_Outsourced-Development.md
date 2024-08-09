@@ -25,7 +25,7 @@ Suppliers MUST comply with the following requirements:
 
 6. **Right to Audit:** Example Inc. is allowed to conduct security assessments of source code and applications created on its behalf at its own discretion. The supplier will provide the required support if needed.
 
-7. **Remediation of Security Vulnerabilities:** Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see relevant requirements in [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}).
+7. **Remediation of Security Vulnerabilities:** Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see respective SLAs at [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}).
 
 8. **Inclusion of Security in Supplier Agreements:** Security should be built into supplier agreements to ensure compliance with organizational requirements.
 
