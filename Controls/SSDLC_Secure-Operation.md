@@ -44,7 +44,7 @@ This includes:
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
 ## 3. Container Security
-1. **Trusted Sources:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, and updated OS packages.
+1. **Secure Build:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
 2. **Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
 
@@ -52,7 +52,7 @@ This includes:
 
 4. **Prohibited Remote Shells:** Containers MUST NOT include remote shells such as `sshd` or `telnet`.
 
-5. **Lifecycle Management:** Containers MUST have a defined maximum lifetime, after which they need to be rebuilt with updated OS dependencies.
+5. **Lifecycle Management:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
 
 6. **Labeling:**  
    Containers MUST have labels that indicate the application or service they belong to and the responsible team.
