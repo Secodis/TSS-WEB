@@ -103,6 +103,12 @@ URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Dev-Environm
 TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
 URL_SSDLC_SECDEV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Development
 
+TITLE_SSDLC_SECDEV_BUILD: "5. Secure Build & Deployment"
+URL_SSDLC_SECDEV_BUILD: /Controls/SSDLC_Secure-Development#5-secure-build--deployment
+
+TITLE_SSDLC_SECDEV_3RDPARTY: "6. Security of Third-Party Dependencies"
+URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#6-security-of-third-party-dependencies
+
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/SSDLC_Security-Tests
 
