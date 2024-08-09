@@ -1,9 +1,3 @@
----
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
----
 # About
 
 This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, SAFECode and ISO/IEC](#related-standards).
