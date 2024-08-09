@@ -61,7 +61,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 This section is relevant for the target production environment:
 
-1. **Approved Repositories:** Third-party dependencies SHOULD only be obtained via internal and approved repositories.
+1. **Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved repositories. This MAY include proxy repositories.
 
 2. **Dependency Approval:** Before a new third-party dependency can be used in production applications or within the release build environment, it MUST be approved by the architecture board or community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
@@ -72,6 +72,8 @@ This section is relevant for the target production environment:
 5. **Software Composition Analysis (SCA):** Security testing requirements for third-party code via SCA are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 6. **End of Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
+
+7. **Dependency Pinning:** For business critical applications or services, dependencies MUST be pinned using checksums or cryptographic signatures.
 
 ## 7. Security Approvals (Security Gates)
 
