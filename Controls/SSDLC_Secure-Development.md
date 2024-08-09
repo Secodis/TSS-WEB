@@ -35,7 +35,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
-2. **Peer Review:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals).
+2. **Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
 3. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
@@ -45,7 +45,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 2. **Secured Access:** Access to build and deployment systems MUST be secured according to the requirements outlined in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
-3. **Integrated Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+3. **Automated Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 4. **Secret Management:** Secrets SHOULD be injected during the deployment process in accordance with the guidelines provided at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
@@ -53,7 +53,9 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 6. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-7. **Cryptographic Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed.
+7. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed. Signatures SHOULD be automatically verified.
+
+8. *Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
 ## 6. Security of Third-Party Dependencies
 
@@ -61,15 +63,15 @@ This section is relevant for the target production environment:
 
 1. **Approved Repositories:** Third-party dependencies SHOULD only be obtained via internal and approved repositories.
 
-2. **Dependency Approval:** Before a new third-party dependency can be used in production applications or within the release build environment, it MUST be approved by the architecture board. This requirement does not affect new releases of a dependency that has already been approved.
+2. **Dependency Approval:** Before a new third-party dependency can be used in production applications or within the release build environment, it MUST be approved by the architecture board or community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
 3. **Regular Updates:** Third-party dependencies SHOULD be updated regularly, ideally through an automated process (e.g. using Renovate or Dependabot).
 
 4. **Critical Updates:** Third-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life status.
 
-5. **Security Testing Requirements:** Testing requirements for both custom and third-party code are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+5. **Software Composition Analysis (SCA):** Security testing requirements for third-party code via SCA are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-6. **End of Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.
+6. **End of Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
 ## 7. Security Approvals (Security Gates)
 
@@ -116,3 +118,5 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 [^2]: The Common Vulnerability Scoring System (CVSS) is a framework for rating the severity of security vulnerabilities. See [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
 
 [^3]: A pull-based model refers to a deployment strategy where deployment systems pull updates from a central repository rather than having updates pushed to them. See [https://itnext.io/gitops-pull-based-vs-push-based-959c50feca78](https://itnext.io/gitops-pull-based-vs-push-based-959c50feca78)
+
+[^4]: One tool to accomplish this is [xeol](https://github.com/xeol-io/xeol).
