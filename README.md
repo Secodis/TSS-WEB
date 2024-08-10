@@ -2,6 +2,8 @@
 
 This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, SAFECode and ISO/IEC](#related-standards).
 
+Note thar this procect and its content is provided "as-is" without any guarantees. The information and views expressed are subject to change without notice. You assume all risks associated with using this document.
+
 # Purpose
 
 The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for organizations to use them for their own individual security standards, policies, or concepts.
