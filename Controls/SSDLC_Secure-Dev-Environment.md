@@ -18,7 +18,7 @@ toc_sticky: true
 
 1. **Ownership of Repositories**: Every repository MUST have a clear ownership.
 
-2. **Restricted Access to Code**: Access to sensitive source and program code MUST be restricted to authorized users only and recovated if not required anymore.
+2. **Restricted Access to Code**: Access to sensitive source and program code MUST be restricted to authorized users/groups only. Access rules MUST be periodically reviewed and recovated if not required anymore. 
 
 3. **Role-Based Access Control (RBAC)**: Access SHOULD be granted based on role-based access control (RBAC).
 
