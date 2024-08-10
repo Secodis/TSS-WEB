@@ -37,7 +37,9 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 2. **Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
-3. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
+3. **Signed Commits:** Business critical applications SHOULD use signed commission.
+
+4. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
 ## 5. Secure Build & Deployment
 
@@ -45,17 +47,19 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 2. **Secured Access:** Access to build and deployment systems MUST be secured according to the requirements outlined in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
-3. **Automated Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+3. **Restricted Runner:** Seperate runner nodes MUST be used at least for every environment. Shared runner nodes MUST not be used for applications with different secirity classification. 
 
-4. **Secret Management:** Secrets SHOULD be injected during the deployment process in accordance with the guidelines provided at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
+4. **Automated Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-5. **Pull-Based Deployment Model:** Deployment pipelines SHOULD implement a pull-based model[^3].
+5. **Secret Management:** Secrets SHOULD be injected during the deployment process in accordance with the guidelines provided at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
-6. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
+6. **Pull-Based Deployment Model:** Deployment pipelines SHOULD implement a pull-based model[^3].
 
-7. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed. Signatures SHOULD be automatically verified.
+7. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-8. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
+8. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed. Signatures SHOULD be automatically verified.
+
+9. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
 ## 6. Security of Third-Party Dependencies
 
