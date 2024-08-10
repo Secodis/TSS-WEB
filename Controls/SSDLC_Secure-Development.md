@@ -35,11 +35,13 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
-2. **Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
+2. **Enforce Branch Protection:** Master/Main branches MUST be protected branches.
 
-3. **Signed Commits:** Business critical applications SHOULD use signed commission.
+3. **Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
-4. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
+4. **Signed Commits:** Business critical applications SHOULD use signed commission.
+
+5. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
 ## 5. Secure Build & Deployment
 
