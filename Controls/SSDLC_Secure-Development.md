@@ -8,7 +8,7 @@ toc_sticky: false
 
 ## 1. Roles & Training
 
-1. **Team Responsibility:** Every development team IS responsible for the security of their own code.
+1. **Team Responsibility:** Every development team MUST be responsible for the security of their own code.
 
 2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
@@ -77,7 +77,7 @@ This section is relevant for the target production environment:
 
 5. **Software Composition Analysis (SCA):** Security testing requirements for third-party code via SCA are defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-6. **End of Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
+6. **End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
 7. **Dependency Pinning:** For business critical applications or services, dependencies MUST be pinned using checksums or cryptographic signatures. "Latest" tags MUST not be used.
 
