@@ -79,7 +79,7 @@ This section is relevant for the target production environment:
 
 6. **End of Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
-7. **Dependency Pinning:** For business critical applications or services, dependencies MUST be pinned using checksums or cryptographic signatures.
+7. **Dependency Pinning:** For business critical applications or services, dependencies MUST be pinned using checksums or cryptographic signatures. "Latest" tags MUST not be used.
 
 ## 7. Security Approvals (Security Gates)
 
