@@ -35,7 +35,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
-2. **Enforce Branch Protection:** Master/Main branches MUST be protected branches.
+2. **Enforce Branch Protection:** For master/main branches, protected branch rules MUST be enforced.
 
 3. **Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
