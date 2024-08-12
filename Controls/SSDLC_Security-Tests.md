@@ -12,11 +12,15 @@ toc_sticky: true
 
 2. **Automated and Continuous Testing:** Where possible, security tests SHOULD be executed automatically and continuously (e.g., within CI and CD pipelines) and as early as possible within the development process (following the fail-fast principle).
 
-3. **Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
+3. **Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
 
-4. **Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
+4. **Consistant Test Policy:** Test SHOULD be reproducible and executed against a consistent test policy in all stages.
 
-5. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
+5. **Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
+
+6. **Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
+
+7. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
 
 ## 2. Defect Handling
 
