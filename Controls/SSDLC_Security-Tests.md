@@ -12,9 +12,11 @@ toc_sticky: true
 
 2. **Automated and Continuous Testing:** Where possible, security tests SHOULD be executed automatically and continuously (e.g., within CI and CD pipelines) and as early as possible within the development process (following the fail-fast principle).
 
-3. **Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
+3. **Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
 
-4. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
+4. **Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
+
+5. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
 
 ## 2. Defect Handling
 
@@ -24,9 +26,9 @@ toc_sticky: true
 
 3. **Defect Remediation:** Defects identified during the development process MUST be handled according to requirements in A.2 Secure Development Process. Defects identified in production systems MUST be managed according to requirements in A.5 Secure Operation.
 
-## 3. Automated Security Testing
+## 3. Automated Security Scans
 
-1. **Code Scanning:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source and program code as early as possible.
+1. **Code Scanning:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source or program code as early as possible.
 
 2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies.
 
@@ -36,24 +38,28 @@ toc_sticky: true
 
 5. *Secret Scanning:* Source code or configuration MUST be automatically scanned for disclosed secrets.
 
-6. **API Scanning:** For *risk class >= [HIGH]*,exposed APIs SHOULD be automatically tested for security issues.
+6. **API Scanning:** For *risk class >= [HIGH]*, exposed APIs SHOULD be automatically tested for security issues.
 
 7. **Denial-of-Service Testing:** Applications with an *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
 8. **Pipeline Integration:** For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing policies within the release process.
 
-## 4. Developer Tests
+## 4. Custom Security Tests
 
-1. **Automated Security Tests:** Security tests of implemented security requirements and security controls (e.g., authentication or access controls) SHOULD be implemented and executed, preferably in an automatic and continuous way.
+1. **Functional Security Tests:** Developer and system acceptance testing SHOULD test implemented functional security requirements (security controls)
 
-2. **Local Tests:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
+2. **Negative Tests:** Tests SHOULD be both positive and negative (e.g. can an user without proper role access a protected ressource).
 
-3. ** Functional Security Tests:** Developer and system acceptance testing SHOULD cover all functional security requirements (security controls) requirements , both positive and negative (e.g. can an user without proper role access a protected ressource).
+3. **Abuse Case Tests:** For *risk class >= [HIGH]*, teams SHOULD test possible abuse cases and common attack vectors (e.g Privilege Escalation, SQLi).
+
+4. **Automated Execution:** Security tests of implemented security requirements and security controls (e.g., authentication or access controls) SHOULD be implemented and executed, preferably in an automatic and continuous way.
 
 ## 5. Pentests
 
 1. **Use of Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
-2. **Retests of Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix. 
+
+2. **Retests of Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
+ 
 3. **Pentest Policy:** Pentests MUST be repeated according to follwing policy:
    
 | Business Criticality | External Applications  | Internal Applications |
