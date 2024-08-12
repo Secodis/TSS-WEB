@@ -61,7 +61,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 8. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed. Signatures SHOULD be automatically verified.
 
-9. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
+9. **Verification of Build Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
 ## 6. Security of Third-Party Dependencies
 
