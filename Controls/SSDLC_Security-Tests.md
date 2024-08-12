@@ -34,9 +34,11 @@ toc_sticky: true
 
 4. **Configuration Security Scanning:** Security-relevant configurations MUST be automatically scanned for security issues.
 
-5. **Enforcement of Security Requirements:** For applications with an *risk class >= [HIGH]*, security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
+5. *Secret Scanning:* Source code or configuration MUST be automatically scanned for disclosed secrets.
 
-6. **Denial-of-Service Testing:** Applications with an *risk class [VERY HIGH]* SHOULD be periodically tested for denial-of-service attackability.
+6. **Enforcement of Security Requirements:** For applications with an *risk class >= [HIGH]*, security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
+
+7. **Denial-of-Service Testing:** Applications with an *risk class [VERY HIGH]* SHOULD be periodically tested for denial-of-service attackability.
 
 ## 4. Developer Tests
 
