@@ -18,7 +18,7 @@ toc_sticky: true
 
 ## 2. Defect Handling
 
-1. **Tracking Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta-information (e.g., criticality rating, CVSS score, etc.).
+1. **Tracking of Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta-information (e.g., criticality rating, CVSS score, etc.).
 
 2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
