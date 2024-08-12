@@ -26,19 +26,21 @@ toc_sticky: true
 
 ## 3. Automated Security Testing
 
-1. **Code Scanning for Vulnerabilities:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source and program code as early as possible.
+1. **Code Scanning:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source and program code as early as possible.
 
-2. **Dependency Vulnerability Analysis:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies.
+2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies.
 
 3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues.
 
-4. **Configuration Security Scanning:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
+4. **Configuration Scanning:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
 
 5. *Secret Scanning:* Source code or configuration MUST be automatically scanned for disclosed secrets.
 
-6. **Enforcement of Security Requirements:** For applications with an *risk class >= [HIGH]*, security testing tools MUST automatically enforce security requirements and security testing policies within the build process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
+6. **API Scanning:** For *risk class >= [HIGH]*,exposed APIs SHOULD be automatically tested for security issues.
 
-7. **Denial-of-Service Testing:** Applications with an *risk class [VERY HIGH]* SHOULD be periodically tested for denial-of-service attackability.
+7. **Enforcement of in Pipeline:** For *risk class >= [HIGH]*, security testing tools MUST automatically enforce security requirements and security testing policies within the build and release process as specified in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}).
+
+8. **Denial-of-Service Testing:** Applications with an *risk class [VERY HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. testing rate limits and executing fuzzing tests.
 
 ## 4. Developer Tests
 
@@ -46,9 +48,7 @@ toc_sticky: true
 
 2. **Local Tests:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
 
-3. **Inclusion in Acceptance Testing:** Developer and system acceptance testing SHOULD include testing for functional (security controls) and non-functional[^1] security requirements.
-
-4. **Tests of Abuse Cases:** Abuse cases SHOULD be created and tested for critical business security aspects.
+3. ** Functional Security Tests:** Developer and system acceptance testing SHOULD cover all functional security requirements (security controls) requirements , both positive and negative (e.g. can an user without proper role access a protected ressource).
 
 ## 5. Pentests
 
@@ -58,9 +58,7 @@ toc_sticky: true
    
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
-| >= [HIGH] | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
+| >= [HIGH] | Before initial go live but at least annually[^1]  | ASAP after initial go-live but at least every third year  |
 | < [HIGH] | Before initial go live but at least every second year  | - | 
 
-[^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
-
-[^2]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
+[^1]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
