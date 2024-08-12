@@ -39,7 +39,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 3. **Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
-4. **Signed Commits:** Business critical applications SHOULD use signed commission.
+4. **Signed Commits:** Business critical applications SHOULD use signed commmits for protected branches.
 
 5. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
