@@ -14,7 +14,7 @@ toc_sticky: true
 
 3. **Test Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
-4. **Unaffected Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
+4. **Independent Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
 
 ## 2. Defect Handling
 
@@ -44,9 +44,11 @@ toc_sticky: true
 
 1. **Automated Security Tests:** Security tests of implemented security requirements and security controls (e.g., authentication or access controls) SHOULD be implemented and executed, preferably in an automatic and continuous way.
 
-2. **Inclusion in Acceptance Testing:** Developer and system acceptance testing SHOULD include testing for functional (security controls) and non-functional[^1] security requirements.
+2. **Local Tests:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
 
-3. **Tests of Abuse Cases:** Abuse cases SHOULD be created and tested for critical business security aspects.
+3. **Inclusion in Acceptance Testing:** Developer and system acceptance testing SHOULD include testing for functional (security controls) and non-functional[^1] security requirements.
+
+4. **Tests of Abuse Cases:** Abuse cases SHOULD be created and tested for critical business security aspects.
 
 ## 5. Pentests
 
