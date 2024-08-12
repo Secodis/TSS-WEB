@@ -43,6 +43,8 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 5. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
+6. **Security Verification:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+
 ## 5. Secure Build & Deployment
 
 1. **Formal Process Definition:** A formal definition of the build and deployment process MUST be created to ensure consistency, repeatability, and automation.
