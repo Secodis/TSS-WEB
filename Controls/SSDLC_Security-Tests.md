@@ -14,7 +14,7 @@ toc_sticky: true
 
 3. **Test Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
-4. **Independent Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
+4. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
 
 ## 2. Defect Handling
 
