@@ -14,15 +14,15 @@ toc_sticky: true
 
 3. **Test Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
-4. **Unrestricted Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
+4. **Unaffected Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
 
-## 2. Defect Tracking
+## 2. Defect Handling
 
 1. **Tracking Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta-information (e.g., criticality rating, CVSS score, etc.).
 
 2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
-3. **High risk class Security Risks:** For applications with an *risk class >= [HIGH]*, security risks MUST also be tracked in a defect tracking system.
+3. **Defect Remediation:** Defects identified during the development process MUST be handled according to requirements in A.2 Secure Development Process. Defects identified in production systems MUST be managed according to requirements in A.5 Secure Operation.
 
 ## 3. Automated Security Testing
 
@@ -32,7 +32,7 @@ toc_sticky: true
 
 3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues.
 
-4. **Configuration Security Scanning:** Security-relevant configurations MUST be automatically scanned for security issues.
+4. **Configuration Security Scanning:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
 
 5. *Secret Scanning:* Source code or configuration MUST be automatically scanned for disclosed secrets.
 
@@ -57,8 +57,7 @@ toc_sticky: true
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
 | >= [HIGH] | Before initial go live but at least annually[^2]  | ASAP after initial go-live but at least every third year  |
-| < [HIGH] | Before initial go live but at least every second year  | - |
-
+| < [HIGH] | Before initial go live but at least every second year  | - | 
 
 [^1]: E.g. using predefined tests for common injection vulnerabilities (XSS, SQLi), access controls (trying to access sensitive objects with no/insufficient privileges), and fuzz testing.
 
