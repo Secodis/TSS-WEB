@@ -63,7 +63,7 @@ The following table outlines the coverage of some important standards in this ar
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but practices related to security requirements should generally be covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB meets 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31. |
 | [NIST SSDF 1.1](https://csrc.nist.gov/Projects/ssdf)  | The Secure Software Development Framework (SSDF
-NIST Special Publication (SP) 800-218) has a different focus and primarily adresses security requirements for software vendors of public US institutions. Supplier requirements are generally covered in  [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}}) but are not that specific since they aim to be accetable by software vendors in general. Especially  [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}}) covers many SSDF requirements but not explicitly from a supplier perspective. If you have a SSDF requirement, we therefore recommend to incorporate these requirements directly. |
+NIST Special Publication (SP) 800-218). Comming soon. |
 | [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) | coming soon. |
 | [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | comming soon.|
 
