@@ -46,7 +46,7 @@ toc_sticky: true
 
 2. **Inclusion in Acceptance Testing:** Developer and system acceptance testing SHOULD include testing for functional (security controls) and non-functional[^1] security requirements.
 
-3. **Tests of Abuse Cases:** Abuse cases SHOULD be created and tested for critical business security aspects
+3. **Tests of Abuse Cases:** Abuse cases SHOULD be created and tested for critical business security aspects.
 
 ## 5. Pentests
 
