@@ -8,8 +8,8 @@ docs:
     children:  
       - title: "1. Types of Requirements"
         url: /General/Requirements
-      - title: "2. Glossary"
-        url: /General/Glossary
+      - title: "2. Terms"
+        url: /General/Terms
       - title: "3. Roles"
         url: /General/Roles
       - title: "4. Risk Classes"
