@@ -1,4 +1,4 @@
-# 2. Glossary
+# 2. Terms
 
 The following definitions are used here:
 
