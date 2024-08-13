@@ -44,9 +44,11 @@ toc_sticky: true
 
 6. **API Scanning:** For *risk class >= [HIGH]*, exposed APIs SHOULD be automatically tested for security issues.
 
-7. **Denial-of-Service Testing:** Applications with an *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
+7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
-8. **Pipeline Integration:** For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing policies within the release process.
+8. **Vulnerability Scans:** Systems MUST be scanned for vulnerabilities (see requirements for operational Scans in A.5)
+
+9. **Pipeline Integration:** For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing policies within the release process.
 
 ## {{site.TITLE_SSDLC_SECTESTS_CUSTOMTESTS}}
 
