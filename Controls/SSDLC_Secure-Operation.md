@@ -8,7 +8,7 @@ toc_sticky: true
 
 The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
 
-## 1. Environment Separation
+## A.5.1 Environment Separation
 Systems in production MUST be strictly separated from development and test systems:
 
 1. **Segregation of Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
@@ -25,7 +25,7 @@ Systems in production MUST be strictly separated from development and test syste
 
 7. **Data Usage Restrictions:** Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
-## 2. System Hardening
+## A.5.2 System Hardening
 1. **Pre-Deployment Hardening:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
 
 2. **Hardening Verification:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
@@ -43,7 +43,7 @@ This includes:
 - Deactivation of insecure HTTP methods (e.g. `TRACE` and `TRACK`)
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
-## 3. Container Security
+## A.5.3 Container Security
 1. **Secure Build:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
 2. **Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
@@ -57,7 +57,7 @@ This includes:
 6. **Labeling:**  
    Containers MUST have labels that indicate the application or service they belong to and the responsible team.
 
-## 4. Securing Access to Backend Resources
+## A.5.4 Securing Access to Backend Resources
 
 1. **Least Privilege Principle:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
 
@@ -67,7 +67,7 @@ This includes:
 
 4. **Secure Secrets Management:** Secrets must be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})).
 
-## 5. Isolation of External Systems
+## A.5.5 Isolation of External Systems
 
 1. **Dedicated Environments:** Applications MUST be deployed in dedicated isolated production environments.
 
@@ -81,7 +81,7 @@ This includes:
 
 6. **Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
 
-## 6. Administrative Access
+## A.5.6 Administrative Access
 
 Administrative access MUST be as strongly restricted:
 
@@ -97,7 +97,7 @@ Administrative access MUST be as strongly restricted:
 
 6. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
 
-## 7. Security Scanning
+## A.5.7 Security Scanning
 Productive systems MUST be periodically scanned for potential security problems. 
 
 For instance:
@@ -107,7 +107,7 @@ For instance:
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 
-## 8. Security Monitoring
+## A.5.8 Security Monitoring
 For applications with *risk class >= [HIGH]*: Possible security incidents MUST be continuously monitored. 
 
 For instance:
@@ -117,13 +117,13 @@ For instance:
 - DoS (or other) attacks
 - Critical security findings from security scans (see above).
 
-## 9. System Maintenance
+## A.5.9 System Maintenance
 
 1. **System Updates:** Systems MUST be kept up-to-date, especially in terms of security patches.
 
 2. **Decommissioning:** Unused applications or services MUST be decommissioned.
 
-## 10. Vulnerability Remediation
+## A.5.10 Vulnerability Remediation
 
 1. Identified vulnerabilities in productive applications MUST generally be remediated quickly and effectively.
 
@@ -147,7 +147,7 @@ Internal applications or services:
 
 4. The responsible IT security function MAY extend this SLA if justified from an individual risk evaluation. SLA extensions MUST be documented along with their justification.
    
-## 11. Incident Management
+## A.5.11 Incident Management
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
 
