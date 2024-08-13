@@ -77,31 +77,31 @@ bing_site_verification   :
 yandex_site_verification :
 
 TITLE_GENERAL_REQUIREMENTS: "Types of Requirements"
-URL_GENERAL_REQUIREMENTS: https://tss-web.secodis.com/General/Requirements
+URL_GENERAL_REQUIREMENTS: /General/Requirements
 
-TITLE_GENERAL_GLOSSARY: "Glossary"
-URL_GENERAL_GLOSSARY: https://tss-web.secodis.com/General/Glossary
+TITLE_GENERAL_TERMS: "Terms"
+URL_GENERAL_TERMS: /General/Terms
 
 TITLE_GENERAL_ROLES: "Roles"
-URL_GENERAL_ROLES: https://tss-web.secodis.com/General/Roles
+URL_GENERAL_ROLES: /General/Roles
 
 TITLE_GENERAL_RISKCLASSES: "Risk Classes"
-URL_GENERAL_RISKCLASSES: https://tss-web.secodis.com/General/RiskClasses
+URL_GENERAL_RISKCLASSES: /General/RiskClasses
 
 TITLE_GENERAL_FAQ: "FAQ"
-URL_GENERAL_FAQ: https://tss-web.secodis.com/General/FAQ
+URL_GENERAL_FAQ: /General/FAQ
 
 TITLE_GENERAL_LICENSE: "License"
-URL_GENERAL_LICENSE: https://creativecommons.org/licenses/by/4.0/deed.en
+URL_GENERAL_LICENSE: /licenses/by/4.0/deed.en
 
 TITLE_SSDLC_CONTROLS: "Part A: SSDLC Controls"
-URL_SSDLC_CONTROLS: https://tss-web.secodis.com/#part-a-ssdlc-controls
+URL_SSDLC_CONTROLS: /#part-a-ssdlc-controls
 
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
-URL_SSDLC_SECENV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Dev-Environment
+URL_SSDLC_SECENV: /Controls/SSDLC_Secure-Dev-Environment
 
 TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
-URL_SSDLC_SECDEV: https://tss-web.secodis.com/Controls/SSDLC_Secure-Development
+URL_SSDLC_SECDEV: /Controls/SSDLC_Secure-Development
 
 TITLE_SSDLC_SECDEV_ROLES: "A.2.1  Roles & Training"
 URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--training
@@ -131,64 +131,64 @@ TITLE_SSDLC_SECDEV_SECDOCU: "A.2.9 Security Documentation"
 URL_SSDLC_SECDEV_SECDOCU: /Controls/SSDLC_Secure-Development#a29-security-documentation
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
-URL_SSDLC_SECTESTS: https://tss-web.secodis.com/Controls/SSDLC_Security-Tests
+URL_SSDLC_SECTESTS: /Controls/SSDLC_Security-Tests
 
 TITLE_SSDLC_OUTDEV: "A.4 - Outsourced Development"
-URL_SSDLC_OUTDEV: https://tss-web.secodis.com/Controls/SSDLC_Outsourced-Development
+URL_SSDLC_OUTDEV: /Controls/SSDLC_Outsourced-Development
 
 TITLE_SSDLC_SECOP: "A.5 - Secure Operation"
-URL_SSDLC_SECOP: https://tss-web.secodis.com/Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOP: /Controls/SSDLC_Secure-Operation
 
 TITLE_IMPL_CONTROLS: "Part B: Secure Implementation Controls"
-URL_IMPL_CONTROLS: https://tss-web.secodis.com/#part-b-secure-implementation-controls
+URL_IMPL_CONTROLS: /#part-b-secure-implementation-controls
 
 TITLE_IMPL_PRINCIPLES: "B.1 - Secure Design Principles"
-URL_IMPL_PRINCIPLES: https://tss-web.secodis.com/Controls/SecImpl_Secure-Design-Principles
+URL_IMPL_PRINCIPLES: /Controls/SecImpl_Secure-Design-Principles
 
 TITLE_IMPL_INPUTVAL: "B.2 - Input Validation"
-URL_IMPL_INPUTVAL: https://tss-web.secodis.com/Controls/SecImpl_InputVal
+URL_IMPL_INPUTVAL: /Controls/SecImpl_InputVal
 
 TITLE_IMPL_FILEUPLOADS: "B.3 - Secure Fileuploads and Downloads"
-URL_IMPL_FILEUPLOADS: https://tss-web.secodis.com/Controls/SecImpl_FileUploads
+URL_IMPL_FILEUPLOADS: /Controls/SecImpl_FileUploads
 
 TITLE_IMPL_OUTPUTVAL: "B.4 - Output Validation & Encoding"
-URL_IMPL_OUTPUTVAL: https://tss-web.secodis.com/Controls/SecImpl_OutputVal
+URL_IMPL_OUTPUTVAL: /Controls/SecImpl_OutputVal
 
 TITLE_IMPL_USERAUTH: "B.5 - Secure User Registration & Authentication"
-URL_IMPL_USERAUTH: https://tss-web.secodis.com/Controls/SecImpl_UserAuth
+URL_IMPL_USERAUTH: /Controls/SecImpl_UserAuth
 
 TITLE_IMPL_USERPASSWD: "B.6 - User Passwords"
 URL_IMPL_USERPASSWD: /Controls/SecImpl_User-Passwords
 
 TITLE_IMPL_SESSIONMGMT: "B.7 - Secure Session Management"
-URL_IMPL_SESSIONMGMT: https://tss-web.secodis.com/Controls/SecImpl_SessionMgmt
+URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt
 
 TITLE_IMPL_AUTHZ: "B.8 - Authorization"
-URL_IMPL_AUTHZ: https://tss-web.secodis.com/Controls/SecImpl_Access-Control
+URL_IMPL_AUTHZ: /Controls/SecImpl_Access-Control
 
 TITLE_IMPL_ERRORLOG: "B.9 - Error Handling and Logging"
-URL_IMPL_ERRORLOG: https://tss-web.secodis.com/Controls/SecImpl_Error-Handling-and-Logging
+URL_IMPL_ERRORLOG: /Controls/SecImpl_Error-Handling-and-Logging
 
 TITLE_IMPL_CRYPTO: "B.10 - Data Security"
-URL_IMPL_CRYPTO: https://tss-web.secodis.com/Controls/SecImpl_Data-Security
+URL_IMPL_CRYPTO: /Controls/SecImpl_Data-Security
 
 TITLE_IMPL_SECRETS: "B.11 - Protection of Secrets"
-URL_IMPL_SECRETS: https://tss-web.secodis.com/Controls/SecImpl_Secrets
+URL_IMPL_SECRETS: /Controls/SecImpl_Secrets
 
 TITLE_IMPL_APISEC: "B.12 - API Security"
-URL_IMPL_APISEC: https://tss-web.secodis.com/Controls/SecImpl_API-Security
+URL_IMPL_APISEC: /Controls/SecImpl_API-Security
 
 TITLE_IMPL_CLIENTSEC: "B.13 - Client-Side Security"
-URL_IMPL_CLIENTSEC: https://tss-web.secodis.com/Controls/SecImpl_Client-Side-Security
+URL_IMPL_CLIENTSEC: /Controls/SecImpl_Client-Side-Security
 
 TITLE_IMPL_HTTPHEADERSEC: "B.14 - HTTP Header Security"
-URL_IMPL_HTTPHEADERSEC: https://tss-web.secodis.com/Controls/SecImpl_HTTP-Header-Security
+URL_IMPL_HTTPHEADERSEC: /Controls/SecImpl_HTTP-Header-Security
 
 TITLE_MATERIAL_TOPTENMAPPING: "OWASP Top Ten Mapping"
-URL_MATERIAL_TOPTENMAPPING: https://tss-web.secodis.com/Material/OWASP_Top_Ten_Mapping
+URL_MATERIAL_TOPTENMAPPING: /Material/OWASP_Top_Ten_Mapping
 
 TITLE_MATERIAL_SAMMMAPPING: "OWASP SAMM Mapping (Draft)"
-URL_MATERIAL_SAMMMAPPING: https://tss-web.secodis.com/Material/OWASP_SAMM-2.0-Mapping
+URL_MATERIAL_SAMMMAPPING: /Material/OWASP_SAMM-2.0-Mapping
 
 TITLE_MATERIAL_MSSDLMAPPING: "MS SDL Mapping"
 URL_MATERIAL_MSSDLMAPPING: /Material/Microsoft_SDL_Mapping
