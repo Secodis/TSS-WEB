@@ -103,7 +103,7 @@ Productive systems MUST be periodically scanned for potential security problems.
 For instance:
 - Insecure configurations
 - Missing security patches
-- Validity and X.509 certificates
+- Validity of X.509 certificates
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 
