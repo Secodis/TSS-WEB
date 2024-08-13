@@ -100,6 +100,15 @@ URL_SSDLC_CONTROLS: /#part-a-ssdlc-controls
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
 URL_SSDLC_SECENV: /Controls/SSDLC_Secure-Dev-Environment
 
+TITLE_SSDLC_SECENV_ACCESS: "A.1.1 Securing Access to the Development Environment"
+URL_SSDLC_SECENV_ACCESS: /Controls/SSDLC_Secure-Dev-Environment
+
+TITLE_SSDLC_SECENV_CODEPROTECT: "A.1.2 Protection of Source and Program Code"
+URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment
+
+TITLE_SSDLC_SECENV_CODEPROTECT: "A.1.2 Protection of Source and Program Code"
+URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment
+
 TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
 URL_SSDLC_SECDEV: /Controls/SSDLC_Secure-Development
 
