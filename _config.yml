@@ -94,7 +94,7 @@ URL_GENERAL_FAQ: https://tss-web.secodis.com/General/FAQ
 TITLE_GENERAL_LICENSE: "License"
 URL_GENERAL_LICENSE: https://creativecommons.org/licenses/by/4.0/deed.en
 
-TITLE_SSDLC_CONTROLS: "Part A: SSDLC ControlsPermalink"
+TITLE_SSDLC_CONTROLS: "Part A: SSDLC Controls"
 URL_SSDLC_CONTROLS: https://tss-web.secodis.com/#part-a-ssdlc-controls
 
 TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
