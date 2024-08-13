@@ -2,11 +2,11 @@
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
-toc_sticky: false
+toc_sticky: true
 ---
-# A.2 - Secure Development Process
+# ({{site.URL_SSDLC_SECDEV}}
 
-## 1. Roles & Training
+## ({{site.URL_SSDLC_SECDEV_ROLES}}
 
 1. **Team Responsibility:** Every development team MUST be responsible for the security of their own code.
 
@@ -14,7 +14,7 @@ toc_sticky: false
 
 3. **Security Training:** It MUST be ensured that all team members possess sufficient security knowledge. This SHOULD be achieved by providing general awareness and role-specific security training or coaching to team members, including secure coding training and training in secure design principles for developers.
 
-## 2. Secure By Design
+##  ({{site.URL_SSDLC_SECDEV_SECDESIGN}}
 
 1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer (see [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})).
 
@@ -22,7 +22,7 @@ toc_sticky: false
 
 3. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## 3. Security Evaluation of New Features
+## ({{site.URL_SSDLC_SECDEV_AGILESEC}
 
 The team MUST conduct an assessment of all new features regarding potential security risks/impact (security relevance) before implementation.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
@@ -31,7 +31,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
    - Threat models and risk class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile development teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
-## 4. Secure Implementation
+## ({{site.URL_SSDLC_SECDEV_SECIMP}
 
 1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
@@ -45,7 +45,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 6. **Security Verification:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-## 5. Secure Build & Deployment
+## ({{site.URL_SSDLC_SECDEV_BUILD}
 
 1. **Formal Process Definition:** A formal definition of the build and deployment process MUST be created to ensure consistency, repeatability, and automation.
 
@@ -63,9 +63,9 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 8. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed. Signatures SHOULD be automatically verified.
 
-9. **Verification of Build Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
+9. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
-## 6. Security of Third-Party Dependencies
+## ({{site.URL_SSDLC_SECDEV_3RDPARTY}
 
 This section is relevant for the target production environment:
 
@@ -83,7 +83,7 @@ This section is relevant for the target production environment:
 
 7. **Dependency Pinning:** For business critical applications or services, dependencies MUST be pinned using checksums or cryptographic signatures. "Latest" tags MUST not be used.
 
-## 7. Security Approvals (Security Gates)
+## ({{site.URL_SSDLC_SECDEV_SECGATES}
 
 1. **Initial Project Approval:** All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
@@ -95,7 +95,7 @@ This section is relevant for the target production environment:
 
 5. **Documentation:** All security approvals and risk management decisions MUST be documented.
 
-## 8. Remediation of Security Findings
+## ({{site.URL_SSDLC_SECDEV_VULMREM}
 
 Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
@@ -109,7 +109,7 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the IT security function.
 
-## 9. Security Documentation
+## ({{site.TITLE_SSDLC_SECDEV_SECDOCU}
 
 1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 
