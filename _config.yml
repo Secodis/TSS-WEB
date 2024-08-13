@@ -161,37 +161,37 @@ TITLE_SSDLC_SECOP: "A.5 - Secure Operation"
 URL_SSDLC_SECOP: /Controls/SSDLC_Secure-Operation
 
 TITLE_SSDLC_SECOP_SEPERATION: "A.5.1 Environment Separation"
-URL_SSDLC_SECOPP_SEPERATION: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_SEPERATION: /Controls/SSDLC_Secure-Operation##a51-environment-separation
 
 TITLE_SSDLC_SECOP_HARDENING: "A.5.2 System Hardening"
-URL_SSDLC_SECOPP_HARDENING: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_HARDENING: /Controls/SSDLC_Secure-Operation#a52-system-hardening
 
 TITLE_SSDLC_SECOP_CONTAINERSEC: "A.5.3 Container Security"
-URL_SSDLC_SECOPP_CONTAINERSEC: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_CONTAINERSEC: /Controls/SSDLC_Secure-Operation#a53-container-security
 
 TITLE_SSDLC_SECOP_SECBACKEND: "A.5.4 Securing Access to Backend Resources"
-URL_SSDLC_SECOPP_SECBACKEND: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_SECBACKEND: /Controls/SSDLC_Secure-Operation#a54-securing-access-to-backend-resources
 
 TITLE_SSDLC_SECOP_ISOLATION: "A.5.5 Isolation of External Systems"
-URL_SSDLC_SECOPP_ISOLATION: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_ISOLATION: /Controls/SSDLC_Secure-Operation#a55-isolation-of-external-systems
 
 TITLE_SSDLC_SECOP_ADMINACCESS: "A.5.6 Administrative Access"
-URL_SSDLC_SECOPP_ADMINACCESS: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_ADMINACCESS: /Controls/SSDLC_Secure-Operation#a56-administrative-access
 
 TITLE_SSDLC_SECOP_SECSCANNING: "A.5.7 Security Scanning"
-URL_SSDLC_SECOPP_SECSCANNING: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_SECSCANNING: /Controls/SSDLC_Secure-Operation#a57-security-scanning
 
 TITLE_SSDLC_SECOP_MONITORING: "A.5.8 Security Monitoring"
-URL_SSDLC_SECOPP_MONITORING: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_MONITORING: /Controls/SSDLC_Secure-Operation#a58-security-monitoring
 
 TITLE_SSDLC_SECOP_MAINTANENCE: "A.5.9 System Maintenance"
-URL_SSDLC_SECOPP_MAINTANENCE: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_MAINTANENCE: /Controls/SSDLC_Secure-Operation#a59-system-maintenance
 
 TITLE_SSDLC_SECOP_VULNREMED: "A.5.10 Vulnerability Remediation"
-URL_SSDLC_SECOPP_VULNREMED: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_VULNREMED: /Controls/SSDLC_Secure-Operation#a510-vulnerability-remediation
 
 TITLE_SSDLC_SECOP_INCIDENTMGMT: "A.5.11 Incident Management"
-URL_SSDLC_SECOPP_INCIDENTMGMT: /Controls/SSDLC_Secure-Operation
+URL_SSDLC_SECOPP_INCIDENTMGMT: /Controls/SSDLC_Secure-Operationn#a511-incident-management
 
 TITLE_IMPL_CONTROLS: "Part B: Secure Implementation Controls"
 URL_IMPL_CONTROLS: /#part-b-secure-implementation-controls
