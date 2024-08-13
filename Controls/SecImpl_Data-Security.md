@@ -1,10 +1,10 @@
 # B.10 - Data Security
 
-## 1. General
+## B.10.1 General
 
 Only standard and mature cryptographic algorithms, operation modes, key lengths ciphers, and implementations MUST be used.
 
-## 2. Encryption at Transit
+## B.10.2 Encryption at Transit
 
 1. All external communication MUST only be possile via TLS/HTTPS.
 3. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
@@ -16,20 +16,20 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
     - using HTTP Strict Transport Security (HSTS) headers and
     - only be sent with anti-caching response headers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
 
-## 3. Encryption at Rest
+## B.10.3 Encryption at Rest
 
 1. Confidential data MUST be encrypted before stored.
 2. Access to encryption keys MUST be as restricted as possible.
 3. User passwords MUST be persisted with suitable methods (see [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
 4. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 
-## 4. X.509 Certificates
+## B.10.4 X.509 Certificates
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
 2. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys.
 3. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
 4. Wildcard certificated MUST not be used.
 
-## 5. Tokens
+## B.10.5 Tokens
 1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API Keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^3].
    
 [^1]: Have a look at [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
