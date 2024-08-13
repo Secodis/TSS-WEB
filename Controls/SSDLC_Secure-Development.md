@@ -1,11 +1,12 @@
 ---
+title: {{site.TITLE_SSDLC_SECDEV}}
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 ---
 
-# A.2 - Secure Development Process
+# {{site.TITLE_SSDLC_SECDEV}}
 
 ## {{site.TITLE_SSDLC_SECDEV_ROLES}}
 
