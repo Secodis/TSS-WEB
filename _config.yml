@@ -142,6 +142,21 @@ URL_SSDLC_SECDEV_SECDOCU: /Controls/SSDLC_Secure-Development#a29-security-docume
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: /Controls/SSDLC_Security-Tests
 
+TITLE_SSDLC_SECTESTS_GEN: "A.3.1 General Requirements"
+URL_SSDLC_SECTESTS_GEN: /Controls/SSDLC_Security-Tests
+
+TITLE_SSDLC_SECTESTS_DEFECTH: "A.3.2 Defect Handling"
+URL_SSDLC_SECTESTS_DEFETH: /Controls/SSDLC_Security-Tests
+
+TITLE_SSDLC_SECTESTS_SECSCANS: "A.3.3 Automated Security Scans"
+URL_SSDLC_SECTESTS_SECSCANS: /Controls/SSDLC_Security-Tests
+
+TITLE_SSDLC_SECTESTS_CUSTOMTESTS: "A.3.4 - Custom Security Tests"
+URL_SSDLC_SECTESTS_CUSTOMTESTS: /Controls/SSDLC_Security-Tests
+
+TITLE_SSDLC_SECTESTS_PENTESTS: "A.3.5 - Pentests"
+URL_SSDLC_SECTESTS_PENTESTS: /Controls/SSDLC_Security-Tests
+
 TITLE_SSDLC_OUTDEV: "A.4 - Outsourced Development"
 URL_SSDLC_OUTDEV: /Controls/SSDLC_Outsourced-Development
 
