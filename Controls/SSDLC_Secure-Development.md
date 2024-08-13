@@ -4,6 +4,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 ---
+<title>{{site.TITLE_SSDLC_SECDEV}}</title>
 # {{site.TITLE_SSDLC_SECDEV}}
 
 ## {{site.TITLE_SSDLC_SECDEV_ROLES}}
@@ -87,13 +88,17 @@ This section is relevant for the target production environment:
 
 1. **Initial Project Approval:** All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function will specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
-2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the IT security function during the project approval, the solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin. The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
+2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the IT security function during the project approval:
+   - The solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin.
+   - The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
-3. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]* MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment. The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
+4. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]*
+   - MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment.
+   - The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
 
-4. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
+5. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
-5. **Documentation:** All security approvals and risk management decisions MUST be documented.
+6. **Documentation:** All security approvals and risk management decisions MUST be documented.
 
 ## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
 
