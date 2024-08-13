@@ -14,9 +14,6 @@ titles_from_headings:
   strip_title: true
   collections: true 
 search: true
-#lunr:
-#  search_within_pages: true
-#  search_full_content: true
 search_provider: google
 google:
   search_engine_id: 75489f1b156bd4879
@@ -162,6 +159,39 @@ URL_SSDLC_OUTDEV: /Controls/SSDLC_Outsourced-Development
 
 TITLE_SSDLC_SECOP: "A.5 - Secure Operation"
 URL_SSDLC_SECOP: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_SEPERATION: "A.5.1 Environment Separation"
+URL_SSDLC_SECOPP_SEPERATION: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_HARDENING: "A.5.2 System Hardening"
+URL_SSDLC_SECOPP_HARDENING: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_CONTAINERSEC: "A.5.3 Container Security"
+URL_SSDLC_SECOPP_CONTAINERSEC: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_SECBACKEND: "A.5.4 Securing Access to Backend Resources"
+URL_SSDLC_SECOPP_SECBACKEND: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_ISOLATION: "A.5.5 Isolation of External Systems"
+URL_SSDLC_SECOPP_ISOLATION: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_ADMINACCESS: "A.5.6 Administrative Access"
+URL_SSDLC_SECOPP_ADMINACCESS: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_SECSCANNING: "A.5.7 Security Scanning"
+URL_SSDLC_SECOPP_SECSCANNING: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_MONITORING: "A.5.8 Security Monitoring"
+URL_SSDLC_SECOPP_MONITORING: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_MAINTANENCE: "A.5.9 System Maintenance"
+URL_SSDLC_SECOPP_MAINTANENCE: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_VULNREMED: "A.5.10 Vulnerability Remediation"
+URL_SSDLC_SECOPP_VULNREMED: /Controls/SSDLC_Secure-Operation
+
+TITLE_SSDLC_SECOP_INCIDENTMGMT: "A.5.11 Incident Management"
+URL_SSDLC_SECOPP_INCIDENTMGMT: /Controls/SSDLC_Secure-Operation
 
 TITLE_IMPL_CONTROLS: "Part B: Secure Implementation Controls"
 URL_IMPL_CONTROLS: /#part-b-secure-implementation-controls
