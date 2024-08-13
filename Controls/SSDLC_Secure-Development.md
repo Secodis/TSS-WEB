@@ -5,6 +5,7 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 <title>{{site.TITLE_SSDLC_SECDEV}}</title>
+
 # {{site.TITLE_SSDLC_SECDEV}}
 
 ## {{site.TITLE_SSDLC_SECDEV_ROLES}}
