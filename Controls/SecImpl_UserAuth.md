@@ -12,7 +12,7 @@
     - ***[VERY HIGH]***: Same as HIGH but with the authentication factor required to be generated on a separate system (hard crypto token) that has been approved for this purpose. Examples are RSA SecureID tokens (NIST Authenticator Assurance Level 3[^1]).
 5. HTTP basic authentication SHOULD only be used as additional access protection and MUST always be used with HTTPS.
 6. Usernames SHOULD be personalized.
-7. In case a user login fails, the application MUST NOT disclose information on the cause of the error (e.g. “***Your password is wrong.***”). Positive example: “***Username or password was incorrect.***”.
+7. In case a user login fails, the application MUST NOT disclose information on the cause of the error (e.g. “*Your password is wrong.*”). Positive example: “*Username or password was incorrect.*”.
 8. Autocomplete for all fields on login dialogs SHOULD be deactivated by using the following statement `autocomplete="off"`.
 
 [^1]: See NIST SP 800-63b, NIST Special Publication 800-63B Digital Identity Guideline, [Authenticator Assurance Levels](https://pages.nist.gov/800-63-3/sp800-63b.html#sec4)
