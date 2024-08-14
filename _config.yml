@@ -223,8 +223,26 @@ URL_IMPL_AUTHZ: /Controls/SecImpl_Access-Control
 TITLE_IMPL_ERRORLOG: "B.9 - Error Handling and Logging"
 URL_IMPL_ERRORLOG: /Controls/SecImpl_Error-Handling-and-Logging
 
-TITLE_IMPL_CRYPTO: "B.10 - Data Security"
-URL_IMPL_CRYPTO: /Controls/SecImpl_Data-Security
+TITLE_IMPL_DATASEC: "B.10 - Data Security"
+URL_IMPL_DATASEC: /Controls/SecImpl_Data-Security
+
+TITLE_IMPL_DATASEC_GENERAL: "B.10.1 General"
+URL_IMPL_DATASEC_GENERAL: /Controls/SecImpl_Data-Security#b101-general
+
+TITLE_IMPL_DATASEC_ENCRYPT-TANSIT: "B.10.2 Encryption at Transit"
+URL_IMPL_DATASEC_ENCRYPT-TANSIT: /Controls/SecImpl_Data-Security#b102-encryption-at-transit
+
+TITLE_IMPL_DATASEC_CERTS: "B.10.2 X.509 Certificates"
+URL_IMPL_DATASEC_CERTS: /Controls/SecImpl_Data-Security#b102-x509-certificates
+
+TITLE_IMPL_DATASEC_ENCRYPT-REST: "B.10.3 Encryption at Rest"
+URL_IMPL_DATASEC_ENCRYPT-REST: /Controls/SecImpl_Data-Security#b103-encryption-at-rest
+
+TITLE_IMPL_DATASEC_INTEGRITY: "B.10.4 Cryptographic Integrity Checks"
+URL_IMPL_DATASEC_INTEGRITY: /Controls/SecImpl_Data-Security#b104-cryptographic-integrity-checks
+
+TITLE_IMPL_DATASEC_TOKENS: "B.10.5 Tokens / Keys"
+URL_IMPL_DATASEC_TOKENS: /Controls/SecImpl_Data-Security#b105-tokens--keys
 
 TITLE_IMPL_SECRETS: "B.11 - Protection of Secrets"
 URL_IMPL_SECRETS: /Controls/SecImpl_Secrets
