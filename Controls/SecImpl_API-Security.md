@@ -13,23 +13,23 @@ Please note: For reasons of simplification, some of the following requirements t
 1. The strength of the authentication mechanism used MUST be adequate to the protection needs.
 2. Shared secrets used for API authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
     - Length min. 32 characters (= 256 bit)
-    - Cryptographically random (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
+    - Cryptographically random (see [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}}))
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
 3. For *risk class >= [HIGH]*, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
-4. Authentication credentials MUST be unique for different systems and environments (e.g. test, production).
+4. Authentication credentials MUST be unique for each services and environment (e.g. dev, test, production).
 
 ## {{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}
 
 1. Services with *risk class >= [HIGH]* SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
     - Short-lived (minutes or hours)
-    - Cryptographically random (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
+    - Implemented arrocrind to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
     - Restrictive scope & audiance
     - Transmitted only via HTTPS/TLS
-    - Issued by a trusted and hardened  server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
+    - Issued by a trusted and hardened access server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
     - created and validated using mature frameworks.
-3. If the token is encoded as a JWT, the encryption method MUST be verified.
+3. If the token is encoded as a JSON Web Token (JWT), the encryption method MUST be verified.
 
 ## {{site.TITLE_IMPL_APISEC_OAUTH2}}
 
@@ -41,7 +41,7 @@ Please note: For reasons of simplification, some of the following requirements t
 2. Service-to-service access SHOULD be protected using Client Credential Grant.
 3. HTTPS MUST be used for all communication.
 
-See also requirements for Access Tokens above.
+See also requirements [{{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}]({{site.URL_IMPL_APISEC_ACCESS-TOKENS}}).
 
 ## {{site.TITLE_IMPL_APISEC_FRONTEND-APIS}}
 
