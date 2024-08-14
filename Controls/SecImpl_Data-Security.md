@@ -34,9 +34,9 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA256)[^5] or using public key cryptography[^4].
 
-## B.10.6 Keys
+## B.10.6 Tokens / Keys
 
-1. Keys or tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^6].
+1. Tokens (or keys) that are used for security purposes (e.g. access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^6].
 
    
 [^1]: See [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
