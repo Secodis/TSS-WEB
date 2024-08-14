@@ -16,25 +16,33 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
     - using HTTP Strict Transport Security (HSTS) headers and
     - only be sent with anti-caching response headers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
 
-## B.10.3 Encryption at Rest
+## B.10.2 X.509 Certificates
 
-1. Confidential data MUST be encrypted before stored.
-2. Access to encryption keys MUST be as restricted as possible.
-3. Only secure algorithms MUST be used for encryption[^3].
-4. User passwords MUST be persisted with suitable methods (see [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}})).
-5. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
-
-## B.10.4 X.509 Certificates
-1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted authority (CA).
+1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted certificate authority (CA).
 2. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys[^4].
 3. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
 4. Wildcard certificated MUST not be used.
 
-## B.10.5 Tokens
-1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^5].
+## B.10.4 Encryption at Rest
+
+1. Confidential data MUST be encrypted before stored.
+2. Access to encryption keys MUST be as restricted as possible.
+3. Only secure algorithms MUST be used for encryption[^3].
+4. User passwords MUST be persisted according to requirements at [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}}).
+5. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
+
+## B.10.5 Integrity Validation
+
+1. Security-sensitive integrity validation MUST be performed using either digital signatures[^4] or SHA-2 cryptographic hash functions [^5].
+   
+## B.10.6 Keys / Cryptographic Tokens
+
+1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^6].
+
    
 [^1]: See [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
 [^2]:If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings.
 [^3]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 1, Table 1, pg. 7
 [^4]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 2, Table 2, pg. 9 
+[^5]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 9, Table 9, pg. 18
 [^5]: To archive this you may use an [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) or generate one directly using the OpenSSL CLI. Here is an example for creating a 256bit token encoded as Base64 `$ openssl rand -base64 32` 
