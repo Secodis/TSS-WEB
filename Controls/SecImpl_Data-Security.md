@@ -30,7 +30,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 3. Only secure algorithms MUST be used for encryption[^3].
 4. User passwords MUST be persisted according to requirements at [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}}).
 
-## B.10.5 Cryptographic Hashes
+## B.10.5 Cryptographic Integrity Ckecks
 
 1. Security-sensitive integrity validation MUST be performed using either digital signatures[^4], or cryptographic hash functions [^5].
    
