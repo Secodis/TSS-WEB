@@ -74,7 +74,7 @@ This section is relevant for the target production environment:
 
 2. **Dependency Approval:** Before a new third-party dependency can be used in production applications or within the release build environment, it MUST be approved by the architecture board or community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
-3. **Regular Updates:** Third-party dependencies SHOULD be updated regularly, ideally through an automated process (e.g. using Renovate or Dependabot).
+3. **Automated Updates:** Third-party dependencies SHOULD be updated regularly, ideally through an automated process.
 
 4. **Critical Updates:** Third-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life status.
 
@@ -135,3 +135,5 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 [^3]: A pull-based model refers to a deployment strategy where deployment systems pull updates from a central repository rather than having updates pushed to them. See [https://itnext.io/gitops-pull-based-vs-push-based-959c50feca78](https://itnext.io/gitops-pull-based-vs-push-based-959c50feca78)
 
 [^4]: One tool to accomplish this is [xeol](https://github.com/xeol-io/xeol).
+
+[^5]: E.g. using [Renovate](https://github.com/renovatebot/renovate) or [Dependabot](https://github.com/dependabot)
