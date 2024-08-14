@@ -4,9 +4,9 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## B.12.1 General
 
-1. APIs MUST be restricted validated using Open API Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}}))
-2. External APIs SHOULD only be made available externally using a hardened service/API gateway.
-3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval).
+1. APIs MUST be restricted validated using Open API Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
+2. External APIs SHOULD only be made available externally using a hardened service or API gateway.
+3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval)[^1].
 
 ## B.12.2 Authentication
 
@@ -21,7 +21,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## B.12.3 Access Tokens
 
-1. Services with *risk class >= HIGH* SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
+1. Services with *risk class >= [HIGH]* SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
     - Short-lived (minutes or hours)
     - Cryptographically random (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
@@ -33,7 +33,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## B.12.4 OAuth 2.0/OICD Requirements
 1. For user authentication (3-legged):
-    - Authorization Code Grant with PKCE (or alternative authorization code binding technique, e.g. “state” binding or OICD Nounces) for both public clients (e.g. single-page applications (SPAs)[^1] SHOULD be used for both public and confidential clients (e.g. server-side web apps).[^2]
+    - Authorization Code Grant with PKCE (or alternative authorization code binding technique, e.g. “state” binding or OICD Nounces) for both public clients (e.g. single-page applications (SPAs)[^1] SHOULD be used for both public and confidential clients (e.g. server-side web apps).[^3]
     - For CSRF protection, Authorization Code Grant Flows MUST either use the “state” parameter, PKCE, or “OICD Nounces"
     - Clients MUST register (and be validated using) full redirect URI as described in [RFC 6819 Section 5.2.3.5](https://datatracker.ietf.org/doc/html/rfc6819#section-5.2.3.5) (no pattern matching).
     - Refresh tokens MUST be secured according to [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
@@ -56,5 +56,6 @@ See also requirements for Access Tokens above.
 ##  B.12.7 WebSockets
 WebSockets MUST transfer all confidential data with `wss://` schema and an additional server-side authorization of the source origin header.
 
-[^1]: See [https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00](https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00)
-[^2]: See [https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14)
+[^1]: This control aims to prevent denial-of-service (DoS) conditions which can occur both deliberately as well as accidently, e.g. triggers by a malfunction of a client.
+[^2]: See [https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00](https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00)
+[^3]: See [https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14)
