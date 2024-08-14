@@ -98,10 +98,10 @@ TITLE_SSDLC_SECENV: "A.1 - Secure Dev Environment"
 URL_SSDLC_SECENV: /Controls/SSDLC_Secure-Dev-Environment
 
 TITLE_SSDLC_SECENV_ACCESS: "A.1.1 Securing Access to the Development Environment"
-URL_SSDLC_SECENV_ACCESS: /Controls/SSDLC_Secure-Dev-Environment
+URL_SSDLC_SECENV_ACCESS: /Controls/SSDLC_Secure-Dev-Environment#a11-securing-access-to-the-development-environment
 
 TITLE_SSDLC_SECENV_CODEPROTECT: "A.1.2 Protection of Source and Program Code"
-URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment
+URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment#a12-protection-of-source-and-program-code
 
 TITLE_SSDLC_SECENV_CODEPROTECT: "A.1.2 Protection of Source and Program Code"
 URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment
@@ -140,19 +140,19 @@ TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: /Controls/SSDLC_Security-Tests
 
 TITLE_SSDLC_SECTESTS_GEN: "A.3.1 General Requirements"
-URL_SSDLC_SECTESTS_GEN: /Controls/SSDLC_Security-Tests
+URL_SSDLC_SECTESTS_GEN: /Controls/SSDLC_Security-Tests#a31-general-requirements
 
 TITLE_SSDLC_SECTESTS_DEFECTH: "A.3.2 Defect Handling"
-URL_SSDLC_SECTESTS_DEFETH: /Controls/SSDLC_Security-Tests
+URL_SSDLC_SECTESTS_DEFETH: /Controls/SSDLC_Security-Tests#a32-defect-handling
 
 TITLE_SSDLC_SECTESTS_SECSCANS: "A.3.3 Automated Security Scans"
-URL_SSDLC_SECTESTS_SECSCANS: /Controls/SSDLC_Security-Tests
+URL_SSDLC_SECTESTS_SECSCANS: /Controls/SSDLC_Security-Tests#a33-automated-security-scans
 
 TITLE_SSDLC_SECTESTS_CUSTOMTESTS: "A.3.4 - Custom Security Tests"
-URL_SSDLC_SECTESTS_CUSTOMTESTS: /Controls/SSDLC_Security-Tests
+URL_SSDLC_SECTESTS_CUSTOMTESTS: /Controls/SSDLC_Security-Tests#a34---custom-security-tests
 
 TITLE_SSDLC_SECTESTS_PENTESTS: "A.3.5 - Pentests"
-URL_SSDLC_SECTESTS_PENTESTS: /Controls/SSDLC_Security-Tests
+URL_SSDLC_SECTESTS_PENTESTS: /Controls/SSDLC_Security-Tests#a35---pentests
 
 TITLE_SSDLC_OUTDEV: "A.4 - Outsourced Development"
 URL_SSDLC_OUTDEV: /Controls/SSDLC_Outsourced-Development
