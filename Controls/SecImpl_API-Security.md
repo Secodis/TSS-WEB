@@ -34,7 +34,7 @@ Please note: For reasons of simplification, some of the following requirements t
 ## {{site.TITLE_IMPL_APISEC_OAUTH2}}
 
 1. For user authentication (3-legged):
-    - Authorization Code Grant with PKCE (or alternative authorization code binding technique, e.g. “state” binding or OICD Nounces) for both public clients (e.g. single-page applications (SPAs)[^1] SHOULD be used for both public and confidential clients (e.g. server-side web apps).[^3]
+    - Authorization Code Grant with PKCE (or alternative authorization code binding technique, e.g. “state” binding or OICD Nounces) for both public clients (e.g. single-page applications (SPAs)[^2] SHOULD be used for both public and confidential clients (e.g. server-side web apps).[^3]
     - For CSRF protection, Authorization Code Grant Flows MUST either use the “state” parameter, PKCE, or “OICD Nounces"
     - Clients MUST register (and be validated using) full redirect URI as described in [RFC 6819 Section 5.2.3.5](https://datatracker.ietf.org/doc/html/rfc6819#section-5.2.3.5) (no pattern matching).
     - Refresh tokens MUST be secured according to [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
@@ -58,6 +58,6 @@ See also requirements for Access Tokens above.
 
 WebSockets MUST transfer all confidential data with `wss://` schema and an additional server-side authorization of the source origin header.
 
-[^1]: This control aims to prevent denial-of-service (DoS) conditions which can occur both deliberately as well as accidently, e.g. triggers by a malfunction of a client.
+[^1]: This control aims to prevent denial-of-service (DoS) conditions, which can occur both deliberately and accidentally, such as those triggered by a client malfunction.
 [^2]: See [https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00](https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00)
 [^3]: See [https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14)
