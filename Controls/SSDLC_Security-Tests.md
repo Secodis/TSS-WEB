@@ -28,7 +28,7 @@ toc_sticky: true
 
 2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
-3. **Defect Remediation:** Defects identified during the development process MUST be handled according to requirements in A.2 Secure Development Process. Defects identified in production systems MUST be managed according to requirements in A.5 Secure Operation.
+3. **Defect Remediation:** Defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in production systems MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
@@ -46,7 +46,7 @@ toc_sticky: true
 
 7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
-8. **Vulnerability Scans:** Systems MUST be scanned for vulnerabilities (see requirements for operational Scans in A.5)
+8. **Vulnerability Scans:** Systems MUST be scanned for vulnerabilities (see requirements for operational scans in  [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}}))
 
 9. **Pipeline Integration:** For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing policies within the release process.
 
