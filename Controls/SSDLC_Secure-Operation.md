@@ -20,9 +20,9 @@ Systems in production MUST be strictly separated from development and test syste
 
 4. **Separate Authorization:** Users and systems MUST be authorized separately for each environment.
 
-5. **Access Server Separation:** Access servers SHOULD be separate instances for all environments but MUST at least use separate realms.
+5. **Access Server Separation:** Access servers SHOULD be separate instances for all environments but MUST at least use separate realms. For *risk class >= [HIGH]*: At least the prod environment MUST be run on a seperate and isolated instance. 
 
-6. **Restricted Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see "Administrative Access" below) and SHOULD be automated where possible.
+6. **Restricted Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}}))) and SHOULD be automated where possible.
 
 7. **Data Usage Restrictions:** Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
@@ -109,7 +109,7 @@ For instance:
 - Potential malware infection
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
-For applications with *risk class >= [HIGH]*: Possible security incidents MUST be continuously monitored. 
+For *risk class >= [HIGH]*: Possible security incidents MUST be continuously monitored. 
 
 For instance:
 - Potential account abuse or system compromise
