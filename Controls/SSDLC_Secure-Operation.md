@@ -23,8 +23,6 @@ Systems in production MUST be strictly separated from development and test syste
 5. **Access Server Separation:** Access servers SHOULD be separate instances for all environments but MUST at least use separate realms. For *risk class >= [HIGH]*: At least the prod environment MUST be run on a seperate and isolated instance. 
 
 6. **Restricted Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}}))) and SHOULD be automated where possible.
-
-7. **Data Usage Restrictions:** Production data SHOULD NOT be used on non-production systems (exceptions see [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
    
 ## {{site.TITLE_SSDLC_SECOP_HARDENING}}
 1. **Pre-Deployment Hardening:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
@@ -51,7 +49,7 @@ This includes:
 
 3. **Minimal Privileges:** Containers MUST be executed with the least privileges necessary to function.
 
-4. **Prohibited Remote Shells:** Containers MUST NOT include remote shells such as `sshd` or `telnet`.
+4. **Prohibit use of Remote Shells:** Containers MUST NOT include remote shells such as sshd or telnet.
 
 5. **Lifecycle Management:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
 
