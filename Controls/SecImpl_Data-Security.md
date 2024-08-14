@@ -30,10 +30,10 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 3. Only secure algorithms MUST be used for encryption[^3].
 4. User passwords MUST be persisted according to requirements at [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}}).
 
-## B.10.5 Cryptographic Integrity Ckecks
+## B.10.5 Cryptographic Integrity Checks
 
-1. Security-sensitive integrity validation MUST be performed using either digital signatures[^4], or cryptographic hash functions [^5].
-   
+1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA256)[^5] or using public key cryptography[^4].
+
 ## B.10.6 Tokens
 
 1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^6].
