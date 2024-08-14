@@ -4,7 +4,7 @@ The following requirements are relevant for technical secrets (e.g. passwords of
 
 1. Secrets MUST be encrypted when stored with the source code (otherwise they need to be stored separately).
 2. Access to secrets and their encryption keys MUST be restricted.
-3. Secrets MUST be automatically generated using a PRNG (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}})) if possible.
+3. Own secrets MUST be automatically and securely generated according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})) if possible.
 4. Secrets SHOULD have a label (or other metadata) indicating the application or service and responsible team they belong to.
 5. For *risk class >= [HIGH]*:
     - Secrets MUST be stored in a secure secret store (vault) or protected keystore
