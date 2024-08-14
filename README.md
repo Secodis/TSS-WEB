@@ -6,7 +6,7 @@ Note that this project and its content is provided "as-is" without any guarantee
 
 # Purpose
 
-The purpose of this framework is to provide a comprehensive and consistent collection of technical and organizational AppSec controls for organizations to use them for their own individual security standards, policies, or concepts.
+The purpose of this framework is to offer a comprehensive, consistent, and practical set of technical and organizational AppSec controls that organizations can adopt and tailor to their own security standards, policies, or concepts.
 
 The goal is to provide a foundation that works for most organizations. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
