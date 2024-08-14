@@ -232,6 +232,27 @@ URL_IMPL_SECRETS: /Controls/SecImpl_Secrets
 TITLE_IMPL_APISEC: "B.12 - API Security"
 URL_IMPL_APISEC: /Controls/SecImpl_API-Security
 
+TITLE_IMPL_APISEC_GENERAL: "B.12.1 General"
+URL_IMPL_APISEC_GENERAL: /Controls/SecImpl_API-Security#b121-general
+
+TITLE_IMPL_APISEC_AUTH: "B.12.2 Authentication"
+URL_IMPL_APISEC_AUTH: /Controls/SecImpl_API-Security#b122-authentication
+
+TITLE_IMPL_APISEC_ACCESS-TOKENS: "B.12.3 Access Tokens"
+URL_IMPL_APISEC_ACCESS-TOKENS: /Controls/SecImpl_API-Security#b123-access-tokens
+
+TITLE_IMPL_APISEC_OAUTH2: "B.12.4 OAuth 2.0/OICD Requirements"
+URL_IMPL_APISEC_OAUTH2: /Controls/SecImpl_API-Security#b124-oauth-20oicd-requirements
+
+TITLE_IMPL_APISEC_FRONTEND-APIS: "B.12.5 Frontend APIs"
+URL_IMPL_APISEC_FRONTEND-APIS: /Controls/SecImpl_API-Security#b125-frontend-apis
+
+TITLE_IMPL_APISEC_X-DOMAIN-ACCESS: "B.12.6 Cross-Domain Access"
+URL_IMPL_APISEC_X-DOMAIN-ACCESS: /Controls/SecImpl_API-Security#b126-cross-domain-access
+
+TITLE_IMPL_APISEC_WEBSOCKETS: "B.12.7 WebSockets"
+URL_IMPL_APISEC_WEBSOCKETS: /Controls/SecImpl_API-Securityy#b127-websockets
+
 TITLE_IMPL_CLIENTSEC: "B.13 - Client-Side Security"
 URL_IMPL_CLIENTSEC: /Controls/SecImpl_Client-Side-Security
 
