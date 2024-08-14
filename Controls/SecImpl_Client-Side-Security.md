@@ -7,5 +7,5 @@
 4. User states or other meta-information MUST only be stored with sufficient integrity protection (e.g. as a signed JWT token).
 5. Only confidential user data MAY be stored on the client-side but this SHOULD only be be in an encrypted way.
 6. Secrets MUST be protected if their use is not avoidable:
-    - ephemeral storage like the SessionStorage (e.g. for access tokens) MUST be used OR
+    - ephemeral storage like the `SessionStorage` (e.g. for access tokens) MUST be used OR
     - secrets (e.g. refresh tokens) MUST be stored encrypted (e.g. in the Keystore) on mobile devices
