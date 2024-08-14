@@ -45,7 +45,7 @@ This includes:
 ## {{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}
 1. **Secure Build:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
-2. **Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations (see [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
+2. **Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
 
 3. **Minimal Privileges:** Containers MUST be executed with the least privileges necessary to function.
 
