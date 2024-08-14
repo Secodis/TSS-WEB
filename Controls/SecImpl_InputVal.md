@@ -11,7 +11,7 @@
     - restricted allowed characters via RegExp for a string (e.g. only `a-z` and `A-Z`).
 4. Input validation SHOULD be using a positive validation model (whitelisting).
 5. In order to prevent deserialization attacks, untrusted data SHOULD generally not be deserialized.
-6. Data with high integrity protection requirement SHOULD be validated using cryptographic hashes, HMAC or public key encryption (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}})).
+6. Data with high integrity protection requirement SHOULD be validated using cryptographic integrity ckecks (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}})).
 7. JSON or XML data from untrusted sources (e.g. received by a service) MUST be validated using schema validation (e.g. OpenAPI, XML or JSON schema) or bean validation. Schemas SHOULD be restrrictive where possible (e.g. avoid using unrestricted String datatypes) (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
 8. An XML parser that process XML content from untrusted sources (e.g. from an external entity) MUST be hardened to prevent common XML-based attacks:
     - Set restrictive limits (e.g. in respect of maximal nesting depth or document size),
