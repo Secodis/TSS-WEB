@@ -1,10 +1,10 @@
 # B.10 - Data Security
 
-## B.10.1 General
+## {{site.TITLE_IMPL_DATASEC_GENERAL}}
 
 Only standard and mature cryptographic algorithms, operation modes, key lengths ciphers, and implementations MUST be used.
 
-## B.10.2 Encryption at Transit
+## {{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}
 
 1. All external communication MUST only be possile via TLS/HTTPS.
 3. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
@@ -16,25 +16,25 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
     - using HTTP Strict Transport Security (HSTS) headers and
     - only be sent with anti-caching response headers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
 
-## B.10.2 X.509 Certificates
+## {{site.TITLE_IMPL_DATASEC_CERTS}}
 
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted certificate authority (CA).
 2. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys[^4].
 3. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
 4. Wildcard certificated MUST not be used.
 
-## B.10.3 Encryption at Rest
+## {{site.TITLE_IMPL_DATASEC_ENCRYPT-REST}}
 
 1. Confidential data MUST be encrypted before stored.
 2. Access to encryption keys MUST be handles according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 3. Only secure algorithms MUST be used for encryption[^3].
 4. User passwords MUST be persisted according to requirements at [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}}).
 
-## B.10.4 Cryptographic Integrity Checks
+## {{site.TITLE_IMPL_DATASEC_INTEGRITY}}
 
 1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA-256)[^5] or using public key cryptography[^4].
 
-## B.10.5 Tokens / Keys
+## {{site.TITLE_IMPL_DATASEC_TOKENS}}
 
 Tokens (or keys) that are used for security purposes (e.g. access tokens, passwords of technical users, or API keys) MUST be cryptographically random and at least 256 bit (= 32 character) lenght[^6].
 
