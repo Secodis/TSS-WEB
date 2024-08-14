@@ -19,7 +19,7 @@ individual passwords.
 
 ## B.6.2 Password Change Functions
 
-1. Users MUST be able to change their passwords.
+1. Users MUST be able to change their own passwords.
 2. Users SHOULD be indicated the strength of the current password choice when changing their passwords (using a password strength functions).
 3. Users MUST confirm a new password with their current ones.
 4. Users SHOULD be informed when their password has changed (e.g. via e-mail notification).
