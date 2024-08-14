@@ -40,11 +40,14 @@ Covered by various requirements, including:
 * [{{site.TITLE_SSDLC_SECOP_SEPERATION}}]({{site.URL_SSDLC_SECOPP_SEPERATION}})
 * [{{site.TITLE_SSDLC_SECOP_SECBACKEND}}]({{site.URL_SSDLC_SECOPP_SECBACKEND}})
 * [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})
-* [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
-  
+
 ### Provide a Mechanism for Verifying Software Release Integrity (PS.2)
 
+Not covered yet (unclear of this is suitable for a baseline requirement).
+
 ### Archive and Protect Each Software Release (PS.3)
+
+See requirements at [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}}). Also covered from a customer perspective at [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}}).
 
 ## Produce Well-Secured Software (PW)
 
