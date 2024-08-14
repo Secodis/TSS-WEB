@@ -32,7 +32,7 @@ Systems in production MUST be strictly separated from development and test syste
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
 - Deactivation of all services, plugins, and other functionality that is not needed, especially if they are exposed (executable from remote)
-- Hardened SSL/TLS stack (see [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}}))
+- Hardened SSL/TLS stack (see  [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}])
 - Activated security headers according to [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}}).
 - Removal of samples and other default content
 - Execution of network services (e.g. web or application servers) with only minimal privileges and isolated from other processes if possible (e.g. as an isolated container or dedicated server instance, VM or host)
@@ -70,13 +70,13 @@ This includes:
 
 1. **Dedicated Environments:** Applications MUST be deployed in dedicated isolated production environments.
 
-2. **Encrypted Communication:** All network communication MUST be encrypted using TLS.
+2. **Encrypted Communication:** All network communication MUST be encrypted using TLS (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}])({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}}.
 
 3. **External Access Approval:** All external access to internal network zones MUST be approved.
 
 4. **Restricted Outgoing Communication:** Outgoing communication (egress) to the Internet MUST be restricted (whitelisted) and SHOULD be handled by proxies (e.g., HTTP proxies or SMTP proxies).
 
-5. **Restricted Incoming Communication:** Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, Web gateways).
+5. **Restricted Incoming Communication:** Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, web gateways).
 
 6. **Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
 
