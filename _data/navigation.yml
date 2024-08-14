@@ -55,7 +55,7 @@ docs:
       - title: "B.10 - Data Security"
         url: /Controls/SecImpl_Data-Security
       - title: "B.11 - Protection of Secrets"
-        url: /Controls/SecImpl_InputVal
+        url: /Controls/SecImpl_Secrets
       - title: "B.12 - API Security"
         url: /Controls/SecImpl_API-Security
       - title: "B.13 - Client-Side Security"
