@@ -32,7 +32,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 ## B.10.5 Cryptographic Integrity Checks
 
-1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA256)[^5] or using public key cryptography[^4].
+1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA-256)[^5] or using public key cryptography[^4].
 
 ## B.10.6 Tokens / Keys
 
