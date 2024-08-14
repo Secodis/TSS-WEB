@@ -12,8 +12,7 @@ Please note: For reasons of simplification, some of the following requirements t
 
 1. The strength of the authentication mechanism used MUST be adequate to the protection needs.
 2. Shared secrets used for API authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
-    - Length min. 32 characters (= 256 bit)
-    - Cryptographically random (see [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}}))
+    - Implemented according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}}))
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}))
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
 3. For *risk class >= [HIGH]*, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
