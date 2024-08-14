@@ -33,7 +33,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## B.10.5 Tokens
 1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^5].
    
-[^1]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 2, Table 2, pg. 9 and have a look at [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
+[^1]: See [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
 [^2]:If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings.
 [^3]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 1, Table 1, pg. 7
 [^4]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 2, Table 2, pg. 9 
