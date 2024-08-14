@@ -23,7 +23,7 @@ Please note: For reasons of simplification, some of the following requirements t
 1. Services with *risk class >= [HIGH]* SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
 2. Following requirements do apply to access tokens:
     - Short-lived (minutes or hours)
-    - Implemented arrocrind to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
+    - Implemented according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
     - Restrictive scope & audiance
     - Transmitted only via HTTPS/TLS
     - Issued by a trusted and hardened access server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
