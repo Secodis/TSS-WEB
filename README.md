@@ -1,6 +1,6 @@
 # About
 
-This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, SAFECode and ISO/IEC](#related-standards).
+This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, and ISO/IEC](#related-standards).
 
 Note that this project and its content is provided "as-is" without any guarantees. The information and views expressed are subject to change without notice. You assume all risks associated with using this content.
 
@@ -65,7 +65,6 @@ The following table outlines the coverage of some important standards in this ar
 | [NIST SSDF 1.1](https://csrc.nist.gov/Projects/ssdf)  | The Secure Software Development Framework (SSDF
 NIST Special Publication (SP) 800-218). Comming soon. |
 | [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) | coming soon. |
-| [SAFECode Fundamental Practices for Secure Development](https://safecode.org/resource-secure-development-practices/fundamental-practices-secure-software-development-2/) | comming soon.|
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
