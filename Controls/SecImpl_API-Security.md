@@ -4,8 +4,9 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## {{site.TITLE_IMPL_APISEC_GENERAL}}
 
-1. APIs MUST be restricted validated using Open API Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
+1. APIs SHOULD not exposed if not required.
 2. External APIs SHOULD only be made available externally using a hardened service or API gateway.
+3. APIs MUST be restrictively validated using OpenAPI Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
 3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval)[^1].
 
 ## {{site.TITLE_IMPL_APISEC_AUTH}}
