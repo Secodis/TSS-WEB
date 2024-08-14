@@ -10,7 +10,7 @@ toc_sticky: true
 
 1. **Verification of Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
 
-2. **Automated and Continuous Testing:** Where possible, security tests SHOULD be executed automatically and continuously (e.g., within CI and CD pipelines) and as early as possible within the development process (following the fail-fast principle).
+2. **Automated and Continuous Testing:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines) and as early as possible within the development process (following the fail-fast principle).
 
 3. **Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
 
@@ -20,11 +20,11 @@ toc_sticky: true
 
 6. **Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
-7. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g., a web application firewall).
+7. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g. a web application firewall).
 
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
-1. **Tracking of Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta-information (e.g., criticality rating, CVSS score, etc.).
+1. **Tracking of Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta information (e.g., criticality rating, CVSS score, etc.).
 
 2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
@@ -36,7 +36,7 @@ toc_sticky: true
 
 2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies.
 
-3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues.
+3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
 
 4. **Configuration Scanning:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
 
