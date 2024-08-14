@@ -44,7 +44,9 @@ Please note: For reasons of simplification, some of the following requirements t
 See also requirements for Access Tokens above.
 
 ## {{site.TITLE_IMPL_APISEC_FRONTEND-APIS}}
- 
+
+APIs that are used as a backend for client-side frontend (e.g. SPAs):
+
 1. MUST implement the same security requirements for access to external resources as the corresponding UI (authentication, validation, etc.)
 2. MUST not contain script code (e.g. JavaScript) that is directly executable
 3. MUST contain CSRF protection if working in user context (see [{{site.TITLE_IMPL_SESSIONMGMT}}]({{site.URL_IMPL_SESSIONMGMT}}))
