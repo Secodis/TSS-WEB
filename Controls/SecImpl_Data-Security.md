@@ -23,18 +23,18 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 3. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
 4. Wildcard certificated MUST not be used.
 
-## B.10.4 Encryption at Rest
+## B.10.3 Encryption at Rest
 
 1. Confidential data MUST be encrypted before stored.
 2. Access to encryption keys MUST be handles according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 3. Only secure algorithms MUST be used for encryption[^3].
 4. User passwords MUST be persisted according to requirements at [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}}).
 
-## B.10.5 Cryptographic Integrity Checks
+## B.10.4 Cryptographic Integrity Checks
 
 1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA-256)[^5] or using public key cryptography[^4].
 
-## B.10.6 Tokens / Keys
+## B.10.5 Tokens / Keys
 
 Tokens (or keys) that are used for security purposes (e.g. access tokens, passwords of technical users, or API keys) MUST be cryptographically random and at least 256 bit (= 32 character) lenght[^6].
 
