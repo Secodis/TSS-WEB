@@ -26,22 +26,21 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## B.10.4 Encryption at Rest
 
 1. Confidential data MUST be encrypted before stored.
-2. Access to encryption keys MUST be as restricted as possible.
+2. Access to encryption keys MUST be handles according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 3. Only secure algorithms MUST be used for encryption[^3].
 4. User passwords MUST be persisted according to requirements at [{{site.TITLE_IMPL_USERPASSWD}}]({{site.URL_IMPL_USERPASSWD}}).
-5. Secrets MUST be stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 
-## B.10.5 Integrity Validation
+## B.10.5 Cryptographic Hashes
 
-1. Security-sensitive integrity validation MUST be performed using either digital signatures[^4] or SHA-2 cryptographic hash functions [^5].
+1. Security-sensitive integrity validation MUST be performed using either digital signatures[^4], or cryptographic hash functions [^5].
    
-## B.10.6 Keys / Cryptographic Tokens
+## B.10.6 Tokens
 
 1. Tokens that are used for security purposes (e.g. as access tokens, passwords of technical users, or API keys) MUST be cryptographically random and created by an [PRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)[^6].
 
    
 [^1]: See [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
-[^2]:If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings.
+[^2]: If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings.
 [^3]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 1, Table 1, pg. 7
 [^4]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 2, Table 2, pg. 9 
 [^5]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 9, Table 9, pg. 18
