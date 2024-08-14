@@ -56,7 +56,7 @@ toc_sticky: true
 
 2. **Negative Tests:** Tests SHOULD be both positive and negative (e.g. can an user without proper role access a protected ressource).
 
-3. **Abuse Case Tests:** For *risk class >= [HIGH]*, teams SHOULD test possible abuse cases and common attack vectors (e.g Privilege Escalation, SQLi).
+3. **Abuse Case Tests:** For *risk class >= [HIGH]*, teams SHOULD test possible abuse cases and common attack vectors (e.g privilege escalation, SQLi).
 
 4. **Automated Execution:** Security tests of implemented security requirements and security controls (e.g., authentication or access controls) SHOULD be implemented and executed, preferably in an automatic and continuous way.
 
