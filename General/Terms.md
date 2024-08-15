@@ -1,4 +1,4 @@
-# 2. Terms
+# Terms
 
 The following definitions are used here:
 
