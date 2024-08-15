@@ -7,5 +7,5 @@ By [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119), two types of requir
 
 Furthermore, requirements are also specified based on their [risk class]({{site.URL_GENERAL_RISKCLASSES}}):
 
-- **Baseline Requirements**: Suitable for all applications and services
-- **High-Assurance Requirements**: Required only for applications with a higher risk class (usually >= [HIGH])
+- **Baseline Requirements**: Suitable for all applications and services.
+- **High-Risk Requirements**: Advanced requirement, which usually implies substantial implementation efforts and are therefore commonly only suitable for applications with a higher risk class (usually >= [HIGH]).
