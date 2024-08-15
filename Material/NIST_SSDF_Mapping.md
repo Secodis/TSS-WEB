@@ -66,25 +66,49 @@ See requirements at [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_
 
 ### Design Software to Meet Security Requirements and Mitigate Security Risks (PW.1)
 
+Covered by [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
+
 ### Review the Software Design to Verify Compliance with Security Requirements and Risk Information (PW.2)
+
+Covered by [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) and [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
 ### Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality (PW.4)
 
+Not covered directly at the moment. This would be usually be enforced in an architecture board that approves new architecture decisions like new technologies (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})).
+
 ### Create Source Code by Adhering to Secure Coding Practices (PW.5)
+
+Covered technology agnostic by [{{site.TITLE_SSDLC_SECDEV_SECIMP}}]({{site.URL_SSDLC_SECDEV_SECIMP}}); especially be te implementation requirements. In a next step you could derive technology-specific secure coding guidelines from them (e.g. secure coding guidelines for Java EE, python, etc.).
 
 ### Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security (PW.6)
 
+Security aspects of the build process are covered by [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}}).
+
+Since the scope of TSS-WEB are web-based applications and services, security of executables are not covered here though.
+
 ### Review and/or Analyze Human-Readable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements (PW.7)
+
+TBD.
 
 ### Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements (PW.8)
 
+Not covered by TSS-WEB since its scope are web-based applicaions and services.
+
 ### Configure Software to Have Secure Settings by Default (PW.9)
+
+Covered by [{{site.TITLE_SSDLC_SECOP_HARDENING}}]({{site.URL_SSDLC_SECOP_HARDENING}}).
 
 ## Respond to Vulnerabilities (RV)
 
 ### Identify and Confirm Vulnerabilities on an Ongoing Basis (RV.1)
 
+Covered by [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+
 ### Assess, Prioritize, and Remediate Vulnerabilities (RV.2)
 
+* For vulnerabilities identified within the development process: [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}})
+* For vulnerabilities identified in production: [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}).
+  
 ### Analyze Vulnerabilities to Identify Their Root Causes (RV.3)
 
+Covered by [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}).
