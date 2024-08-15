@@ -19,7 +19,7 @@ toc_sticky: true
 
 1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer (see [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})).
 
-2. **Use Mature Technologies:** Applications and services SHOULD use and prefer proven security features, languages, and frameworks.
+2. **Use Mature Technologies:** Applications and services SHOULD use and prefer proven security features, languages, and frameworks.[^6]
 
 3. **Documented Security Architecture:** For applications with an *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application or service.
 
@@ -141,3 +141,5 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 [^4]: One tool to accomplish this is [xeol](https://github.com/xeol-io/xeol).
 
 [^5]: E.g. using [Renovate](https://github.com/renovatebot/renovate) or [Dependabot](https://github.com/dependabot)
+
+[^6]: Source: Microsoft SDL
