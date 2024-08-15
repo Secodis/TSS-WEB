@@ -7,7 +7,9 @@ toc_sticky: true
 
 # NIST SSDF Mapping 
 
-TSS-WEB covers most controls of [NIST SSDF v1.1](https://csrc.nist.gov/Projects/ssdf), except those that either do not relate to a security requirement or are too specific for a baseline requirement. Additionally, the general scope of SSDF is slightly different since it addresses security requirements for suppliers of public US institutions, which can be more strict than what most companies can demand from their suppliers. Therefore, from a customer perspective, the requirements are less strict and aim to provide a commonly acceptable set of requirements from a supplier perspective here (see [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})).
+TSS-WEB covers most controls of [NIST SSDF v1.1](https://csrc.nist.gov/Projects/ssdf), except those that either do not relate to a security requirement or are too specific for a baseline requirement. 
+
+Additionally, the general scope of SSDF is slightly different since it addresses security requirements for suppliers of public US institutions, which can be more strict than what most companies can demand from their suppliers. Therefore, from a customer perspective, the respective requirements in TSS-WEB (see [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})) are a little less strict since they aim to provide a set of security requirements that should be commonly acceptable by software suppliers in general.
 
 ## Prepare the Organization (PO)
 
