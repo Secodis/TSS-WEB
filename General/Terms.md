@@ -8,7 +8,7 @@ The following definitions are used here:
 | **API** | Here: Web-based interface (e.g. a RESTful service) | 
 | **Application** | Here: Synonym for web-based application or service. |
 | **Change** | Change to an application in production. |
-| **Criticality** | Here: Mostly synonym for business criticality |
+| **Criticality** | Here: Either synonym for business criticality or criticality of vulnerability.  |
 | **Confidential Data** | Data, which consists of (1) confidential information (e.g. trademarks, sensible business logic, passwords or personal data), (2) is explicitly declared as those or (3) is only accessible by a restricted number of people. |
 | **Critical Application** | Here: Business critical application |
 | **Dependency Repository** | System that manages 3rd party dependencies (e.g. libraries, Maven artifacts). A dependency repository is often part of a general software repository system such as Nexus or Artifactory. |
