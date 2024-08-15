@@ -205,6 +205,24 @@ URL_IMPL_INPUTVAL: /Controls/SecImpl_InputVal
 TITLE_IMPL_FILEUPLOADS: "B.3 - Secure Fileuploads and Downloads"
 URL_IMPL_FILEUPLOADS: /Controls/SecImpl_FileUploads
 
+TITLE_IMPL_FILEUPLOADS_AUTH: "B.3.1 Authentication"
+URL_IMPL_FILEUPLOADS_AUTH: /Controls/SecImpl_FileUploads#b31-authentication
+
+TITLE_IMPL_FILEUPLOADS_STORAGE: "B.3.2 Storage"
+URL_IMPL_FILEUPLOADS_STORAGE: /Controls/SecImpl_FileUploads#b32-storage
+
+TITLE_IMPL_FILEUPLOADS_LIMITATION: "B.3.3 Limitation"
+URL_IMPL_FILEUPLOADS_LIMITATION: /Controls/SecImpl_FileUploads#b33-limitation
+
+TITLE_IMPL_FILEUPLOADS_VALIDATION: "B.3.4 Validation"
+URL_IMPL_FILEUPLOADS_VALIDATION: /Controls/SecImpl_FileUploads#b34-validation
+
+TITLE_IMPL_FILEUPLOADS_SANITIZATION: "B.3.5 Sanitization"
+URL_IMPL_FILEUPLOADS_SANITIZATION: /Controls/SecImpl_FileUploads#b35-sanitization
+
+TITLE_IMPL_FILEUPLOADS_DOWNLOADS: "B.3.6 Downloads"
+URL_IMPL_FILEUPLOADS_DOWNLOADS: /Controls/SecImpl_FileUploads#b36-downloads
+
 TITLE_IMPL_OUTPUTVAL: "B.4 - Output Validation & Encoding"
 URL_IMPL_OUTPUTVAL: /Controls/SecImpl_OutputVal
 
