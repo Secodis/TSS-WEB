@@ -19,9 +19,10 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## {{site.TITLE_IMPL_DATASEC_CERTS}}
 
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted certificate authority (CA).
-2. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys[^4].
-3. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
-4. Wildcard certificated MUST not be used.
+2. External Websites MUST receive at least an "A" rating from the SSLLabs Server Test[^2].
+3. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys[^4].
+4. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
+5. Wildcard certificated MUST not be used.
 
 ## {{site.TITLE_IMPL_DATASEC_ENCRYPT-REST}}
 
