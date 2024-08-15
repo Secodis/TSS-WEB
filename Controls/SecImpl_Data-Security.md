@@ -7,11 +7,11 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## {{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}
 
 1. All external communication MUST only be possile via TLS/HTTPS.
-3. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
-4. HTTPS servers MUST only support current secure ciphers and protocols. Insecure or deprecated ones (e.g. SSLv2, TLSv1.0, TLSv1.1 and RC4 cipher) MUST be deactivated [^1].
-5. Effective TLS settings MUST be periodically tested using a suitable tool [^2].
-6. Confidential data MUST only be sent within the HTTP request body (e.g. via HTTP POST) or header but not within URLs.
-7. Transmission on untrusted channels (e.g. the Internet) MUST
+2. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
+3. HTTPS servers MUST only support current secure ciphers and protocols. Insecure or deprecated ones (e.g. SSLv2, TLSv1.0, TLSv1.1 and RC4 cipher) MUST be deactivated [^1].
+4. External Websites MUST receive at least an "A" rating from the SSLLabs Server Test[^2] which MUST be periodically re-tested. Internal Websites SHOULD use another test tool to verify their settings.
+5. Confidential data MUST only be sent within the HTTP request body (e.g. via HTTP POST) or header but not within URLs.
+6. Transmission on untrusted channels (e.g. the Internet) MUST
     - only be possible with HTTPS using valid certificates.
     - using HTTP Strict Transport Security (HSTS) headers and
     - only be sent with anti-caching response headers (see [{{site.TITLE_MATERIAL_SECHEADER}}]({{site.URL_MATERIAL_SECHEADER}})).
@@ -19,10 +19,9 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 ## {{site.TITLE_IMPL_DATASEC_CERTS}}
 
 1. External HTTPS connections MUST use valid X.509 certificates issued by a trusted certificate authority (CA).
-2. External Websites MUST receive at least an "A" rating from the SSLLabs Server Test[^2].
-3. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys[^4].
-4. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
-5. Wildcard certificated MUST not be used.
+2. X.509 certificates MUST use RSA with at least 3072 bit or ECDSA with at least 256 bit keys[^4].
+3. External customer applications (UIs) SHOULD use Extended Validation (EV) certificates.
+4. Wildcard certificated MUST not be used.
 
 ## {{site.TITLE_IMPL_DATASEC_ENCRYPT-REST}}
 
