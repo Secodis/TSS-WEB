@@ -17,7 +17,7 @@ Please note: For reasons of simplification, some of the following requirements t
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
 3. For *risk class >= [HIGH]*, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
-4. Authentication credentials MUST be unique for each service/system and environment (e.g. serviceX in dev, serviceX test, sericeX in production).
+4. Authentication credentials MUST be unique for each service/system and environment (e.g. serviceX in dev, serviceX test, serivceX in production).
 
 ## {{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}
 
@@ -29,7 +29,8 @@ Please note: For reasons of simplification, some of the following requirements t
     - Transmitted only via HTTPS/TLS
     - Issued by a trusted and hardened access server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
     - created and validated using mature frameworks.
-3. If the token is encoded as a JSON Web Token (JWT), the encryption method MUST be verified.
+    - signed (preferably using public key cryptography)[^4]
+3. If the token is encoded as a JSON Web Token (JWT), the encryption method MUST be verified[^4].
 
 ## {{site.TITLE_IMPL_APISEC_OAUTH2}}
 
@@ -63,3 +64,4 @@ WebSockets MUST transfer all confidential data with `wss://` schema and an addit
 [^1]: This control aims to prevent denial-of-service (DoS) conditions, which can occur both deliberately and accidentally, such as those triggered by a client malfunction.
 [^2]: See [https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00](https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-00)
 [^3]: See [https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-14)
+[^4]: See [{{site.TITLE_IMPL_DATASEC}}]({{site.URL_IMPL_DATASEC}}) for requirements about allowed algorithm and ciphers used here.
