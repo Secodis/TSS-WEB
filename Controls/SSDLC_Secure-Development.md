@@ -114,6 +114,8 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the IT security function.
 
+6. **Remediation for Production:** If a vulnerability may already exist in production, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
+
 ## {{site.TITLE_SSDLC_SECDEV_SECDOCU}}
 
 1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
