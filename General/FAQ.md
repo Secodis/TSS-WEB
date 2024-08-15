@@ -1,4 +1,4 @@
-# 5. FAQ
+# FAQ
 
 ## What Does TSS-WEB Stand For?
 
