@@ -55,7 +55,9 @@ Also, provisioning of code signing certificates Integrate code signing is a supp
 
 ### Archive and Protect Each Software Release (PS.3)
 
-See requirements at [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}}). Also covered from a customer perspective at [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}}).
+See requirements at [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}}).
+
+Also covered from a customer perspective at [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}}).
 
 ## Produce Well-Secured Software (PW)
 
