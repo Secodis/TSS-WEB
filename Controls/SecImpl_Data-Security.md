@@ -32,8 +32,8 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 ## {{site.TITLE_IMPL_DATASEC_INTEGRITY}}
 
-1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. SHA-256)[^5] or using public key cryptography[^4].
-2. Integrity checks within a distributed architecture SHOULD utilize public key cryptography rather than HMAC, particularly when a secret key would otherwise be shared among multiple systems.
+1. Security-sensitive integrity validation MUST be performed using either cryptographic hash functions (e.g. sha256 or hmac-sha256)[^5] or using public key cryptography[^4].
+2. Integrity validation within a distributed architecture (aka "data authentication") SHOULD utilize public key cryptography rather than HMACs, particularly when a secret key would otherwise be shared among multiple systems.
 
 ## {{site.TITLE_IMPL_DATASEC_TOKENS}}
 
