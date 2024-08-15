@@ -1,3 +1,5 @@
+***Changes were tracked up until version 2.0, but they are no longer being tracked.***
+
 # v2.0 - 01/11/2020	
 Complete revision, including chapters
 *	Chapter 3 („Secure Operation“)
