@@ -102,7 +102,7 @@ Productive systems MUST be periodically scanned for potential security problems.
 For instance:
 - Insecure configurations
 - Missing security patches
-- Validity of X.509 certificates
+- Validity of X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 
