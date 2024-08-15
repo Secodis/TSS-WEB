@@ -35,7 +35,7 @@ The goal is to provide a foundation that works for most organizations. In many c
 * [{{site.TITLE_IMPL_SESSIONMGMT}}]({{site.URL_IMPL_SESSIONMGMT}})
 * [{{site.TITLE_IMPL_AUTHZ}}]({{site.URL_IMPL_AUTHZ}})
 * [{{site.TITLE_IMPL_ERRORLOG}}]({{site.URL_IMPL_ERRORLOG}})
-* [{{site.TITLE_IMPL_CRYPTO}}]({{site.URL_IMPL_CRYPTO}})
+* [{{site.TITLE_IMPL_DATA-SECURITY}}]({{site.URL_IMPL_DATA-SECURITY}})
 * [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
 * [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})
 * [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
