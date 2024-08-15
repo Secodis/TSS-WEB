@@ -22,6 +22,8 @@ toc_sticky: true
 
 7. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g. a web application firewall).
 
+8. **Continious Testing:** Testing SHOULD be triggered periodically even though code may not be changed to identify new vulnerabilities by new rules.
+
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
 1. **Tracking of Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta information (e.g., criticality rating, CVSS score, etc.).
@@ -34,8 +36,8 @@ toc_sticky: true
 
 1. **Code Scanning:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source or program code as early as possible.
 
-2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies.
-
+2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies. Repositories SHOULD be continuously scanned, even if the code has not changed, to identify new CVEs.
+   
 3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
 
 4. **Configuration Scanning:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
