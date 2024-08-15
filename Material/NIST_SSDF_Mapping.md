@@ -49,7 +49,7 @@ Covered by various requirements, including:
 
 Code signature verification is required in release process (see [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}})).
 
-//TODO: Integrate code signing requirement in supplier requirement. 
+Also, provisioning of code signing certificates Integrate code signing is a supplier requirement (see [{{site.TITLE_SSDLC_OUTDEV}}]({{site.URL_SSDLC_OUTDEV}})). 
 
 ### Archive and Protect Each Software Release (PS.3)
 
