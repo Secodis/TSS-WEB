@@ -36,7 +36,8 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
 ## {{site.TITLE_IMPL_DATASEC_TOKENS}}
 
-Tokens (or keys) that are used for security purposes (e.g. access tokens, passwords of technical users, or API keys) MUST be cryptographically random and at least 256 bit (= 32 character) lenght[^6].
+1. Tokens (or keys) that are used for security purposes (e.g. access tokens, passwords of technical users, or API keys) MUST be cryptographically random and at least 256 bit (= 32 character) lenght[^6].
+2. Non-opaque tokens MUST be signed using preferably public key cryptography or cryptographic hash functions (see above).
 
    
 [^1]: See [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
