@@ -1,6 +1,6 @@
 # About
 
-This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, and ISO/IEC](#related-standards).
+This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP, Microsoft, NIST, BSA, SAFECode and ISO/IEC](#related-standards).
 
 Note that this project and its content is provided "as-is" without any guarantees. The information and views expressed are subject to change without notice. You assume all risks associated with using this content.
 
@@ -42,8 +42,10 @@ The goal is to provide a foundation that works for most organizations. In many c
 * [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})
 
 # Additional Material
-* [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
+* [{{site.TITLE_MATERIAL_MSSDLMAPPING}}]({{site.URL_MATERIAL_MSSDLMAPPING}})
+* [{{site.TITLE_MATERIAL_SSDFMAPPING}}]({{site.URL_MATERIAL_SSDFMAPPING}})
 * [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}})
+* [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}})
   
 # Legacy Versions
 
@@ -57,12 +59,13 @@ The following table outlines the coverage of some important standards in this ar
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [Microsoft SDL](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls. See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}]({{site.URL_MATERIAL_MSSDLMAPPING}}). |
-| [NIST SSDF 1.1](https://csrc.nist.gov/Projects/ssdf)  | NIST SP 800-218, the Secure Software Development Framework (SSDF). Mapping coming soon. |
+| [Microsoft SDL](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls. See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}.]({{site.URL_MATERIAL_MSSDLMAPPING}}). |
+| [NIST SSDF 1.1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)  | NIST SP 800-218, the Secure Software Development Framework (SSDF). See [{{site.TITLE_MATERIAL_SSDFMAPPING}}]({{site.URL_MATERIAL_SSDFMAPPING}}). |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB implements 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31. |
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage by implementation controls. See [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but practices related to security requirements should generally be covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
 | [Microsoft S2CF](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) | TSS-WEB coveres [Practice 2: Scan It](https://github.com/ossf/s2c2f/blob/main/specification/framework.md#practice-2-scan-it) as well as [Practice 4: Update It](https://github.com/ossf/s2c2f/blob/main/specification/framework.md#practice-4-update-it), mostly by [{{site.TITLE_SSDLC_SECDEV_3RDPARTY}}]({{site.URL_SSDLC_SECDEV_3RDPARTY}}) at the moment. |
+| [The BSA Framework for Secure Software 1.1][BSA ](https://www.bsa.org/files/reports/bsa_framework_secure_software_update_2020.pdf) | coming soon. |
 | [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) | coming soon. |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
