@@ -11,12 +11,12 @@ The purpose of this framework is to offer a comprehensive, consistent, and pract
 The goal is to provide a foundation that works for most organizations. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
 # General
-1. [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
-2. [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
-3. [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
-4. [{{site.TITLE_GENERAL_RISKCLASSES}}]({{site.URL_GENERAL_RISKCLASSES}})
-5. [{{site.TITLE_GENERAL_FAQ}}]({{site.URL_GENERAL_FAQ}})
-6. [{{site.TITLE_GENERAL_LICENSE}}]({{site.URL_GENERAL_LICENSE}})
+* [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
+* [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
+* [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
+* [{{site.TITLE_GENERAL_RISKCLASSES}}]({{site.URL_GENERAL_RISKCLASSES}})
+* [{{site.TITLE_GENERAL_FAQ}}]({{site.URL_GENERAL_FAQ}})
+* [{{site.TITLE_GENERAL_LICENSE}}]({{site.URL_GENERAL_LICENSE}})
 
 # Part A: SSDLC Controls
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
