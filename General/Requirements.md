@@ -1,4 +1,4 @@
-# 1. Types of Requirements
+# Types of Requirements
 
 By [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119), two types of requirements are specified in this standard in terms of their rigorness:
 
