@@ -1,4 +1,4 @@
-# 3. Roles
+# Roles
 
 The following roles are referred here:
 
