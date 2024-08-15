@@ -26,7 +26,7 @@ Suppliers MUST comply with the following requirements:
 
 6. **Right to Audit:** Example Inc. is allowed to conduct security assessments of applications and source code created on its behalf at its own discretion. The supplier will provide the required support if needed.
 
-7. **Provide Source Code:** The supplier MUST provide all source code of artifacts created on behalf of Example Inc.
+7. **Provison of Source Code:** The supplier MUST provide all relevant source code of artifacts created on behalf of Example Inc.
 
 8. **Remediation of Security Vulnerabilities:** Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see respective SLAs at [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}).
 
