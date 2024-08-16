@@ -105,6 +105,7 @@ For instance:
 - Validity of X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
+- Vendor of product specific hardening guidelines
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: Possible security incidents MUST be continuously monitored. 
