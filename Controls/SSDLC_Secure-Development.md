@@ -54,7 +54,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 2. **Secured Access:** Access to build and deployment systems MUST be secured according to the requirements outlined in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
-3. **Restrict Runner:** Seperate and restricted runner nodes MUST be used at least for every environment/stage. Shared runner nodes MUST not be used for applications with different secirity classification. 
+3. **Restrict Execution Nodes:** Pipelines MUST be executed on seperate and restricted nodes (or runners) at least for every environment. Shared nodes MUST not be used for applications or services with different security classification. 
 
 4. **Automated Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
