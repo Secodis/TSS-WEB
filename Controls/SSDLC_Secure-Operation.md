@@ -18,9 +18,9 @@ Systems in production MUST be strictly separated from development and test syste
 
 3. **Resource Isolation:** Resources MUST NOT be shared between production and other environments, especially no secret storage.
 
-4. **Separate Authorization:** Users and systems MUST be authorized separately for each environment.
+4. **Separate Authorization:** Users and processes MUST be authorized separately for each environment.
 
-5. **Access Server Separation:** Access server / identity provider SHOULD be separate instances for all environments but MUST at least use separate realms. For *risk class >= [HIGH]*: At least the prod environment MUST be run on a seperate and isolated instance. 
+5. **Access Server Separation:** Access server SHOULD be separate instances for every environment but MUST at least use separate realms for each environment. For *risk class >= [HIGH]*: At least the prod environment MUST be a seperate and isolated instance. 
 
 6. **Restricted Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})) and SHOULD be automated where possible.
    
