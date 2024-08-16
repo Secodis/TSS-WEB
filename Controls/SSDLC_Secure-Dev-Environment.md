@@ -26,7 +26,7 @@ toc_sticky: true
 
 4. **Avoid Local Identities:** Local user identities SHOULD not be used. Instead, use a centralized identity provider (IdP).
 
-5. **Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
+5. **Avoid Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
 
 6. **Periodic Scanning for Exposed Secrets:** Code repositories SHOULD be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys).
 
