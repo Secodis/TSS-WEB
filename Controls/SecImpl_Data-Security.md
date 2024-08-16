@@ -9,7 +9,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 1. All external communication MUST only be possile via TLS/HTTPS.
 2. In cases where access requires HTTPS, requests via HTTP MUST be redirected to HTTPS. This SHOULD be implemented with a permanent redirection (HTTP 301).
 3. HTTPS servers MUST only support current secure ciphers and protocols. Insecure or deprecated ones (e.g. SSLv2, TLSv1.0, TLSv1.1 and RC4 cipher) MUST be deactivated [^1].
-4. External Websites MUST receive at least an "A" rating from the SSLLabs Server Test[^2] which MUST be periodically re-tested. Internal Websites SHOULD use another test tool to verify their settings.
+4. External Websites MUST receive at least an "A" rating from the [SSL Labs Server Test](https://www.ssllabs.com/ssltest/) which MUST be periodically re-tested. Internal Websites SHOULD use another test tool to verify their settings.
 5. Confidential data MUST only be sent within the HTTP request body (e.g. via HTTP POST) or header but not within URLs.
 6. Transmission on untrusted channels (e.g. the Internet) MUST
     - only be possible with HTTPS using valid certificates.
@@ -42,7 +42,7 @@ Only standard and mature cryptographic algorithms, operation modes, key lengths 
 
    
 [^1]: See [SSL Best Practices by SSL.com](https://www.ssl.com/guide/ssl-best-practices/) or [OWASP TLS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html) for details.
-[^2]: If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings.
+[^2]: If you have an external endpoint you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test your settings. There is also an API available that you can use to receive the current rating.
 [^3]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 1, Table 1, pg. 7
 [^4]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 2, Table 2, pg. 9 
 [^5]: See [NIST 800-131A,R2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf), Chap 9, Table 9, pg. 18
