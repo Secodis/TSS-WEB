@@ -10,7 +10,7 @@ toc_sticky: true
 
 1. **Protection of Access:** Access to development systems, including build and deployment systems, MUST be sufficiently protected and restricted using seperate access realms.
 
-2. **Secret Management:** Secrets used for accessing development systems MUST be secured according to requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).[^1]
+2. **Protect Secrets:** Secrets used for accessing development systems MUST be secured according to requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).[^1]
 
 3. **Secure Remote Access:** Remote access to development systems MUST only be possible via a secure VPN connection and multi-factor authentication (MFA).
 
