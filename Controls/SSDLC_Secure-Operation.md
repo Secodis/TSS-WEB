@@ -97,6 +97,7 @@ Administrative access MUST be as strongly restricted:
 6. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
 
 ## {{site.TITLE_SSDLC_SECOP_SECSCANNING}}
+
 Productive systems MUST be periodically scanned for potential security problems. 
 
 For instance:
@@ -106,6 +107,7 @@ For instance:
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 - Vendor of product specific hardening guidelines
+- Drifts of productive configuration (drift detection)
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: Possible security incidents MUST be continuously monitored. 
