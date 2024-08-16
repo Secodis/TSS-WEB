@@ -2,7 +2,7 @@
 
 The following roles are referred here:
 
-- **(IT) Security Function**: An IT security function is an organizational unit or individual  (usually a security team, security engineer, security archichitect or security officer) responsible for defining and ensuring compliance with security requirements within their area of responsibility, supporting development teams in their implementation, and verifying their correct implementation. This function may implemented organization-wide or assigned to a partcular project or team.
+- **(IT) Security Function**: An IT security function is an organizational unit (e.g. a security enineering team) or individual (usually a security engineer, security architect, or security officer) responsible for defining and ensuring compliance with security requirements within their area of responsibility. This function supports development teams in implementing these requirements and verifies their correct implementation. It may be implemented organization-wide or assigned to a particular project or team. Note: When referenced within a requirement, it indicates ***the responsible IT security function***.
 - **Security Champion (SC)**[^1]: Team internal technical expert (e.g. developer), contact and coordinator for security within a team (e.g. a development team). The responsibilities of this role include:
      - Security liaison and advocate for a specific (dev) team.
      - Has a solid understanding of relevant security requirements for their team and ensures they are implemented and adhered to within the team.
