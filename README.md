@@ -59,7 +59,8 @@ The following table outlines the coverage of some important standards in this ar
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage by implementation controls. See [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but practices related to security requirements should generally be covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
 | [Microsoft S2CF](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) | TSS-WEB coveres [Practice 2: Scan It](https://github.com/ossf/s2c2f/blob/main/specification/framework.md#practice-2-scan-it) as well as [Practice 4: Update It](https://github.com/ossf/s2c2f/blob/main/specification/framework.md#practice-4-update-it), mostly by [{{site.TITLE_SSDLC_SECDEV_3RDPARTY}}]({{site.URL_SSDLC_SECDEV_3RDPARTY}}) at the moment. |
-| [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) | Many recommendations are covered, mostly in `{{site.TITLE_SSDLC_SECDEV_BUILD}}` and `{{site.TITLE_SSDLC_SECENV}}`. However, TSS-WEB is, and will not be, that specific. You may therefore use this resource for additional ideas and best practices, particularly for improving pipeline security. |
+| [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) | Many recommendations are covered, mostly in [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}}) and
+[{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}). However, TSS-WEB is, and will not be, that specific. You may therefore use this resource for additional ideas and best practices, particularly for improving pipeline security. |
 
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
