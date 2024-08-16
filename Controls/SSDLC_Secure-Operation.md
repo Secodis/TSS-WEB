@@ -145,7 +145,7 @@ Internal applications or services:
 | **Critical Application** | Within **7 days**  | Within **30 days**  | Within the next release, but after **12 months** at the latest. |
 | **Non-Critical Application**| Within **21 days**  | Within **60 days**  | - |
 
-4. The responsible IT security function MAY extend this SLA if justified from an individual risk evaluation. SLA extensions MUST be documented along with their justification.
+4. The *IT security function* MAY extend this SLA if justified from an individual risk evaluation. SLA extensions MUST be documented along with their justification.
    
 ## {{site.TITLE_SSDLC_SECOP_INCIDENTMGMT}}
 
