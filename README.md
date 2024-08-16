@@ -59,7 +59,7 @@ The following table outlines the coverage of some important standards in this ar
 
 | Standard  | Coverage |
 | ------------- | ------------- |
-| [Microsoft SDL (2024)](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls. See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}.]({{site.URL_MATERIAL_MSSDLMAPPING}}). |
+| [Microsoft SDL (2024)](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls. See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}]({{site.URL_MATERIAL_MSSDLMAPPING}}). |
 | [NIST SSDF 1.1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)  | NIST SP 800-218, the Secure Software Development Framework (SSDF). See [{{site.TITLE_MATERIAL_SSDFMAPPING}}]({{site.URL_MATERIAL_SSDFMAPPING}}). |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB implements 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31. |
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage by implementation controls. See [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
