@@ -1,4 +1,4 @@
-***Changes were tracked up until version 2.0, but they are no longer being tracked.***
+***Changes were tracked until version 2.0 (tag v2) but they are no longer being tracked.*** Since then many requirements, as well as the whole structure of TSS-WEB, have been intensively updated, revised and extended.
 
 # v2.0 - 01/11/2020	
 Complete revision, including chapters
