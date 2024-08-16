@@ -19,7 +19,7 @@ toc_sticky: true
 
 1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer (see [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})).
 
-2. **Use Mature Technologies:** Applications and services SHOULD use and prefer proven security features, languages, and frameworks.[^6]
+2. **Use Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
 3. **Documented Security Architecture:** For applications with an *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application or service.
 
@@ -42,7 +42,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 3. **Perform Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
-4. **Sign Commits:** Business critical applications SHOULD use signed commmits for protected branches.
+4. **Signed Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
 
 5. **Implementation Requirements:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
@@ -142,6 +142,5 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 [^5]: E.g. using [Renovate](https://github.com/renovatebot/renovate) or [Dependabot](https://github.com/dependabot)
 
-[^6]: Source: Microsoft SDL
-
+[^6]: Commits made through the UI are typically signed using a technical user, which is acceptable because the UI itself enforces secure authentication for the developer.
 [^7]: e.g. using [sigstore](https://www.sigstore.dev) cosign
