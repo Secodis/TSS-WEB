@@ -64,7 +64,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 7. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-8. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed. Signatures SHOULD be automatically verified.
+8. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
 
 9. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
@@ -122,7 +122,7 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 
-2. In case the relevant IT security function has not requested it differently, this document SHOULD cover the following aspects:
+2. Business critical applications or services MUST have a security concept that SHOULD cover the following aspects:
    - Data and application classification (risk class),
    - known threats (or full threat model) and respective countermeasures to mitigate them,
    - list of relevant security requirements (e.g. security standards or business  security requirements),
@@ -143,3 +143,5 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 [^5]: E.g. using [Renovate](https://github.com/renovatebot/renovate) or [Dependabot](https://github.com/dependabot)
 
 [^6]: Source: Microsoft SDL
+
+[^7]: e.g. using [sigstore](https://www.sigstore.dev) cosign
