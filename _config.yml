@@ -202,6 +202,12 @@ URL_IMPL_PRINCIPLES: /Controls/SecImpl_Secure-Design-Principles
 TITLE_IMPL_INPUTVAL: "B.2 - Input Validation"
 URL_IMPL_INPUTVAL: /Controls/SecImpl_InputVal
 
+TITLE_IMPL_INPUTVAL_GENERAL: "B.2.1 General Requirements"
+URL_IMPL_INPUTVAL_GENERAL: /Controls/SecImpl_InputVal#b21-general-requirements
+
+TITLE_IMPL_INPUTVAL_UIs: "B.2.2 Additional Requirements for Web-based UIs"
+URL_IMPL_INPUTVAL_UIs: /Controls/SecImpl_InputVal#b22-additional-requirements-for-web-based-uis
+
 TITLE_IMPL_FILEUPLOADS: "B.3 - Secure Fileuploads and Downloads"
 URL_IMPL_FILEUPLOADS: /Controls/SecImpl_FileUploads
 
