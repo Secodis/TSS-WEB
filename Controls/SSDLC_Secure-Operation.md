@@ -20,7 +20,7 @@ Systems in production MUST be strictly separated from development and test syste
 
 4. **Separate Authorization:** Users and systems MUST be authorized separately for each environment.
 
-5. **Access Server Separation:** Access servers SHOULD be separate instances for all environments but MUST at least use separate realms. For *risk class >= [HIGH]*: At least the prod environment MUST be run on a seperate and isolated instance. 
+5. **Access Server Separation:** Access server / identity provider SHOULD be separate instances for all environments but MUST at least use separate realms. For *risk class >= [HIGH]*: At least the prod environment MUST be run on a seperate and isolated instance. 
 
 6. **Restricted Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})) and SHOULD be automated where possible.
    
@@ -32,7 +32,7 @@ Systems in production MUST be strictly separated from development and test syste
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
 - Deactivation of all services, plugins, and other functionality that is not needed, especially if they are exposed (executable from remote)
-- Hardened SSL/TLS stack (see  [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}])
+- Hardened SSL/TLS stack (see  [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}](site.URL_IMPL_DATASEC_ENCRYPT-TANSIT))
 - Activated security headers according to [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}}).
 - Removal of samples and other default content
 - Execution of network services (e.g. web or application servers) with only minimal privileges and isolated from other processes if possible (e.g. as an isolated container or dedicated server instance, VM or host)
