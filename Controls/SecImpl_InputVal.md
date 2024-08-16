@@ -1,6 +1,6 @@
 # B.2 - Input Validation
 
-## B.2.1 General Requirements
+## {{site.TITLE_IMPL_INPUTVAL_GENERAL}}
 
 1. All untrusted input parameters (e.g. of external interfaces) MUST be validated restrictively where possible.
 2. Validation policy SHOULD be defined by the data owner.
@@ -18,7 +18,8 @@
     - deactivate processing of external XML entities.
 9. In order to prevent insecure object deserialization, it MUST be ensured that objects received and bound from untrusted sources are not hostile or tempered (e.g. by only binding non-sensitive attributes, perform whitelisting or integrity checks.
 
-## B.2.2 Additional Requirements for Web-based UIs
+## {{site.TITLE_IMPL_INPUTVAL_UIs}}
+
 1. Security-relevant input validation MUST be performed on the server-side. Client-side validation MAY be implemented but only for usability reasons in addition to server-side validation or to prevent client-side attacks.
 2. Input validation MUST be applied to all types of untrusted input parameters (including hidden form fields and HTTP header such as cookies).
 3. Validation of user input SHOULD be performed implicitly with data binding (typecasting) where possible.
