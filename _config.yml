@@ -235,6 +235,12 @@ URL_IMPL_OUTPUTVAL: /Controls/SecImpl_OutputVal
 TITLE_IMPL_USERAUTH: "B.5 - Secure User Registration & Authentication"
 URL_IMPL_USERAUTH: /Controls/SecImpl_UserAuth
 
+TITLE_IMPL_USERAUTH_REG: "B.5.1 - User Registration"
+URL_IMPL_USERAUTH_REG: /Controls/SecImpl_UserAuth#sitetitle_impl_userauth_reg
+
+TITLE_IMPL_USERAUTH_AUTH: "B.5.2 - User Authentication"
+URL_IMPL_USERAUTH_AUTH: /Controls/SecImpl_UserAuth#sitetitle_impl_userauth_auth
+
 TITLE_IMPL_USERPASSWD: "B.6 - User Passwords"
 URL_IMPL_USERPASSWD: /Controls/SecImpl_User-Passwords
 
