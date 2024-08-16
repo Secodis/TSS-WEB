@@ -88,15 +88,17 @@ This section is relevant for the target production environment:
 
 ## {{site.TITLE_SSDLC_SECDEV_SECGATES}}
 
-1. **Initial Project Approval:** All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the relevant IT security function before they are allowed to be started. As part of this approval, the relevant IT security function CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
+1. **Initial Project Approval:**
+   - All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the *IT security function* before they are allowed to be started.
+   - As part of this approval, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
-3. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the IT security function during the project approval:
-   - The solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant IT security function before initial implementation is allowed to begin.
-   - The IT security function MAY request this approval to be renewed for architectural changes when certain criteria are met.
+2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function* during the project approval:
+   - The solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant *IT security function* before initial implementation is allowed to begin.
+   - The *IT security function* MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
 4. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]*
-   - MUST pass a security sign-off by the relevant IT security function before they are allowed to be used in the target production environment.
-   - The relevant IT security function MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
+   - MUST pass a security sign-off by the *IT security function* before they are allowed to be used in the target production environment.
+   - The *IT security function* MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
 
 5. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
@@ -112,13 +114,13 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 4. **Retesting After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
-5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the IT security function.
+5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
 6. **Remediation for Production:** If a vulnerability may already exist in production, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDOCU}}
 
-1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
+1. A comprehensive security documentation MUST exist and formally be approved by the *IT security function* for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 
 2. Known threats, risks, risks management decisions and approvals for an application or service MUST be documented.
 
