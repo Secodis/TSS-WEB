@@ -238,6 +238,15 @@ URL_IMPL_USERAUTH: /Controls/SecImpl_UserAuth
 TITLE_IMPL_USERPASSWD: "B.6 - User Passwords"
 URL_IMPL_USERPASSWD: /Controls/SecImpl_User-Passwords
 
+TITLE_IMPL_USERPASSWD_GENERAL: "B.6.1 General
+URL_IMPL_USERPASSWD_GENERAL: /Controls/SecImpl_User-Passwords#b61-general
+
+TITLE_IMPL_USERPASSWD_PWCHANGE: "B.6.2 Password Change Functions
+URL_IMPL_USERPASSWD_PWCHANGE: /Controls/SecImpl_User-Passwords#b62-password-change-functions
+
+TITLE_IMPL_USERPASSWD_PWFORGET: "B.6.3 Password Forgot Functions
+URL_IMPL_USERPASSWD_PWFORGET: /Controls/SecImpl_User-Passwords#b63-password-forgot-functions
+
 TITLE_IMPL_SESSIONMGMT: "B.7 - Secure Session Management"
 URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt
 
