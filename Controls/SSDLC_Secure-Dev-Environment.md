@@ -24,7 +24,7 @@ toc_sticky: true
 
 3. **Role-Based Access Control (RBAC):** Access SHOULD be granted based on role-based access control (RBAC).
 
-4. **Avoid Local Identifies:** Local user identities SHOULD not be used. Instead, use a centralized identity provider (IdP).
+4. **Avoid Local Identities:** Local user identities SHOULD not be used. Instead, use a centralized identity provider (IdP).
 
 5. **Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
 
