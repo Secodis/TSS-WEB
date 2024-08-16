@@ -100,8 +100,6 @@ This section is relevant for the target production environment:
 
 5. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
-6. **Documentation:** All security approvals and risk management decisions MUST be documented.
-
 ## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
 
 Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
@@ -122,7 +120,9 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 1. A comprehensive security documentation MUST exist and formally be approved by the relevant IT security function for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
 
-2. Business critical applications or services MUST have a security concept that SHOULD cover the following aspects:
+2. Known threats, risks, risks management decisions and approvals for an application or service MUST be documented.
+
+3. Business critical applications or services MUST have a security concept that SHOULD cover the following aspects:
    - Data and application classification (risk class),
    - known threats (or full threat model) and respective countermeasures to mitigate them,
    - list of relevant security requirements (e.g. security standards or business  security requirements),
