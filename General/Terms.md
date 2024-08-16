@@ -4,7 +4,7 @@ The following definitions are used here:
 
 | Term | Definition |
 | ------------- | ------------- |
-| **3rd Party Dependency** | Here: 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts). |
+| **3rd Party Dependency** | Here: (usually open source) 3rd party software artifacts, used by an application (e.g. libraries, Maven artifacts). |
 | **API** | Here: Web-based interface (e.g. a RESTful service) | 
 | **Application** | Here: Synonym for web-based application or service. |
 | **Change** | Change to an application in production. |
