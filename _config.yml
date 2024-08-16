@@ -250,17 +250,17 @@ URL_IMPL_USERPASSWD_PWFORGET: /Controls/SecImpl_User-Passwords#b63-password-forg
 TITLE_IMPL_SESSIONMGMT: "B.7 - Secure Session Management"
 URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt
 
-TITLE_IMPL_SESSIONMGMT: "B.7.1 General"
-URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt#b71-general
+TITLE_IMPL_SESSIONMGMT_GENERAL: "B.7.1 General"
+URL_IMPL_SESSIONMGMT_GENERAL: /Controls/SecImpl_SessionMgmt#b71-general
 
-TITLE_IMPL_SESSIONMGMT: "B.7.3 Authenticated Sessions"
-URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt#b72-session-cookies
+TITLE_IMPL_SESSIONMGMT_COOKIES: "B.7.2 Session Cookies"
+URL_IMPL_SESSIONMGMT_COOKIES: /Controls/SecImpl_SessionMgmt#b72-session-cookies
 
-TITLE_IMPL_SESSIONMGMT: "B.7.3 Authenticated Sessions"
-URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt#b73-authenticated-sessions
+TITLE_IMPL_SESSIONMGMT_AUTH: "B.7.3 Authenticated Sessions"
+URL_IMPL_SESSIONMGMT_AUTH: /Controls/SecImpl_SessionMgmt#b73-authenticated-sessions
 
-TITLE_IMPL_SESSIONMGMT: "B.7.4 CSRF Protection"
-URL_IMPL_SESSIONMGMT: /Controls/SecImpl_SessionMgmt#b74-csrf-protection
+TITLE_IMPL_SESSIONMGMT_CSRF: "B.7.4 CSRF Protection"
+URL_IMPL_SESSIONMGMT_CSRF: /Controls/SecImpl_SessionMgmt#b74-csrf-protection
 
 TITLE_IMPL_AUTHZ: "B.8 - Authorization"
 URL_IMPL_AUTHZ: /Controls/SecImpl_Access-Control
