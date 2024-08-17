@@ -28,7 +28,7 @@ toc_sticky: true
 3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation. 
     - The resulting mitigation measures MUST be incorporated into the planning.
-    - The threat model MUST be updated with every major architectural change.
+    - The threat model MUST be updated with every architectural change.
 
 4. **Documented Security Architecture:** For applications with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, invariants, controls, threats of the respective application or service.
 
