@@ -4,7 +4,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky: true
 ---
-# OWASP SAMM 2.0 Mapping
+# OWASP SAMM 2.0 Mapping (Draft)
 
 TSS-WEB generally covers a large number of OWASP SAMM 2.0 security practices, especially from maturity level 1 & 2. We’ve added additional requirements to TSS-WEB where this was possible. However, the scope of TSS-WEB is another as OWASP SAMM. 
 
