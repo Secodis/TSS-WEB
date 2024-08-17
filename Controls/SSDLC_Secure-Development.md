@@ -16,7 +16,7 @@ toc_sticky: true
 3. **Security Training:**
     - It MUST be ensured that everyone involved in the development process  posess sufficient security knowledge fir their particular role.
     - This SHOULD be achieved by providing general awareness and role-specific security training or coaching of team members, including  
-         - secure coding training and training in secure design principles for developers, and
+         - secure coding training and training of secure design principles for developers, and
          - SSDLC training for project management role such as Product Owners.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
