@@ -72,7 +72,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 This section is relevant for the target production environment:
 
-1. **Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved repositories. This MAY include proxy repositories.
+1. **Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories.
 
 2. **Dependency Approval:** Before a new 3rd-party dependency can be used in prod, it MUST be approved by the architecture board or respective community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
@@ -145,4 +145,8 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 [^5]: E.g. using [Renovate](https://github.com/renovatebot/renovate) or [Dependabot](https://github.com/dependabot)
 
 [^6]: Commits made through the UI are typically signed using a technical user, which is acceptable because the UI itself enforces secure authentication for the developer.
+
 [^7]: e.g. using [sigstore](https://www.sigstore.dev) cosign
+
+[^8]: Approval by *IT security function* or Architecture COP. Approval should be based on vetting criteria like [OpenSSF scoring](www.ope
+ssf.org).
