@@ -70,7 +70,7 @@ This includes:
 
 1. **Dedicated Environments:** Applications MUST be deployed in dedicated isolated production environments.
 
-2. **Encrypted Communication:** All network communication MUST be encrypted using TLS (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}])({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}}.
+2. **Encrypted Communication:** All network communication MUST be encrypted using TLS (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}}).
 
 3. **External Access Approval:** All external access to internal network zones MUST be approved.
 
