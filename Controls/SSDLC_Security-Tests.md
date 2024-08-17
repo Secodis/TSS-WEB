@@ -72,7 +72,7 @@ toc_sticky: true
    
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
-| >= [HIGH] | Before initial go live but at least annually[^1]  | ASAP after initial go-live but at least every third year  |
-| < [HIGH] | Before initial go live but at least every second year  | - | 
+| **>= [HIGH]** | Before initial go live but at least annually[^1]  | ASAP after initial go-live but at least every third year  |
+| **< [HIGH]** | Before initial go live but at least every second year  | - | 
 
 [^1]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
