@@ -90,14 +90,15 @@ Administrative access MUST be as strongly restricted:
 
 3. **Network Restrictions:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host
 
-
 4. **Two-Factor Authentication:** Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
 
-5. **Logging:** All administrative access SHOULD be logged in a tamper-proof way.
+5. **Logging:** All administrative access SHOULD be logged in a tamper-proof way. 
 
-6. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
+6. **Abuse Monitoring:** Abuse monitoring SHOULD be implemented or used if available. 
 
-7. **Automation:** Admin tasks SHOULD be automated when possible to replace direct human access.
+7. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
+
+8. **Automation:** Admin tasks SHOULD be automated when possible to replace direct human access.
 
 ## {{site.TITLE_SSDLC_SECOP_SECSCANNING}}
 
