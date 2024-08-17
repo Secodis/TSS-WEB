@@ -23,9 +23,11 @@ toc_sticky: true
 
 1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
 
-2. **Use Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
+2. **Use of Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
-3. **Documented Security Architecture:** For applications with an *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, security controls, and a threat model of the application or service.
+3. **Threat Modeling:** For applications with an *risk class >= [HIGH]*, threat modeling MUST be conducted. 
+
+4. **Documented Security Architecture:** For applications with an *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, invariants, controls, threats of the respective application or service.
 
 5. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
