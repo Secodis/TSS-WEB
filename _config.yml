@@ -181,7 +181,7 @@ URL_SSDLC_SECOPP_ADMINACCESS: /Controls/SSDLC_Secure-Operation#a56-administrativ
 TITLE_SSDLC_SECOP_SECSCANNING: "A.5.7 Security Scanning"
 URL_SSDLC_SECOPP_SECSCANNING: /Controls/SSDLC_Secure-Operation#a57-security-scanning
 
-TITLE_SSDLC_SECOP_MONITORING: "A.5.8 Security Monitoring"
+TITLE_SSDLC_SECOP_MONITORING: "A.5.8 Security Monitoring and Alerting"
 URL_SSDLC_SECOPP_MONITORING: /Controls/SSDLC_Secure-Operation#a58-security-monitoring
 
 TITLE_SSDLC_SECOP_MAINTANENCE: "A.5.9 System Maintenance"
