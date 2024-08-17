@@ -32,4 +32,4 @@ Suppliers MUST comply with the following requirements:
 
 9. **Inclusion of Security in Supplier Agreements:** Security should be built into supplier agreements to ensure compliance with organizational requirements.
 
-[^1]: e.g., via ISO 27001 certification and/or [BSIMM for Vendors](https://www.bsimm.com/about/bsimm-for-vendors)
+[^1]: e.g., via ISO 27001 certification
