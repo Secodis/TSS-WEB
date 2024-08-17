@@ -110,14 +110,17 @@ For instance:
 - Drifts of productive configuration (drift detection)
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
-For *risk class >= [HIGH]*: Possible security incidents MUST be continuously monitored. 
+For *risk class >= [HIGH]*: 
 
-For instance:
+1. **Monitor8ng:** Possible security incidents MUST be continuously monitored. For instance:
 - Potential account abuse or system compromise
 - Failures in security controls or tests
 - Use or assignment of critical security permissions
-- DoS (or other) attacks
 - Critical security findings from security scans (see above).
+
+2. **Alerting:** Alerting for critical security problems MUST be implemented.
+
+3. **SIEM Integration:** Logs MUST be shipped to a SIEM system.
 
 ## {{site.TITLE_SSDLC_SECOP_MAINTANENCE}}
 
