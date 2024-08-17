@@ -143,7 +143,7 @@ TITLE_SSDLC_SECTESTS_GEN: "A.3.1 General Requirements"
 URL_SSDLC_SECTESTS_GEN: /Controls/SSDLC_Security-Tests#a31-general-requirements
 
 TITLE_SSDLC_SECTESTS_DEFECTH: "A.3.2 Defect Handling"
-URL_SSDLC_SECTESTS_DEFETH: /Controls/SSDLC_Security-Tests#a32-defect-handling
+URL_SSDLC_SECTESTS_DEFECTH: /Controls/SSDLC_Security-Tests#a32-defect-handling
 
 TITLE_SSDLC_SECTESTS_SECSCANS: "A.3.3 Automated Security Scans"
 URL_SSDLC_SECTESTS_SECSCANS: /Controls/SSDLC_Security-Tests#a33-automated-security-scans
