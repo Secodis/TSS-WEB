@@ -5,7 +5,7 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-# NIST SSDF Mapping 
+# NIST SSDF Mapping (Draft)
 
 TSS-WEB covers most controls of [NIST SSDF v1.1](https://csrc.nist.gov/Projects/ssdf), except those that either do not relate to a security requirement or are too specific for a baseline requirement. 
 
