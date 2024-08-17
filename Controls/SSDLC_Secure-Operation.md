@@ -88,7 +88,7 @@ Administrative access MUST be as strongly restricted:
 
 2. **Personalized Admin Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used). This SHOULD be a different account as the standard user account of that particular person. 
 
-3. **Network Restrictions:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host
+3. **Network Restrictions:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host.
 
 4. **Two-Factor Authentication:** Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
 
