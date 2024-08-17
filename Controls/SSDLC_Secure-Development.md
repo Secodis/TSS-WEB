@@ -25,7 +25,10 @@ toc_sticky: true
 
 2. **Use of Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
-3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*, threat modeling session MUST be conducted before the implementation starts. The threat model MUST be updated for every architectural change.
+3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
+    - A threat modeling session MUST be conducted prior to the start of implementation. 
+    - The resulting mitigation measures MUST be incorporated into the planning.
+    - The threat model MUST be updated with every major architectural change.
 
 4. **Documented Security Architecture:** For applications with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, invariants, controls, threats of the respective application or service.
 
