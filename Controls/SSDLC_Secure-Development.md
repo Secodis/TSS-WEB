@@ -72,7 +72,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 This section is relevant for the target production environment:
 
-1. **Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories.
+1. **Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories. Exception are isolated test environments.
 
 2. **Dependency Approval:** Before a new 3rd-party dependency can be used in prod, it MUST be approved by the architecture board or respective community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
