@@ -129,7 +129,7 @@ For *risk class >= [HIGH]*:
 
 ## {{site.TITLE_SSDLC_SECOP_MAINTANENCE}}
 
-1. **System Updates:** Systems MUST be kept up-to-date, especially in terms of security patches.
+1. **System Updates:** Systems MUST be kept up-to-date across the full stack, especially in terms of security patches. This MUST cover both OS as well 3rd-party components within the application. 
 
 2. **Decommissioning:** Unused applications or services MUST be decommissioned.
 
