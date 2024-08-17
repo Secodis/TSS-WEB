@@ -15,7 +15,7 @@ The following definitions are used here:
 | **External Application** | A web-based application that is accessible from the outside of the organization (e.g. via the Internet). |
 | **Internal Code** | Source or program code which is not confidential and not public (standard). |
 | **Internal Application** | A web-based application that is only accessible from the inside of the organization (e.g. intranet application). |
-| **IT Security Function** | Here responsible IT security function as defined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}). ***Note that this is a placeholder for the respective role name (e.g. security officer, architect or engineer in your organization.***|
+| **IT Security Function** | Here responsible IT security function as defined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}). ***Note that this is intended as a placeholder for the respective role name in your organization (e.g. security officer, architect or engineer).***|
 | **Risk Class** | See [{{site.TITLE_GENERAL_RISKCLASSES}}]({{site.URL_GENERAL_RISKCLASSES}}). |
 | **Security Champion (SC)** | See [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}) |
 | **Sensitive Code** | Source or program code that containts confidential information such or sensitive business logic |
