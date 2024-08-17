@@ -58,9 +58,9 @@ This includes:
 
 ## {{site.TITLE_SSDLC_SECOP_SECBACKEND}}
 
-1. **Least Privilege Principle:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
+1. **Least Privilege:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
 
-2. **Authenticated and Authorized Access:** Access to backend systems MUST be authenticated and authorized according to requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
+2. **Access Requirements:** Access to backend systems MUST be authenticated and authorized according to requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 
 3. **Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
 
@@ -84,17 +84,20 @@ This includes:
 
 Administrative access MUST be as strongly restricted:
 
-1. **Limited Access:** Access MUST be limited to required persons only.
+1. **Limited Access:** Access MUST be limited to required persons only and restricted to permissions necessary to fullfill task.
 
-2. **Personalized Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used).
+2. **Personalized Admin Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used). This SHOULD be a different account as the standard user account of that particular person. 
 
-3. **Network Restrictions:** Access MUST be limited to internal network zones or authorized IPs if possible.
+3. **Network Restrictions:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host
+
 
 4. **Two-Factor Authentication:** Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
 
 5. **Logging:** All administrative access SHOULD be logged in a tamper-proof way.
 
 6. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
+
+7. **Automation:** Admin tasks SHOULD be automated when possible to replace direct human access.
 
 ## {{site.TITLE_SSDLC_SECOP_SECSCANNING}}
 
@@ -112,13 +115,14 @@ For instance:
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: 
 
-1. **Monitor8ng:** Possible security incidents MUST be continuously monitored. For instance:
+1. **Monitoring:** Possible security incidents MUST be continuously monitored. For instance:
 - Potential account abuse or system compromise
 - Failures in security controls or tests
 - Use or assignment of critical security permissions
-- Critical security findings from security scans (see above).
+- Potential Denial of Service (DoS) conditions 
+- Critical security findings on production systems.
 
-2. **Alerting:** Alerting for critical security problems MUST be implemented.
+2. **Alerting:** Alerting procedures for potential critical security events SHOULD be implemented.
 
 3. **SIEM Integration:** Logs MUST be shipped to a SIEM system.
 
