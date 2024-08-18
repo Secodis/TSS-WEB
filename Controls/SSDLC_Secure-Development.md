@@ -132,7 +132,7 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 1. **Risk Management:** Known threats, risks, risks management decisions and approvals for an application or service MUST be documented. This CAN be done as tickets within a ticketing system.
 
-2. **Threat Model:** A threat model MUST be defined and continously updates as defined in [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
+2. **Threat Model:** A threat model MUST be defined and continously updated as defined in [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
        
 3. **Security Architecture:** A security architecture concept MUST be created as defined in (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) and approved as defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
