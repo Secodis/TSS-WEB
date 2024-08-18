@@ -29,7 +29,7 @@ toc_sticky: true
     - A threat modeling session MUST be conducted prior to the start of implementation.
     - The threat model MUST be documented with mitigations.
     - The resulting mitigation measures MUST be incorporated into the planning.
-    - The threat model MUST be updated with every architectural change.
+    - The threat model MUST be reviewed with every architectural change.
 
 4. **Security Architecture Concept:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security requirements (technichal & business), invariants, threats and controls of the respective business application.
 
