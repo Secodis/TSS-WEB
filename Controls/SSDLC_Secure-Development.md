@@ -31,7 +31,7 @@ toc_sticky: true
     - The resulting mitigation measures MUST be incorporated into the planning.
     - The threat model MUST be updated with every architectural change.
 
-4. **Documented Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security requirements (technichal & business), invariants, threats and controls of the respective business application.
+4. **Security Architecture Concept:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security requirements (technichal & business), invariants, threats and controls of the respective business application.
 
 5. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
