@@ -133,9 +133,6 @@ URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a27-security-appro
 TITLE_SSDLC_SECDEV_VULMREM: "A.2.8 Remediation of Security Findings"
 URL_SSDLC_SECDEV_VULMREM: /Controls/SSDLC_Secure-Development#a28-remediation-of-security-findings
 
-TITLE_SSDLC_SECDEV_SECDOCU: "A.2.9 Security Documentation"
-URL_SSDLC_SECDEV_SECDOCU: /Controls/SSDLC_Secure-Development#a29-security-documentation
-
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: /Controls/SSDLC_Security-Tests
 
