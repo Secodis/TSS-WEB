@@ -103,7 +103,7 @@ This section is relevant for the target production environment:
    - As part of this approval, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
 2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function* during the project approval:
-   - The security architecture (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the relevant *IT security function* before initial implementation is allowed to begin.
+   - The security architecture (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the *IT security function* before initial implementation is allowed to begin.
    - The *IT security function* MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
 4. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]*
@@ -127,22 +127,14 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
 6. **Remediation for Production:** If a vulnerability may already exist in production, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
-
+   
 ## {{site.TITLE_SSDLC_SECDEV_SECDOCU}}
 
-1. A comprehensive security documentation MUST exist and formally be approved by the *IT security function* for every business critical application before its implementation starts (relevant aspects) and it’s allowed to initially go live (complete documentation).
+1. **Risk Management:** Known threats, risks, risks management decisions and approvals for an application or service MUST be documented. This CAN be done as tickets within a ticketing system.
 
-2. Known threats, risks, risks management decisions and approvals for an application or service MUST be documented.
-
-3. Business critical applications or services MUST have a security concept that SHOULD cover the following aspects:
-   - Data and application classification (risk class),
-   - known threats (or full threat model) and respective countermeasures to mitigate them,
-   - list of relevant security requirements (e.g. security standards or business  security requirements),
-   - security within the development & deployment process,
-   - network/cloud security architecture,
-   - application security architecture (relevant application components, services, interfaces, and relevant data flows and architectural security controls in the form of a diagram),
-   - role and authorization concept (required for go-live),
-   - operational security controls (required for go-live).
+2. **Threat Model:** A threat model MUST be defined and continously updates as defined in [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
+       
+3. **Security Architecture:** A security architecture concept MUST be created as defined in  (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) and approved as defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
