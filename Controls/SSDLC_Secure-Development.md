@@ -86,7 +86,7 @@ This section is relevant for the target production environment:
 
 2. **Dependency Approval:** Before a new 3rd-party dependency can be used in prod, it MUST be approved by the architecture board or respective community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
-3. **Automated Updates:** 3td-party dependencies SHOULD be updated regularly, ideally through an automated process.[^5]
+3. **Automated Updates:** 3rd-party dependencies SHOULD be updated regularly, ideally through an automated process.[^5]
 
 4. **Critical Updates:** 3rd-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life.
 
@@ -94,7 +94,7 @@ This section is relevant for the target production environment:
 
 6. **End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
-7. **Dependency Pinning:** "Latest" releases MUST not be used. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
+7. **Dependency Pinning:** "Latest" releases MUST generally not be used. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECGATES}}
 
