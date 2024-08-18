@@ -90,7 +90,7 @@ This section is relevant for the target production environment:
 
 4. **Critical Updates:** 3rd-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life.
 
-5. **Software Composition Analysis (SCA):** 3td-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+5. **Software Composition Analysis (SCA):** 3rd-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 6. **End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
@@ -132,9 +132,9 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 1. **Risk Management:** Known threats, risks, risks management decisions and approvals for an application or service MUST be documented. This CAN be done as tickets within a ticketing system.
 
-2. **Threat Model:** A threat model MUST be defined and continously updates as defined in [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
+2. **Threat Model:** A threat model MUST be defined and continously updates as defined in [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
        
-3. **Security Architecture:** A security architecture concept MUST be created as defined in  (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) and approved as defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
+3. **Security Architecture:** A security architecture concept MUST be created as defined in  (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) and approved as defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
