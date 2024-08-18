@@ -28,7 +28,7 @@ toc_sticky: true
 3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
     - The threat model MUST be documented with mitigations and be incorporated into, or referenced from, the security architecture concept. 
-    - The resulting mitigation measures MUST be incorporated and prioritized into the planing (e.g. product backlog).
+    - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
     - The threat model MUST be reviewed with every architectural change.
 
 4. **Define Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
