@@ -16,7 +16,7 @@ The following definitions are used here:
 | **Internal Code** | Source or program code which is not confidential and not public (standard). |
 | **Internal Application** | A web-based application that is only accessible from the inside of the organization (e.g. intranet application). |
 | **IT Security Function** | Here responsible IT security function as defined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}). ***Note that this is intended as a placeholder for the respective role name in your organization (e.g. security officer, architect or engineer).***|
-| **Risk Class** | See [{{site.TITLE_GENERAL_RISKCLASSES}}]({{site.URL_GENERAL_RISKCLASSES}}). |
+| **Risk Class** | Basically the risk class adds the exposure as an additional dimension to the criticaly factor resulting in its risk. Thereby the *risk class >= [HIGH]* covers not only (business) critical applications and services but also those with medium criticality that are, however, exposed to the Internet. See [{{site.TITLE_GENERAL_RISKCLASSES}}]({{site.URL_GENERAL_RISKCLASSES}}). |
 | **Security Champion (SC)** | See [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}) |
 | **Sensitive Code** | Source or program code that containts confidential information such or sensitive business logic |
 | **Service** | Here: Synonym for (business) application that can contain one or more ->APIs |
