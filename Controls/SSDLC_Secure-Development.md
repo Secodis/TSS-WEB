@@ -27,7 +27,7 @@ toc_sticky: true
 
 3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
-    - The threat model MUST be documented with mitigations.
+    - The threat model MUST be documented with mitigations and included or referenced from the security architecture concept. 
     - The resulting mitigation measures MUST be incorporated into the planning.
     - The threat model MUST be reviewed with every architectural change.
 
