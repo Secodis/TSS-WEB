@@ -26,11 +26,12 @@ toc_sticky: true
 2. **Use of Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
 3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
-    - A threat modeling session MUST be conducted prior to the start of implementation. 
+    - A threat modeling session MUST be conducted prior to the start of implementation.
+    - The threat model MUST be documented with mitigations.
     - The resulting mitigation measures MUST be incorporated into the planning.
     - The threat model MUST be updated with every architectural change.
 
-4. **Documented Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security aspects, invariants, controls, threats of the respective application or service.
+4. **Documented Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant security requirements (technichal & business), invariants, threats (see above) and controls of the respective application or service.
 
 5. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
@@ -49,7 +50,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 2. **Enforce Branch Protection:** For master/main branches, protected branch rules MUST be enforced.
 
-3. **Perform Peer Reviews:** For applications with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
+3. **Perform Peer Reviews:** For applications and services with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
 4. **Signed Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
 
@@ -59,7 +60,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 ## {{site.TITLE_SSDLC_SECDEV_BUILD}}
 
-1. **Formal Process Definition:** A formal definition of the build and deployment process MUST be created to ensure consistency, repeatability, and automation.
+1. **Formal Process Definition:** A formal definition of the build and deployment process MUST be defined to ensure consistency, repeatability, and automation.
 
 2. **Secured Access:** Access to build and deployment systems MUST be secured according to the requirements outlined in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
@@ -102,7 +103,7 @@ This section is relevant for the target production environment:
    - As part of this approval, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
 2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function* during the project approval:
-   - The solution architecture (including security architecture that describes security controls & aspects and a threat model describing relevant threats and mitigations for them) MUST be approved by the relevant *IT security function* before initial implementation is allowed to begin.
+   - The security architecture (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the relevant *IT security function* before initial implementation is allowed to begin.
    - The *IT security function* MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
 4. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]*
