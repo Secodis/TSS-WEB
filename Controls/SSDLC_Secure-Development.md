@@ -41,7 +41,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_AGILESEC}}
 
-The dev team MUST assess every new feature regarding potential security risks/impact (security relevance) before assigned to a sprint.
+Dev teams MUST assess every new feature regarding potential security risks/impact (security relevance) before assigned to a sprint.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
