@@ -9,7 +9,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_ROLES}}
 
-1. **Team Responsibility:** Every development team MUST be responsible for the security of their own code.
+1. **Team Responsibility:** Every development team MUST be responsible for the security of their own code (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
 2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
