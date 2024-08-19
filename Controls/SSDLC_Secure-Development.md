@@ -39,8 +39,7 @@ toc_sticky: true
 
 5. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
-## {{site.TITLE_SSDLC_SECDEV_AGILESEC}}
-
+6. **Security Evaluation of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are assigned to a sprint.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
