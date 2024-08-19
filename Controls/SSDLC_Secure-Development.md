@@ -21,7 +21,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_INITIALIZATION}}
 
-1. New projects and dev teams MUST receive a security kick-off.
+1. **Security Kick-Off:** New projects and dev teams MUST receive a security kick-off.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
