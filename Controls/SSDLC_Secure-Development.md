@@ -64,7 +64,7 @@ The team MUST conduct an assessment of all new features regarding potential secu
 
 2. **Secured Access:** Access to build and deployment systems MUST be secured according to the requirements outlined in [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
-3. **Restricted Execution Nodes:** Pipelines MUST be executed on separate nodes (or runners) with restricted permissions and network access, at least for each environment.
+3. **Restricted Execution Nodes:** Pipeline jobs MUST be executed on nodes (or runners) with restricted permissions and network access, that are at least seperated for each environment.
 
 4. **Shared Execution Nodes:** Shared nodes MUST NOT be used for applications or services with different security classifications.
 
