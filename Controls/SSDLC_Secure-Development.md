@@ -13,7 +13,7 @@ toc_sticky: true
 
 2. **Security Champions:** Each development team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
-3. **Security Training:**
+3. **Security Know-How:**
     - It MUST be ensured that everyone involved in the development process  posess sufficient security knowledge for their particular role.
     - This SHOULD be achieved by providing general awareness and role-specific security training or coaching of team members, including   
          - secure coding training and training of secure design principles for developers, and
