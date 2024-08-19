@@ -102,16 +102,18 @@ Administrative access MUST be as strongly restricted:
 
 ## {{site.TITLE_SSDLC_SECOP_SECSCANNING}}
 
-Productive systems MUST be periodically scanned for potential security problems. 
+Productive systems MUST be periodically scanned for potential security issues (even if they are not changed). 
 
 For instance:
-- Insecure configurations
-- Missing security patches
+- Insecure configurations (e.g. exposed internal ressources)
+- Missing security patches / new CVEs in existing 3rd party components
 - Validity of X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})
 - Exposed development artifacts (e.g. SVN files)
 - Potential malware infection
 - Vendor of product specific hardening guidelines
 - Drifts of productive configuration (drift detection)
+
+Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.TITLE_SSDLC_SECTESTS_SECSCANS}}) as well as [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.TITLE_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: 
