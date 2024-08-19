@@ -109,14 +109,11 @@ URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment
 TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
 URL_SSDLC_SECDEV: /Controls/SSDLC_Secure-Development
 
-TITLE_SSDLC_SECDEV_ROLES: "A.2.1  Riles & Responsibilities"
-URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--responsibilities
+TITLE_SSDLC_SECDEV_ROLES: "A.2.1  Roles & Responsibilities"
+URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--responsibilities 
 
-TITLE_SSDLC_SECDEV_TRAINING: "A.2.2  Training"
-URL_SSDLC_SECDEV_TRAINING: /Controls/SSDLC_Secure-Development#a22--training
-
-TITLE_SSDLC_SECDEV_INITIALIZATION: "A.2.2 Initialization"
-URL_SSDLC_SECDEV_INITIALIZATION: /Controls/SSDLC_Secure-Development#a22-initialization
+TITLE_SSDLC_SECDEV_INITIATION: "A.2.2 Inititiation"
+URL_SSDLC_SECDEV_INITIATION: /Controls/SSDLC_Secure-Development#a22-initiation
 
 TITLE_SSDLC_SECDEV_SECDESIGN: "A.2.3 Secure By Design"
 URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a23-secure-by-design
