@@ -19,6 +19,10 @@ toc_sticky: true
          - secure coding training and training of secure design principles for developers, and
          - SSDLC training for project management role such as Product Owners.
 
+## {{site.TITLE_SSDLC_SECDEV_INIATIATION}}
+
+1. New dev teams MUST habe a security kickoff with their respective *IT security function*.
+
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
 1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
@@ -37,7 +41,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_AGILESEC}}
 
-The team MUST conduct an assessment of all new features regarding potential security risks/impact (security relevance) before implementation.
+The dev team MUST assess every new feature regarding potential security risks/impact (security relevance) before assigned to a sprint.
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
    - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
