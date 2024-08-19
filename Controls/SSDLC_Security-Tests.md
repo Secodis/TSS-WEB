@@ -30,7 +30,7 @@ toc_sticky: true
 
 2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
-3. **Defect Remediation:** Defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in production systems MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
+3. **Defect Remediation:** Security defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in production systems MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
