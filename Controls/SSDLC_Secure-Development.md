@@ -23,7 +23,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
-1. **Secure Design Considerations:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
+1. **Concider Secure by Design Principles:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
 
 2. **Use of Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
@@ -33,7 +33,7 @@ toc_sticky: true
     - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
     - The threat model MUST be reviewed with every architectural change.
 
-4. **Define Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
+4. **Define a Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
 
 5. **Assess Security of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are allocated for development (e.g.assigned to a sprint).
@@ -47,53 +47,51 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
-1. **Use of SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
+1. **Use a SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
 
 2. **Enforce Branch Protection:** For master/main branches, protected branch rules MUST be enforced.
 
 3. **Perform Peer Reviews:** For applications and services with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
 
-4. **Signed Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
+4. **Sign Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
 
-5. **Secure Implementation:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
+5. **Securely Implement:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
-6. **Security Verification:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+6. **Verify Security:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 ## {{site.TITLE_SSDLC_SECDEV_BUILD}}
 
-1. **Formal Process Definition:** A formal definition of the build and deployment process MUST be defined to ensure consistency, repeatability, and automation.
+1. **Define a Formal Process:** A formal definition of the build and deployment process MUST be defined to ensure consistency, repeatability, and automation.
 
-2. **Pipeline Security:** Access to build and deployment systems and security of pipelines MUST be secured according to the requirements at [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
+2. **Secure Pipelines:** Access to build and deployment systems and security of pipelines MUST be secured according to the requirements at [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
 
-3. **Automated Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+3. **Automate Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-4. **Secret Management:** Secrets SHOULD be injected during the deployment process in accordance with the requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
+4. **Protect Secrets:** Secrets SHOULD be injected during the deployment process in accordance with the requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
-5. **Pull-Based Deployment Model:** Deployment pipelines SHOULD implement a pull-based model[^3].
+5. **Implement a Pull-Based Deployment Model:** Deployment pipelines SHOULD implement a pull-based model[^3].
 
-6. **SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
+6. **Create SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-7. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
+7. **Sign Artefacts:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
 
-8. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified within a release gate (see below).
+8. **Verify Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified within a release gate (see below).
 
 ## {{site.TITLE_SSDLC_SECDEV_3RDPARTY}}
 
 This section is relevant for the target production environment:
 
-1. **Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories. Exceptions are permitted only for isolated test environments
+1. **Use Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories. Exceptions are permitted only for isolated test environments
 
-2. **Dependency Approval:** Before a new 3rd-party dependency can be used in prod, it MUST be approved by the architecture board or respective community of practice. This requirement does not affect new releases of a dependency that has already been approved.
+2. **Use Approved Dependencies:** Before a new 3rd-party dependency can be used in prod, it MUST be approved by the architecture board or respective community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
-3. **Automated Updates:** 3rd-party dependencies SHOULD be updated regularly, ideally through an automated process.[^5]
+3. **Update Dependencies:** Dependencies SHOULD be updated regularly, ideally through an automated process and before end-of-life.[^5]
 
-4. **Critical Updates:** 3rd-party dependencies MUST be updated in response to critical security vulnerabilities or when they reach end-of-life.
+4. **Use Software Composition Analysis (SCA):** 3rd-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-5. **Software Composition Analysis (SCA):** 3rd-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+5. **Perform End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
-6. **End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
-
-7. **Dependency Pinning:** "Latest" releases MUST generally be avoided. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
+6. **Pin Dependencies:** "Latest" releases MUST generally be avoided. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECGATES}}
 
@@ -119,11 +117,11 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 1. **Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
 
-2. **Finding Verification:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
+2. **Verify Findings:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
 
-3. **Reassessment of Tool Findings:** Teams may reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g. CVSS vector) MUST be documented.
+3. **Reassess Tool Findings:** Teams may reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g. CVSS vector) MUST be documented.
 
-4. **Retesting After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
+4. **Retest After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
 5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
