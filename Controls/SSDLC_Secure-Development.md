@@ -19,7 +19,7 @@ toc_sticky: true
          - secure coding training and training of secure design principles for developers, and
          - SSDLC training for project management role such as Product Owners.
 
-4. **Security (Team) Kick-Off:** New dev teams MUST receive a security kick-off by their *IT security function* as part of their team onboarding.
+4. **Security Onboarding:** New developers &  teams MUST receive a security onboardong by their *IT security function*.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
