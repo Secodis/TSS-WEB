@@ -8,7 +8,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECENV_ACCESS}}
 
-1. **Protect Access:** Access to development systems, including build and deployment systems, MUST be sufficiently protected and restricted using seperate access realms.
+1. **Protect Access:** Access to development systems, including build and deployment systems, MUST be sufficiently protected and restricted based on least privilege and using seperate access realms.
 
 2. **Protect Secrets:** Secrets used for accessing development systems MUST be secured according to requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).[^1]
 
