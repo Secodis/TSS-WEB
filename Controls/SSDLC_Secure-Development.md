@@ -55,7 +55,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 4. **Sign Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
 
-5. **Securely Implement:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
+5. **Concider Implementation Controls:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
 6. **Verify Security:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
