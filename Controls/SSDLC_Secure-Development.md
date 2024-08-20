@@ -35,7 +35,7 @@ toc_sticky: true
 
 4. **Define Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
 
-5. **Security Assessment of New Features:**
+5. **Assess Security of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are allocated for development (e.g.assigned to a sprint).
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
