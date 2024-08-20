@@ -100,7 +100,7 @@ This section is relevant for the target production environment:
    - As part of this kick-off, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
 2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function* during the project approval:
-   - The security architecture (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the *IT security function* before initial implementation is allowed to begin.
+   - The security architecture (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the *IT security function* before initial implementation is allowed to begin.
    - The *IT security function* MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
 4. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]*
