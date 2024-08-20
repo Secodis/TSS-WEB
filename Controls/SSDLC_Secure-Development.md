@@ -43,7 +43,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Threat models and risk class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
-6. **Review of Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
+6. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
