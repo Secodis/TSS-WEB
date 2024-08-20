@@ -103,8 +103,9 @@ URL_SSDLC_SECENV_ACCESS: /Controls/SSDLC_Secure-Dev-Environment#a11-securing-acc
 TITLE_SSDLC_SECENV_CODEPROTECT: "A.1.2 Protection of Source and Program Code"
 URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment#a12-protection-of-source-and-program-code
 
-TITLE_SSDLC_SECENV_CODEPROTECT: "A.1.2 Protection of Source and Program Code"
-URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment
+TITLE_SSDLC_SECENV_PIPELINESEC: "A.1.3 Pipeline Security"
+URL_SSDLC_SECENV_PIPELINESEC: /Controls/SSDLC_Secure-Dev-Environment#a13-pipeline-security
+
 
 TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
 URL_SSDLC_SECDEV: /Controls/SSDLC_Secure-Development
