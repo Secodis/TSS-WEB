@@ -23,9 +23,9 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
-1. **Concider Secure by Design:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
+1. **Embrace Secure by Design:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
 
-2. **Use of Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
+2. **Use Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
 3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
@@ -115,7 +115,7 @@ This section is relevant for the target production environment:
 
 Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
-1. **Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
+1. **Enforce Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
 
 2. **Verify Findings:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
 
@@ -123,7 +123,7 @@ Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) M
 
 4. **Retest After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
-5. **Approval of Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
+5. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
 6. **Remediate in Production:** If a vulnerability may already exist in production, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
 
