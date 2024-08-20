@@ -40,7 +40,7 @@ toc_sticky: true
 
 4. **Protect Pipeline Configuration:** Write access to sensitive pipeline (e.g. release pipelines) configuration files MUST be restricted and SHOULD implement a manual approval (e.g. push/merge request approval).
 
-5. **Restrict Pipeline Execution:** Sensitive pipelines SHOULD not be triggered from external sources and implement manual approval.
+5. **Restrict Pipeline Execution:** Sensitive pipelines SHOULD not be triggered from external sources or untrusted actors and implement manual execution approval.
 
 
 [^1]: Development systems would be normally not assessed as *risk class [HIGH]* and secrets protecting these systems usually not applicable to respective requirements.
