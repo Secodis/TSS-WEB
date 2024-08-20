@@ -130,7 +130,7 @@ URL_SSDLC_SECDEV_BUILD: /Controls/SSDLC_Secure-Development#a26-secure-build--dep
 TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.5 Security of Third-Party Dependencies"
 URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a27-security-of-third-party-dependencies
 
-TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Project Gates"
+TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Gates"
 URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a28-security-project-gates
 
 TITLE_SSDLC_SECDEV_VULMREM: "A.2.7 Remediation of Security Findings"
