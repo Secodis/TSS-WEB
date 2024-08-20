@@ -64,7 +64,7 @@ The following table outlines the coverage of some important standards in this ar
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
 # License
-The content is licensed under [Creative Commons By 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) and can therefore be used and changed to individual needs free of charge and without any other obligations than to name the document and author of the used template. Furthermore, adapted versions of this content don't have to be published under the same license.
+The content is licensed under [Creative Commons By 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) and can therefore be used and changed to individual needs free of charge. The only requirement is proper attribution to the original source and author. Additionally, any adaptations of this content are not required to be released under the same license.
 
 # Author
 This site is maintained by [Secodis GmbH](https://www.secodis.com). Responsible for the content is [Matthias Rohr](https://www.linkedin.com/in/matthias-rohr/).
