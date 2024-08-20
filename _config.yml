@@ -121,19 +121,19 @@ URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a23-secure-by-des
 TITLE_SSDLC_SECDEV_AGILESEC: "A.2.3 Security Evaluation of New Features"
 URL_SSDLC_SECDEV_AGILESEC: /Controls/SSDLC_Secure-Development#a24-security-evaluation-of-new-features
 
-TITLE_SSDLC_SECDEV_SECIMP: "A.2.4 Secure Implementation"
+TITLE_SSDLC_SECDEV_SECIMP: "A.2.3 Secure Implementation"
 URL_SSDLC_SECDEV_SECIMP: /Controls/SSDLC_Secure-Development#a25-secure-implementation
 
-TITLE_SSDLC_SECDEV_BUILD: "A.2.5 Secure Build & Deployment"
+TITLE_SSDLC_SECDEV_BUILD: "A.2.4 Secure Build & Deployment"
 URL_SSDLC_SECDEV_BUILD: /Controls/SSDLC_Secure-Development#a26-secure-build--deployment
 
-TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.6 Security of Third-Party Dependencies"
+TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.5 Security of Third-Party Dependencies"
 URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a27-security-of-third-party-dependencies
 
-TITLE_SSDLC_SECDEV_SECGATES: "A.2.7 Security Project Gates"
+TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Project Gates"
 URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a28-security-project-gates
 
-TITLE_SSDLC_SECDEV_VULMREM: "A.2.8 Remediation of Security Findings"
+TITLE_SSDLC_SECDEV_VULMREM: "A.2.7 Remediation of Security Findings"
 URL_SSDLC_SECDEV_VULMREM: /Controls/SSDLC_Secure-Development#a29-remediation-of-security-findings
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
