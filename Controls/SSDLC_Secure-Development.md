@@ -77,7 +77,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 8. **Artefact Signing:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
 
-9. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
+9. **Provenence Verification:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified within a release gate (see below).
 
 ## {{site.TITLE_SSDLC_SECDEV_3RDPARTY}}
 
