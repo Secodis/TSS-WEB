@@ -12,22 +12,22 @@ The following requirements apply to systems (infrastructure, platforms, or other
 
 Systems in production MUST be strictly separated from development and test systems:
 
-1. **Segregation of Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
+1. **Segregate of Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
 
-2. **Restricted Connections:** Connections to different environments MUST be restricted.
+2. **Restrict Connections:** Connections to different environments MUST be restricted.
 
-3. **Resource Isolation:** Resources MUST NOT be shared between production and other environments, especially no secret storage.
+3. **Isolate Ressources:** Resources MUST NOT be shared between production and other environments, especially no secret storage.
 
 4. **Separate Authorization:** Users and processes MUST be authorized separately for each environment.
 
-5. **Access Server Separation:** Access server SHOULD be separate instances for every environment but MUST at least use separate realms for each environment. For *risk class >= [HIGH]*: At least the prod environment MUST be a seperate and isolated instance. 
+5. **Seperate Access Server:** Access server SHOULD be separate instances for every environment but MUST at least use separate realms for each environment. For *risk class >= [HIGH]*: At least the prod environment MUST be a seperate and isolated instance. 
 
-6. **Restricted Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})) and SHOULD be automated where possible.
+6. **Restrict Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})) and SHOULD be automated where possible.
    
 ## {{site.TITLE_SSDLC_SECOP_HARDENING}}
-1. **Pre-Deployment Hardening:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
+1. **Harden Pre-Deployment:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
 
-2. **Hardening Verification:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
+2. **Verify Hardening:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
 
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
