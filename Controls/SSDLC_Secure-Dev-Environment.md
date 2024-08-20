@@ -12,9 +12,13 @@ toc_sticky: true
 
 2. **Protect Secrets:** Secrets used for accessing development systems MUST be secured according to requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).[^1]
 
-3. **Secure Remote Access:** Remote access to development systems MUST only be possible via a secure VPN connection and multi-factor authentication (MFA).
+3. **Role-Based Access Control (RBAC):** Access SHOULD be granted based on role-based access control (RBAC).
 
-4. **Revocation Access:** Access to code MUST be revoked as soon as a user no longer requires it (e.g., when leaving the team or organization).
+4. **Avoid Local Identities:** Local user identities SHOULD not be used. Instead, use a centralized identity provider (IdP).
+
+5. **Secure Remote Access:** Remote access to development systems MUST only be possible via a secure VPN connection and multi-factor authentication (MFA).
+
+6. **Revocation Access:** Access to code MUST be revoked as soon as a user no longer requires it (e.g., when leaving the team or organization).
 
 ## {{site.TITLE_SSDLC_SECENV_CODEPROTECT}}
 
@@ -22,12 +26,16 @@ toc_sticky: true
 
 2. **Restrict Access to Code:** Access to sensitive source and program code MUST be restricted to authorized users/groups only. Access rules MUST be periodically reviewed and recovated if not required anymore. 
 
-3. **Role-Based Access Control (RBAC):** Access SHOULD be granted based on role-based access control (RBAC).
+3. **Avoid Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
 
-4. **Avoid Local Identities:** Local user identities SHOULD not be used. Instead, use a centralized identity provider (IdP).
+4. **Periodic Scanning for Exposed Secrets:** Code repositories MUST be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys) as defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
-5. **Avoid Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
+## {{site.TITLE_SSDLC_SECENV_PIPELINESEC}}
 
-6. **Periodic Scanning for Exposed Secrets:** Code repositories MUST be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys) as defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+1. **Securing Execution Nodes:** Pipeline jobs MUST be executed on nodes (or runners) with restricted permissions and network access, that are at least seperated for each environment.
+
+2. **Use of Shared Nodes:** Shared nodes MUST NOT be used for applications or services with different security classifications.
+
+
 
 [^1]: Development systems would be normally not assessed as *risk class [HIGH]* and secrets protecting these systems usually not applicable to respective requirements.
