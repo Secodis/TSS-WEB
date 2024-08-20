@@ -106,21 +106,14 @@ URL_SSDLC_SECENV_CODEPROTECT: /Controls/SSDLC_Secure-Dev-Environment#a12-protect
 TITLE_SSDLC_SECENV_PIPELINESEC: "A.1.3 Pipeline Security"
 URL_SSDLC_SECENV_PIPELINESEC: /Controls/SSDLC_Secure-Dev-Environment#a13-pipeline-security
 
-
 TITLE_SSDLC_SECDEV: "A.2 - Secure Development Process"
 URL_SSDLC_SECDEV: /Controls/SSDLC_Secure-Development
 
 TITLE_SSDLC_SECDEV_ROLES: "A.2.1  Roles & Responsibilities"
 URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--responsibilities 
 
-TITLE_SSDLC_SECDEV_INITIATION: "A.2.2 Inititiation"
-URL_SSDLC_SECDEV_INITIATION: /Controls/SSDLC_Secure-Development#a22-initiation
-
 TITLE_SSDLC_SECDEV_SECDESIGN: "A.2.2 Secure By Design"
 URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a23-secure-by-design
-
-TITLE_SSDLC_SECDEV_AGILESEC: "A.2.3 Security Evaluation of New Features"
-URL_SSDLC_SECDEV_AGILESEC: /Controls/SSDLC_Secure-Development#a24-security-evaluation-of-new-features
 
 TITLE_SSDLC_SECDEV_SECIMP: "A.2.3 Secure Implementation"
 URL_SSDLC_SECDEV_SECIMP: /Controls/SSDLC_Secure-Development#a25-secure-implementation
