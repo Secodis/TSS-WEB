@@ -19,7 +19,7 @@ toc_sticky: true
          - secure coding training and training of secure design principles for developers, and
          - SSDLC training for project management role such as Product Owners.
 
-4. **Security Kick-Off:** New projects and dev teams MUST receive a security kick-off by their *IT security function* in a timely manner.
+4. **Security (Team) Kick-Off:** New dev teams MUST receive a security kick-off by their *IT security function* in a timely manner.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
@@ -95,13 +95,13 @@ This section is relevant for the target production environment:
 
 6. **End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
-7. **Dependency Pinning:** "Latest" releases MUST generally not be used. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
+7. **Dependency Pinning:** "Latest" releases MUST generally be avoided. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECGATES}}
 
-1. **Initial Project Approval:**
-   - All new projects that are either implementing new applications or that plan to change existing ones MUST be approved by the *IT security function* before they are allowed to be started.
-   - As part of this approval, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
+1. **Initial Project Kick-Off:**
+   - All new projects that are either implementing new applications or that plan to change existing ones MUST conduct a security kick-off from the *IT security function* before they are allowed to be started.
+   - As part of this kick-off, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
 2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function* during the project approval:
    - The security architecture (see [{{sute.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the *IT security function* before initial implementation is allowed to begin.
