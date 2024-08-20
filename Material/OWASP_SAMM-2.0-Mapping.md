@@ -34,7 +34,7 @@ TSS-WEB can be helpful for implementing a large number of requirements (= those 
 
 | Security Practices | Stream | Mat. Level | Requirement | TSS-WEB Coverage |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Threat Assessment | Stream A Application Risk Profile | 1 | A basic assessment of the application risk is performed to understand likelihood and impact of an attack. | Yes. See “Security within change management & agile development” at [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}) |
+| Threat Assessment | Stream A Application Risk Profile | 1 | A basic assessment of the application risk is performed to understand likelihood and impact of an attack. | Yes. See “Security within change management & agile development” at [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) |
 | Threat Assessment | Stream A Application Risk Profile | 2 | Understand the risk for all applications in the organization by centralizing the risk profile inventory for stakeholders. | No. Not covered since not in scope but local risk management procedures in development are defined at [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}). TBD|
 | Threat Assessment | Stream A Application Risk Profile | 3 | Periodically review application risk profiles at regular intervals to ensure accuracy and reflect current state. | This is defined as a team responsible in [{{site.TITLE_SSDLC_SDLC}}]({{site.URL_SSDLC_SDLC}}) TBD |
 | Threat Assessment | Stream B Threat Modeling | 1 | Perform best-effort, risk-based threat modeling using brainstorming and existing diagrams with simple threat checklists. | See [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}).
