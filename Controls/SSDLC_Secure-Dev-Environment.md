@@ -36,7 +36,7 @@ toc_sticky: true
 
 2. **Use of Shared Nodes:** Shared nodes MUST NOT be used for applications or services with different security classifications.
 
-3. **Isolate Untrusted Code:** Pipelines that execute code from untrusted sourced SHOULD be isolated with no access to sensitive ressources.
+3. **Isolate Untrusted Pipelines:** Pipelines that execute untrusted code SHOULD be isolated with no access to sensitive ressources (e.g. secrets).
 
 4. **Protect Pipeline Configuration:** Write access to sensitive pipeline (e.g. release pipelines) configuration files MUST be restricted and SHOULD implement a manual approval (e.g. push/merge request approval).
 
