@@ -12,7 +12,7 @@ The following requirements apply to systems (infrastructure, platforms, or other
 
 Systems in production MUST be strictly separated from development and test systems:
 
-1. **Segregate of Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
+1. **Segregate Stages:** Production, test, and development stages MUST be separated using different environments (e.g., separate clusters or cloud environments using separate accounts/subscriptions).
 
 2. **Restrict Connections:** Connections to different environments MUST be restricted.
 
@@ -43,62 +43,62 @@ This includes:
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
 ## {{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}
-1. **Secure Build:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
+1. **Build Securely:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
-2. **Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
+2. **Run Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
 
-3. **Minimal Privileges:** Containers MUST be executed with the least privileges necessary to function.
+3. **Minimize Privileges:** Containers MUST be executed with the least privileges necessary to function.
 
-4. **Prohibit use of Remote Shells:** Containers MUST NOT include remote shells such as sshd or telnet.
+4. **Prohibit Remote Shells:** Containers MUST NOT include remote shells such as sshd or telnet.
 
-5. **Lifecycle Management:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
+5. **Manage Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
 
-6. **Labeling:**  
+6. **Label Containers:**  
    Containers MUST have labels that indicate the application or service they belong to and the responsible team.
 
 ## {{site.TITLE_SSDLC_SECOP_SECBACKEND}}
 
-1. **Least Privilege:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
+1. **Implement Least Privilege:** Processes MUST only have the required permissions to resources, such as on the file system or database. For example, "no root permission on databases."
 
-2. **Access Requirements:** Access to backend systems MUST be authenticated and authorized according to requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
+2. **Concider Access Requirements:** Access to backend systems MUST be authenticated and authorized according to requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 
-3. **Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
+3. **Uss Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
 
-4. **Secure Secrets Management:** Secrets must be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})).
+4. **Protect Secrets:** Secrets must be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})).
 
 ## {{site.TITLE_SSDLC_SECOP_ISOLATION}}
 
-1. **Dedicated Environments:** Applications MUST be deployed in dedicated isolated production environments.
+1. **Implement Dedicated Environments:** Applications MUST be deployed in dedicated isolated production environments.
 
-2. **Encrypted Communication:** All network communication MUST be encrypted using TLS (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}}).
+2. **Encrypt Communication:** All network communication MUST be encrypted using TLS (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}}).
 
-3. **External Access Approval:** All external access to internal network zones MUST be approved.
+3. **Approve External Access:** All external access to internal network zones MUST be approved.
 
-4. **Restricted Outgoing Communication:** Outgoing communication (egress) to the Internet MUST be restricted (whitelisted) and SHOULD be handled by proxies (e.g., HTTP proxies or SMTP proxies).
+4. **Restrict Outgoing Communication:** Outgoing communication (egress) to the Internet MUST be restricted (whitelisted) and SHOULD be handled by proxies (e.g., HTTP proxies or SMTP proxies).
 
-5. **Restricted Incoming Communication:** Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, web gateways).
+5. **Restrict Incoming Communication:** Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, web gateways).
 
-6. **Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
+6. **Use a Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
 
 ## {{site.TITLE_SSDLC_SECOP_ADMINACCESS}}
 
 Administrative access MUST be as strongly restricted:
 
-1. **Limited Access:** Access MUST be limited to required persons only and restricted to permissions necessary to fullfill task.
+1. **Limit Access:** Access MUST be limited to required persons only and restricted to permissions necessary to fullfill task.
 
-2. **Personalized Admin Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used). This SHOULD be a different account as the standard user account of that particular person. 
+2. **Personalize Admin Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used). This SHOULD be a different account as the standard user account of that particular person. 
 
-3. **Network Restrictions:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host.
+3. **Restrict Network Communication:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host.
 
-4. **Two-Factor Authentication:** Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
+4. **Enforce Two-Factor Authentication:** Access MUST use a mandatory second authentication factor (such as hardware tokens, authenticator apps, X.509 client certificates) in combination with a strong user password.
 
-5. **Logging:** All administrative access SHOULD be logged in a tamper-proof way. 
+5. **Log Access:** All administrative access SHOULD be logged in a tamper-proof way. 
 
-6. **Abuse Monitoring:** Abuse monitoring SHOULD be implemented or used if available. 
+6. **Monitor Abuse Attempts:** Abuse monitoring SHOULD be implemented or used if available. 
 
-7. **Revocation:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
+7. **Revocate Access:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
 
-8. **Automation:** Admin tasks SHOULD be automated when possible to replace direct human access.
+8. **Automate:** Admin tasks SHOULD be automated when possible to replace direct human access.
 
 ## {{site.TITLE_SSDLC_SECOP_SECSCANNING}}
 
