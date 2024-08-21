@@ -23,7 +23,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
-1. **Embrace Secure by Design:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
+1. **Embrace Secure by Design Principles:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
 
 2. **Use Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
@@ -33,7 +33,7 @@ toc_sticky: true
     - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
     - The threat model MUST be reviewed with every architectural change.
 
-4. **Define a Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
+4. **Define the Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
 
 5. **Assess Security of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are allocated for development (e.g.assigned to a sprint).
