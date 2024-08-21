@@ -24,7 +24,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
-1. **Track Security Defects:** Security defects MUST be tracked in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, source, criticality, CVSS score, etc).
+1. **Track Security Defects:** Security defects MUST be tracked in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
 
 2. **Regular Review Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
