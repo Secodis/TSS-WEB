@@ -38,7 +38,7 @@ toc_sticky: true
    
 3. **Scan Images:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
 
-4. **Scan Cofiguration:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
+4. **Scan Configuration:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
 
 5. **Scan for Disclosed Secrets:** Repositories MUST be automatically scanned for disclosed secrets.
 
