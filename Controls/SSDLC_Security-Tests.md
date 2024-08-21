@@ -8,7 +8,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_GEN}}
 
-1. **Verify Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
+1. **Verify Security Requirements:** The correct and complete implementation of security requirements and changes MUST be verified with suitable security tests.
 
 2. **Automate Tests:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines). For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing.
 
