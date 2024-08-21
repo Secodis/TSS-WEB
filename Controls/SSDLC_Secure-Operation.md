@@ -25,9 +25,8 @@ Systems in production MUST be strictly separated from development and test syste
 6. **Restrict Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})) and SHOULD be automated where possible.
    
 ## {{site.TITLE_SSDLC_SECOP_HARDENING}}
-1. **Harden Pre-Deployment:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
 
-2. **Verify Effective Hardening:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
+Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
 
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
@@ -42,6 +41,8 @@ This includes:
 - Deactivation of insecure HTTP methods (e.g. `TRACE` and `TRACK`)
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
 
+See below for requirements on verification of effective hardening.
+
 ## {{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}
 1. **Build Securely:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
@@ -51,7 +52,7 @@ This includes:
 
 4. **Prohibit Remote Shells:** Containers MUST NOT include remote shells such as sshd or telnet.
 
-5. **Enforce Cintainee Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
+5. **Enforce Container Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
 
 6. **Label Container:**  
    Containers MUST have labels that indicate the application or service they belong to and its responsible team.
@@ -113,7 +114,7 @@ For instance:
 - Vendor of product specific hardening guidelines
 - Drifts of productive configuration (drift detection)
 
-Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.TITLE_SSDLC_SECTESTS_SECSCANS}}) as well as [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.TITLE_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
+Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}) as well as [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.URL_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: 
