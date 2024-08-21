@@ -119,11 +119,11 @@ Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}](
 For *risk class >= [HIGH]*: 
 
 1. **Monitoring:** Possible security incidents MUST be continuously monitored. For instance:
-- Potential account abuse or system compromise
-- Failures in security controls or tests
-- Use or assignment of critical security permissions
-- Potential Denial of Service (DoS) conditions 
-- Critical security findings on production systems.
+    - Potential account abuse or system compromise
+    - Failures in security controls or tests
+    - Use or assignment of critical security permissions
+    - Potential Denial of Service (DoS) conditions 
+    - Critical security findings on production systems.
 
 2. **Alerting:** Alerting procedures for potential critical security events SHOULD be implemented.
 
@@ -131,9 +131,9 @@ For *risk class >= [HIGH]*:
 
 ## {{site.TITLE_SSDLC_SECOP_MAINTANENCE}}
 
-1. **System Updates:** Systems MUST be kept up-to-date across the full stack, especially in terms of security patches. This MUST cover both OS as well 3rd-party components within the application. 
+1. **Update Systems:** Systems MUST be kept up-to-date across the full stack, especially in terms of security patches. This MUST cover both OS as well 3rd-party components within the application. 
 
-2. **Decommissioning:** Unused applications or services MUST be decommissioned.
+2. **Decommise Unused Systems:** Unused applications or services MUST be decommissioned.
 
 ## {{site.TITLE_SSDLC_SECOP_VULNREMED}}
 
