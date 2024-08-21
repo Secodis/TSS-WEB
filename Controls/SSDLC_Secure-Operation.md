@@ -62,7 +62,7 @@ This includes:
 
 2. **Concider Access Requirements:** Access to backend systems MUST be authenticated and authorized according to requirements of [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}}).
 
-3. **Uss Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
+3. **Use Dedicated Service Accounts:** Access to backend systems MUST use dedicated service accounts for each system.
 
 4. **Protect Secrets:** Secrets must be securely stored and managed (see [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})).
 
