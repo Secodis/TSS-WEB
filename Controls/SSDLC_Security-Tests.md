@@ -38,7 +38,7 @@ toc_sticky: true
    
 3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
 
-4. **Configuration Scanning:** Security-relevant configurations (including IaC) SHOULD be automatically scanned for security issues.
+4. **Static Configuration Scanning:** Security-relevant configurations (including IaC) SHOULD be automatically statically scanned for security issues if available.
 
 5. **Secret Scanning:** Repositories MUST be automatically scanned for disclosed secrets.
 
@@ -46,7 +46,7 @@ toc_sticky: true
 
 7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
-8. **Vulnerability Scanning:** Systems MUST be periodically scanned for vulnerabilities according to [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}})).
+8. **Vulnerability Scanning:** Systems MUST be periodically scanned for vulnerabilities according to [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}}).
 
 ## {{site.TITLE_SSDLC_SECTESTS_CUSTOMTESTS}}
 
