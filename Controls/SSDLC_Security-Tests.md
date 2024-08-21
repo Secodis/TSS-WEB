@@ -36,7 +36,7 @@ toc_sticky: true
 
 2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies. Scand SHOULD be continuously triggered, even if the code has not changed, to identify new CVEs.
    
-3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
+3. **Image Scanning:** Container images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
 
 4. **Static Configuration Scanning:** Security-relevant configurations (including IaC) SHOULD be automatically statically scanned for security issues if available.
 
