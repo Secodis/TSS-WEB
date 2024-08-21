@@ -118,16 +118,16 @@ Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}](
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: 
 
-1. **Monitoring:** Possible security incidents MUST be continuously monitored. For instance:
+1. **Monitor:** Possible security incidents MUST be continuously monitored. For instance:
     - Potential account abuse or system compromise
     - Failures in security controls or tests
     - Use or assignment of critical security permissions
     - Potential Denial of Service (DoS) conditions 
     - Critical security findings on production systems.
 
-2. **Alerting:** Alerting procedures for potential critical security events SHOULD be implemented.
+2. **Alert:** Alerting procedures for potential critical security events SHOULD be implemented.
 
-3. **SIEM Integration:** Logs MUST be shipped to a SIEM system.
+3. **Integrate SIEM:** Logs MUST be shipped to a SIEM system.
 
 ## {{site.TITLE_SSDLC_SECOP_MAINTANENCE}}
 
