@@ -18,7 +18,7 @@ toc_sticky: true
 
 5. **Allow Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
 
-6. **Restrict Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
+6. **Restrict The Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
 7. **Segregate Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g. a web application firewall).
 
