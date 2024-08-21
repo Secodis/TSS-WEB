@@ -32,21 +32,21 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
-1. **Scan Code:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source or program code as early as possible.
+1. **Code Scanning:** Applications MUST be automatically analyzed with security code scanning tools (SAST or IAST) to identify implementation vulnerabilities in source or program code as early as possible.
 
-2. **Scan Dependencies:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies. Scand SHOULD be continuously triggered, even if the code has not changed, to identify new CVEs.
+2. **Dependency Scanning:** Applications MUST be automatically analyzed with SCA (Software Composition Analysis) tools for any known vulnerabilities in third-party dependencies. Scand SHOULD be continuously triggered, even if the code has not changed, to identify new CVEs.
    
-3. **Scan Images:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
+3. **Image Scanning:** Images used in the target production environment MUST be automatically scanned for security issues (see [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}})).
 
-4. **Scan Configuration:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
+4. **Configuration Scanning:** Security-relevant configurations (including IaC) MUST be automatically scanned for security issues.
 
-5. **Scan for Disclosed Secrets:** Repositories MUST be automatically scanned for disclosed secrets.
+5. **Secret Scanning:** Repositories MUST be automatically scanned for disclosed secrets.
 
-6. **Scan APIs:** For *risk class >= [HIGH]*, exposed APIs SHOULD be automatically tested for security issues.
+6. **API Scanning:** For *risk class >= [HIGH]*, exposed APIs SHOULD be automatically tested for security issues.
 
-7. **Test for Denial-of-Service:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
+7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
-8. **Integrate Vulnerability Scanning:** Systems MUST be periodically scanned for vulnerabilities according to [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}})).
+8. **Vulnerability Scanning:** Systems MUST be periodically scanned for vulnerabilities according to [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}})).
 
 ## {{site.TITLE_SSDLC_SECTESTS_CUSTOMTESTS}}
 
