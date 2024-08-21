@@ -46,7 +46,7 @@ toc_sticky: true
 
 7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
-8. **Vulnerability Scans:** Systems MUST be scanned for vulnerabilities (see requirements for operational scans in  [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}}))
+8. **Vulnerability Scanning:** Systems MUST be scanned for vulnerabilities (see requirements for operational scans in  [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}}))
 
 9. **Pipeline Integration:** For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing policies within the release process.
 
