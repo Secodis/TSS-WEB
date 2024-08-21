@@ -10,7 +10,7 @@ toc_sticky: true
 
 1. **Verify Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
 
-2. **Automate and Continuously Test:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines)
+2. **Automate Tests:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines)
 
 3. **Provide Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
 
