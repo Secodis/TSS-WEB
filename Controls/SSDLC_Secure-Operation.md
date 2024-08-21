@@ -16,7 +16,7 @@ Systems in production MUST be strictly separated from development and test syste
 
 2. **Restrict Connections:** Connections to different environments MUST be restricted.
 
-3. **Isolate Ressources:** Resources MUST NOT be shared between production and other environments, especially no secret storage.
+3. **Isolate Ressources:** Resources MUST NOT be shared between production and non-production environments.
 
 4. **Separate Authorization:** Users and processes MUST be authorized separately for each environment.
 
