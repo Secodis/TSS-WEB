@@ -22,9 +22,9 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECENV_CODEPROTECT}}
 
-1. **Enforce Ownership for Repositories:** Every repository MUST have a clear ownership.
+1. **Enforce Ownership:** Every repository MUST have a clear ownership.
 
-2. **Restrict Access to Code:** Access to sensitive source and program code MUST be restricted to authorized users/groups only. Access rules MUST be periodically reviewed and recovated if not required anymore. 
+2. **Restrict Code Access:** Access to sensitive source and program code MUST be restricted to authorized users/groups only. Access rules MUST be periodically reviewed and recovated if not required anymore. 
 
 3. **Avoid Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
 
@@ -34,7 +34,7 @@ toc_sticky: true
 
 1. **Secure Execution Nodes:** Pipeline jobs MUST be executed on nodes (or runners) with restricted permissions and network access, that are at least seperated for each environment.
 
-2. **Use of Shared Nodes:** Shared nodes MUST NOT be used for applications or services with different security classifications.
+2. **Limit Use of Shared Nodes:** Shared nodes MUST NOT be used for applications or services with different security classifications.
 
 3. **Isolate Untrusted Pipelines:** Pipelines that execute untrusted code SHOULD be isolated with no access to sensitive ressources (e.g. secrets).
 
