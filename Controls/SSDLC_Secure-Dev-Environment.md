@@ -18,21 +18,21 @@ toc_sticky: true
 
 5. **Secure Remote Access:** Remote access to development systems MUST only be possible via a secure VPN connection and multi-factor authentication (MFA).
 
-6. **Revocation Access:** Access to code MUST be revoked as soon as a user no longer requires it (e.g., when leaving the team or organization).
+6. **Revocate Access:** Access to code MUST be revoked as soon as a user no longer requires it (e.g., when leaving the team or organization).
 
 ## {{site.TITLE_SSDLC_SECENV_CODEPROTECT}}
 
-1. **Ownership of Repositories:** Every repository MUST have a clear ownership.
+1. **Enforce Ownership for Repositories:** Every repository MUST have a clear ownership.
 
 2. **Restrict Access to Code:** Access to sensitive source and program code MUST be restricted to authorized users/groups only. Access rules MUST be periodically reviewed and recovated if not required anymore. 
 
 3. **Avoid Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
 
-4. **Periodic Scanning for Exposed Secrets:** Code repositories MUST be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys) as defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+4. **Periodic Scan for Exposed Secrets:** Code repositories MUST be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys) as defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 ## {{site.TITLE_SSDLC_SECENV_PIPELINESEC}}
 
-1. **Securing Execution Nodes:** Pipeline jobs MUST be executed on nodes (or runners) with restricted permissions and network access, that are at least seperated for each environment.
+1. **Secure Execution Nodes:** Pipeline jobs MUST be executed on nodes (or runners) with restricted permissions and network access, that are at least seperated for each environment.
 
 2. **Use of Shared Nodes:** Shared nodes MUST NOT be used for applications or services with different security classifications.
 
