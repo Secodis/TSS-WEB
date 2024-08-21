@@ -172,7 +172,7 @@ URL_SSDLC_SECOPP_ISOLATION: /Controls/SSDLC_Secure-Operation#a55-isolation-of-ex
 TITLE_SSDLC_SECOP_ADMINACCESS: "A.5.6 Administrative Access"
 URL_SSDLC_SECOPP_ADMINACCESS: /Controls/SSDLC_Secure-Operation#a56-administrative-access
 
-TITLE_SSDLC_SECOP_SECSCANNING: "A.5.7 Security Scanning"
+TITLE_SSDLC_SECOP_SECSCANNING: "A.5.7 Security Scanning in Production"
 URL_SSDLC_SECOPP_SECSCANNING: /Controls/SSDLC_Secure-Operation#a57-security-scanning
 
 TITLE_SSDLC_SECOP_MONITORING: "A.5.8 Security Monitoring and Alerting"
