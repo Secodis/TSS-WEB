@@ -52,7 +52,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_CUSTOMTESTS}}
 
-1. **Functional Security Tests:** Developer and system acceptance testing SHOULD test implemented functional security requirements (security controls) such as authentication, authorization, security validation, etc.
+1. **Test Functional Security:** Developer and system acceptance testing SHOULD test implemented functional security requirements (security controls) such as authentication, authorization, security validation, etc.
 
 2. **Do Negative Tests:** Tests SHOULD be both positive and negative (e.g., can an user without proper role access a protected ressource).
 
