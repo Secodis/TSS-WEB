@@ -8,29 +8,27 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_GEN}}
 
-1. **Verification of Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
+1. **Verify Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
 
-2. **Automated and Continuous Testing:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines) and as early as possible within the development process (following the fail-fast principle).
+2. **Automate and Continuously Test:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines)
 
-3. **Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
+3. **Provide Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
 
-4. **Consistant Test Policy:** Test SHOULD be reproducible and executed against a consistent test policy in all stages.
+4. **Enforce a Consistant Test Policy:** Test SHOULD be reproducible and executed against a consistent test policy in all stages.
 
-5. **Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
+5. **Allow Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
 
-6. **Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
+6. **Restrict Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
-7. **Segregated Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g. a web application firewall).
-
-8. **Continious Testing:** Testing SHOULD be triggered periodically even though code may not be changed to identify new vulnerabilities by new rules.
+7. **Segregate Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g. a web application firewall).
 
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
-1. **Tracking of Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta information (e.g., criticality rating, CVSS score, etc.).
+1. **Track Security Defects:** Security defects MUST be tracked in a defect tracking system and provide relevant meta information (e.g., criticality rating, CVSS score, etc.).
 
-2. **Regular Review of Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
+2. **Regular Revie Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
 
-3. **Defect Remediation:** Security defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in production systems MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
+3. **Remediate Defects:** Security defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in production systems MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
@@ -56,17 +54,17 @@ toc_sticky: true
 
 1. **Functional Security Tests:** Developer and system acceptance testing SHOULD test implemented functional security requirements (security controls) such as authentication, authorization, security validation, etc.
 
-2. **Negative Tests:** Tests SHOULD be both positive and negative (e.g., can an user without proper role access a protected ressource).
+2. **Do Negative Tests:** Tests SHOULD be both positive and negative (e.g., can an user without proper role access a protected ressource).
 
-3. **Abuse Case Tests:** For *risk class >= [HIGH]*, teams SHOULD test potential abuse cases and common attack vectors (e.g., privilege escalation or business logic abuse) identified through threat modeling, business requirements, or other means.
+3. **Test Abuse Cases:** For *risk class >= [HIGH]*, teams SHOULD test potential abuse cases and common attack vectors (e.g., privilege escalation or business logic abuse) identified through threat modeling, business requirements, or other means.
 
-4. **Automated Execution:** Security tests of implemented security requirements and security controls (e.g., authentication or access controls) SHOULD be implemented and executed, preferably in an automatic and continuous way.
+4. **Automate Test Execution:** Security tests of implemented security requirements and security controls (e.g., authentication or access controls) SHOULD be implemented and executed, preferably in an automatic and continuous way.
 
 ## {{site.TITLE_SSDLC_SECTESTS_PENTESTS}}
 
-1. **Use of Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
+1. **Conduct Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
 
-2. **Retests of Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
+2. **Retests Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
  
 3. **Pentest Policy:** Pentests MUST be repeated according to follwing policy:
    
