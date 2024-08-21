@@ -10,7 +10,7 @@ toc_sticky: true
 
 1. **Verify Security Requirements:** The correct and complete implementation of security and security-relevant requirements and changes MUST be verified with suitable security tests.
 
-2. **Automate Tests:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines)
+2. **Automate Tests:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines). For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing.
 
 3. **Provide Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
 
@@ -47,8 +47,6 @@ toc_sticky: true
 7. **Test for Denial-of-Service:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
 
 8. **Run Vulnerability Scanning:** Systems MUST be scanned for vulnerabilities according to [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOPP_SECSCANNING}})).
-
-9. **Integrate in Pipelines:** For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing policies within the release process.
 
 ## {{site.TITLE_SSDLC_SECTESTS_CUSTOMTESTS}}
 
