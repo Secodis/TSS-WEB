@@ -27,7 +27,7 @@ Systems in production MUST be strictly separated from development and test syste
 ## {{site.TITLE_SSDLC_SECOP_HARDENING}}
 1. **Harden Pre-Deployment:** Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
 
-2. **Verify Hardening:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
+2. **Verify Effective Hardening:** Systems in production MUST be periodically and automatically tested for insufficient hardening.
 
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
@@ -45,16 +45,16 @@ This includes:
 ## {{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}
 1. **Build Securely:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
-2. **Run Security Scans:** Containers MUST be periodically scanned for insecure third-party components and misconfigurations.
+2. **Run Security Scans:** For *risk class [HIGH]*, containers MUST be periodically scanned for insecure third-party components and misconfigurations.
 
 3. **Minimize Privileges:** Containers MUST be executed with the least privileges necessary to function.
 
 4. **Prohibit Remote Shells:** Containers MUST NOT include remote shells such as sshd or telnet.
 
-5. **Manage Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
+5. **Enforce Cintainee Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
 
-6. **Label Containers:**  
-   Containers MUST have labels that indicate the application or service they belong to and the responsible team.
+6. **Label Container:**  
+   Containers MUST have labels that indicate the application or service they belong to and its responsible team.
 
 ## {{site.TITLE_SSDLC_SECOP_SECBACKEND}}
 
