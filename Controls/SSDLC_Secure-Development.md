@@ -27,15 +27,17 @@ toc_sticky: true
 
 2. **Use Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
-3. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
+3. **Implement Secure Defaults:** Use secure defaults where possible to foster the use of secure settings.
+
+4. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
     - The threat model MUST be documented with mitigations and be incorporated into, or referenced from, the security architecture concept. 
     - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
     - The threat model MUST be reviewed with every architectural change.
 
-4. **Define the Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
+5. **Define the Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
 
-5. **Assess Security of New Features:**
+6. **Assess Security of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are allocated for development (e.g.assigned to a sprint).
    - This assessment MAY be conducted informally by a team if it gained sufficient experience.
    - Teams MAY define their own criteria for security relevance.
@@ -43,7 +45,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Threat models and risk class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
-6. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
+7. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
