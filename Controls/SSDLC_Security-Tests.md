@@ -52,7 +52,7 @@ toc_sticky: true
 
 1. **Test Functional Security:** Developer and system acceptance testing SHOULD test implemented functional security requirements (security controls) such as authentication, authorization, security validation, etc.
 
-2. **Do Negative Tests:** Tests SHOULD be both positive and negative (e.g., can an user without proper role access a protected ressource).
+2. **Perform Negative Tests:** Tests SHOULD be both positive and negative (e.g., can an user without proper role access a protected ressource).
 
 3. **Test Abuse Cases:** For *risk class >= [HIGH]*, teams SHOULD test potential abuse cases and common attack vectors (e.g., privilege escalation or business logic abuse) identified through threat modeling, business requirements, or other means.
 
@@ -60,7 +60,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_PENTESTS}}
 
-1. **Conduct Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within environments that are close to production environments (e.g. on integration systems).
+1. **Conduct Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within an environment that is close to production (e.g. on the acceptance environment).
 
 2. **Retests Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
  
