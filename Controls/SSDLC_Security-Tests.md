@@ -16,11 +16,11 @@ toc_sticky: true
 
 4. **Enforce a Consistant Test Policy:** Test SHOULD be reproducible and executed against a consistent test policy in all stages.
 
-5. **Allow Local Testability:** Developers SHOULD be able to run automated test locally against the respective testing policy (dry runs). 
+5. **Allow Local Testability:** Developers SHOULD be able to run automated test locally against the applicable test policy (dry runs). 
 
 6. **Restrict The Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
-7. **Segregate Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems (e.g. a web application firewall).
+7. **Segregate Test Execution:** The execution of security tests MUST NOT be affected by perimeter security systems such as web application firewalls.
 
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
@@ -60,15 +60,16 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_PENTESTS}}
 
-1. **Conduct Pentests:** Applications MUST be verified by penetration tests according to the pentesting policy below. Penetration tests SHOULD be carried out within an environment that is close to production (e.g. on the acceptance environment).
+1. **Pentest Policy:** Applications and services MUST be verified by penetration tests according to the following policy:
 
-2. **Retests Findings:** After a severe vulnerability has been fixed that was found by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
- 
-3. **Pentest Policy:** Pentests MUST be repeated according to follwing policy:
-   
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
 | **>= [HIGH]** | Before initial go live but at least annually[^1]  | ASAP after initial go-live but at least every third year  |
 | **< [HIGH]** | Before initial go live but at least every second year  | - | 
+
+2. **Pentest Environment:** Penetration tests SHOULD be carried out within an environment that is close to production (e.g. on the acceptance environment).
+
+3. **Retests Findings:** After a severe vulnerability has been fixed that was identified by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
+   
 
 [^1]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
