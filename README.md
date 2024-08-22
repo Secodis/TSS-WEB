@@ -2,7 +2,7 @@
 
 This is the official site of TSS-WEB, an open security requirement framework for web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP](https://www.owasp.org), [Microsoft](https://www.microsoft.com), [NIST](https://www.nist.gov), [SAFECode](https://www.safecode.org) and [ISO/IEC](https://www.iso.org).
 
-Note that this project and its content is provided "as-is" without any guarantees. The information and views expressed are subject to change without notice. You assume all risks associated with using this content.
+Note that this project and its content is provided "as-is" without any guarantees. The framework is subject to change without notice. You assume all risks associated with using this content.
 
 # Purpose
 
