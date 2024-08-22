@@ -164,8 +164,7 @@ TITLE_SSDLC_SECOP_CONTAINERSEC: "A.5.3 Container Security"
 URL_SSDLC_SECOP_CONTAINERSEC: /Controls/SSDLC_Secure-Operation#a53-container-security
 
 TITLE_SSDLC_SECOP_SECBACKEND: "A.5.4 Securing Access to Backend Resources"
-URL_SSDLC_SECOP
-P_SECBACKEND: /Controls/SSDLC_Secure-Operation#a54-securing-access-to-backend-resources
+URL_SSDLC_SECOP_SECBACKEND: /Controls/SSDLC_Secure-Operation#a54-securing-access-to-backend-resources
 
 TITLE_SSDLC_SECOP_ISOLATION: "A.5.5 Isolation of External Systems"
 URL_SSDLC_SECOP_ISOLATION: /Controls/SSDLC_Secure-Operation#a55-isolation-of-external-systems
