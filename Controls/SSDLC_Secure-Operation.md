@@ -110,7 +110,7 @@ Productive systems MUST be periodically scanned for potential security issues (e
    
 2. **Verify TLS Security:** Exposed TLS endpoints MUST be regularly scaned for TLS hardening issues and validity of used X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})[^1]
 
-3. **Tests for Inseure Configuration:** Systems SHOULD be tested for insecure configuration (e.g. exposed internal ressources, insecure policies, etc.). For *risk class >= [HIGH]*: MUST be continously tested in that way.
+3. **Test for Insecure Configuration:** Systems SHOULD be tested for insecure configuration (e.g. exposed internal ressources, insecure policies, etc.). For *risk class >= [HIGH]*: MUST be continously tested in that way.
 
 4. **Detect Configuration Drifts:** For *risk class >= [HIGH]*, systems SHOULD be tested for drifts of productive configuration (drift detection).
 
