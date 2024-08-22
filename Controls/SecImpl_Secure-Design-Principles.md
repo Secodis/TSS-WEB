@@ -8,7 +8,7 @@
 | 4 | **Keep Security Settings Adaptable** | Security parameterization SHOULD be declarative where possible (= with configuration statements or annotations) instead of programmable (= with program code) where possible. |
 | 5 | **Externalize Security Functions** | Security functions SHOULD be externalized (e.g. using an external authentication system) |
 | 5 | **Least Privilege** | Every program and user SHOULD operate using the least set of privileges necessary. |
-| 6 | **Keep Security Consistant** | Identical security controls (e.g. one within the frontend and another within an REST interface) SHOULD be implemented with the same security function (= program code) and policy. |
+| 6 | **Keep Security Consistant** | Identical security controls (e.g. one within the frontend and another within an REST interface) SHOULD be implemented with the same security function (via code) and policy. |
 | 7 | **Use Mature Security Controls** | Security relevant program code SHOULD only be implemented with mature and tested technologies, algorithms and implementations (APIs, frameworks etc.).  |
 | 8 | **Keep Security Testable** | Before a new technology (protocol, framework, API, etc.) is being used in production, it SHOULD be ensured that proper testing procedures and tools exist for performing security tests on them. |
-| 9 | **Use Fail-Safe Defaults** | Use secure / safe defaults (e.g. in frameworks) to prevent unintentional security problems.  |
+| 9 | **Use Secure Defaults** | Use secure defaults (e.g. in frameworks) to prevent unintentional security problems.  |
