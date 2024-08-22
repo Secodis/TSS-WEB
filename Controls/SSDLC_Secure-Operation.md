@@ -112,7 +112,7 @@ Productive systems MUST be periodically scanned for potential security issues (e
 
 3. **Tests for Inseure Configuration:** Systems SHOULD be tested for insecure configuration (e.g. exposed internal ressources, insecure policies, etc.). For *risk class >= [HIGH]*: MUST be continously tested in that way.
 
-4. **Detect Configuration Drifts:** Systems SHOULD be tested for drifts of productive configuration (drift detection).
+4. **Detect Configuration Drifts:** For *risk class >= [HIGH]*, systems SHOULD be tested for drifts of productive configuration (drift detection).
 
 Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}) as well as [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.URL_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
 
