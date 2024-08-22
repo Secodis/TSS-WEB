@@ -38,7 +38,8 @@ toc_sticky: true
    
 3. **Image Scanning:** Container images assigned for the target production environment MUST be automatically scanned for security issues (see also [{{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}]({{site.URL_SSDLC_SECOPP_CONTAINERSEC}}) for container scanning requirements).
 
-4. **Configuration Scanning:** Security-relevant configurations (including IaC) SHOULD be automatically statically scanned for security issues such as missing hardening settings (see [{{site.TEXT_SSDLC_SECOP_HARDENING}}]({{site.URL_SSDLC_SECOP_HARDENING}})) if possible.
+4. **Configuration Scanning:** Security-relevant configurations (including IaC) SHOULD be automatically statically scanned for security issues such as missing hardening settings (see
+ [{{site.TITLE_SSDLC_SECOP_HARDENING}}]({{site.URL_SSDLC_SECOP_HARDENING}})) if possible.
 
 5. **Secret Scanning:** Repositories MUST be automatically scanned for disclosed secrets.
 
