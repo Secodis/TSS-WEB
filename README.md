@@ -11,6 +11,7 @@ The purpose of this framework is to offer a comprehensive, consistent, and pract
 The goal is to provide a foundation that works for most organizations. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
 
 # General
+
 * [{{site.TITLE_GENERAL_REQUIREMENTS}}]({{site.URL_GENERAL_REQUIREMENTS}})
 * [{{site.TITLE_GENERAL_TERMS}}]({{site.URL_GENERAL_TERMS}})
 * [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})
@@ -19,6 +20,7 @@ The goal is to provide a foundation that works for most organizations. In many c
 * [{{site.TITLE_GENERAL_LICENSE}}]({{site.URL_GENERAL_LICENSE}})
 
 # Part A: SSDLC Controls
+
 * [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}})
 * [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}})
 * [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})
@@ -26,6 +28,7 @@ The goal is to provide a foundation that works for most organizations. In many c
 * [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}})
 
 # Part B: Implementation Controls
+
 * [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}})
 * [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})
 * [{{site.TITLE_IMPL_FILEUPLOADS}}]({{site.URL_IMPL_FILEUPLOADS}})
