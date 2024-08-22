@@ -40,8 +40,9 @@ This includes:
 - Deactivation of file handlers that are not required (e.g. `.php` for a Java application).
 - Deactivation of insecure HTTP methods (e.g. `TRACE` and `TRACK`)
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
-
-See below for requirements on verification of effective hardening.
+- Vendor of product specific hardening guidelines
+  
+See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}}) for requirements on verification of effective hardening.
 
 ## {{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}
 1. **Build Securely:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
@@ -103,16 +104,15 @@ Administrative access MUST be as strongly restricted:
 
 ## {{site.TITLE_SSDLC_SECOP_SECSCANNING}}
 
-Productive systems MUST be periodically scanned for potential security issues (even if they are not changed). 
+Productive systems MUST be periodically scanned for potential security issues (even if they are not changed):
 
-For instance:
-- Insecure configurations (e.g. exposed internal ressources)
-- Missing security patches / new CVEs in existing 3rd party components
-- Validity of X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})
-- Exposed development artifacts (e.g. SVN files)
-- Potential malware infection
-- Vendor of product specific hardening guidelines
-- Drifts of productive configuration (drift detection)
+1. **Missing Security Patches:** Systems MUST be continously scanned for missing security patches and eisting CVEs.
+   
+2. **Verify TLS Security:** Exposed TLS endpoints MUST be regularly scaned for TLS hardening issues and validity of used X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})[^1]
+
+3. **Tests for Inseure Configuration:** Systems SHOULD be tested for insecure configuration (e.g. exposed internal ressources, insecure policies, etc.). For *risk class >= [HIGH]*: MUST be continously tested in that way.
+
+4. **Detect Configuration Drifts:** Systems SHOULD be tested for drifts of productive configuration (drift detection).
 
 Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}) as well as [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.URL_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
 
@@ -164,3 +164,4 @@ Internal applications or services:
 
 A consistent incident management process (including roles, responsibilities escalation procedures) MUST be implemented and followed.
 
+[^1]: For Internet-exposed endpoints you can use [SSL Test by Qualys](https://www.ssllabs.com/ssltest/) to test these settings. There is also an API available that you can use to receive the current grade.
