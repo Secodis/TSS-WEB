@@ -121,7 +121,7 @@ URL_SSDLC_SECDEV_SECIMP: /Controls/SSDLC_Secure-Development#a25-secure-implement
 TITLE_SSDLC_SECDEV_BUILD: "A.2.4 Secure Build & Deployment"
 URL_SSDLC_SECDEV_BUILD: /Controls/SSDLC_Secure-Development#a26-secure-build--deployment
 
-TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.5 Security of Third-Party Dependencies"
+TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.5 Secure Third-Party Dependencies"
 URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a27-security-of-third-party-dependencies
 
 TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Gates"
