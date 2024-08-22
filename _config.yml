@@ -113,22 +113,22 @@ TITLE_SSDLC_SECDEV_ROLES: "A.2.1  Roles & Responsibilities"
 URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--responsibilities 
 
 TITLE_SSDLC_SECDEV_SECDESIGN: "A.2.2 Secure By Design"
-URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a23-secure-by-design
+URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a22-secure-by-design
 
-TITLE_SSDLC_SECDEV_SECIMP: "A.2.3 Secure Implementation"
-URL_SSDLC_SECDEV_SECIMP: /Controls/SSDLC_Secure-Development#a25-secure-implementation
+TITLE_SSDLC_SECDEV_SECIMP: "A.2.4 Secure Implementation"
+URL_SSDLC_SECDEV_SECIMP: /Controls/SSDLC_Secure-Development#a23-secure-implementation
 
 TITLE_SSDLC_SECDEV_BUILD: "A.2.4 Secure Build & Deployment"
-URL_SSDLC_SECDEV_BUILD: /Controls/SSDLC_Secure-Development#a26-secure-build--deployment
+URL_SSDLC_SECDEV_BUILD: /Controls/SSDLC_Secure-Development#a24-secure-build--deployment
 
 TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.5 Secure Third-Party Dependencies"
-URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a27-security-of-third-party-dependencies
+URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a25-security-of-third-party-dependencies
 
 TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Gates"
-URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a28-security-project-gates
+URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a26-security-project-gates
 
 TITLE_SSDLC_SECDEV_VULMREM: "A.2.7 Remediation of Security Findings"
-URL_SSDLC_SECDEV_VULMREM: /Controls/SSDLC_Secure-Development#a29-remediation-of-security-findings
+URL_SSDLC_SECDEV_VULMREM: /Controls/SSDLC_Secure-Development#a27-remediation-of-security-findings
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: /Controls/SSDLC_Security-Tests
@@ -155,7 +155,7 @@ TITLE_SSDLC_SECOP: "A.5 - Secure Operation"
 URL_SSDLC_SECOP: /Controls/SSDLC_Secure-Operation
 
 TITLE_SSDLC_SECOP_SEPERATION: "A.5.1 Environment Separation"
-URL_SSDLC_SECOP_SEPERATION: /Controls/SSDLC_Secure-Operation##a51-environment-separation
+URL_SSDLC_SECOP_SEPERATION: /Controls/SSDLC_Secure-Operation#a51-environment-separation
 
 TITLE_SSDLC_SECOP_HARDENING: "A.5.2 System Hardening"
 URL_SSDLC_SECOP_HARDENING: /Controls/SSDLC_Secure-Operation#a52-system-hardening
