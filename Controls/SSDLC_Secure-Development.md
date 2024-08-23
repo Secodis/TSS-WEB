@@ -109,11 +109,11 @@ This section is relevant for the target production environment:
 
 5. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
 
-6. **Documentation:** Gate decisions MUST be documented.
+6. **Document Gate Decisions:** Gate decisions MUST be documented.
 
 ## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
 
-Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
+Security findings with a *criticality >= [HIGH]* rating (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated or managed before a new application release is allowed to go live:
 
 1. **Verify Findings:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
 
