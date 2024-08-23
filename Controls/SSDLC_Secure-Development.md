@@ -113,11 +113,11 @@ This section is relevant for the target production environment:
 
 ## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
 
-1. **Refine Findings:** Teams CAN refine a finding scoring. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
+1. **Mitigate Findings:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
+    - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
+    - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
 
-2. **Mitigate Findings:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
-    - For  *risk class >= [HIGH]*, findings witg *criticality >= [MEDIUM]* rating (or CVSS[^2] v3 Score >= 5.0).
-    - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* rating (or CVSS[^2] v3 Score >= 7.0)
+2. **Refine Findings:** Teams CAN refine a finding scoring. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
 
 3. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
 
