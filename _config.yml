@@ -112,6 +112,9 @@ URL_SSDLC_SECDEV: /Controls/SSDLC_Secure-Development
 TITLE_SSDLC_SECDEV_ROLES: "A.2.1  Roles & Responsibilities"
 URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--responsibilities 
 
+TITLE_SSDLC_SECDEV_TRAINaiNV: "A.2.2  Training"
+URL_SSDLC_SECDEV_TRAINING: /Controls/SSDLC_Secure-Development#a22-training
+
 TITLE_SSDLC_SECDEV_SECDESIGN: "A.2.2 Secure By Design"
 URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a22-secure-by-design
 
