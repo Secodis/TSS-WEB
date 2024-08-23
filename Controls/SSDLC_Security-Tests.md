@@ -26,9 +26,9 @@ toc_sticky: true
 
 1. **Track Security Defects:** Security defects MUST be tracked in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
 
-2. **Regular Review Open Defects:** Open security defects SHOULD be regularly checked for relevance and possible quick wins.
+2. **Regular Review Open Defects:** Open security defects SHOULD be regularly reviewed for relevance and possible quick wins.
 
-3. **Remediate Defects:** Security defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in production systems MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
+3. **Remediate Defects:** Security defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULMREM}}]({{site.URL_SSDLC_SECDEV_VULMREM}}). Defects identified in prod or pre-prod environments MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
