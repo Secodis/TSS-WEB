@@ -57,15 +57,15 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 5. **Implement Security Controls:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
-6. **Verify Secure Implementation:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+6. **Verify Secure Implementation:** Correct implementation of security requirements MUST be verified and defects managed according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 ## {{site.TITLE_SSDLC_SECDEV_BUILD}}
 
 1. **Define a Formal Process:** A formal definition of the build and deployment process MUST be defined to ensure consistency, repeatability, and automation.
 
-2. **Secure Pipelines:** Access to build and deployment systems and security of pipelines MUST be secured according to the requirements at [{{site.TITLE_SSDLC_SECENV}}]({{site.URL_SSDLC_SECENV}}).
+2. **Secure Pipelines:** Access to build and deployment systems and security of pipelines MUST be secured according to the requirements at [{{site.TITLE_SSDLC_SECENV_PIPELINESEC}}]({{site.URL_SSDLC_SECENV_PIPELINESEC}}).
 
-3. **Automate Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+3. **Automate Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
 4. **Protect Secrets:** Secrets SHOULD be injected during the deployment process in accordance with the requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
@@ -87,7 +87,7 @@ This section is relevant for the target production environment:
 
 3. **Update Dependencies:** Dependencies SHOULD be updated regularly, ideally through an automated process and before end-of-life.[^5]
 
-4. **Use Software Composition Analysis (SCA):** 3rd-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+4. **Use Software Composition Analysis (SCA):** 3rd-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
 5. **Perform End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
 
@@ -114,24 +114,6 @@ This section is relevant for the target production environment:
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
 
 7. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
-
-## {{site.TITLE_SSDLC_SECDEV_VULNREMED}}
-
-1. **Review:** Findings SHOULD always be reviewed by the team.
-
-2. **Refine:** Teams CAN refine a finding score. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
-
-3. **Mitigate before Production:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
-    - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
-    - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
-
-4. **Mitigate in Production:** If a vulnerability exist in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
-
-5. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
-
-6. **Retest After Mitigation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
-
-7. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
