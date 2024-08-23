@@ -13,7 +13,7 @@ toc_sticky: true
 
 4. **Implement Guardrails:** Dev teams SHOULD manage their own security within predefined boundaries.
 
-5. **Appoint a Security Champion:** Dev teams CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
+5. **Appoint Security Champions:** Dev teams CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
 6. **Ensure Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role:
     - **Security Onboarding:** New developers &  teams MUST receive a security onboarding.
