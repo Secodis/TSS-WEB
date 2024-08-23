@@ -18,7 +18,7 @@ toc_sticky: true
 
 4. **Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role:
     - **Security Onboarding:** New developers &  teams MUST receive a security onboarding.
-    - **Role-Specific Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training for developers.
+    - **Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training for developers.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
