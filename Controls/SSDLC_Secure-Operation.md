@@ -24,7 +24,7 @@ Systems in production MUST be strictly separated from development and test syste
    
 ## {{site.TITLE_SSDLC_SECOP_HARDENING}}
 
-Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production stage.
+Systems (e.g., web servers, application servers, container platforms, content management systems, cloud platforms, or other runtime environments) MUST be hardened according to common best practices before being used in a production or pre-production environment.
 
 This includes:
 - A hardened OS (e.g. using a hardened base image, see below)
@@ -79,6 +79,8 @@ See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}
 5. **Restrict Incoming Communication:** Incoming communication (ingress) from untrusted networks MUST be restricted and handled by reverse proxies (e.g., API gateways, web gateways).
 
 6. **Use a Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
+
+7. **Use an API Gateway:** An API Gateway SHOULD be used as an additional layer of protection for exposed APIs.
 
 ## {{site.TITLE_SSDLC_SECOP_ADMINACCESS}}
 
