@@ -11,7 +11,7 @@ toc_sticky: true
 
 1. **Recognize Team Responsibility:** Dev teams MUST be responsible for the security of their own code and applications (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
 
-2. **Embrace Guardrails:** Dev teams SHOULD manage their own security within predefined boundaries.
+2. **Adopt Guardrails:** Dev teams SHOULD manage their own security within predefined boundaries.
 
 3. **Appoint a Security Champion:** Dev teams CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
