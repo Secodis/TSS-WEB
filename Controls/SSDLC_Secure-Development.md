@@ -113,11 +113,11 @@ This section is relevant for the target production environment:
 
 ## {{site.TITLE_SSDLC_SECDEV_VULNREMED}}
 
-1. **Review Findings:** Findings SHOULD always be reviewed by the team.
+1. **Review:** Findings SHOULD always be reviewed by the team.
 
-2. **Refine Findings:** Teams CAN refine a finding score. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
+2. **Refine:** Teams CAN refine a finding score. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
 
-3. **Mitigate Findings before Prod:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
+3. **Mitigate before Production:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
     - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
     - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
 
