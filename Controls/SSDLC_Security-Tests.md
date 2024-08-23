@@ -24,11 +24,23 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
-1. **Track Security Defects:** Security defects MUST be tracked in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
+1. **Review:** Findings SHOULD always be reviewed by the team.
 
-2. **Regular Review Open Defects:** Open security defects SHOULD be regularly reviewed for relevance and possible quick wins.
+2. **Refine:** Teams CAN refine a finding score. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
 
-3. **Remediate Defects:** Security defects identified during the development process MUST be handled according to requirements in [{{site.TITLE_SSDLC_SECDEV_VULNREMED}}]({{site.URL_SSDLC_SECDEV_VULNREMED}}). Defects identified in prod or pre-prod environments MUST be managed according to requirements in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOPP_VULNREMED}}).
+3. **Track:** Security defects MUST be tracked in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
+
+4. **Mitigate**
+    - Vulnerabilities MUST be mitigated within the development process according to [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})
+    - If a vulnerability exist in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
+
+5. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
+
+6. **Retest After Mitigation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
+
+7. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
+
+8. **Regular Review:** Open security defects SHOULD be regularly reviewed for relevance and possible quick wins.
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
