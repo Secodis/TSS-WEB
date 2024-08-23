@@ -111,7 +111,7 @@ This section is relevant for the target production environment:
 
 6. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
 
-## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
+## {{site.TITLE_SSDLC_SECDEV_VULNREMED}}
 
 1. **Review Findings:** Findings SHOULD always be reviewed by the team.
 
