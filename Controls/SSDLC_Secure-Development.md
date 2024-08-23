@@ -115,11 +115,11 @@ This section is relevant for the target production environment:
 
 Security findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated before a new application release is allowed to go live:
 
-1. **Enforce Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
+1. **Verify Findings:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
 
-2. **Remediate Findings:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD not go live without proper verification.
+2. **Refine Findings:** Teams CAN refine findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g. CVSS vector) MUST be documented.
 
-3. **Reassess Tool Findings:** Teams MAZ reassess tool findings. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the rationale (e.g. CVSS vector) MUST be documented.
+3. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
 
 4. **Retest After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
