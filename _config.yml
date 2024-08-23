@@ -182,7 +182,7 @@ TITLE_SSDLC_SECOP_MAINTANENCE: "A.5.9 System Maintenance"
 URL_SSDLC_SECOP_MAINTANENCE: /Controls/SSDLC_Secure-Operation#a59-system-maintenance
 
 TITLE_SSDLC_SECOP_VULNREMED: "A.5.10 Vulnerability Management"
-URL_SSDLC_SECOP_VULNREMED: /Controls/SSDLC_Secure-Operation#a510-vulnerability-remediation
+URL_SSDLC_SECOP_VULNREMED: /Controls/SSDLC_Secure-Operation#a510-vulnerability-management
 
 TITLE_SSDLC_SECOP_INCIDENTMGMT: "A.5.11 Incident Management"
 URL_SSDLC_SECOP_INCIDENTMGMT: /Controls/SSDLC_Secure-Operationn#a511-incident-management
