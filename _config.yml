@@ -127,7 +127,7 @@ URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a25-security-of-th
 TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Gates"
 URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a26-security-project-gates
 
-TITLE_SSDLC_SECDEV_VULNREMED: "A.2.7 Mitigation of Security Findings"
+TITLE_SSDLC_SECDEV_VULNREMED: "A.2.7 Handling Security Findings"
 URL_SSDLC_SECDEV_VULNREMED: /Controls/SSDLC_Secure-Development#a27-remediation-of-security-findings
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
