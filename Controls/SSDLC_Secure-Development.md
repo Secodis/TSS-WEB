@@ -113,19 +113,19 @@ This section is relevant for the target production environment:
 
 ## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
 
-1. **Verify Tool Findings:** All tool findings with criticality ratings of >= *[MEDIUM]* (or a CVSS v3 Score of >= 5.0) SHOULD be verified.
+1. **Refine Findings:** Teams CAN refine a finding scoring. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
 
-2. **Refine Findings:** Teams CAN refine a finding scoring. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
+2. **Mitigate Findings:** 
+    - For  *risk class >= [HIGH]*, scurity findings with a *criticality >= [MEDIUM]* rating (or CVSS[^2] v3 Score >= 5.0) MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod environment.
+    - For  *risk class < [HIGH]*, scurity findings with a *criticality >= [HIGH]* rating (or CVSS[^2] v3 Score >= 7.0) MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod environment.
 
-3. **Mitigate Findings:** Security findings with a *criticality >= [HIGH]* rating (or CVSS[^2] v3 Score >= 7.0) MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod environment.
+3. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
 
-4. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
+4. **Retest After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
-5. **Retest After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
+5. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
-6. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
-
-7. **Remediate in Production:** If a vulnerability may already exist in production, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
+6. **Remediate in Production:** If a vulnerability may already exist in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
 
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
