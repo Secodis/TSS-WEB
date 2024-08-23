@@ -113,13 +113,13 @@ This section is relevant for the target production environment:
 
 ## {{site.TITLE_SSDLC_SECDEV_VULMREM}}
 
-1. **Verify Findings:** Security findings with criticality ratings of *[MEDIUM]* or greater (or a CVSS v3 Score of 5.0 or higher) SHOULD be verified.
+1. **Verify Tool Findings:** All tool findings with criticality ratings of >= *[MEDIUM]* (or a CVSS v3 Score of >= 5.0) SHOULD be verified.
 
-2. **Refine Findings:** Teams CAN refine finding scoring. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a rating/score is refined, the original score (e.g. CVSS vector) MUST be documented.
+2. **Refine Findings:** Teams CAN refine a finding scoring. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
 
-3. **Mitigate Findings:** Security findings with a *criticality >= [HIGH]* rating (or CVSS[^2] v3 Score >= 7.0) MUST be sufficiently mitigated or managed before a new application release is allowed to go live.
+3. **Mitigate Findings:** Security findings with a *criticality >= [HIGH]* rating (or CVSS[^2] v3 Score >= 7.0) MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod environment.
 
-4. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., as a Jira ticket).
+4. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
 
 5. **Retest After Remediation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
