@@ -45,7 +45,7 @@ toc_sticky: true
 
 6. **API Scanning:** For *risk class >= [HIGH]*, exposed APIs SHOULD be automatically tested for security issues.
 
-7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits, throttling and executing fuzzing tests.
+7. **Denial-of-Service Testing:** For *risk class [HIGH]* SHOULD be automatically tested for denial-of-service attackability, e.g. by testing enforced rate limits and fuzzing.
 
 8. **Vulnerability Scanning:** Systems MUST be periodically scanned for vulnerabilities such as missing security patches and CVEs according to [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}}).
 
@@ -68,7 +68,7 @@ toc_sticky: true
 | **>= [HIGH]** | Before initial go live but at least annually[^1]  | ASAP after initial go-live but at least every third year  |
 | **< [HIGH]** | Before initial go live but at least every second year  | - | 
 
-2. **Pentest Environment:** Penetration tests SHOULD be carried out within an environment that is close to production (e.g. on the acceptance environment).
+2. **Pentest Environment:** Penetration tests SHOULD be carried out within a pre-production environment  (e.g. the acceptance environment).
 
 3. **Retests Findings:** After a severe vulnerability has been fixed that was identified by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
    
