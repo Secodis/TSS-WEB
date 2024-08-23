@@ -6,8 +6,6 @@ toc_sticky: true
 ---
 # A.5 - Secure Operation
 
-The following requirements apply to systems (infrastructure, platforms, or other runtime environments) on which applications in the target production environment are executed:
-
 ## {{site.TITLE_SSDLC_SECOP_SEPERATION}}
 
 Systems in production MUST be strictly separated from development and test systems:
