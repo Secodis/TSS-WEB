@@ -106,7 +106,7 @@ Administrative access MUST be as strongly restricted:
 
 Productive systems MUST be periodically scanned for potential security issues (even if they are not changed):
 
-1. **Missing Security Patches:** Systems MUST be continously scanned for missing security patches and eisting CVEs.
+1. **Identify Missing Security Patches:** Systems MUST be continously scanned for missing security patches and existing CVEs on OS and application layer.
    
 2. **Verify TLS Security:** Exposed TLS endpoints MUST be regularly scaned for TLS hardening issues and validity of used X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})[^1]
 
@@ -114,7 +114,7 @@ Productive systems MUST be periodically scanned for potential security issues (e
 
 4. **Detect Configuration Drifts:** For *risk class >= [HIGH]*, systems SHOULD be tested for drifts of productive configuration (drift detection).
 
-Please also review the requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}) as well as [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.URL_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
+Please review pentest requirements at [{{site.TITLE_SSDLC_SECTESTS_PENTESTS}}]({{site.URL_SSDLC_SECTESTS_PENTESTS}}) which also affect productive applications. 
 
 ## {{site.TITLE_SSDLC_SECOP_MONITORING}}
 For *risk class >= [HIGH]*: 
