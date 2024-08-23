@@ -19,7 +19,10 @@ toc_sticky: true
          - secure coding training and training of secure design principles for developers, and
          - SSDLC training for project management role such as Product Owners.
 
-4. **Security Onboarding:** New developers &  teams MUST receive a security onboardong by their *IT security function*.
+4. **Security Onboarding:** New developers &  teams MUST receive a security onboardong.
+
+5. **Guardrails:** Dev teams SHOULD have the authority to manage their own security 
+ within predefined boundaries
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
