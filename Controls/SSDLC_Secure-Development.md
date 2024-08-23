@@ -21,7 +21,7 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
-1. **Embrace Security Principles:** Security MUST be strongly considered during the design phase. Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
+1. **Embrace Security Principles:** Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
 
 2. **Use Mature Technologies:** Applications and services SHOULD prioritize and utilize established security features, languages, and frameworks.
 
