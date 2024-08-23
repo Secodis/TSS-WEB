@@ -109,7 +109,7 @@ This section is relevant for the target production environment:
 
 5. **Release Gate:**
     - Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
-    - Mitigate before Production:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
+    - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
 
