@@ -24,14 +24,14 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_DEFECTH}}
 
-1. **Review:** Findings SHOULD always be reviewed by the team.
+1. **Review:** Security findings SHOULD always be reviewed by the team to verify their validity.
 
-2. **Refine:** Teams CAN refine a finding score. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
+2. **Refine:** Teams CAN refine a score of a security finding. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
 
-3. **Track:** Security defects MUST be tracked in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
+3. **Track:** Verified security findings MUST be tracked as defects in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
 
 4. **Mitigate**
-    - Vulnerabilities MUST be mitigated within the development process according to [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})
+    - Vulnerabilities MUST be mitigated within the development process according to release gate requirements defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
     - If a vulnerability exist in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
 
 5. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
