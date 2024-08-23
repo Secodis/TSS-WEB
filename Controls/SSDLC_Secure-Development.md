@@ -107,9 +107,13 @@ This section is relevant for the target production environment:
    - MUST pass a security sign-off by the *IT security function* before they are allowed to be used in the target production environment.
    - The *IT security function* MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
 
-5. **Continuous Release Gates:** Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
+5. **Release Gate:**
+    - Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
+    - Mitigate before Production:** Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
+        - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
+        - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
 
-6. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
+7. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
 
 ## {{site.TITLE_SSDLC_SECDEV_VULNREMED}}
 
