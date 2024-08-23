@@ -142,9 +142,7 @@ For *risk class >= [HIGH]*:
 
 2. In cases where root cause remediation requires a significant amount of time and the risk posed by the vulnerability is also significant, temporary measures (e.g., workarounds) SHOULD be implemented to reduce exploitability as soon as possible until the actual root cause is fixed.
 
-3. The *IT security function* MAY extend SLAs if justified from an individual risk evaluation. SLA (Service Level Agreements) extensions MUST be documented along with their justification.
-
-4. Vulnerabilities in productive applications and services MUST be remediated or have their exploitability prevented within the following SLA:
+3. Vulnerabilities in productive applications and services MUST be remediated or have their exploitability prevented within the following SLA:
 
 Internet-facing applications or services:
 
@@ -159,6 +157,8 @@ Internal applications or services:
 | -------------| ------------- | ------------- | ------------- |
 | **Critical Application** | Within **7 days**  | Within **30 days**  | Within the next release, but after **12 months** at the latest. |
 | **Non-Critical Application**| Within **21 days**  | Within **60 days**  | - |
+
+The *IT security function* MAY extend SLAs if justified from an individual risk evaluation. SLA  extensions MUST be documented along with their justification.
    
 ## {{site.TITLE_SSDLC_SECOP_INCIDENTMGMT}}
 
