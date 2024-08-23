@@ -22,7 +22,7 @@ toc_sticky: true
 
 2. **Security Onboarding:** New developers &  teams MUST receive a security onboarding.
 
-3. **Role-Specific Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training and training of secure design principles for developers.
+3. **Role-Specific Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training for developers.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
