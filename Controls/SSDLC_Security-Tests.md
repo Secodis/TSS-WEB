@@ -73,16 +73,16 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECTESTS_PENTESTS}}
 
-1. **Pentest Policy:** Applications and services MUST be verified by penetration tests according to the following policy:
+1. **Pentest Environment:** Penetration tests SHOULD be carried out within a pre-production environment  (e.g. the acceptance environment).
+
+2. **Retests Findings:** After a severe vulnerability has been fixed that was identified by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
+
+3. **Pentest Policy:** Applications and services MUST be verified by penetration tests according to the following policy:
 
 | Business Criticality | External Applications  | Internal Applications |
 | ------------- | ------------- | ------------- |
 | **>= [HIGH]** | Before initial go live but at least annually[^1]  | ASAP after initial go-live but at least every third year  |
 | **< [HIGH]** | Before initial go live but at least every second year  | - | 
-
-2. **Pentest Environment:** Penetration tests SHOULD be carried out within a pre-production environment  (e.g. the acceptance environment).
-
-3. **Retests Findings:** After a severe vulnerability has been fixed that was identified by a pentest, a retest should be executed, ideally by the same tester, in order to verify the correct implementation of the fix.
    
 
 [^1]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
