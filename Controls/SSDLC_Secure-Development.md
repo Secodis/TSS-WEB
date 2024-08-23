@@ -16,14 +16,13 @@ toc_sticky: true
 3. **Guardrails:** Dev teams SHOULD have the authority to manage their own security 
  within predefined boundaries
 
-4. **Security Onboarding:** New developers &  teams MUST receive a security onboardong.
+## {{site.TITLE_SSDLC_SECDEV_TRAINING}}
 
-5. **Security Know-How:**
-    - It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role.
-    - This SHOULD be achieved by providing general awareness and role-specific security training or coaching of team members, including   
-         - secure coding training and training of secure design principles for developers, and
-         - SSDLC training for project management role such as Product Owners.
+1. **Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role.
 
+2. **Security Onboarding:** New developers &  teams MUST receive a security onboardong.
+
+3. **Role-Specific Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training and training of secure design principles for developers.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
