@@ -57,7 +57,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 5. **Concider Implementation Controls:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
-6. **Verify Security:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+6. **Verify Secure Implementation:** Correct implementation of security requirements MUST be verified according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 ## {{site.TITLE_SSDLC_SECDEV_BUILD}}
 
