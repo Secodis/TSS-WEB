@@ -125,10 +125,7 @@ TITLE_SSDLC_SECDEV_3RDPARTY: "A.2.5 Security of Third-Party Dependencies"
 URL_SSDLC_SECDEV_3RDPARTY: /Controls/SSDLC_Secure-Development#a25-security-of-third-party-dependencies
 
 TITLE_SSDLC_SECDEV_SECGATES: "A.2.6 Security Gates"
-URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a26-security-project-gates
-
-TITLE_SSDLC_SECDEV_VULNREMED: "A.2.7 Handling Security Findings"
-URL_SSDLC_SECDEV_VULNREMED: /Controls/SSDLC_Secure-Development#a27-remediation-of-security-findings
+URL_SSDLC_SECDEV_SECGATES: /Controls/SSDLC_Secure-Development#a26-security-gates
 
 TITLE_SSDLC_SECTESTS: "A.3 - Security Tests"
 URL_SSDLC_SECTESTS: /Controls/SSDLC_Security-Tests
