@@ -9,20 +9,21 @@ toc_sticky: true
 
 ## {{site.TITLE_SSDLC_SECDEV_ROLES}}
 
-1. **Team Responsibility:** Each dev team MUST be responsible for the security of their own code and applications (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
+1. **Team Responsibility:** Dev teams MUST be responsible for the security of their own code and applications (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
 
-2. **Security Champions:** Each deve team CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
+2. **Security Champions:** Deve teams CAN appoint a security champion as outlined in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
-3. **Security Know-How:**
+3. **Guardrails:** Dev teams SHOULD have the authority to manage their own security 
+ within predefined boundaries
+
+4. **Security Onboarding:** New developers &  teams MUST receive a security onboardong.
+
+5. **Security Know-How:**
     - It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role.
     - This SHOULD be achieved by providing general awareness and role-specific security training or coaching of team members, including   
          - secure coding training and training of secure design principles for developers, and
          - SSDLC training for project management role such as Product Owners.
 
-4. **Security Onboarding:** New developers &  teams MUST receive a security onboardong.
-
-5. **Guardrails:** Dev teams SHOULD have the authority to manage their own security 
- within predefined boundaries
 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
