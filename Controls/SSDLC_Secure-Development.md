@@ -75,7 +75,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 7. **Sign Artefacts:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
 
-8. **Verify Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified within a release gate (see below).
+8. **Verify Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified within a release gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})
 
 ## {{site.TITLE_SSDLC_SECDEV_3RDPARTY}}
 
@@ -103,7 +103,7 @@ This section is relevant for the target production environment:
 
 3. **Release Gate:**
     - Initial releases (go live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the production environment.
-    - Subsequent releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
+    - Subsequent releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
