@@ -101,16 +101,17 @@ This section is relevant for the target production environment:
    - New projects that are either implementing new applications or services, or that plan to change existing ones MUST conduct a security kick-off from the *IT security function* before they are allowed to be started.
    - As part of this kick-off, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
-2. **Architecture Approval:** New architectures, or substantial changes to existing ones, MUST be approved by the *IT security function* and respective architecture function before initial implementation is allowed to begin.
+2. **Architecture Approval:** 
+    - New architectures, or substantial changes to existing ones, MUST be approved by the *IT security function* and respective architecture function before initial implementation is allowed to begin.
 
 3. **Release Gate:**
-    - Initial releases (go live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the prod environment.
-    - All releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
+    - Initial releases (go live) for *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the prod environment.
+    - Releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
-        - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
-        - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
+        - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 score >= 5.0)
+        - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 score >= 7.0)
     - Violation of release requirements MUST necessitate approval (e.g., risk acceptance) to be overruled.
-    - If mitigation is not feasible, the relevant risk MUST be accepted by the respective management function (e.g., project lead).
+   
       
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
