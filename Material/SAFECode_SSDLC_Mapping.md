@@ -57,7 +57,7 @@ Covered in [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDE
 
 ### Use Code Analysis Tools to Find Security Issues Early
 
-Covered in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
+Covered in [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
 ### Handle Data Safely
 
@@ -71,7 +71,7 @@ Covered in [{{site.TITLE_IMPL_ERRORLOG}}]({{site.URL_IMPL_ERRORLOG}}).
 
 ## Testing and Validation
 
-Covered in [{{site.TITLE_IMPL_ERRORLOG}}]({{site.URL_IMPL_ERRORLOG}}).
+Covered in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
 
 ### Automated Testing
 
