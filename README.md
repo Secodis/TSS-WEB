@@ -44,10 +44,6 @@ The goal is to provide a foundation that works for most organizations. In many c
 * [{{site.TITLE_IMPL_CLIENTSEC}}]({{site.URL_IMPL_CLIENTSEC}})
 * [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})
   
-# Legacy Versions
-
-You can find older versions of TSS-WEB in both English and German in PDF and MS Word format [here](https://secodis.atlassian.net/wiki/spaces/TSSWEB).
-
 # Related Standards
 
 Generally, TSS-WEB aims to incorporate requirements from existing standards and best practices in this field that are suitable to establish baseline security. However, that does not mean that every requirement is integrated, particularly those that address edge case or too specific scenarios.
@@ -58,6 +54,7 @@ The following table outlines the coverage of some important standards in this ar
 | ------------- | ------------- |
 | [Microsoft SDL (2024)](https://www.microsoft.com/en-us/securityengineering/sdl) | Full coverage by SSDLC controls. See [{{site.TITLE_MATERIAL_MSSDLMAPPING}}]({{site.URL_MATERIAL_MSSDLMAPPING}}). |
 | [NIST SSDF 1.1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf)  | NIST SP 800-218, the Secure Software Development Framework (SSDF). See [{{site.TITLE_MATERIAL_SSDFMAPPING}}]({{site.URL_MATERIAL_SSDFMAPPING}}). |
+| [SAFECode Fundamental Practices for Secure Software Development](https://safecode.org/wp-content/uploads/2018/03/SAFECode_Fundamental_Practices_for_Secure_Software_Development_March_2018.pdf) | TBD |
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/27001)  | TSS-WEB implements 14.2.1 control ("Secure Development Policy") and covers controls 8.24 - 8.31. |
 | [OWASP TOP Ten 2021](https://owasp.org/www-project-top-ten/) | Full coverage by implementation controls. See [{{site.TITLE_MATERIAL_TOPTENMAPPING}}]({{site.URL_MATERIAL_TOPTENMAPPING}}). |
 | [OWASP SAMM 2.0](https://owaspsamm.org/model/) | OWASP SAMM has a different scope and goal but practices related to security requirements should generally be covered. See [{{site.TITLE_MATERIAL_SAMMMAPPING}}]({{site.URL_MATERIAL_SAMMMAPPING}}). |
