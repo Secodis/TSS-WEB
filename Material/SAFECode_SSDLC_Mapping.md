@@ -11,11 +11,17 @@ toc_sticky: true
 
 ## Application Security Control Definition
 
-TBD
+Covered as definition of application security architecture (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}})).
 
 ### Actively Manage Application Security Controls
 
-TBD
+Not covered that explicitely in the sense of a full Application Development Lifecycle Management (ADLM) as SAFEcode defines it yet.
+
+- Definition of application security architecture (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}))
+- its approval in the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}))
+- Assess Security of New Features (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}))
+
+(TODO)
 
 ## Design
 
@@ -29,7 +35,9 @@ See [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}})
 
 ### Develop an Encryption Strategy
 
-See [{{site.TITLE_IMPL_DATASEC}}]({{site.URL_IMPL_DATASEC}}).
+Requriements are covered in [{{site.TITLE_IMPL_DATASEC}}]({{site.URL_IMPL_DATASEC}}). 
+
+A full encryption strategy would be outside of the scope of TSS-WEB though.
 
 ### Standardize Identity and Access Management
 
@@ -87,11 +95,11 @@ Covered in [{{site.TITLE_SSDLC_SECTESTS_DEFECTH}}]({{site.URL_SSDLC_SECTESTS_DEF
 
 ### Define Severity
 
-TBD
+Dfined in release gate [{{site.TITLE_SSDLC_SECDEV_SECGATES}}({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
 ### Risk Acceptance Process
 
-TBD
+Risk acceptance is references in [{{site.TITLE_SSDLC_SECTESTS_DEFECTH}}]({{site.URL_SSDLC_SECTESTS_DEFECTH}}) but not explicitely defined in TSS-WEB. This would have to be done outside of TSS-WEB.
 
 ## Vulnerability Response and Disclosure
 
