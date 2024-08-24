@@ -7,7 +7,7 @@ toc_sticky: true
 
 # Mapping of SAFECode Practices for Secure Software Development (Draft)
 
-[Fundamental Practices for Secure Software Development](https://safecode.org/wp-content/uploads/2018/03/SAFECode_Fundamental_Practices_for_Secure_Software_Development_March_2018.pdf)
+SAFECode's [Fundamental Practices for Secure Software Development](https://safecode.org/wp-content/uploads/2018/03/SAFECode_Fundamental_Practices_for_Secure_Software_Development_March_2018.pdf) from 2018 are a collection of best practices for securing software development.
 
 ## Application Security Control Definition
 
@@ -57,7 +57,7 @@ Implicitly covered:
 
 Not covered.
 
-TSS-WEB only coveres implementation requirements in [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
+TSS-WEB only coveres implementation requirements in [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}) from which technology-specific coding guidelines or standards can be derived.
 
 ### Use Safe Functions Only
 
@@ -76,6 +76,8 @@ Covered in [{{site.TITLE_IMPL_DATASEC}}]({{site.URL_IMPL_DATASEC}}).
 Covered in [{{site.TITLE_IMPL_ERRORLOG}}]({{site.URL_IMPL_ERRORLOG}}).
 
 ## Manage Security Risk Inherent in the Use of Third-party Components 
+
+See [{{site.TITLE_SSDLC_SECDEV_3RDPARTY}}]({{site.URL_SSDLC_SECDEV_3RDPARTY}}).
 
 ## Testing and Validation
 
@@ -99,7 +101,10 @@ Dfined in release gate [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_S
 
 ### Risk Acceptance Process
 
-Risk acceptance is references in [{{site.TITLE_SSDLC_SECTESTS_DEFECTH}}]({{site.URL_SSDLC_SECTESTS_DEFECTH}}) but not explicitely defined in TSS-WEB. This would have to be done outside of TSS-WEB.
+Risk acceptance is referenced in 
+
+* Release Gate: [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})
+* Operatational Security: [{{site.TITLE_SSDLC_SECOP_VULNREMED}}}({{site.URL_SSDLC_SECOP_VULNREMED}})
 
 ## Vulnerability Response and Disclosure
 
