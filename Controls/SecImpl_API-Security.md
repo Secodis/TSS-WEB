@@ -4,9 +4,9 @@ Please note: For reasons of simplification, some of the following requirements t
 
 ## {{site.TITLE_IMPL_APISEC_GENERAL}}
 
-1. APIs SHOULD not exposed if not required.
+1. APIs SHOULD not be exposed if not required.
 2. External APIs SHOULD only be made available externally using a hardened service or API gateway.
-3. APIs MUST be restrictively validated using OpenAPI Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
+3. APIs MUST be restrictively validated,  preferably using OpenAPI Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
 3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval)[^1].
 
 ## {{site.TITLE_IMPL_APISEC_AUTH}}
@@ -15,14 +15,13 @@ Please note: For reasons of simplification, some of the following requirements t
 2. Shared secrets used for API authentication (e.g. API keys or OAuth 2.0 Client Secrets) MUST have the following characteristics:
     - Implemented according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
-    - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header). 
-3. For *risk class >= [HIGH]*, external service-to-service communication SHOULD be authenticated using asymmetric cryptography (e.g. X.509 certificates or signed JWT access tokens).
-4. Authentication credentials MUST be unique for each service/system and environment (e.g. serviceX in dev, serviceX test, serivceX in production).
+    - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header).
+3. Authentication credentials MUST be unique for each service/system and environment (e.g. serviceX in dev, serviceX test, serivceX in production).
 
 ## {{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}
 
-1. Services with *risk class >= [HIGH]* SHOULD be protected using Access Tokens (OAuth 2.0 or SAML) 
-2. Following requirements do apply to access tokens:
+1. Access to APIs with *risk class >= [HIGH]* SHOULD be granted using Access Tokens (OAuth 2.0 or SAML).
+2. Following requirements MUST apply to access tokens:
     - Short-lived (minutes or hours)
     - Implemented according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
     - Restrictive scope & audiance
@@ -39,7 +38,7 @@ Please note: For reasons of simplification, some of the following requirements t
     - For CSRF protection, Authorization Code Grant Flows MUST either use the “state” parameter, PKCE, or “OICD Nounces"
     - Clients MUST register (and be validated using) full redirect URI as described in [RFC 6819 Section 5.2.3.5](https://datatracker.ietf.org/doc/html/rfc6819#section-5.2.3.5) (no pattern matching).
     - Refresh tokens MUST be secured according to [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
-2. Service-to-service access SHOULD be protected using Client Credential Grant.
+2. Service-to-service access SHOULD be protected using Client Credential Grants.
 3. HTTPS MUST be used for all communication.
 
 See also requirements [{{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}]({{site.URL_IMPL_APISEC_ACCESS-TOKENS}}).
