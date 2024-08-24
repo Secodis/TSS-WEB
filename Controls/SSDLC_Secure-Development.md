@@ -29,7 +29,7 @@ toc_sticky: true
 
 4. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
-    - The threat model MUST be documented with mitigations and be incorporated into, or referenced from, the security architecture concept. 
+    - The threat model MUST be documented with mitigations and be incorporated into, or referenced from, the security architecture concept (see below). 
     - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
     - The threat model MUST be reviewed with every architectural change.
 
@@ -81,7 +81,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 ## {{site.TITLE_SSDLC_SECDEV_3RDPARTY}}
 
-This section is relevant for the target production environment:
+This section applies to third-party dependencies, both backend and frontend, intended for use in the production environment.
 
 1. **Use Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories. Exceptions are permitted only for isolated test environments
 
