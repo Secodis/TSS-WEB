@@ -53,11 +53,11 @@ Implicitly covered:
 
 ## Secure Coding Practices 
 
-Not explicitly covered.
-
 ### Establish Coding Standards and Conventions
 
-Not explicitly covered.
+Not covered.
+
+TSS-WEB only coveres implementation requirements in [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
 ### Use Safe Functions Only
 
@@ -95,7 +95,7 @@ Covered in [{{site.TITLE_SSDLC_SECTESTS_DEFECTH}}]({{site.URL_SSDLC_SECTESTS_DEF
 
 ### Define Severity
 
-Dfined in release gate [{{site.TITLE_SSDLC_SECDEV_SECGATES}}({{site.URL_SSDLC_SECDEV_SECGATES}}).
+Dfined in release gate [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
 ### Risk Acceptance Process
 
@@ -103,11 +103,9 @@ Risk acceptance is references in [{{site.TITLE_SSDLC_SECTESTS_DEFECTH}}]({{site.
 
 ## Vulnerability Response and Disclosure
 
-TBD
-
 ### Define Internal and External Policies
 
-TBD
+Should be covered within a seperate vulnerability management standard / process.
 
 ### Define Roles and Responsibilities
 
@@ -115,11 +113,13 @@ Covered in [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}}).
 
 ### Ensure that Vulnerability Reporters Know Whom to Contact
 
-Not covered.
+Should be covered within a seperate vulnerability management standard / process.
 
 ### Manage Vulnerability Reporters
 
-Not covered.
+Should be covered within a seperate vulnerability management standard / process.
+
+Should be covered within a seperate vulnerability management standard / process.
 
 ### Monitor and Manage Third-party Component Vulnerabilities
 
