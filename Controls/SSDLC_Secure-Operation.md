@@ -138,11 +138,11 @@ For *risk class >= [HIGH]*:
 
 ## {{site.TITLE_SSDLC_SECOP_VULNREMED}}
 
-1. Identified vulnerabilities in productive applications MUST generally be remediated quickly and effectively.
+1. Identified vulnerabilities in production applications and services MUST generally be remediated quickly and effectively.
 
-2. In cases where root cause remediation requires a significant amount of time and the risk posed by the vulnerability is also significant, temporary measures (e.g., workarounds) SHOULD be implemented to reduce exploitability as soon as possible until the actual root cause is fixed.
+2. When root cause remediation requires significant time, and the associated risk is substantial, temporary measures (e.g., workarounds) SHOULD be implemented as soon as possible to reduce exploitability until the root cause is fully addressed.
 
-3. Vulnerabilities in productive applications and services MUST be remediated or have their exploitability prevented within the following SLA:
+3. Vulnerabilities in production applications and services MUST be remediated or have their exploitability mitigated within the following Service Level Agreement (SLA):
 
 Internet-facing applications or services:
 
