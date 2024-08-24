@@ -34,13 +34,11 @@ toc_sticky: true
     - Vulnerabilities MUST be mitigated within the development process according to release gate requirements defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
     - If a vulnerability exist in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
 
-5. **Conduct Risk Acceptance:** If mitigation is not possible, the relevant risk MUST be accepted by the respective management function (e.g., project lead). For applications with an *risk class >= [HIGH]*, this risk acceptance MUST be formally documented (e.g., within a defect tracking system).
+5. **Retest After Mitigation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
-6. **Retest After Mitigation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
+6. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
 
-7. **Approve Exceptions:** For *risk class >= [HIGH]*: exceptions (such as temporary workarounds) MUST be approved by the *IT security function*.
-
-8. **Regular Review:** Open security defects SHOULD be regularly reviewed for relevance and possible quick wins.
+7. **Regular Review:** Open security defects SHOULD be regularly reviewed for relevance and possible quick wins.
 
 ## {{site.TITLE_SSDLC_SECTESTS_SECSCANS}}
 
