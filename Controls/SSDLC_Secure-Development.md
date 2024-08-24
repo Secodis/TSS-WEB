@@ -96,22 +96,24 @@ This section is relevant for the target production environment:
 ## {{site.TITLE_SSDLC_SECDEV_SECGATES}}
 
 1. **Initial Project Kick-Off:**
-   - All new projects that are either implementing new applications or that plan to change existing ones MUST conduct a security kick-off from the *IT security function* before they are allowed to be started.
+   - New projects that are either implementing new applications or servoces, or that plan to change existing ones MUST conduct a security kick-off from the *IT security function* before they are allowed to be started.
    - As part of this kick-off, the *IT security function* CAN specify the risk class with the project and may define security controls that have to be implemented or security activities that have to be conducted by the project.
 
-2. **Architecture Approval (Conditional):** For all new applications with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function* during the project approval:
+2. **Architecture Approval (Conditional):** New applications or services with *risk class >= [HIGH]*, or if explicitly requested by the *IT security function*, e.g. during the project kick-off:
    - The security architecture (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}) MUST be approved by the *IT security function* before initial implementation is allowed to begin.
    - The *IT security function* MAY request this approval to be renewed for architectural changes when certain criteria are met.
 
 4. **Go-Live Approval (Conditional):** Initial application releases for applications with *risk class >= [HIGH]*
-   - MUST pass a security sign-off by the *IT security function* before they are allowed to be used in the target production environment.
-   - The *IT security function* MAY decide within the project approval as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
+   - MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the production environment.
+   - The *IT security function* MAY decide within the initial project kick-off as well that this approval is required for subsequent releases (e.g. based on certain criteria) or projects with a lower risk class.
 
 5. **Release Gate:**
     - Releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
+    - Violation of release requirements MUST require an approval (e.g. a risk acceptance)
+
 
 7. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
 
