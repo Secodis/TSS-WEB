@@ -170,7 +170,7 @@ TITLE_SSDLC_SECOP_ADMINACCESS: "A.5.6 Administrative Access"
 URL_SSDLC_SECOP_ADMINACCESS: /Controls/SSDLC_Secure-Operation#a56-administrative-access
 
 TITLE_SSDLC_SECOP_SECSCANNING: "A.5.7 Security Scanning in Production"
-URL_SSDLC_SECOP_SECSCANNING: /Controls/SSDLC_Secure-Operation#a57-security-scanning
+URL_SSDLC_SECOP_SECSCANNING: /Controls/SSDLC_Secure-Operation#a57-security-scanning-in-production
 
 TITLE_ SSDLC_SECOP_MONITORING: "A.5.8 Security Monitoring and Alerting"
 URL_SSDLC_SECOP_MONITORING: /Controls/SSDLC_Secure-Operation#a58-security-monitoring
