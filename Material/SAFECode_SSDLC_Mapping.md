@@ -9,6 +9,8 @@ toc_sticky: true
 
 SAFECode's [Fundamental Practices for Secure Software Development](https://safecode.org/wp-content/uploads/2018/03/SAFECode_Fundamental_Practices_for_Secure_Software_Development_March_2018.pdf) from 2018 are a collection of best practices for securing software development.
 
+TSS-WEB addresses the requirement-relevant aspects of these practices. However, many of the practices are more specialized, focusing on general vulnerability management or organizing AppSec programs, and are therefore not covered.
+
 ## Application Security Control Definition
 
 Covered as definition of application security architecture (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}})).
@@ -124,8 +126,6 @@ Should be covered within a seperate vulnerability management standard / process.
 
 Should be covered within a seperate vulnerability management standard / process.
 
-Should be covered within a seperate vulnerability management standard / process.
-
 ### Monitor and Manage Third-party Component Vulnerabilities
 
 Covered in [{{site.TITLE_SSDLC_SECDEV_3RDPARTY}}]({{site.URL_SSDLC_SECDEV_3RDPARTY}}).
@@ -136,7 +136,9 @@ Covered in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREM
 
 ### Vulnerability Disclosure
 
-TBD
+Not covered (yet).
+
+Is only relevant for external development and therefore too specific control.
 
 ### Secure Development Lifecycle Feedback
 
