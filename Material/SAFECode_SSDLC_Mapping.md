@@ -21,7 +21,7 @@ Not covered that explicitely in the sense of a full Application Development Life
 - its approval in the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}))
 - Assess Security of New Features (see [{{site.TITLE_SSDLC_SECDEV_SECDESIGN}}]({{site.URL_SSDLC_SECDEV_SECDESIGN}}))
 
-(TODO)
+TODO: Should be checked if this requiremend is covered.
 
 ## Design
 
