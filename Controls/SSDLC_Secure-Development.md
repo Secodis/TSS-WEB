@@ -67,15 +67,17 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 3. **Automate Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
-4. **Protect Secrets:** Secrets SHOULD be injected during the deployment process in accordance with the requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
+4. **Enforce Security Policy:** See release gate at [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
-5. **Implement a Pull-Based Deployment Model:** Deployment pipelines SHOULD implement a pull-based model[^3].
+5. **Protect Secrets:** Secrets SHOULD be injected during the deployment process in accordance with the requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
-6. **Create SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
+6. **Implement a Pull-Based Deployment Model:** Deployment pipelines SHOULD implement a pull-based model[^3].
 
-7. **Sign Artefacts:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
+7. **Create SBOMs:** A Software Bill of Materials (SBOM) MUST be created for all build and release artifacts.
 
-8. **Verify Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified within a release gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})
+8. **Sign Artefacts:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
+
+9. **Verify Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
 ## {{site.TITLE_SSDLC_SECDEV_3RDPARTY}}
 
