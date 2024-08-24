@@ -102,12 +102,12 @@ This section is relevant for the target production environment:
 2. **Architecture Approval:** New architectures, or substantial changes to existing ones, MUST be approved by the *IT security function* and respective architecture function before initial implementation is allowed to begin.
 
 3. **Release Gate:**
-    - Initial releases (Go Live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the production environment.
+    - Initial releases (go live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the production environment.
     - Subsequent releases SHOULD be automatically tested against a security policy before deployment to production to prevent the deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
-    - Violation of release requirements MUST require an approval (e.g. a risk acceptance)
+    - Violation of release requirements MUST require an approval (e.g. a risk acceptance) to be overruled.
 
 4. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
 
