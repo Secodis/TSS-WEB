@@ -142,7 +142,9 @@ For *risk class >= [HIGH]*:
 
 2. When root cause remediation requires significant time, and the associated risk is substantial, temporary measures (e.g., workarounds) SHOULD be implemented as soon as possible to reduce exploitability until the root cause is fully addressed.
 
-3. Vulnerabilities in production applications and services MUST be remediated or have their exploitability mitigated within the following Service Level Agreement (SLA):
+3. If mitigation is not feasible, the relevant risk MUST be accepted by the respective management function (e.g., project lead).
+
+4. Vulnerabilities in production applications and services MUST be remediated or have their exploitability mitigated within the following Service Level Agreement (SLA):
 
 Internet-facing applications or services:
 
