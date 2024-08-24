@@ -47,11 +47,11 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
-1. **Use a SCM:** All changes of source code MUST be committed to a source code management system (SCM) such as Git.
+1. **Utilize Source Control:** All source code changes MUST be committed to a source code management (SCM) system, such as Git.
 
 2. **Enforce Branch Protection:** For master/main branches, protected branch rules MUST be enforced.
 
-3. **Perform Peer Reviews:** For applications and services with *risk class >= [HIGH]*, all commits to protected branches MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) for security aspects.
+3. **Perform Peer Reviews:** For applications and services with *risk class >= [HIGH]*, every commit to a protected branch MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) and include an assessment of security aspects.
 
 4. **Sign Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
 
