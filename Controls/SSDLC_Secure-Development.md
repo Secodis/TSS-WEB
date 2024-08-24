@@ -36,12 +36,12 @@ toc_sticky: true
 5. **Define the Security Architecture:** For *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application and subject of the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})).
 
 6. **Assess Security of New Features:**
-Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are allocated for development (e.g.assigned to a sprint).
-   - This assessment MAY be conducted informally by a team if it gained sufficient experience.
+Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance[^1)) before they are allocated for development (e.g.assigned to a sprint).
+   - This assessment MAY be conducted informally by a team if it gained sufficient expertise.
    - Teams MAY define their own criteria for security relevance.
-   - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
-   - Threat models and risk class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
-   - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes[^1]. Agile teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
+   - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take necessary security efforts (e.g. for verification) into account for the estimation of a story.
+   - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
+   - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
 
 7. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
