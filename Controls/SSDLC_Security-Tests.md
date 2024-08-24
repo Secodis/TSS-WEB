@@ -26,7 +26,7 @@ toc_sticky: true
 
 1. **Review:** Security findings SHOULD always be reviewed by the team to verify their validity.
 
-2. **Refine:** Teams CAN refine a score of a security finding. For example, they can refine a CVSS Base Score by evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account. When a score is refined, the original score (e.g. base CVSS vector) MUST be documented.
+2. **Refine:** Teams CAN refine a severity of a security finding[^2], rate it as a false positive or not applicable (requires explanation).
 
 3. **Track:** Verified security findings MUST be tracked as defects in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
 
@@ -86,3 +86,5 @@ toc_sticky: true
    
 
 [^1]: In the case where it is ensured that no changes are made to an application, this interval MAY be extended by one additional year.
+
+[^2]: For example, they can refine a CVSS Base Score by  evaluating its CVSS Environmental Score, taking aspects such as classification or accessibility into account.
