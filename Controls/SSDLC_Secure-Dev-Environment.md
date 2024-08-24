@@ -12,7 +12,7 @@ toc_sticky: true
 
 2. **Protect Secrets:** Secrets used for accessing development systems MUST be secured according to requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).[^1]
 
-3. **Role-Based Access Control (RBAC):** Access SHOULD be granted based on role-based access control (RBAC).
+3. **Implement Role-Based Access Control (RBAC):** Access SHOULD be granted based on role-based access control (RBAC).
 
 4. **Avoid Local Identities:** Local user identities SHOULD not be used. Instead, use a centralized identity provider (IdP).
 
