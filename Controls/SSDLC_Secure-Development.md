@@ -67,7 +67,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 3. **Automate Security Checks:** Automated security checks MUST be integrated into the build and deployment processes in accordance with the requirements specified in [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
-4. **Enforce Security Policy:** See release gate at [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
+4. **Enforce Security Policy:** A security policy MUST be enforced at a release gate according to [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
 
 5. **Protect Secrets:** Secrets SHOULD be injected during the deployment process in accordance with the requirements at [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}}).
 
