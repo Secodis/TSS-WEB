@@ -57,7 +57,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 5. **Implement Security Controls:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
-6. **Verify Secure Implementation:** Correct implementation of security requirements MUST be verified and defects managed according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+6. **Verify Secure Implementation:** Correct implementation of security requirements MUST be verified and defects managed according to requirements specified in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}})).
 
 ## {{site.TITLE_SSDLC_SECDEV_BUILD}}
 
@@ -103,7 +103,7 @@ This section is relevant for the target production environment:
 
 3. **Release Gate:**
     - Initial releases (go live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the production environment.
-    - Subsequent releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
+    - All releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
