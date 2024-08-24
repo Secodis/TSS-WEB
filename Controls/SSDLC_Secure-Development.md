@@ -33,7 +33,7 @@ toc_sticky: true
     - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
     - The threat model MUST be reviewed with every architectural change.
 
-5. **Define the Security Architecture:** For applications and services with *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application.
+5. **Define the Security Architecture:** For *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application and subject of the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})).
 
 6. **Assess Security of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance) before they are allocated for development (e.g.assigned to a sprint).
@@ -41,7 +41,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Teams MAY define their own criteria for security relevance.
    - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take security efforts (e.g. for verification) into account for the estimation of a story.
    - Threat models and risk class MUST be reviewed and updated if affected (e.g. in case of changes in security controls or architectural change in general).
-   - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
+   - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes[^1]. Agile teams SHOULD integrate corresponding criteria in their Definition of Done (DoD).
 
 7. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
@@ -104,14 +104,12 @@ This section is relevant for the target production environment:
 2. **Architecture Approval:** New architectures, or substantial changes to existing ones, MUST be approved by the *IT security function* and respective architecture function before initial implementation is allowed to begin.
 
 3. **Release Gate:**
-    - Initial releases (go live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the production environment.
+    - Initial releases (go live) for applications with *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the prod environment.
     - All releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 Score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 Score >= 7.0)
     - Violation of release requirements MUST require an approval (e.g. a risk acceptance) to be overruled.
-
-4. **Document Gate Decisions:** Gate decisions MUST be documented. This CAN be done in a ticket or log entry.
 
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
