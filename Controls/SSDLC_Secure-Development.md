@@ -113,7 +113,7 @@ This section applies to third-party dependencies, both backend and frontend, int
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 score >= 7.0)
     - Violation of release requirements MUST necessitate approval (e.g., risk acceptance) to be overruled.
-    - Gate policies should be transparent, enabling dev teams to continuously assess their code against it to avoid potential impediments.
+    - Gate policies should be transparent, enabling dev teams to continuously assess their code against it to avoid impediments in the realease process.
       
 [^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
