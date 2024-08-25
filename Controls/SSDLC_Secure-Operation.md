@@ -43,6 +43,7 @@ This includes:
 See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}}) for requirements on verification of effective hardening.
 
 ## {{site.TITLE_SSDLC_SECOP_CONTAINERSEC}}
+
 1. **Build Securely:** Containers MUST be executed only if they are built using trusted repositories, hardened base images, minimal dependencies, and updated OS packages.
 
 2. **Run Security Scans:** For *risk class [HIGH]*, containers MUST be periodically scanned for insecure third-party components and misconfigurations.
@@ -53,8 +54,7 @@ See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}
 
 5. **Enforce Container Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
 
-6. **Label Container:**  
-   Containers MUST have labels that indicate the application or service they belong to and its responsible team.
+6. **Label Container:** Containers MUST have labels that indicate the application or service they belong to and its responsible team.
 
 ## {{site.TITLE_SSDLC_SECOP_SECBACKEND}}
 
@@ -80,7 +80,7 @@ See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}
 
 6. **Use a Web Application Firewall (WAF):** A web application firewall MAY be used as an additional layer of protection for web UIs.
 
-7. **Use an API Gateway:** An API Gateway SHOULD be used as an additional layer of protection for exposed APIs.
+7. **Use an API Gateway:** An API Gateway SHOULD be used as an additional layer of protection for exposed APIs (see [{{site.TITLE_IMPL_APISEC}}]({{site.URL_IMPL_APISEC}})).
 
 ## {{site.TITLE_SSDLC_SECOP_ADMINACCESS}}
 
