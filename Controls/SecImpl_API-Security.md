@@ -16,7 +16,7 @@ Note: For reasons of simplification, some of the following requirements that ref
     - Implemented according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
     - Stored securely according to the requirements specified in [{{site.TITLE_IMPL_SECRETS}}]({{site.URL_IMPL_SECRETS}})
     - Transmitted outside of URLs (e.g. via HTTP POST or HTTP header).
-3. Authentication credentials MUST be unique for each service/system and environment (e.g. serviceX in dev, serviceX test, serivceX in production).
+3. Authentication credentials MUST be unique for each service/system and environment (e.g. serviceX in dev, serviceX test, serviceX in production).
 
 ## {{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}
 
