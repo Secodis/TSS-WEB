@@ -16,7 +16,7 @@ Suppliers MUST comply with the following requirements:
    - Provide evidence[^1] that security has been considered throughout the development process.
    - Develop a security concept that complies with the security documentation requirements specified in [{{site.TITLE_SSDLC_SECDEV}}]({{site.URL_SSDLC_SECDEV}}).
    - Provide updated and signed SBOM and SLSA provenance for every shipped release artifact.
-   - Provide mans to verify signed artifacts (e.g. X.509 certificate).
+   - Provide mans to verify signed artifacts (e.g. the respective X.509 certificate).
 
 3. **Implementation of Security Measures:** Implement all necessary and requested security measures to achieve a suitable level of protection, including implentation requirements listed in [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
