@@ -106,7 +106,7 @@ Dfined in release gate [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_S
 Risk acceptance is referenced in 
 
 * Release Gate: [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})
-* Operatational Security: [{{site.TITLE_SSDLC_SECOP_VULNREMED}}}({{site.URL_SSDLC_SECOP_VULNREMED}})
+* Operatational Security: [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}})
 
 ## Vulnerability Response and Disclosure
 
