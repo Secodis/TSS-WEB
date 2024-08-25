@@ -43,7 +43,9 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
 
-7. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
+7. **Prioritize Security:** Security measures SHOULD be appropriately prioritized.
+
+8. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
@@ -53,7 +55,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 3. **Perform Peer Reviews:** For applications and services with *risk class >= [HIGH]*, every commit to a protected branch MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) and include an assessment of security aspects.
 
-4. **Sign Commits:** Business critical applications SHOULD use signed commmits for protected branches.[^6]
+4. **Sign Commits:** Business critical applications SHOULD sign commmits to protected branches.[^6]
 
 5. **Implement Security Controls:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
