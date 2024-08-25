@@ -1,11 +1,11 @@
 # B.12 - API Security
 
-Please note: For reasons of simplification, some of the following requirements that refer to API apply to all techncial implementation variants such as XML WebServices, GraphQL or REST APIs.
+Note: For reasons of simplification, some of the following requirements that refer to API apply to all techncial implementation variants such as XML WebServices, GraphQL or REST APIs.
 
 ## {{site.TITLE_IMPL_APISEC_GENERAL}}
 
-1. APIs SHOULD not be exposed if not required.
-2. External APIs SHOULD only be made available externally using a hardened service or API gateway.
+1. APIs MUST not be exposed unless required.
+2. External APIs SHOULD only be made available using a hardened service or API gateway.
 3. APIs MUST be restrictively validated,  preferably using OpenAPI Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
 3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval)[^1].
 
