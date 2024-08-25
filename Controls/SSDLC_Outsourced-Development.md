@@ -8,8 +8,6 @@ toc_sticky: true
 
 The following requirements apply to contractors implementing applications on behalf of EXAMPLE INC. These requirements are specifically relevant to the services and deliverables provided by the supplier. Additionally, all other applicable security requirements MUST be adhered to, as they pertain to the supplier's work.
 
-Suppliers MUST comply with the following requirements:
-
 1. **Due Diligence:** Implement all measures and common best practices within development, operation, and quality assurance required to prevent the occurrence of new security defects.
 
 2. **Provision of Evidence:** For applications with *risk class >= [HIGH]:*  
