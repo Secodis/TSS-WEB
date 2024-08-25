@@ -6,7 +6,7 @@ toc_sticky: true
 ---
 # A.5 Outsourced Development 
 
-The following requirements relate to contractors that implement applications on behalf of EXAMPLE INC. In addition, all other applicable requirements of this document MUST be followed (e.g., protection of source code). 
+The following requirements apply to contractors implementing applications on behalf of EXAMPLE INC. These requirements are specifically relevant to the services and deliverables provided by the supplier. Additionally, all other applicable security requirements MUST be adhered to, as they pertain to the supplier's work.
 
 Suppliers MUST comply with the following requirements:
 
@@ -30,6 +30,7 @@ Suppliers MUST comply with the following requirements:
 
 8. **Remediation of Security Vulnerabilities:** Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see respective SLAs at [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}})).
 
-9. **Inclusion of Security in Supplier Agreements:** Security should be built into supplier agreements to ensure compliance with organizational requirements.
+9. **Inclusion of Security in Supplier Agreements:** Security should be built into supplier agreements to ensure compliance with organizational security requirements and that contracted developers possess the necessary skill-set.
 
-[^1]: e.g., via ISO 27001 certification
+
+[^1]: e.g., via a ISO 27001 certification
