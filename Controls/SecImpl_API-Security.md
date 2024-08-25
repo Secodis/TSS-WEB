@@ -5,7 +5,7 @@ Note: For reasons of simplification, some of the following requirements that ref
 ## {{site.TITLE_IMPL_APISEC_GENERAL}}
 
 1. APIs MUST not be exposed unless required.
-2. External APIs SHOULD only be made available using a hardened service or API gateway.
+2. External APIs SHOULD only be made available using a hardened service or API gateway (see [{{site.TITLE_SSDLC_SECOP_ISOLATION}}}({{{{site.URL_SSDLC_SECOP_ISOLATION}}).
 3. APIs MUST be restrictively validated,  preferably using OpenAPI Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
 3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval)[^1].
 
