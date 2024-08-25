@@ -11,14 +11,16 @@ toc_sticky: true
 
 1. **Establish Team Responsibility:** Dev teams MUST be responsible for the security of their own code and applications (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
 
-4. **Implement Guardrails:** Dev teams SHOULD manage their own security within predefined boundaries.
+2. **Ensure Adequate Prioritization:** Product Owners are responsible for prioritizing security measures for their products based on risk assessment and compliance obligations.
+   
+3. **Implement Guardrails:** Dev teams SHOULD manage their own security within predefined boundaries.
 
-5. **Appoint Security Champions:** Dev teams CAN appoint a security champion (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
+4. **Appoint Security Champions:** Dev teams CAN appoint a security champion (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
 
-6. **Ensure Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role:
+5. **Ensure Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role:
     - **Security Onboarding:** New developers &  teams MUST receive a security onboarding.
     - **Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training for developers.
-
+ 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
 1. **Embrace Security Principles:** Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
@@ -43,9 +45,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
 
-7. **Prioritize Security:** Security measures SHOULD be appropriately prioritized.
-
-8. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
+7. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
