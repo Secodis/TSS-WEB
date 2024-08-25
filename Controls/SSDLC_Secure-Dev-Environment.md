@@ -28,7 +28,7 @@ toc_sticky: true
 
 3. **Avoid Code Disclosure:** Source and program code MUST NOT be made available to individuals outside the organization (e.g., within internet forums) without explicit clearance from the *IT security function*.
 
-4. **Periodic Scan for Exposed Secrets:** Code repositories MUST be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys) as defined in [{{site.TITLE_SSDLC_SECTESTS}}]({{site.URL_SSDLC_SECTESTS}}).
+4. **Periodic Scan for Exposed Secrets:** Code repositories MUST be periodically scanned for exposed secrets (e.g., X.509 private keys or API keys) as defined in [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
 ## {{site.TITLE_SSDLC_SECENV_PIPELINESEC}}
 
