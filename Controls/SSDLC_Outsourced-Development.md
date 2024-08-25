@@ -28,7 +28,7 @@ Suppliers MUST comply with the following requirements:
 
 7. **Provison of Source Code:** The supplier MUST provide all relevant source code of artifacts created on behalf of Example Inc.
 
-8. **Remediation of Security Vulnerabilities:** Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see respective SLAs at [{{site.TITLE_SSDLC_SECOP}}]({{site.URL_SSDLC_SECOP}}).
+8. **Remediation of Security Vulnerabilities:** Remediate security vulnerabilities as soon as possible without extra costs when requested by EXAMPLE INC. (see respective SLAs at [{{site.TITLE_SSDLC_SECOP_VULNREMED}}}({{site.URL_SSDLC_SECOP_VULNREMED}})).
 
 9. **Inclusion of Security in Supplier Agreements:** Security should be built into supplier agreements to ensure compliance with organizational requirements.
 
