@@ -79,13 +79,13 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 8. **Sign Artefacts:** For *risk class >= [HIGH]*, all deployed artifacts (including SBOMs) MUST be cryptographically signed[^7]. Signatures SHOULD be automatically verified.
 
-9. **Verify Provenence:** For *risk class >= [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
+9. **Verify Provenence:** For *risk class = [VERY HIGH]*, provenance and signatures of deployed artifacts MUST be automatically verified.
 
 ## {{site.TITLE_SSDLC_SECDEV_3RDPARTY}}
 
 This section applies to third-party dependencies, both backend and frontend, intended for use in the production environment.
 
-1. **Use Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories. Exceptions are permitted only for isolated test environments
+1. **Use Approved Repositories:** Third-party dependencies MUST only be obtained via internal or approved[^8] repositories. This MAY include proxy repositories. Exceptions are permitted only for isolated test environments. For *risk class = [VERY HIGH]*, proxy repositories MUST NOT be used.
 
 2. **Use Approved Dependencies:** Before a new 3rd-party dependency can be used in prod, it MUST be approved by the architecture board or respective community of practice. This requirement does not affect new releases of a dependency that has already been approved.
 
