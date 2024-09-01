@@ -32,7 +32,7 @@ toc_sticky: true
 4. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
     - The threat model MUST be documented with mitigations and be incorporated into, or referenced from, the security architecture concept (see below). 
-    - The identified mitigation measures MUST be incorporated into the planning process (e.g.,the product backlog) and prioritized accordingly.
+    - The identified mitigation measures MUST be rated and handled as potential security requirements (see requrement below).
     - The threat model MUST be reviewed with every architectural change.
 
 5. **Define the Security Architecture:** For *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application and subject of the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})).
@@ -45,7 +45,9 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
 
-7. **Review Security Decisions:** Decisions with severe security implications MUST be regularly questioned and discussed within the team.
+7. **Handling Security Requirements:** Functional and non-functional security requirements MUST be documented, rated, prioritized, and incorporated into the planning process (e.g.,the product backlog) accordingly.
+
+8. **Review Security Decisions:** Decisions with severe security implications SHOULD be regularly questioned and discussed.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
