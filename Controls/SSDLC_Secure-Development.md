@@ -20,7 +20,20 @@ toc_sticky: true
 5. **Ensure Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role:
     - **Security Onboarding:** New developers &  teams MUST receive a security onboarding.
     - **Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training for developers.
+
  
+## {{site.TITLE_SSDLC_SECDEV_SECPLANING}}
+
+1. **Manage Security Requirements:** Functional and non-functional security requirements MUST be identified, rated, documented, prioritized, and incorporated into the planning process (e.g.,the product backlog) accordingly.
+
+2. **Assess Security of New Features:**
+Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance[^1)) before they are allocated for development (e.g.assigned to a sprint).
+   - This assessment MAY be conducted informally by a team if it gained sufficient expertise.
+   - Teams MAY define their own criteria for security relevance.
+   - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take necessary security efforts (e.g. for verification) into account for the estimation of a story.
+   - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
+   - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
+     
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
 1. **Embrace Security Principles:** Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
@@ -32,22 +45,12 @@ toc_sticky: true
 4. **Conduct Threat Modeling:** For applications and services with *risk class >= [HIGH]*:
     - A threat modeling session MUST be conducted prior to the start of implementation.
     - The threat model MUST be documented with mitigations and be incorporated into, or referenced from, the security architecture concept (see below). 
-    - The identified mitigation measures MUST be rated and handled as potential security requirements (see requrement below).
+    - The identified mitigation measures MUST be rated and handled as potential security requirements (see [{{site.TITLE_SSDLC_SECDEV_SECPLANING}}]({{site.URL_SSDLC_SECDEV_SECPLANING}}))
     - The threat model MUST be reviewed with every architectural change.
 
 5. **Define the Security Architecture:** For *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application and subject of the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})).
 
-6. **Assess Security of New Features:**
-Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance[^1)) before they are allocated for development (e.g.assigned to a sprint).
-   - This assessment MAY be conducted informally by a team if it gained sufficient expertise.
-   - Teams MAY define their own criteria for security relevance.
-   - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take necessary security efforts (e.g. for verification) into account for the estimation of a story.
-   - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
-   - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
-
-7. **Handling Security Requirements:** Functional and non-functional security requirements MUST be documented, rated, prioritized, and incorporated into the planning process (e.g.,the product backlog) accordingly.
-
-8. **Review Security Decisions:** Decisions with severe security implications SHOULD be regularly questioned and discussed.
+6. **Review Security Decisions:** Decisions with severe security implications SHOULD be regularly questioned and discussed.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
