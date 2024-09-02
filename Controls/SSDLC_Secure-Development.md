@@ -33,7 +33,8 @@ Dev teams MUST assess every new feature regarding their potential security impac
    - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take necessary security efforts (e.g. for verification) into account for the estimation of a story.
    - Threat models and risk classes MUST be reviewed and updated if affected by a feature (e.g. in case of changes in security controls or architectural change in general).
    - A suitable acceptance criteria (e.g. review by security champion, update of security documentation) MUST be defined for all security-relevant requirements and changes. Agile teams SHOULD integrate corresponding criteria into their Definition of Done (DoD).
-     
+
+ 
 ## {{site.TITLE_SSDLC_SECDEV_SECDESIGN}}
 
 1. **Embrace Security Principles:** Wherever possible, security requirements SHOULD be addressed at the architectural level instead of the code layer and according to [{{site.TITLE_IMPL_PRINCIPLES}}]({{site.URL_IMPL_PRINCIPLES}}).
@@ -50,7 +51,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 5. **Define the Security Architecture:** For *risk class >= [HIGH]*, a documented security architecture MUST describe relevant (technical & business) security requirements, invariants, threats and controls of the respective business application and subject of the architecture gate (see [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}})).
 
-6. **Review Security Decisions:** Decisions with severe security implications SHOULD be regularly questioned and discussed.
+6. **Review Security Decisions:** Design decisions with severe security implications SHOULD be regularly questioned and discussed.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECIMP}}
 
