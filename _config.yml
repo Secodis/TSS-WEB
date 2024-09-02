@@ -115,8 +115,8 @@ URL_SSDLC_SECDEV_ROLES: /Controls/SSDLC_Secure-Development#a21-roles--responsibi
 TITLE_SSDLC_SECDEV_SECPLANING: "A.2.2 Security Planing"
 URL_SSDLC_SECDEV_SECPLANING: /Controls/SSDLC_Secure-Development#a22-security-planing
 
-TITLE_SSDLC_SECDEV_SECDESIGN: "A.2.3 Secure By Design"
-URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a23-secure-by-design
+TITLE_SSDLC_SECDEV_SECDESIGN: "A.2.3 Secure Design"
+URL_SSDLC_SECDEV_SECDESIGN: /Controls/SSDLC_Secure-Development#a23-secure-design
 
 TITLE_SSDLC_SECDEV_SECIMP: "A.2.4 Secure Implementation"
 URL_SSDLC_SECDEV_SECIMP: /Controls/SSDLC_Secure-Development#a24-secure-implementation
