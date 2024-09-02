@@ -61,6 +61,8 @@ The following table outlines the coverage of some important standards in this ar
 | [Microsoft S2CF](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) | TSS-WEB coveres [Practice 2: Scan It](https://github.com/ossf/s2c2f/blob/main/specification/framework.md#practice-2-scan-it) as well as [Practice 4: Update It](https://github.com/ossf/s2c2f/blob/main/specification/framework.md#practice-4-update-it), mostly by [{{site.TITLE_SSDLC_SECDEV_3RDPARTY}}]({{site.URL_SSDLC_SECDEV_3RDPARTY}}) at the moment. |
 | [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/) | Many recommendations are covered, mostly in [{{site.TITLE_SSDLC_SECDEV_BUILD}}]({{site.URL_SSDLC_SECDEV_BUILD}}) and [{{site.TITLE_SSDLC_SECENV_PIPELINESEC}}]({{site.URL_SSDLC_SECENV_PIPELINESEC}}). However, TSS-WEB is, and will not be, that specific. You may therefore use this resource for additional ideas and best practices, particularly for improving pipeline security. |
 
+[SecTemplates](https://www.sectemplates.com/) is a similar project that is focused on providing templates for security processes like incident or vulnerability management.
+
 Also, you may have a look at [OpenCRE](https://www.opencre.org/) which provides a general requirement mapping over many more standards.
 
 # License
