@@ -2,7 +2,7 @@
 
 ## {{site.TITLE_IMPL_USERPASSWD_GENERAL}}
 
-1. User password MUST be compliant to the password policy at both registration as well as password change and password reset functions.
+1. User password MUST be compliant with the password policy at both registration as well as password change and password reset functions.
 2. As long as not specified differently by the password policy, the following minimum requirements[^1] for user passwords MUST apply:
     - Length >= 8 characters,
     - not repetitive or sequential characters (e.g. `bbbbbbbb`, `12345678`),
@@ -20,14 +20,14 @@ individual passwords.
 ## {{site.TITLE_IMPL_USERPASSWD_PWCHANGE}}
 
 1. Users MUST be able to change their own passwords.
-2. Users SHOULD be indicated the strength of the current password choice when changing their passwords (using a password strength functions).
+2. Users SHOULD be indicated the strength of the current password choice when changing their passwords (using a password strength function).
 3. Users MUST confirm a new password with their current ones.
 4. Users SHOULD be informed when their password has changed (e.g. via e-mail notification).
 
 ## {{site.TITLE_IMPL_USERPASSWD_PWFORGET}}
 
 1. MUST implement the same level of security protections as the user authentication function (e.g. anti-automation).
-2. MUST be authorized by the user with the same method that is used as second factor or (in case no second factor is used) for user identification (e.g. e-mail address). Ideally, by using a One Time Token (OTT) with limited validity sent as a second factor (e.g. to the registered user e-mail address or mobile phone).
-3. MUST not affect the state of the user profile before password reset is completed.
+2. MUST be authorized by the user with the same method that is used as a second factor or (in case no second factor is used) for user identification (e.g. e-mail address). Ideally, by using a one one-time token (OTT) with limited validity sent as a second factor (e.g. to the registered user's e-mail address or mobile phone).
+3. MUST not affect the state of the user profile before the password reset is completed.
 
 [^1]: See [NIST SP 800-63 - Digital Identity Guidelines, 5.1.1.1 Memorized Secret Verifiers](https://pages.nist.gov/800-63-4/sp800-63b.html#memorized-secret-authenticators)
