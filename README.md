@@ -2,13 +2,13 @@
 
 This is the official site of TSS-WEB, an open requirement framework focused on the secure development and operation of web-based applications and services. All requirements here are based on common standards and best practices, including those from [OWASP](https://www.owasp.org), [Microsoft](https://www.microsoft.com), [NIST](https://www.nist.gov), [SAFECode](https://www.safecode.org) and [ISO/IEC](https://www.iso.org).
 
-Note that this project and its content is provided "as-is" without any guarantees. The framework and its controls are subject to change without notice. You assume all risks associated with using this content.
+Note that this project and its content are provided "as is" without any guarantees. The framework and its controls are subject to change without notice. You assume all risks associated with using this content.
 
 # Purpose
 
 The purpose of this framework is to offer a comprehensive, consistent, and practical set of technical and organizational AppSec controls that organizations can adopt and tailor to their own security standards, policies, or concepts.
 
-The goal is to provide a foundation that works for most organizations. In many cases, you may want to adapt only some controls or add others that are more suitable to your specific organization or technology stack.
+The goal is to provide a foundation that works for most organizations. In many cases, you may want to adopt only some controls or add others that are more suitable to your specific organization or technology stack.
 
 # General
 
@@ -46,7 +46,7 @@ The goal is to provide a foundation that works for most organizations. In many c
   
 # Related Standards
 
-Generally, TSS-WEB aims to incorporate requirements from existing standards and best practices in this field that are suitable to establish baseline security. However, that does not mean that every requirement is integrated, particularly those that address edge case or too specific scenarios.
+Generally, TSS-WEB aims to incorporate requirements from existing standards and best practices in this field that are suitable to establish baseline security. However, that does not mean that every requirement is integrated, particularly those that address edge cases or too specific scenarios.
 
 The following table outlines the coverage of some important standards in this area.
 
