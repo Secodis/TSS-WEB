@@ -2,9 +2,9 @@
 
 ## (IT) Security Function
 
-An IT security function is an organizational unit (e.g. a security engineering team) or individual (usually a security engineer, security architect, or security officer) responsible for defining and ensuring compliance with security requirements within their area of responsibility. 
+An IT security function refers to an organizational unit (e.g., a security engineering team) or an individual (such as a security engineer, security architect, or security officer) tasked with defining and ensuring compliance with security requirements within their area of responsibility.
 
-This function supports development teams in implementing these requirements and verifies their correct implementation. It may be implemented organization-wide or assigned to a particular project or team. 
+This function plays a key role in supporting development teams by helping them implement security requirements and verifying their correct application. The IT security function can operate across the entire organization or be dedicated to specific projects or teams.
 
 Note: When referenced within a requirement, it indicates ***the responsible IT security function*** for a particular context (e.g. a project). 
 
