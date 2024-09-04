@@ -17,7 +17,7 @@ The responsibilities of this role can include:
 - Has a solid understanding of relevant security requirements and tools and ensures their proper implementation within the team.
 - Identifies and manages security threats and findings.
 - Verifies correct implementation of security-relevant requirements.
-- Continuously verifies and improves the effectiveness of implemented security checks and controls, it's automation, and periodic assessment of security findings from tools.
+- Continuously verifies and improves the effectiveness of implemented security checks and controls, their automation, and periodic assessment of security findings from tools.
 - (Actively) participates in security communities (e.g. a security community of practice) and addresses security concerns of their teams there.
 - Receives specialized security training.
 
@@ -30,6 +30,6 @@ Software developers (or software engineers) have the following responsibilities:
 
 ## Development (or Dev) Team
 
-Responsible for the security of software artifacts it develops, maintains, or operates. Continuously verifies and improves the effectiveness of implemented security checks and controls, it's automation, and periodic assessment of security findings from tools.
+Responsible for the security of software artifacts it develops, maintains, or operates. Continuously verifies and improves the effectiveness of implemented security checks and controls, their automation, and periodic assessment of security findings from tools.
 
 [^1]: See [OWASP's Security Champion Guide](https://owasp.org/www-project-security-champions-guidebook/) and [SAFECode's Software Security Takes a Champion](http://safecode.org/wp-content/uploads/2019/02/Security-Champions-2019-.pdf)
