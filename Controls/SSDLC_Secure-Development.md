@@ -24,7 +24,7 @@ toc_sticky: true
  
 ## {{site.TITLE_SSDLC_SECDEV_SECPLANING}}
 
-1. **Manage Security Requirements:** Functional and non-functional security requirements MUST be identified, rated, documented, prioritized, and incorporated into the planning process (e.g.,the product backlog) accordingly.
+1. **Manage Security Requirements:** Functional and non-functional security requirements MUST be identified, rated, documented, prioritized, and incorporated into the planning process (e.g., the product backlog) accordingly.
 
 2. **Assess Security of New Features:**
 Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance[^1)) before they are allocated for development (e.g.assigned to a sprint).
