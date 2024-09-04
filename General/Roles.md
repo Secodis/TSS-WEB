@@ -21,9 +21,9 @@ The responsibilities of this role can include:
 - (Actively) participates in security communities (e.g. a security community of practice) and addresses security concerns of their teams there.
 - Receives specialized security training.
 
-## Developer
+## Developer / Engineer
 
-Software) developers (or software engineers) have the following responsibilities: 
+Software developers (or software engineers) have the following responsibilities: 
 - Understands security aspects of general technologies he/she is working with and keeps up-to-date with it continuously.
 - Capable and responsible for avoiding, finding, and fixing vulnerabilities in their code.
 - Understand relevant security requirements and comply with them.
