@@ -17,7 +17,7 @@ toc_sticky: true
 
 4. **Appoint Security Champions:** Dev teams CAN appoint a security champion (see [{{site.TITLE_GENERAL_ROLES}}]({{site.URL_GENERAL_ROLES}})).
 
-5. **Ensure Security Know-How:** It MUST be ensured that everyone involved in the development process posess sufficient security knowledge for their particular role:
+5. **Ensure Security Know-How:** It MUST be ensured that everyone involved in the development process possesses sufficient security knowledge for their particular role:
     - **Security Onboarding:** New developers &  teams MUST receive a security onboarding.
     - **Security Training:** Role-specific security training or coaching SHOULD be provided to team members, including secure coding training for developers.
 
@@ -61,7 +61,7 @@ Dev teams MUST assess every new feature regarding their potential security impac
 
 3. **Perform Peer Reviews:** For applications and services with *risk class >= [HIGH]*, every commit to a protected branch MUST be reviewed by a second developer of the responsible team (e.g. via pull/merge request approvals) and include an assessment of security aspects.
 
-4. **Sign Commits:** Business critical applications SHOULD sign commmits to protected branches.[^6]
+4. **Sign Commits:** Business-critical applications SHOULD sign commmits to protected branches.[^6]
 
 5. **Implement Security Controls:** The implementation MUST adhere to [{{site.TITLE_IMPL_CONTROLS}}]({{site.URL_IMPL_CONTROLS}}).
 
@@ -99,9 +99,9 @@ This section applies to third-party dependencies, both backend and frontend, int
 
 4. **Use Software Composition Analysis (SCA):** 3rd-party dependencies must be continuously tested according requirements at [{{site.TITLE_SSDLC_SECTESTS_SECSCANS}}]({{site.URL_SSDLC_SECTESTS_SECSCANS}}).
 
-5. **Perform End-of-Life Scans:** Automated scans for end of life of dependencies SHOULD be implemented.[^4]
+5. **Perform End-of-Life Scans:** Automated scans for end-of-life of dependencies SHOULD be implemented.[^4]
 
-6. **Pin Dependencies:** "Latest" releases MUST generally be avoided. For business critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
+6. **Pin Dependencies:** "Latest" releases MUST generally be avoided. For business-critical applications or services, 3rd-party dependencies MUST be pinned using checksums or cryptographic signatures.
 
 ## {{site.TITLE_SSDLC_SECDEV_SECGATES}}
 
@@ -113,16 +113,16 @@ This section applies to third-party dependencies, both backend and frontend, int
     - New architectures, or substantial changes to existing ones, MUST be approved by the *IT security function* and respective architecture function before initial implementation is allowed to begin.
 
 3. **Release Gate:**
-    - Initial releases (go live) for *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to deployed in the prod environment.
-    - Releases SHOULD be automatically tested against a security policy before deployment in prod environment to prevent deployment of artifacts with severe security violations.
+    - Initial releases (go live) for *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to be deployed in the prod environment.
+    - Releases SHOULD be automatically tested against a security policy before deployment in the prod environment to prevent deployment of artifacts with severe security violations.
     - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 score >= 7.0)
     - Violation of release requirements MUST necessitate approval (e.g., risk acceptance) to be overruled.
-    - Gate policies and checks SHOULD be transparent, enabling dev teams to continuously assess their code against it to avoid impediments in the realease process.
+    - Gate policies and checks SHOULD be transparent (e.g. via policy as code), enabling dev teams to continuously assess their code against it to avoid impediments in the release process.
 
       
-[^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
+[^1]: [SAFECode](https://safecode.org/wp-content/uploads/2017/05/SAFECode_TM_Whitepaper.pdf) provides a good security indicator. It defines security-relevant changes as “any additions or changes in security controls and functionality”. Examples are (1) Authentication (adding or changing an authentication method, or mechanism), (2) Authorization (Shifting the trust relationships between any components or actors in the system (change of user levels, change of data access permissions, etc, or adding or changing an authorization method, or mechanism), (3) logging, monitoring and alerting (adding or changing application monitoring, business analytics and insight, auditing, and compliance requirements or forensics), and (4) cryptography (adding or changing cryptographic functionality: hashing algorithms, salt, encryption/decryption algorithms, SSL/TLS configuration, key management, etc).
 
 [^2]: The Common Vulnerability Scoring System (CVSS) is a framework for rating the severity of security vulnerabilities. See [Common Vulnerability Scoring System (CVSS) v3](https://www.first.org/cvss)
 
