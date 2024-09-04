@@ -1,7 +1,7 @@
 # B.3 - Secure Fileuploads and Downloads
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_AUTH}}
-All file uploads SHOULD be authenticated by the user on the server-side (= function only available within the authenticated user area) and MUST implement suitable controls to prevent denial of service attacks if available to non-authenticated users.
+All file uploads SHOULD be authenticated by the user on the server side (= function only available within the authenticated user area) and MUST implement suitable controls to prevent denial of service attacks if available to non-authenticated users.
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_STORAGE}}
 1. Uploaded files SHOULD be stored in a database.
@@ -16,7 +16,7 @@ All file uploads SHOULD be authenticated by the user on the server-side (= funct
 2. The number of files that are allowed to be uploaded SHOULD be restricted to a reasonable value (e.g. 8 files from one user per hour and user or IP address).
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_VALIDATION}}
-1. File types that may consist of executable code (e.g. `.html`, `.js` or `.exe`) MUST be prevented from being uploaded.
+1. File types that may consist of executable code (e.g. `.html`, `.js`, or `.exe`) MUST be prevented from being uploaded.
 2. File type validation MUST be executed  based on a whitelisting approach where only safe file types are allowed.
 3. File type validation MUST be executed on file extension and MIME type.
 4. For *risk class >= [HIGH]*, the file type SHOULD be verified with suitable tools or APIs based on its actual content (e.g. you could perform image operations like `getImageSize()` on an expected image file).
