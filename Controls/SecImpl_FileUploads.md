@@ -1,15 +1,15 @@
 # B.3 - Secure Fileuploads and Downloads
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_AUTH}}
-All file uploads SHOULD be authenticated by the user on the server-side (= function only available within the authenticated user area) and MUST implement suitable controls to preventing denial of service attacks if available to not authenticated users.
+All file uploads SHOULD be authenticated by the user on the server-side (= function only available within the authenticated user area) and MUST implement suitable controls to prevent denial of service attacks if available to non-authenticated users.
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_STORAGE}}
-1. Uploaded files SHOULD be stored to a database.
+1. Uploaded files SHOULD be stored in a database.
 2. In case uploaded files are required to be stored on a file system, the implementation MUST be according to the following requirements:
-   - Uploaded files MUST be stored in an access protected directory that is not accessible from external (e.g. stored outside of the web & document root). For applications with *risk class >= [HIGH]*, uploaded files SHOULD be stores in a user-specific directory.
-   - File uploads MUST be saved with restrictive permissions (e.g. in case of Unix-based systems `chmod 0600`).
+   - Uploaded files MUST be stored in an access-protected directory that is not accessible from external (e.g. stored outside of the web & document root). For applications with *risk class >= [HIGH]*, uploaded files SHOULD be stored in a user-specific directory.
+   - File uploads MUST be saved with restrictive permissions (e.g. in the case of Unix-based systems `chmod 0600`).
    - Uploaded files MUST NOT be executable.
-   - Uploaded files MUST be stored as a new file with unique filename that is not user-specified.
+   - Uploaded files MUST be stored as a new file with a unique filename that is not user-specified.
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_LIMITATION}}
 1. The size of uploaded files MUST be restricted to a reasonable maximum (e.g. 5 MB).
@@ -24,12 +24,12 @@ All file uploads SHOULD be authenticated by the user on the server-side (= funct
 ## {{site.TITLE_IMPL_FILEUPLOADS_SANITIZATION}}
 Uploaded files from untrusted sources (e.g. over the Internet) with potentially executable content SHOULD be
 
-1. sanitized of executable code (e.g. macros in MS Word files) and
+1. sanitized executable code (e.g. macros in MS Word files) and
 2. analyzed with an antivirus (AV) solution for potential malware infections. Files MUST be rejected or sent to quarantine in cases of a positive finding.[^1]
 
 ## {{site.TITLE_IMPL_FILEUPLOADS_DOWNLOADS}}
 1. File downloads SHOULD be carried out from a separate origin (e.g. `files.example.com`), to prevent the impact of executable script code that they may contain.
 2. File downloads SHOULD always be protected with relevant HTTP security headers, e.g. to prevent MIME Type sniffing in browsers (see [{{site.TITLE_IMPL_HTTPHEADERSEC}}]({{site.URL_IMPL_HTTPHEADERSEC}})).
-3. Filenames MUST be properly encoded before written into response header when user-controlled in order to preventing Reflected File Downloads (RFD).
+3. Filenames MUST be properly encoded before being written into the response header when user-controlled in order to prevent Reflected File Downloads (RFD).
 
 [^1]: This function can be tested with the EICAR test file ([www.eicar.org](www.eicar.org))
