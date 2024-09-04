@@ -6,12 +6,12 @@
     - ***[HIGH]***: An additional factor (e.g. mobile phone) SHOULD be used.
     - ***[VERY HIGH]***: Personal identification is required.
 2. Users MUST NOT be allowed to log into the application before their identification process has been completed.
-3. Registration and authentication of external users MUST be implemented on external applications in a way that they prevent automated attacks (e.g. brute forcing). Examples are delays or CAPTCHAs.
+3. Registration and authentication of external users MUST be implemented on external applications in a way that prevents automated attacks (e.g. brute forcing). Examples are delays or CAPTCHAs.
 4. Usernames SHOULD be personalized.
 
 ## {{site.TITLE_IMPL_USERAUTH_AUTH}}
 1. User authentication MUST be implemented with suitable mechanisms in respect of the *risk class*:
-    - ***[STANDARD]***: Password-based authentication with secure methods and protocols. Password must be compliant to the password policy (NIST Authenticator Assurance Level 1[^1]).
+    - ***[STANDARD]***: Password-based authentication with secure methods and protocols. Password must be compliant with the password policy (NIST Authenticator Assurance Level 1[^1]).
     - ***[HIGH]***: Same requirements as for standard but with an additional authentication factor. This factor must be exchanged using a separate and secure channel or layer of communication. It may be stored on the same system where the password is entered through (soft crypto token). Examples are X.509 certificates, one-time tokens that are sent via SMS or e-mail, time-based tokens (e.g. via Google Authenticator App), or IP addresses. (NIST Authenticator Assurance Level 2[^1]).
     - ***[VERY HIGH]***: Same as HIGH but with the authentication factor required to be generated on a separate system (hard crypto token) that has been approved for this purpose. Examples are RSA SecureID tokens (NIST Authenticator Assurance Level 3[^1]).
 2. HTTP basic authentication SHOULD only be used as additional access protection and MUST always be used with HTTPS.
