@@ -1,6 +1,6 @@
 # B.11 - Protection of Secrets
 
-The following requirements are relevant for technical secrets (e.g. passwords of technical users, API keys, credentials or private keys) used either in production or that are generally used to protect access to sensitive systems or data:
+The following requirements are relevant for technical secrets (e.g. passwords of technical users, API keys, credentials, or private keys) used either in production or that are generally used to protect access to sensitive systems or data:
 
 1. Secrets MUST be encrypted when stored with the source code (otherwise they need to be stored separately).
 2. Access to secrets and their encryption keys MUST be restricted.
