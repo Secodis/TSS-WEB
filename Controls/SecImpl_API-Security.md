@@ -1,13 +1,13 @@
 # B.12 - API Security
 
-Note: For reasons of simplification, some of the following requirements that refer to API apply to all techncial implementation variants such as XML WebServices, GraphQL or REST APIs.
+Note: For reasons of simplification, some of the following requirements that refer to API apply to all technical implementation variants such as XML WebServices, GraphQL or REST APIs.
 
 ## {{site.TITLE_IMPL_APISEC_GENERAL}}
 
 1. APIs MUST not be exposed unless required.
 2. External APIs SHOULD only be made available using a hardened service or API gateway (see [{{site.TITLE_SSDLC_SECOP_ISOLATION}}}({{{{site.URL_SSDLC_SECOP_ISOLATION}}).
 3. APIs MUST be restrictively validated,  preferably using OpenAPI Schema (see [{{site.TITLE_IMPL_INPUTVAL}}]({{site.URL_IMPL_INPUTVAL}})).
-3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within time interval)[^1].
+3. APIs SHOULD implement restrictive limits based on business requirements (aka rate limiting, e.g. max. requests per client within a time interval)[^1].
 
 ## {{site.TITLE_IMPL_APISEC_AUTH}}
 
@@ -21,10 +21,10 @@ Note: For reasons of simplification, some of the following requirements that ref
 ## {{site.TITLE_IMPL_APISEC_ACCESS-TOKENS}}
 
 1. Access to APIs with *risk class >= [HIGH]* SHOULD be granted using Access Tokens (OAuth 2.0 or SAML).
-2. Following requirements MUST apply to access tokens:
+2. The following requirements MUST apply to access tokens:
     - Short-lived (minutes or hours)
     - Implemented according to [{{site.TITLE_IMPL_DATASEC_TOKENS}}]({{site.URL_IMPL_DATASEC_TOKENS}})
-    - Restrictive scope & audiance
+    - Restrictive scope & audience
     - Transmitted only via HTTPS/TLS
     - Issued by a trusted and hardened access server (e.g. OIDC Identity Server or OAuth 2.0 Authorization Server)
     - created and validated using mature frameworks.
@@ -54,7 +54,7 @@ APIs that are used as a backend for client-side frontend (e.g. SPAs):
 ## {{site.TITLE_IMPL_APISEC_X-DOMAIN-ACCESS}}
 
 1. Cross-domain requests MUST be performed using secure mechanisms such as Cross-Origin Resource Sharing (CORS) and a restrictive policy (e.g. restricted so certain hosts or domains or with credential submission deactivated).
-2. The origin header of cross-domain requests MUST be authorized on the server-side.
+2. The origin header of cross-domain requests MUST be authorized on the server side.
 
 ## {{site.TITLE_IMPL_APISEC_WEBSOCKETS}}
 
