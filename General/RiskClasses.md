@@ -1,6 +1,6 @@
 # Application Risk Classes
 
-Some valuable requirements are more sophisticated or require more effort to implement so that they cannot be recommended for all applications. These requirements are instead only advised for applications with a higher risk profile which is defined by its exposure and its (business) criticality as followed:
+Some valuable requirements are more sophisticated or require more effort to implement so they cannot be recommended for all applications. These requirements are instead only advised for applications with a higher risk profile which is defined by its exposure and its (business) criticality as follows:
 
 | Criticality | Internal Application | Internet-Eposed Application |
 | ------------- | ------------- | ------------- |
