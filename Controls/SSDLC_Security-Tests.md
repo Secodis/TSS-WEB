@@ -12,11 +12,11 @@ toc_sticky: true
 
 2. **Automate Tests:** Where possible, security tests SHOULD be executed automatically and continuously (e.g. within CI and CD pipelines). For *risk class >= [HIGH]*, security testing tools MUST be integrated in the build pipeline and enforce security requirements & security testing.
 
-3. **Provide Immediate Feedback:** Tests SHOULD fail-fast and produce immediate feedback to developers where possible. 
+3. **Provide Immediate Feedback:** Tests SHOULD fail fast and produce immediate feedback to developers where possible. 
 
-4. **Enforce a Consistant Test Policy:** Test SHOULD be reproducible and executed against a consistent test policy in all stages.
+4. **Enforce a Consistent Test Policy:** Test SHOULD be reproducible and executed against a consistent test policy in all stages.
 
-5. **Allow Local Testability:** Developers SHOULD be able to run automated test locally against the applicable test policy (dry runs). 
+5. **Allow Local Testability:** Developers SHOULD be able to run automated tests locally against the applicable test policy (dry runs). 
 
 6. **Restrict The Use of Production Data:** Test data MUST NOT contain confidential or personal (PII) data references.
 
@@ -26,13 +26,13 @@ toc_sticky: true
 
 1. **Review:** Security findings SHOULD always be reviewed by the team to verify their validity.
 
-2. **Refine:** Teams CAN refine a severity of a security finding[^2], rate it as a false positive or not applicable (requires explanation).
+2. **Refine:** Teams CAN refine the severity of a security finding[^2], and rate it as a false positive or not applicable (requires explanation).
 
 3. **Track:** Verified security findings MUST be tracked as defects in a defect tracking system and SHOULD include relevant metadata (e.g. SLA, criticality rating, CVSS score, source, etc).
 
 4. **Mitigate**
     - Vulnerabilities MUST be mitigated within the development process according to release gate requirements defined in [{{site.TITLE_SSDLC_SECDEV_SECGATES}}]({{site.URL_SSDLC_SECDEV_SECGATES}}).
-    - If a vulnerability exist in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
+    - If a vulnerability exists in prod or pre-prod, the requirements outlined in [{{site.TITLE_SSDLC_SECOP_VULNREMED}}]({{site.URL_SSDLC_SECOP_VULNREMED}}) MUST be followed.
 
 5. **Retest After Mitigation:** Identified vulnerabilities MUST be retested after remediation to verify that countermeasures have been implemented correctly.
 
@@ -63,7 +63,7 @@ toc_sticky: true
 
 1. **Test Functional Security:** Developer and system acceptance testing SHOULD test implemented functional security requirements (security controls) such as authentication, authorization, security validation, etc.
 
-2. **Perform Negative Tests:** Tests SHOULD be both positive and negative (e.g., can an user without proper role access a protected ressource).
+2. **Perform Negative Tests:** Tests SHOULD be both positive and negative (e.g., can a user without proper role access a protected resource).
 
 3. **Test Abuse Cases:** For *risk class >= [HIGH]*, teams SHOULD test potential abuse cases and common attack vectors (e.g., privilege escalation or business logic abuse) identified through threat modeling, business requirements, or other means.
 
