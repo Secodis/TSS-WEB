@@ -18,7 +18,7 @@ Systems in production MUST be strictly separated from development and test syste
 
 4. **Separate Realms:** Users and processes MUST be authenticated and authorized separately for each environment.
 
-5. **Seperate Access Server:** For *risk class >= [HIGH]*: At least the prod environment MUST be assigned to a seperate and isolated access server instance. 
+5. **Separate Access Server:** For *risk class >= [HIGH]*: At least the prod environment MUST be assigned to a separate and isolated access server instance. 
 
 6. **Restrict Production Access:** Access to the production environment MUST be granted strictly on a need-to-know and least-privilege basis (see [{{site.TITLE_SSDLC_SECOP_ADMINACCESS}}]({{site.URL_SSDLC_SECOPP_ADMINACCESS}})) and SHOULD be automated where possible.
    
@@ -38,7 +38,7 @@ This includes:
 - Deactivation of file handlers that are not required (e.g. `.php` for a Java application).
 - Deactivation of insecure HTTP methods (e.g. `TRACE` and `TRACK`)
 - Web and application servers must not disclose details on the server-side software stack (e.g. version numbers). Related HTTP response headers such as `Server` or `X-Powered-By` are to be deactivated or filtered.
-- Vendor of product specific hardening guidelines
+- Vendor of product-specific hardening guidelines
   
 See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}}) for requirements on verification of effective hardening.
 
@@ -52,7 +52,7 @@ See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}
 
 4. **Prohibit Remote Shells:** Containers MUST NOT include remote shells such as sshd or telnet.
 
-5. **Enforce Container Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuild with updated OS packages.
+5. **Enforce Container Lifecycle:** Containers MUST have a defined maximum lifetime, after which they need to be rebuilt with updated OS packages.
 
 6. **Label Container:** Containers MUST have labels that indicate the application or service they belong to and its responsible team.
 
@@ -86,9 +86,9 @@ See [{{site.TITLE_SSDLC_SECOP_SECSCANNING}}]({{site.URL_SSDLC_SECOP_SECSCANNING}
 
 Administrative access MUST be as strongly restricted:
 
-1. **Limit Access:** Access MUST be limited to required persons only and restricted to permissions necessary to fullfill task.
+1. **Limit Access:** Access MUST be limited to required persons only and restricted to permissions necessary to fulfill a task.
 
-2. **Personalize Admin Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used). This SHOULD be a different account as the standard user account of that particular person. 
+2. **Personalize Admin Accounts:** Access MUST be via personalized accounts (e.g., usernames like “admin” should not be used). This SHOULD be a different account from the standard user account of that particular person. 
 
 3. **Restrict Network Communication:** Access MUST be limited to internal network zones or authorized IPs if possible. System access MUST only be possible via a jump host.
 
@@ -98,7 +98,7 @@ Administrative access MUST be as strongly restricted:
 
 6. **Monitor Abuse Attempts:** Abuse monitoring SHOULD be implemented or used if available. 
 
-7. **Revocate Access:** Access MUST be immediately revoked after it is no longer required (e.g., user changes organizational role).
+7. **Revocate Access:** Access MUST be immediately revoked after it is no longer required (e.g., the user changes organizational role).
 
 8. **Automate:** Admin tasks SHOULD be automated when possible to replace direct human access.
 
@@ -106,11 +106,11 @@ Administrative access MUST be as strongly restricted:
 
 Productive systems MUST be periodically scanned for potential security issues (even if they are not changed):
 
-1. **Identify Missing Security Patches:** Systems MUST be continously scanned for missing security patches and existing CVEs on OS and application layer.
+1. **Identify Missing Security Patches:** Systems MUST be continuously scanned for missing security patches and existing CVEs on OS and application layer.
    
-2. **Verify TLS Security:** Exposed TLS endpoints MUST be regularly scaned for TLS hardening issues and validity of used X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})[^1]
+2. **Verify TLS Security:** Exposed TLS endpoints MUST be regularly scanned for TLS hardening issues and validity of used X.509 certificates (see [{{site.TITLE_IMPL_DATASEC_ENCRYPT-TANSIT}}]({{site.URL_IMPL_DATASEC_ENCRYPT-TANSIT}})[^1]
 
-3. **Test for Insecure Configuration:** Systems SHOULD be tested for insecure configuration (e.g. exposed internal ressources, insecure policies, etc.). For *risk class >= [HIGH]*: MUST be continously tested in that way.
+3. **Test for Insecure Configuration:** Systems SHOULD be tested for insecure configuration (e.g. exposed internal resources, insecure policies, etc.). For *risk class >= [HIGH]*: MUST be continuously tested in that way.
 
 4. **Detect Configuration Drifts:** For *risk class >= [HIGH]*, systems SHOULD be tested for drifts of productive configuration (drift detection).
 
@@ -128,7 +128,7 @@ For *risk class >= [HIGH]*:
 
 2. **Alert:** Alerting procedures for potential critical security events SHOULD be implemented.
 
-3. **Integrate SIEM:** Logs MUST be shipped to a SIEM system.
+3. **Integrate SIEM:** Logs MUST be shipped to an SIEM system.
 
 ## {{site.TITLE_SSDLC_SECOP_MAINTANENCE}}
 
