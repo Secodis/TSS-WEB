@@ -4,6 +4,8 @@ This is the official site of TSS-WEB, an open requirement framework focused on t
 
 Note that this project and its content are provided "as is" without any guarantees. The framework and its controls are subject to change without notice. You assume all risks associated with using this content.
 
+Please not that the **Atlassian space** has been removed and migrated to [Github](https://github.com/Secodis/TSS-WEB/).
+
 # Purpose
 
 The purpose of this framework is to offer a comprehensive, consistent, and practical set of technical and organizational AppSec controls that organizations can adopt and tailor to their own security standards, policies, or concepts.
