@@ -27,7 +27,7 @@ toc_sticky: true
 1. **Manage Security Requirements:** Functional and non-functional security requirements MUST be identified, rated, documented, prioritized, and incorporated into the planning process (e.g., the product backlog) accordingly.
 
 2. **Assess Security of New Features:**
-Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance[^1)) before they are allocated for development (e.g.assigned to a sprint).
+Dev teams MUST assess every new feature regarding their potential security impact (= their security relevance[^1]) before they are allocated for development (e.g.assigned to a sprint).
    - This assessment MAY be conducted informally by a team if it gained sufficient expertise.
    - Teams MAY define their own criteria for security relevance.
    - Agile teams SHOULD integrate corresponding criteria in their Definition of Ready (DoR) discuss security relevance in refinement meetings and take necessary security efforts (e.g. for verification) into account for the estimation of a story.
