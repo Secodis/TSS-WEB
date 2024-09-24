@@ -115,7 +115,7 @@ This section applies to third-party dependencies, both backend and frontend, int
 3. **Release Gate:**
     - Initial releases (go live) for *risk class >= [HIGH]*, MUST pass a security sign-off by the *IT security function* before they are allowed to be deployed in the prod environment.
     - Releases SHOULD be automatically tested against a security policy before deployment in the prod environment to prevent deployment of artifacts with severe security violations.
-    - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod:
+    - Security findings MUST be mitigated or managed before a new application release is allowed to be deployed in a prod or pre-prod: 
         - For  *risk class >= [HIGH]*, findings with *criticality >= [MEDIUM]* (or CVSS[^2] v3 score >= 5.0)
         - For  *risk class < [HIGH]*, findings with a *criticality >= [HIGH]* (or CVSS[^2] v3 score >= 7.0)
     - Violation of release requirements MUST necessitate approval (e.g., risk acceptance) to be overruled.
