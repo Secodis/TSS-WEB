@@ -24,6 +24,7 @@ Modern web browsers support several additional client-side protection mechanisms
 | Content-Security-Policy[^3] | `object-src 'none'; script-src 'nonce-{random}' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; base-uri 'none';report-uri https://your-report-collector.example.com/` | Recommendation for new Web UIs that must use inline script blocks (e.g., if integrated by a JS framework): Avoid using this setting unless necessary, as it disables CSP protection for older browsers. |
 | Content-Disposition | `attachment; filename=<filename>` | Web pages at which users can potentially download untrusted files. |
 | X-Download-Options | `noopen` | Web UIs at which users can potentially download untrusted files. |
+| Permissions-Policy | `accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), bluetooth=(), camera=(), clipboard-read=(), clipboard-write=(self), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), speaker-selection=(), sync-xhr=(), usb=(), web-share=(), window-management=(), xr-spatial-tracking=(), browsing-topics=()` |
 
 **Caution: Settings these headers may have implications on the proper functionality of a web application. Therefore, activating a new header SHOULD always be combined with comprehensive functional tests.**
 
